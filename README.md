@@ -46,11 +46,21 @@ The submod needs **Kaiserredux** and targets HOI4 **1.19.x**, the version the cu
    supported_version="1.19.*"
    dependencies={
    	"Kaiserredux"
+   	"KaiserreduX"
+   	"Kaiserredux: A Kaiserreich Expansion"
    }
    ```
-3. In the launcher, add it to your playset **below Kaiserredux**.
+3. In the launcher, add it to the same playset as Kaiserredux and drag it **below Kaiserredux**, so it loads after it.
 
-`descriptor.mod` lists Kaiserredux as a dependency by its mod name, `Kaiserredux`. If your copy of Kaiserredux shows a different name in the launcher, change the dependency to match.
+### If the decisions don't appear
+
+Every country should see at least the **Proclaim a World Government** decision in a **Formable Nations** category. If there is no such category:
+
+1. **Check the game rules screen** when starting a game. If there is no **Formable Nations** group, the submod's scripts are not loaded.
+2. **Check the load order.** Kaiserredux replaces the whole decisions, scripted triggers, events and game rules folders of every mod loaded *before* it. The submod must sit **below** Kaiserredux in the playset. The dependency list above makes the launcher sort it automatically, but only if one of the names matches the name your launcher shows for Kaiserredux exactly. If yours differs, add that name to the dependencies in both `.mod` files and drag the submod below Kaiserredux by hand.
+3. **Check the folder layout.** `mod/formable_nations_krx.mod` and `mod/formable_nations_krx/descriptor.mod` must both exist. If you see `mod/formable_nations_krx/formable_nations_krx/`, the ZIP was extracted one level too deep.
+4. **Check the path.** If the launcher doesn't list the submod at all, change `path=` in `formable_nations_krx.mod` to the full path, for example `path="C:/Users/<you>/Documents/Paradox Interactive/Hearts of Iron IV/mod/formable_nations_krx"`.
+5. **Check the error log.** `Documents/Paradox Interactive/Hearts of Iron IV/logs/error.log` lists every script problem; lines mentioning `FNKX` point at this submod.
 
 ## Editing and updating
 
