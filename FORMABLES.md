@@ -9,7 +9,7 @@ Each decision costs political power and needs the listed states to be owned and 
 | **Nordic Union** | SWE, NOR, DEN, FIN, ICE, SAM | Svealand (141), Østlandet (110), Zealand (37), Nyland (840) | 42 states | 100 | `SCA_KALMAR`, `tag SCA` |
 | **Iberian Union** | SPR, POR, CAR, CNT, CAT, ADL, BAS, ASU, GLC, CRS | Madrid (41), Lisbon (112), Catalonia (165), Seville (169) | 37 states | 100 | - |
 | **United Netherlands** | HOL, BEL, FLN, WLL, LUX | Holland (7), Flanders (6), Wallonia (34), Luxembourg (8) | 11 states | 100 | - |
-| **Danubian Federation** | AUS, HUN, CZE, SVK, CRO, SLO, BOS, GAL, TRS, CPU, PGU, BUK, SZK, KRK, BAN | Vienna (1137), Budapest (43), Prague (1129), Posavina (109), Pressburg (1123), Lwow (91) | 99 states | 100 | `DNF`, `AUS_federalized_tag`, `CZE_agrarian_danube_balkans`, `AUS_HRE` |
+| **Danubian Federation** | AUS, HUN, CZE, SVK, CRO, SLO, BOS, GAL, TRS, CPU, PGU, BUK, SZK, KRK, BAN, ROM, SER | Vienna (1137), Budapest (43), Prague (1129), Posavina (109), Pressburg (1123), Lwow (91), Belgrade (107), Muntenia (46) | 111 states | 100 | `DNF`, `AUS_federalized_tag`, `CZE_agrarian_danube_balkans`, `AUS_HRE` |
 | **Yugoslavia** | SER, CRO, SLO, BOS, MNT, MCD | Belgrade (107), Posavina (109), Inner Carniola (1103), Drina Valley (104), Montenegro (105), Macedonia (106) | 37 states | 100 | - |
 | **Balkan Federation** | SER, CRO, SLO, BOS, MNT, MCD, BUL, GRE, GRR, CRE, ALB, ROM, MOL | Belgrade (107), Posavina (109), Sofia (48), Central Greece (47), Muntenia (46), Tirana (44) | 68 states | 100 | - |
 | **Baltic Federation** | EST, LAT, LIT, BAT | Estonia (13), Riga (1091), Vilnius (96), Kaunas (11) | 13 states | 100 | - |
@@ -20,7 +20,7 @@ Each decision costs political power and needs the listed states to be owned and 
 | **Byzantine Empire** | GRE, GRR, CRE, CYP | Constantinople (773), Central Greece (47), Bursa (340), Smyrna (339), Ankara (49), Trebizond (355) | 34 states | 150 | - |
 | **Greater Maghreb** | MOR, ALG, TUN, LBA, TRP, RIF, MRT, TUA | Casablanca (461), Algiers (459), Tunis (458), Tripoli (448) | 24 states | 100 | `IFR` |
 | **Arab Federation** | EGY, SYR, IRQ, HEJ, SAU, JBS, YEM, LEB, PAL, OMA, TRU, ASY, IKH | Cairo (446), Syria (554), Baghdad (291), Hejaz (679), Nejd (292) | 43 states | 150 | `EGY_UAS`, `JBS_UAE` |
-| **Nile Valley Union** | EGY, SUD | Cairo (446), Khartoum (551), Sudan (549), Aswan (456) | 14 states | 100 | - |
+| **Nile Valley Union** | EGY, SUD | Cairo (446), Khartoum (551), Sudan (549), Aswan (456), Uganda (548), Eritrea (550) | 16 states | 100 | - |
 | **Transcaucasian Federation** | GEO, ARM, AZE, ABK, MTR, DAG | Georgia (231), Erivan (230), Baku (990) | 25 states | 100 | `ARM_TCU` |
 | **Greater Iran** | PER, AFG, KUR | Teheran (266), Kabul (267), Baghdad (291), Baku (990) | 41 states | 150 | - |
 | **Turan** | TRK, UZB, KHI, ALO, TAJ, ETS, SIK, TAN, KYR | Tashkent (407), Bukhara (405), Khiva (861), Alash (810), Kashgar (619) | 36 states | 150 | - |
@@ -40,6 +40,179 @@ Each decision costs political power and needs the listed states to be owned and 
 | **North American Union** | Any nation with its capital in north america / central america | Maryland (361), Ottawa (739), Mexico (277) | whole continent | 300 | - |
 | **Pan-Slavic Union** | RUS, UKR, WHR, POL, CZE, SVK, SER, BUL, CRO, SLO, BOS, MNT, MCD, CPU, DKB, KUB | Moscow (219), Kyiv (202), Warsaw (10), Prague (1129), Belgrade (107), Sofia (48), Minsk (206) | 182 states | 250 | - |
 | **European Federation** | Any nation with its capital in europe | Île de France (16), Brandenburg (64), Greater London (126), Latium (2), Madrid (41), Vienna (1137), Warsaw (10) | whole continent | 300 | - |
+| **Greater Germany** | GER, GRU, BAY, DDR, NGF, WGR, EPR, AUS, PGU | Brandenburg (64), Vienna (1137), Upper Bavaria (52), Usti nad Labem (69), Alsace-Lorraine (28) | 51 states | 150 | `GER_greater`, `GER_greater_alt`, `GER_German_Greater`, `GER_AUS` |
+| **Greater German Solution** | GER, GRU, BAY, DDR, NGF, WGR, AUS | Brandenburg (64), Vienna (1137), Prague (1129), Inner Carniola (1103), Trieste (1100), Tyrol (153) | 58 states | 150 | - |
+| **Germany** | GRU, BAY, DDR, NGF, WGR, EPR | Brandenburg (64), Upper Bavaria (52), Hanover (59), Eastern Rhineland (51), Saxony (65) | 31 states | 100 | `tag GER` |
+| **South German Federation** | BAY, WGR | Upper Bavaria (52), Württemberg (50), Baden (780), Hesse (55), Franconia (54) | 7 states | 100 | `SFG`, `BAY_kingdom` |
+| **North German Confederation** | DDR, GRU, EPR, WGR | Brandenburg (64), Hanover (59), Saxony (65), Mecklenburg (61), Holstein (58) | 24 states | 100 | `tag NGF` |
+| **Kingdom of Prussia** | DDR, EPR, GRU | Brandenburg (64), East Prussia (5), Lower Silesia (66), Hanover (59), Western Rhineland (781) | 22 states | 100 | - |
+| **Teutonic Order** | EPR, BAT, DDR | East Prussia (5), West Prussia (776), Riga (1091), Estonia (13) | 11 states | 100 | - |
+| **Kingdom of Livonia** | BAT, LAT, EST | Riga (1091), Estonia (13), Livonia (12), Courland (190), Latgale (880) | 6 states | 100 | - |
+| **Hanseatic League** | NGF, GRU, DDR, EPR, BAT, LAT, EST | Holstein (58), Mecklenburg (61), West Prussia (776), Riga (1091), Gotland (124) | 20 states | 100 | - |
+| **D-A-CH** | GER, AUS, SWI, GRU, BAY | Brandenburg (64), Vienna (1137), Swiss Plateau (3), Upper Bavaria (52) | 56 states | 100 | - |
+| **Alpine Federation** | SWI, AUS, BAY | Swiss Plateau (3), Tyrol (153), Salzburg (836), Upper Bavaria (52) | 18 states | 100 | `SWI_Manhem` |
+| **Austria-Hungary** | AUS, HUN | Vienna (1137), Budapest (43), Prague (1129), Lwow (91), Posavina (109), Kolozs (1112) (owned directly, not through subjects) | 97 states | 150 | `AUS_federalized_tag`, `AUS_AHE` |
+| **United States of Greater Austria** | AUS | Vienna (1137), Prague (1129), Budapest (43), Lwow (91), Trieste (1100), Kolozs (1112), Posavina (109), Cernauti (80) (owned directly, not through subjects) | 97 states | 150 | `AUS_federalized_tag` |
+| **Austro-Slovak Union** | AUS, SVK | Vienna (1137), Pressburg (1123), Kosice (1122) (owned directly, not through subjects) | 29 states | 100 | - |
+| **Lands of the Bohemian Crown** | CZE, PGU | Prague (1129), Moravia (75), Lower Silesia (66), Upper Silesia (67), Bohemian Silesia (1131) | 17 states | 100 | `CZE_kingdom`, `CZE_czechoslovakia_imperial` |
+| **Great Moravia** | CZE, SVK | Moravia (75), Pressburg (1123), Prague (1129), Krakow (1124), Transdanubia (155) | 33 states | 100 | `CZE_great_moravia` |
+| **Visegrad Union** | POL, CZE, SVK, HUN, GAL | Warsaw (10), Prague (1129), Pressburg (1123), Budapest (43) | 54 states | 100 | - |
+| **Zapadoslavia** | POL, CZE, SVK, GAL, KRK | Warsaw (10), Prague (1129), Pressburg (1123), Posen (86) | 48 states | 100 | - |
+| **Intermarium** | POL, LIT, UKR, WHR, CZE, SVK, HUN, ROM, LAT, EST | Warsaw (10), Vilnius (96), Minsk (206), Kyiv (202), Prague (1129), Budapest (43), Muntenia (46) | 139 states | 200 | `POL_intermarium`, `UKR_mizhmoria` |
+| **Polish-Hungarian Union** | POL, HUN, GAL | Warsaw (10), Krakow (1124), Budapest (43), Pressburg (1123) | 55 states | 100 | - |
+| **Polish-Romanian Union** | POL, ROM, GAL, MOL | Warsaw (10), Muntenia (46), Moldavia (79), Lwow (91) | 43 states | 100 | - |
+| **Polish-Swedish Union** | POL, SWE | Warsaw (10), Svealand (141), Riga (1091), Krakow (1124) | 57 states | 100 | - |
+| **Grand Duchy of Lithuania** | LIT, WHR | Vilnius (96), Kaunas (11), Minsk (206), Kyiv (202), Smolensk (242) | 35 states | 100 | - |
+| **Kievan Rus'** | UKR, WSU, RUS, WHR | Kyiv (202), Novgorod (263), Chernihiv (193), Vladimir (253), Polotsk (1287) | 85 states | 150 | - |
+| **Russian Empire** | RUS, WRA, RVA, RRF, SIB, URL, WCC, TRM | Petrograd (195), Moscow (219), Kyiv (202), Warsaw (10), Nyland (840), Riga (1091), Georgia (231), Tashkent (407), Vladivostok (408) | 263 states | 250 | `DKB_RUS_empire`, `DKB_tsar_willy`, `DKB_RUS_regency_empire`, `RUS_DROZD`, `RUS_DROZ`, `RUS_WRANGEL_TSAR`, `RUS_WRANGEL_TSAR_CONS`, `RUS_CLE` |
+| **Cossack Hosts** | DKB, KUB, ORE, TRB | Novocherkassk (218), Yekaterinodar (234), Orenburg (1208), Uralsk (406), Chita (563) | 27 states | 100 | `ALO_UCH`, `DKB_UCH` |
+| **Crimean Khanate** | CRM | Crimea (137), Sevastopil (1221), Taurida (196), Kherson (197) | 14 states | 100 | `CRM_OTT`, `CRM_KHAN` |
+| **Golden Horde** | TTR, BKN, KLY, ALO, CRM | Kazan (249), Astrakhan (236), Volgograd (217), Crimea (137), Uralsk (406) | 47 states | 150 | `TTR_GHD` |
+| **Avar Khaganate** | HUN, TRS, SZK, BAN, CUM | Budapest (43), Alföld (154), Transdanubia (155), Temes (1114), Vienna (1137) | 38 states | 100 | - |
+| **Hunnic Empire** | HUN, TRS, SZK, CUM | Budapest (43), Muntenia (46), Odesa (192), Kyiv (202), Vienna (1137) | 98 states | 200 | - |
+| **Lands of the Crown of Saint Stephen** | HUN, SZK, TRS | Budapest (43), Pressburg (1123), Kolozs (1112), Posavina (109), Transcarpathia (73), Fiume (1206) | 44 states | 100 | `HNR` |
+| **Carpathia** | CPU, BUK, GAL | Transcarpathia (73), Cernauti (80), Stanislawow (89), Presov (1121) | 12 states | 100 | - |
+| **Dacia** | ROM, MOL, TRS, BAN | Muntenia (46), Kolozs (1112), Bessarabia (78), Dobrudja (772), Temes (1114) | 22 states | 100 | - |
+| **Bulgarian-Romanian Union** | BUL, ROM | Sofia (48), Muntenia (46), Varna (771), Moldavia (79) | 21 states | 100 | - |
+| **Bulgarian Empire** | BUL, MCD | Sofia (48), Macedonia (106), Belgrade (107), Adrianople (341), Muntenia (46) | 27 states | 100 | `BUL_empire` |
+| **Kingdom of Thrace** | BUL, GRE, GRR | Plovdiv (212), Adrianople (341), Western Thrace (184), Burgas (211) | 7 states | 100 | - |
+| **Illyrian Kingdom** | ALB, MNT, CRO | Tirana (44), Scutari (1268), Montenegro (105), Split (163) | 13 states | 100 | - |
+| **Greater Albania** | ALB | Tirana (44), Kosovo (765), Ilirida (1271), Northern Epirus (766), Scutari (1268) | 6 states | 100 | - |
+| **Greater Serbia** | SER, MNT | Belgrade (107), Drina Valley (104), Montenegro (105), Macedonia (106), Vojvodina (45) | 24 states | 100 | - |
+| **Greater Croatia** | CRO | Posavina (109), Split (163), Drina Valley (104), East Syrmia (1128), Western Zala (1111), Bacs-Bodrog (1107) | 19 states | 100 | - |
+| **Greater Yugoslavia** | SER, CRO, SLO, BOS, MNT, MCD, BUL, or whoever proclaimed Yugoslavia | Belgrade (107), Posavina (109), Inner Carniola (1103), Sofia (48), Tirana (44), Macedonia (106) | 48 states | 150 | - |
+| **Adriatic Union** | ITA, VNC, CRO, FIU, MNT, ALB, SIC | Venetia (160), Trieste (1100), Split (163), Apulia (837), Tirana (44) | 20 states | 100 | - |
+| **Greater Greece** | GRE, GRR, CRE, CYP | Central Greece (47), Constantinople (773), Smyrna (339), Eastern Salonica (769), Crete (182), Cyprus (183) | 22 states | 150 | - |
+| **Greco-Turkish Union** | GRE, GRR, TUR | Central Greece (47), Constantinople (773), Ankara (49), Smyrna (339) | 34 states | 100 | - |
+| **Macedonian Empire** | GRE, GRR, MCD | Central Greece (47), Macedonia (106), Constantinople (773), Cairo (446), Baghdad (291), Teheran (266), West Punjab (891) | 77 states | 250 | - |
+| **Seleucid Empire** | SYR, IRQ, ASY, LEB | Syria (554), Aleppo (677), Baghdad (291), Teheran (266), Latakia (680) | 29 states | 100 | - |
+| **Kingdom of Pontus** | GRE, GRR, TUR, KDR | Trebizond (355), Sivas (345), Kastamonu (356), Crimea (137) | 9 states | 100 | - |
+| **United British Isles** | ENG, SCT, WAL, IRE, ULS, GBP | Greater London (126), Lothian (121), South Wales (122), Leinster (113), Ulster (119) | 23 states | 100 | `CAN_UK`, `BRG_MICK_UK`, `tag GBR` |
+| **Celtic Union** | IRE, SCT, WAL, BRI, GLC | Leinster (113), Lothian (121), South Wales (122), Brittany (983), Cornwall (123), Galicia (171) | 16 states | 100 | `CELTIC_UNION`, `IRE_mcdonnell_celt`, `IRE_mcdonnell_celt2`, `IRE_CELT`, `IRE_CELT2` |
+| **Angevin Empire** | ENG, GBP, NRM, BRI | Greater London (126), Normandy (15), Maine (30), Aquitaine (19), Poitou (23) | 24 states | 100 | `CAN_NEO_ANGEVIN_EMPIRE`, `BRG_FROG_UK` |
+| **North Sea Empire** | DEN, NOR, ENG | Zealand (37), Østlandet (110), Greater London (126), Skåneland (138) | 22 states | 100 | `DEN_NORTH_SEA` |
+| **Denmark-Norway** | DEN, NOR | Zealand (37), Østlandet (110), Iceland (100), Schleswig (839) | 17 states | 100 | `DENNOR` |
+| **Sweden-Norway** | SWE, NOR | Svealand (141), Østlandet (110), Trøndelag (143) | 19 states | 100 | `SWENOR`, `SWU` |
+| **Swedish Empire** | SWE | Svealand (141), Nyland (840), Estonia (13), Riga (1091), Hither Pomerania (62), Ivangorod (1288) | 34 states | 100 | `SWE_EMP_1`, `SWE_EMP_2` |
+| **Greater Norway** | NOR | Østlandet (110), Iceland (100), Faroe Islands (337), Coastal Greenland (101), Orkney & Shetland (938), Jämtland (778) | 15 states | 100 | - |
+| **Greater Finland** | FIN, KAR | Nyland (840), Petrozavodsk (216), White Karelia (215), Murmansk (213), Vsevolozhsk (1328) | 25 states | 100 | `GFI` |
+| **Fennoscandia** | SWE, NOR, FIN, KAR, SAM | Svealand (141), Østlandet (110), Nyland (840), Murmansk (213), Petrozavodsk (216) | 41 states | 100 | - |
+| **Great Nordic Union** | SWE, NOR, DEN, FIN, ICE | Svealand (141), Østlandet (110), Zealand (37), Nyland (840), Riga (1091), Estonia (13) | 61 states | 200 | `NOR_peace_union` |
+| **French Empire** | FRA, NFA, FRP, OCC | Île de France (16), Flanders (6), Holland (7), Western Rhineland (781), Piedmont (158), Latium (2), Catalonia (165) | 67 states | 200 | `NFE`, `NFE_LARP`, `CEA_NATFRANCE_EMPIRE`, `NFA_DARNEMPIRE` |
+| **Franco-Spanish Union** | FRA, NFA, FRP, SPR, CAR, CNT | Île de France (16), Madrid (41), Catalonia (165), Provence (21) | 62 states | 100 | `BAS_FrancoSpain`, `BAS_FRA_carlist` |
+| **Gallic Empire** | FRA, NFA, FRP, OCC, BRI, NRM, WLL | Lyonnais (20), Western Rhineland (781), Greater London (126), Madrid (41) | 93 states | 100 | - |
+| **Kingdom of Burgundy** | WLL, BEL, FLN, HOL, LUX | Burgundy (27), Flanders (6), Holland (7), Luxembourg (8), Alsace-Lorraine (28) | 18 states | 100 | `WLL_BURGUNDY`, `WLL_BURGUNDY_BLACK`, `WLL_BURGUNDY_BLACK_ALT` |
+| **Kingdom of Lotharingia** | WLL, BEL, FLN, HOL, LUX, WGR, SWI | Western Rhineland (781), Alsace-Lorraine (28), Flanders (6), Swiss Plateau (3), Lombardy (159) | 36 states | 100 | `WLL_LOTHARINGIA` |
+| **Crown of Aragon** | CAT, SPR, CNT, CAR | Lower Aragon (166), Catalonia (165), Valencia (167), Balearic Islands (177), Cagliari (114), Sicily (115), Campania (117) | 16 states | 100 | - |
+| **Al-Andalus** | ADL, MOR, RIF | Seville (169), Granada (1343), Toledo (1342), Valencia (167), Lisbon (112) | 32 states | 100 | - |
+| **Visigothic Kingdom** | SPR, CAR, CNT, ASU, CAT, ADL, BAS, GLC | Toledo (1342), Languedoc (22), Lisbon (112), Catalonia (165), Galicia (171) | 37 states | 100 | - |
+| **Ostrogothic Kingdom** | SRI, ITA, SRD, SIC, SCL, PAP, TUS, VNC, LOM, EMI, FIU | Latium (2), Romagna (161), Lombardy (159), Split (163), Provence (21) | 40 states | 100 | - |
+| **Vandal Kingdom** | TUN, ALG | Tunis (458), Constantine (460), Cagliari (114), Corsica (1), Balearic Islands (177) | 11 states | 100 | - |
+| **Romano-Gothic Empire** | SRI, ITA, SPR, or whoever proclaimed Visigothic, Ostrogothic | Latium (2), Toledo (1342), Languedoc (22), Romagna (161), Split (163) | 78 states | 200 | - |
+| **Western Roman Empire** | SRI, ITA, SRD, SIC, SCL, PAP, TUS, VNC, LOM, EMI, FIU | Latium (2), Lyonnais (20), Madrid (41), Greater London (126), Tunis (458), Split (163) | 151 states | 250 | - |
+| **Latin Union** | FRA, NFA, SPR, POR, ITA, SRI, ROM, CAR, CNT, OCC, WLL | Île de France (16), Madrid (41), Lisbon (112), Latium (2), Muntenia (46) | 116 states | 250 | `ITA_LATIN` |
+| **Italy** | SRI, ITA, SRD, SIC, SCL, PAP, TUS, VNC, LOM, EMI, FIU | Latium (2), Piedmont (158), Lombardy (159), Campania (117), Sicily (115), Venetia (160) | 27 states | 100 | `LOM_ITA_kingdom`, `ITA_ANI_KINGDOM`, `SRD_ITA`, `LOM_ITA`, `LOM_ITA_federation`, `PAP_ITA`, `ITA_ANI`, `MLT_ITALY`, `MLT_HOLY_FED` |
+| **Greater Italy** | SRI, ITA, SRD, SIC, SCL, PAP, TUS, VNC, LOM, EMI, FIU | Latium (2), Corsica (1), Nice (762), Trentino (783), Istria (1144), Zadar (1367), Malta (116) | 36 states | 150 | `ITA_ANI_EMPIRE`, `ITA_Futurist` |
+| **German Colonial Empire** | GER, GRU, NGF, DDR | Brandenburg (64), Cameroon (927), Togoland (877), South West Africa (541), Dar-es-Salaam (965), Madang (757), Qingdao (744) (owned directly, not through subjects) | 26 states | 100 | - |
+| **Dutch Colonial Empire** | HOL | Holland (7), Batavia (1020), Suriname (309), Western Cape (681), Ceylon (422) | 30 states | 100 | - |
+| **Danish Colonial Empire** | DEN | Zealand (37), Coastal Greenland (101), Iceland (100), U.S. Virgin Islands (1312), Gold Coast (274) | 9 states | 100 | - |
+| **Portuguese Empire** | POR | Lisbon (112), Central Angola (540), Inhambane & Gaza (950), Goa (321), Macao (729), East Timor (721), Rio de Janeiro (500) | 26 states | 150 | `POR_BRA` |
+| **Spanish Empire** | SPR, CAR, CNT | Madrid (41), Mexico (277), Lima (303), Cundinamarca (306), Buenos Aires (278), Havana (315), Central Luzon (327) | 138 states | 300 | `CAR_kingdom`, `CAR_empire` |
+| **Ottoman Empire** | TUR | Constantinople (773), Cairo (446), Baghdad (291), Hejaz (679), Syria (554), Adrianople (341) | 86 states | 200 | `OTT`, `OTT_fed`, `OTT_caliphate`, `OTT_caliphate_sublime`, `AFG_OTT` |
+| **Great Ottoman Empire** | TUR | Constantinople (773), Budapest (43), Cairo (446), Baghdad (291), Algiers (459), Crimea (137), Yemen (293) | 187 states | 300 | - |
+| **Misak-ı Milli Turkey** | TUR, KDR | Ankara (49), Constantinople (773), Mosul (676), Aleppo (677), Western Thrace (184), Batumi (1213) | 24 states | 100 | - |
+| **Greater Armenia** | ARM | Erivan (230), Erzurum (354), Van (352), Kars-Igdir (1000), Highland Karabagh (998) | 13 states | 100 | `ARM_GREAT` |
+| **Greater Azerbaijan** | AZE | Baku (990), Tabriz (419), Urmia (417), Nakhchivan (1298), Highland Karabagh (998) | 14 states | 100 | - |
+| **Greater Georgia** | GEO, ABK | Georgia (231), Abkhazia (1080), Batumi (1213), Lazistan (1001), Sakataly (1081), Imereti (1188) | 9 states | 100 | - |
+| **Qara Qoyunlu** | AZE, KDR, KUR | Tabriz (419), Van (352), Baghdad (291), Erivan (230) | 15 states | 100 | - |
+| **Aq Qoyunlu** | AZE, KDR, KUR, IRQ | Diyarbakir (350), Tabriz (419), Baghdad (291), Isfahan (411), Erzurum (354) | 18 states | 100 | - |
+| **Seljuk Empire** | TUR, PER, KHI, KDR | Isfahan (411), Baghdad (291), Merv (1275), Konya (346), Syria (554) | 46 states | 150 | `KHI_seljuk`, `KHI_seljuk2`, `KHI_seljuk3` |
+| **Sasanian Empire** | PER, AFG | Baghdad (291), Fars (412), Khorasan (416), Merv (1275), Baku (990), Teheran (266) | 53 states | 150 | - |
+| **Afsharid Empire** | PER, AFG | Teheran (266), Khorasan (416), Kabul (267), Khiva (861), Bukhara (405), Delhi (439) | 55 states | 200 | - |
+| **Qajar Empire** | PER | Teheran (266), Tabriz (419), Erivan (230), Baku (990), Georgia (231), Herat (415) | 41 states | 100 | - |
+| **Durrani Empire** | AFG | Kabul (267), Qandahar (1218), Peshawar (442), West Punjab (891), Kashmir (441), Khorasan (416) | 14 states | 100 | `AFG_KALAKANI_DURRANI`, `AFG_DURRANI_CALIPHATE` |
+| **Ghaznavid Empire** | AFG | Kabul (267), Herat (415), Khorasan (416), West Punjab (891), Sindh (443) | 15 states | 100 | - |
+| **Assyria** | ASY, IRQ | Mosul (676), Kirkuk (349), Baghdad (291), Diyarbakir (350), Urmia (417) | 12 states | 100 | `ASYK`, `ASYE_NEO`, `ASYE_TRI`, `ASYE_BULL` |
+| **Babylonian Empire** | IRQ, ASY | Baghdad (291), Basra (812), Syria (554), Jerusalem (454), Aleppo (677) | 15 states | 100 | - |
+| **Akkadian Empire** | IRQ, ASY | Baghdad (291), Basra (812), Mosul (676), Khuzestan (413), Aleppo (677) | 9 states | 100 | - |
+| **Levant** | SYR, LEB, PAL | Syria (554), Beirut (553), Jerusalem (454), Aleppo (677), Transjordan (455) | 9 states | 100 | - |
+| **Greater Israel** | PAL | Jerusalem (454), Haifa (992), Transjordan (455), Sinai (453) | 4 states | 100 | - |
+| **Kingdom of Jerusalem** | PAL, MLT | Jerusalem (454), Haifa (992), Beirut (553), Transjordan (455) | 5 states | 100 | `MLT_JERSUALEM` |
+| **Outremer** | MLT, CYP, PAL | Jerusalem (454), Beirut (553), Latakia (680), Cyprus (183), Diyarbakir (350) | 12 states | 100 | `MLT_OUTMERE` |
+| **Phoenicia** | LEB | Beirut (553), Latakia (680), Haifa (992), Cyprus (183) | 5 states | 100 | - |
+| **Carthage** | TUN, TRP | Tunis (458), Tripoli (448), Constantine (460), Cagliari (114), Sicily (115), Seville (169) | 16 states | 100 | - |
+| **Umayyad Caliphate** | SYR, HEJ, SAU, EGY, IRQ, LEB, PAL, JBS | Syria (554), Hejaz (679), Cairo (446), Seville (169), Teheran (266), Samarkand (1209), Sindh (443) | 148 states | 300 | - |
+| **Abbasid Caliphate** | IRQ, SYR, HEJ, SAU, EGY | Baghdad (291), Syria (554), Cairo (446), Hejaz (679), Teheran (266), Khorasan (416), Tunis (458) | 69 states | 300 | - |
+| **Mamluk Sultanate** | EGY | Cairo (446), Syria (554), Jerusalem (454), Hejaz (679), Aleppo (677) | 19 states | 100 | - |
+| **Ayyubid Sultanate** | EGY, SYR, KUR | Cairo (446), Syria (554), Jerusalem (454), Yemen (293), Diyarbakir (350) | 22 states | 100 | - |
+| **Bani Khalid Emirate** | SAU, TRU | Al-Hasa (656), Qatar (993), Bahrain (907) | 4 states | 100 | - |
+| **Zaidi Kingdom of Yemen** | YEM | Yemen (293), Aden (659), Asir (982), Najran (981), Hadhramaut (752), Dhofar (1024) | 6 states | 100 | - |
+| **Greater Egypt** | EGY | Cairo (446), Khartoum (551), Syria (554), Jerusalem (454), Hejaz (679), Crete (182) | 26 states | 100 | - |
+| **Middle East** | ABK, ARM, ASY, AZE, EGY, GEO, HEJ, IKH, IRQ, JBS, KDR, KUR, LEB, OMA, PAL, PER, SAU, SYR, TRU, YEM | Ankara (49), Teheran (266), Baghdad (291), Cairo (446), Nejd (292), Syria (554) | 92 states | 250 | - |
+| **North Africa** | MOR, ALG, TUN, LBA, TRP, EGY, RIF, MRT, TUA | Casablanca (461), Algiers (459), Tunis (458), Tripoli (448), Cairo (446) | 32 states | 200 | - |
+| **Sahel** | MAL, NER, WAD, HAU, KBR, TUA | French Sudan (556), Niger (809), Chad (515), Upper Volta (808), Darfur (1010) | 14 states | 100 | - |
+| **Sub-Saharan Africa** | ANG, BFA, BOT, BRD, BRT, CEA, CIV, CMR, COG, CVG, DAH, EQG, ERI, ETH, GAB, GHA, GNA, HAU, IVO, KAS, KBR, KEN, KIK, KIV, KOG, LIB, LPD, MAF, MAG, MAL, MLW, MRT, MSF, MZB, NER, NGR, NMB, RWA, SAF, SEN, SFR, SIE, SOM, SUD, TKE, TOG, TZN, UGA, UMN, WAD, ZAM, ZIM, ZZB | Lagos (973), Addis Ababa (271), Bas-Congo (881), Kenya (547), Transvaal (275), Senegal (272) | 128 states | 250 | - |
+| **Mali Empire** | MAL, SEN, GNA | French Sudan (556), Guinea (806), Senegal (272), Gambia (834), Malian Desert (860) | 10 states | 100 | - |
+| **Kingdom of Aksum** | ETH, ERI | Tigray (923), Eritrea (550), Yemen (293), Amhara (920) | 10 states | 100 | `ETH_AKSUM` |
+| **Bantu Kingdom** | ANG, BOT, BRD, BRT, CEA, CMR, COG, EQG, GAB, KAS, KEN, KIK, KIV, KOG, LPD, MAF, MLW, MSF, MZB, NMB, RWA, SAF, SFR, TKE, TZN, UGA, UMN, WAD, ZAM, ZIM, ZZB | Bas-Congo (881), Dar-es-Salaam (965), Rhodesia (545), Natal (719), Central Angola (540), Kenya (547) | 70 states | 200 | `TKE_bantu`, `KIK_BANTU_GANG`, `KIK_BANTU_GANG_2`, `KIK_BANTU_GANG_4`, `KIK_BANTU_GANG_5`, `KIK_BANTU_GANG_6` |
+| **Mughal Empire** | DEH, PRF, PGI, MAD, BHC, AFG | Delhi (439), Agra & Oudh (438), West Punjab (891), Kabul (267), West Bengal (431), Hyderabad (427) | 46 states | 200 | `AFG_MUGHALS`, `PGI_MGH`, `AFG_OTT_MGH` |
+| **Akhand Bharat** | DEH, MAD, BHC, INR, PRF, MYS, TRV, PGI, NEP | Delhi (439), Madras (320), Bombay (429), West Bengal (431), Kabul (267), Rangoon (288), Ceylon (422), Nepal (323) | 69 states | 250 | `DEH_IND`, `IND`, `IND_EMP`, `MAD_BOURBON` |
+| **Pala Empire** | BHC, INR | West Bengal (431), East Bengal (430), Bihar (435), Agra & Oudh (438) | 11 states | 100 | `TIB_PALA` |
+| **Bengal Sultanate** | BHC, INR | West Bengal (431), East Bengal (430), Bihar (435), Orissa (426), Assam (432), Arakan (790) | 15 states | 100 | - |
+| **Chola Empire** | MAD, TRV, MYS, PRF, CEY | Madras (320), Madurai (423), Ceylon (422), Andhra (424), Malabar Coast (1034) | 17 states | 100 | - |
+| **Timurid Empire** | TRK, UZB, KHI, TAN | Samarkand (1209), Bukhara (405), Herat (415), Teheran (266), Baghdad (291), Tabriz (419) | 44 states | 200 | `TAN_TIMURID` |
+| **Chagatai Khanate** | TRK, UZB, SIK, ETS, KYR, TAJ, TAN | Samarkand (1209), Kashgar (619), Ferghana (1279), Bukhara (405), Semirechye (589) | 28 states | 100 | `TAN_CHAGATAI` |
+| **Turkic Khaganate** | MON, ALO, ALT, SIK, ETS, TRK, KYR | Mongolia (330), Alash (810), Dihua (617), Kashgar (619), Tashkent (407), Ulala (654) | 45 states | 200 | `KYR_khaganate` |
+| **Kyrgyz Khaganate** | KHA, KYR, ALT | Minusinsk (811), Askiz (1293), Achinsk (575), Tuva (329), Mongolia (330) | 14 states | 100 | `KYR_even_greater_kyrgyzia` |
+| **Uyghur Khaganate** | ETS, SIK, TAN, MON | Mongolia (330), Kumul (1083), Dihua (617), Kashgar (619) | 12 states | 100 | `ETS_uyghur` |
+| **Xiongnu** | MON, BRY, ALT | Mongolia (330), Suiyuan (621), Ordos (616), Tuva (329), Kumul (1083) | 14 states | 100 | - |
+| **Ilkhanate** | PER, AZE, MON | Tabriz (419), Baghdad (291), Teheran (266), Khorasan (416), Erzurum (354) | 53 states | 150 | `TRK_ILK` |
+| **Yuan Dynasty** | MON, QIE, FNG, MAN, CHI, LEP, LEC, SQI, SHX, SZC, YUN, XSM, HNN, ANQ, GXC, PRC | Jingzhao (608), Mongolia (330), Jinling (613), Chengdu (605), Canton (592), Liaoning (716) | 100 states | 250 | `MON_YUA` |
+| **Liao Dynasty** | FNG, MAN, MON | Liaoning (716), Jilin (886), Jehol (610), Northern Chahar (612), Jingzhao (608) | 21 states | 100 | - |
+| **Qing Dynasty** | QIE, FNG, MAN, CHI, LEP, LEC, SQI, SHX, SZC, YUN, XSM, HNN, ANQ, GXC, PRC, SIK | Jingzhao (608), Liaoning (716), Jinling (613), Canton (592), Chengdu (605), Dihua (617), Tibet (322), Mongolia (330) | 108 states | 250 | `QIE_unified`, `XSM_QIE`, `SQI_QIE`, `FNG_empire` |
+| **Ming Dynasty** | LEC, LEP, CHI, SQI, SHX, SZC, YUN, HNN, ANQ, GXC, PRC, QIE | Jingzhao (608), Jinling (613), Canton (592), Chengdu (605), Wuhan (1048), Kunming (325) | 75 states | 200 | `LEC_MING`, `LEC_MING_MING`, `LEC_SHUNTIAN`, `LEC_SHUNTIAN_MING`, `LEC_SHUNTIAN_REGENCY` |
+| **Tang Dynasty** | LEC, LEP, CHI, SQI, SHX, SZC, YUN, HNN, ANQ, GXC, PRC, QIE, SIK | Guanzhong (799), Heluo (607), Canton (592), Chengdu (605), Dihua (617), Kashgar (619) | 88 states | 200 | - |
+| **Greater Tibet** | TIB | Tibet (322), Chamdo (693), Xining (604), Xikang (601), Yushu (353) | 10 states | 100 | `TIB_GREAT_TIBET`, `TIB_EMPIRE`, `TIB_KUNG` |
+| **Himalayan Federation** | NEP, BHU, SKM, TIB | Nepal (323), Bhutan (324), Sikkim (888), Tibet (322) | 9 states | 100 | `SKM_HIMALAYA`, `SKM_HIMALAYA_KAZI` |
+| **Druk Yul** | BHU | Bhutan (324), Sikkim (888), Darjeeling (887), Tawang (858) | 5 states | 100 | `BHU_DRUK`, `BHU_CHINA` |
+| **Greater Korea** | KOR | Gyeonggi (525), Kwanbuk (1347), Jilin (886), Andong (328), Songjiang (885) | 9 states | 100 | - |
+| **Unified Silla and Balhae** | KOR | Gyeonggi (525), Samnam (1345), Kwanbuk (1347), Jilin (886), Vladivostok (408) | 11 states | 100 | - |
+| **Goguryeo** | KOR, FNG | Yangseo (527), Liaoning (716), Jilin (886), Andong (328) | 8 states | 100 | - |
+| **Greater Japan** | JAP | Tokyo (282), Gyeonggi (525), Taiwan (524), Sakhalin (537), Kwantung (745), Liaoning (716), Mariana Islands (646) | 34 states | 100 | - |
+| **Philippine Empire** | PHI | Central Luzon (327), Mindanao (627), Sabah (828), Palau Islands (647) | 11 states | 100 | - |
+| **Srivijaya Empire** | INS, DEI, MLY | Southern Sumatra (1021), Malaya (846), Batavia (1020), Kra Isthmus (724), West Kalimantan (334) | 12 states | 100 | - |
+| **Khmer Empire** | CAM | Phnom Penh (750), Battambang (825), Isan (823), Cochinchina (286), Stung Treng (826) | 9 states | 100 | `CAM_GER_subject` |
+| **Toungoo Empire** | BRM, SHA, KAC | Mandalay (640), Rangoon (288), Upper Shan (72), Lan Na (822), Siam (289), Manipur (434) | 16 states | 100 | - |
+| **Southeast Asia** | BOR, BRM, CAM, DEI, GEA, INC, INS, KAC, LAO, MLY, PHI, SAR, SHA, SIA, SIR, VIN | Rangoon (288), Siam (289), Tonkin (671), Malaya (846), Batavia (1020), Central Luzon (327) | 54 states | 250 | - |
+| **Indochina** | VIN, CAM, LAO | Tonkin (671), Annam (827), Cochinchina (286), Laos (670), Phnom Penh (750) | 9 states | 100 | `INC_DAI`, `INC_NFA`, `VIN_INDOCHINA`, `INC_GER_subject`, `tag INC` |
+| **Central America** | GUA, HON, ELS, NIC, COS | Guatemala (313), Tegucigalpa (842), San Salvador (314), Managua (317), San José (316) | 19 states | 100 | `CEN_CON`, `CEN_REP`, `tag CEN` |
+| **Mexican Empire** | MEX, YUC, RJM | Mexico (277), Guatemala (313), Northern Texas (375), Northern California (378), San Salvador (314) | 53 states | 200 | `MEE`, `MEE_porfirio`, `MEE_moctemzuma` |
+| **Viceroyalty of New Spain** | MEX, YUC, RJM, SPR, CAR | Mexico (277), Guatemala (313), Havana (315), Northern Texas (375), Northern California (378), Florida (366) | 66 states | 250 | `CAR_VICEROY_NEW_SPAIN` |
+| **Maya Empire** | YUC, GUA | Yucatán (474), Guatemala (313), Chiapas (475), British Honduras (311), Petén (1250) | 12 states | 100 | `YUC_MAY`, `YUC_MAYA` |
+| **Caribbean** | CUB, DOM, HAI, PRI, JAM, TRI | Havana (315), Haiti (318), Eastern Hispaniola (319), Puerto Rico (686), Jamaica (689), Trinidad & Tobago (691) | 15 states | 100 | `HAI_caribbean_leftist`, `HAI_caribbean_democratic`, `CAF_SOCDEM`, `CAF_union`, `CSA_lovestonepuppet_caribbean`, `tag ANT`, `tag CAF` |
+| **Hispaniola** | HAI, DOM | Haiti (318), Eastern Hispaniola (319) | 2 states | 100 | - |
+| **Republic of Pirates** | ANT, CAF, CUB, DOM, HAI, JAM, MAG, PRI, FIU | Bahamas (690), Jamaica (689), Haiti (318) | 12 states | 100 | `FIU_pirates_tag` |
+| **United Guyana** | GYA, SUR | West Guyana (687), East Guyana (310), Suriname (309) | 12 states | 100 | - |
+| **Greater Brazil** | BRA, SPO, BAH, GOY, AMA, GRP, PIR | Rio de Janeiro (500), São Paulo (501), Uruguay (300), Suriname (309), Amazonas (495) | 41 states | 150 | - |
+| **Guaraní State** | PAR | Paraguay (301), Corrientes (1074), Iguassú (1041), Chaco Boreal (688) | 7 states | 100 | - |
+| **Muisca Confederation** | COL, PAN, COS | Cundinamarca (306), Santander (1216), Panama (304), San José (316) | 13 states | 100 | - |
+| **Andean Federation** | COL, ECU, PRU, BOL, CHL, VEN | Cundinamarca (306), Pichincha (305), Lima (303), La Paz (302), Santiago (279) | 32 states | 150 | `FOP_AND` |
+| **Chilean-Argentine Union** | CHL, ARG, FOP | Santiago (279), Buenos Aires (278), Córdoba (902), Antofagasta (506), Mendoza (511) | 24 states | 100 | - |
+| **Greater Canada** | CAN, NFL, QUE | Ottawa (739), Newfoundland (331), Southcentral Alaska (1348), Quebec (466), British Columbia (473) | 27 states | 100 | - |
+| **Greater United States** | USA, CSA, CAL, TEX, COR, FSA, NEE | Maryland (361), Ottawa (739), Havana (315), Hawaii (629), Northern California (378), Illinois (395) | 112 states | 250 | - |
+| **Anglosphere** | ENG, GBR, CAN, USA, AST, NZL | Greater London (126), Maryland (361), Ottawa (739), Canberra (985), North Island (284) | 144 states | 300 | `CAN_ANGLOSPHERE`, `COR_anglo_europe` |
+| **Golden Circle** | FSA, TEX, TXS | Louisiana (371), Havana (315), Mexico (277), Southern Texas (833), Guatemala (313) | 71 states | 250 | `FSA_GOLDENCIRCLE`, `FSA_GOLDENCIRCLE2` |
+| **Greater Australasia** | NZL, PNG | Canberra (985), North Island (284), Papua (523), Fiji (636) | 27 states | 100 | `NZL_AST` |
+| **Melanesia** | PNG | Papua (523), Madang (757), Solomon Islands (634), New Caledonia (635), Fiji (636) | 11 states | 100 | `PNG_MEL` |
+| **Polynesia** | HAW, NZL | Hawaii (629), German Samoa (941), Society Islands (641), Easter Island (270) | 9 states | 100 | - |
+| **Pacific Union** | HAW, PNG, SSI, NZL | Hawaii (629), Mariana Islands (646), Fiji (636), Society Islands (641), Caroline Islands (684), Papua (523) | 31 states | 200 | `AST_canada`, `SSI_MIC` |
+| **Oceania** | Any nation with its capital in australia | Canberra (985), North Island (284), Papua (523), Fiji (636), New Caledonia (635), German Samoa (941), Solomon Islands (634) | whole continent | 250 | `SSI_MIC`, `CSA_technopuppet_oceania` |
+| **Asian Union** | Any nation with its capital in asia / india / middle east | Tokyo (282), Jingzhao (608), Delhi (439), Teheran (266), Batavia (1020), Siam (289), Baghdad (291) | whole continent | 400 | - |
+| **Eurasia** | Any nation with its capital in europe / asia / india / middle east | Île de France (16), Brandenburg (64), Moscow (219), Jingzhao (608), Tokyo (282), Delhi (439), Teheran (266), Constantinople (773) | whole continent | 450 | `RUS_EUR`, `RUS_EUR_empire`, `RUS_EUR_right`, `BAS_commie_eu` |
+| **Afro-Eurasia** | Any nation with its capital in europe / asia / india / middle east / africa | Île de France (16), Brandenburg (64), Moscow (219), Cairo (446), Jingzhao (608), Delhi (439), Tokyo (282), Lagos (973) | whole continent | 450 | - |
+| **Americas** | Any nation with its capital in north america / central america / south america | Maryland (361), Ottawa (739), Mexico (277), Rio de Janeiro (500), Buenos Aires (278), Cundinamarca (306) | whole continent | 350 | - |
+| **Hispanic America** | MEX, GUA, HON, ELS, NIC, COS, PAN, CUB, DOM, PRI, COL, VEN, ECU, PRU, BOL, CHL, ARG, URG, PAR, CEN, YUC, RJM | Mexico (277), Cundinamarca (306), Lima (303), Buenos Aires (278), Santiago (279), Caracas (849), Havana (315) | 98 states | 300 | - |
+| **a World Government** | Any nation with its capital in europe / north america / south america / australia / africa / asia / middle east / india / central america | Maryland (361), Greater London (126), Île de France (16), Brandenburg (64), Moscow (219), Tokyo (282), Jingzhao (608), Delhi (439), Rio de Janeiro (500), Cairo (446) | whole continent | 500 | `WLD_World`, `SOV_world`, `USA_Willkie_World`, `CSA_burnham_earth`, `CSA_larouche_earth` |
 
 ## Names by ideology
 
@@ -318,7 +491,7 @@ A proclaimed nation renames itself whenever its ruling ideology changes.
 | Market liberal | Confederation of West Africa | West African |
 | Social conservative | West African Union | West African |
 | Authoritarian democrat | United States of West Africa | West African |
-| Paternal autocrat | Mali Empire | Malian |
+| Paternal autocrat | Empire of West Africa | West African |
 | National populist | West African National State | West African |
 
 ### East African Federation
@@ -514,3 +687,2370 @@ A proclaimed nation renames itself whenever its ruling ideology changes.
 | Authoritarian democrat | Paneuropa | Pan-European |
 | Paternal autocrat | Empire of Europe | European |
 | National populist | European Imperium | European |
+
+### Greater Germany
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | German People's Republic | German |
+| Syndicalist | Union of German Communes | German |
+| Radical socialist | German Socialist Republic | German |
+| Social democrat, Social liberal | Greater German Republic | German |
+| Market liberal | Federal Republic of Greater Germany | German |
+| Social conservative, Paternal autocrat | Greater German Empire | German |
+| Authoritarian democrat | Greater German State | German |
+| National populist | Pan-German Realm | German |
+
+### Greater German Solution
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | German People's Republic | German |
+| Syndicalist | Federation of German Communes | German |
+| Radical socialist | German Socialist Republic | German |
+| Social democrat | Greater German Federal Republic | German |
+| Social liberal | Greater German Republic | German |
+| Market liberal, Social conservative | German Confederation | German |
+| Authoritarian democrat | Greater German Federal State | German |
+| Paternal autocrat | German Empire | German |
+| National populist | Greater German State | German |
+
+### Germany
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | German People's Republic | German |
+| Syndicalist | Federation of German Communes | German |
+| Radical socialist | German Socialist Republic | German |
+| Social democrat, Social liberal | German Republic | German |
+| Market liberal | Federal Republic of Germany | German |
+| Social conservative, Authoritarian democrat, Paternal autocrat | German Empire | German |
+| National populist | German State | German |
+
+### South German Federation
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | South German People's Republic | South German |
+| Syndicalist | Union of South German Communes | South German |
+| Radical socialist | South German Socialist Federation | South German |
+| Social democrat | South German Federation | South German |
+| Social liberal | Federal Republic of South Germany | South German |
+| Market liberal, Social conservative | South German Confederation | South German |
+| Authoritarian democrat | Federal State of South Germany | South German |
+| Paternal autocrat | Kingdom of Southern Germany | South German |
+| National populist | Greater South German State | South German |
+
+### North German Confederation
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | North German People's Republic | North German |
+| Syndicalist | Union of North German Communes | North German |
+| Radical socialist | North German Socialist Federation | North German |
+| Social democrat | North German Federation | North German |
+| Social liberal | Federal Republic of North Germany | North German |
+| Market liberal, Social conservative, Paternal autocrat | North German Confederation | North German |
+| Authoritarian democrat | North German Federal State | North German |
+| National populist | Greater North German State | North German |
+
+### Kingdom of Prussia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Prussian People's Republic | Prussian |
+| Syndicalist | Union of Prussian Communes | Prussian |
+| Radical socialist | Prussian Socialist Federation | Prussian |
+| Social democrat, Social liberal | Free State of Prussia | Prussian |
+| Market liberal | Prussian Confederation | Prussian |
+| Social conservative, Paternal autocrat, National populist | Kingdom of Prussia | Prussian |
+| Authoritarian democrat | Prussian State | Prussian |
+
+### Teutonic Order
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Baltic-Prussian People's Republic | Baltic-Prussian |
+| Syndicalist | Union of Baltic-Prussian Communes | Baltic-Prussian |
+| Radical socialist | Baltic-Prussian Socialist Federation | Baltic-Prussian |
+| Social democrat | Federal Republic of Prussia and Livonia | Baltic-Prussian |
+| Social liberal | Baltic-Prussian Federation | Baltic-Prussian |
+| Market liberal | Baltic-Prussian Confederation | Baltic-Prussian |
+| Social conservative | Teutonic Order | Teutonic |
+| Authoritarian democrat | Teutonic State | Teutonic |
+| Paternal autocrat | State of the Teutonic Order | Teutonic |
+| National populist | New Teutonic Order | Teutonic |
+
+### Kingdom of Livonia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Livonian People's Republic | Livonian |
+| Syndicalist | Union of Livonian Communes | Livonian |
+| Radical socialist | Livonian Socialist Federation | Livonian |
+| Social democrat | Livonian Republic | Livonian |
+| Social liberal | Livonian Federation | Livonian |
+| Market liberal | Livonian Confederation | Livonian |
+| Social conservative, Paternal autocrat | Kingdom of Livonia | Livonian |
+| Authoritarian democrat | Livonian State | Livonian |
+| National populist | Livonian National State | Livonian |
+
+### Hanseatic League
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Hanseatic People's Republic | Hanseatic |
+| Syndicalist | Union of Hanseatic Communes | Hanseatic |
+| Radical socialist | Hanseatic Socialist Federation | Hanseatic |
+| Social democrat | Hanseatic Federation | Hanseatic |
+| Social liberal | Hanseatic Republic | Hanseatic |
+| Market liberal, Paternal autocrat | Hanseatic League | Hanseatic |
+| Social conservative | Hanseatic Union | Hanseatic |
+| Authoritarian democrat | Hanseatic State | Hanseatic |
+| National populist | Greater Hanseatic State | Hanseatic |
+
+### D-A-CH
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Union of German-Speaking Socialist Republics | German |
+| Syndicalist | Federation of German-Speaking Communes | German |
+| Radical socialist | German-Speaking Socialist Federation | German |
+| Social democrat, Social liberal | German-Austrian-Swiss Federation | German |
+| Market liberal | German-Austrian-Swiss Confederation | German |
+| Social conservative | German-Austrian-Swiss Union | German |
+| Authoritarian democrat | Pan-German Federal State | German |
+| Paternal autocrat | Germanic Empire | German |
+| National populist | Pan-German State | German |
+
+### Alpine Federation
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Alpine People's Republic | Alpine |
+| Syndicalist | Union of Alpine Communes | Alpine |
+| Radical socialist | Alpine Socialist Federation | Alpine |
+| Social democrat | Alpine Federation | Alpine |
+| Social liberal | Federal Republic of the Alps | Alpine |
+| Market liberal | Alpine Confederation | Alpine |
+| Social conservative | Alpine Union | Alpine |
+| Authoritarian democrat | Federal State of the Alps | Alpine |
+| Paternal autocrat | Alpine Monarchy | Alpine |
+| National populist | Greater Alpine State | Alpine |
+
+### Austria-Hungary
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Austro-Hungarian People's Republic | Austro-Hungarian |
+| Syndicalist | Union of Austro-Hungarian Councils | Austro-Hungarian |
+| Radical socialist | Austro-Hungarian Socialist Federation | Austro-Hungarian |
+| Social democrat | Federal Republic of Austria-Hungary | Austro-Hungarian |
+| Social liberal | Austro-Hungarian Federation | Austro-Hungarian |
+| Market liberal | Austro-Hungarian Confederation | Austro-Hungarian |
+| Social conservative | Austria-Hungary | Austro-Hungarian |
+| Authoritarian democrat | Dual Monarchy of Austria-Hungary | Austro-Hungarian |
+| Paternal autocrat | Austro-Hungarian Monarchy | Austro-Hungarian |
+| National populist | Austro-Hungarian Empire | Austro-Hungarian |
+
+### United States of Greater Austria
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Greater Austrian People's Federation | Austrian |
+| Syndicalist | Union of Greater Austrian Councils | Austrian |
+| Radical socialist | Greater Austrian Socialist Federation | Austrian |
+| Social democrat, Social liberal, Social conservative | United States of Greater Austria | Austrian |
+| Market liberal | Greater Austrian Confederation | Austrian |
+| Authoritarian democrat | Greater Austrian Federal State | Austrian |
+| Paternal autocrat | Empire of Greater Austria | Austrian |
+| National populist | Greater Austrian State | Austrian |
+
+### Austro-Slovak Union
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Austro-Slovak People's Republic | Austro-Slovak |
+| Syndicalist | Union of Austro-Slovak Communes | Austro-Slovak |
+| Radical socialist | Austro-Slovak Socialist Federation | Austro-Slovak |
+| Social democrat, Social liberal | Austro-Slovak Federation | Austro-Slovak |
+| Market liberal | Austro-Slovak Confederation | Austro-Slovak |
+| Social conservative, Authoritarian democrat | Austro-Slovak Union | Austro-Slovak |
+| Paternal autocrat | Austro-Slovak Monarchy | Austro-Slovak |
+| National populist | Austro-Slovak State | Austro-Slovak |
+
+### Lands of the Bohemian Crown
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Bohemian People's Republic | Bohemian |
+| Syndicalist | Union of Bohemian Communes | Bohemian |
+| Radical socialist | Bohemian Socialist Federation | Bohemian |
+| Social democrat | Federal Republic of Bohemia | Bohemian |
+| Social liberal | Bohemian Federation | Bohemian |
+| Market liberal | Bohemian Confederation | Bohemian |
+| Social conservative | Lands of the Bohemian Crown | Bohemian |
+| Authoritarian democrat | Bohemian State | Bohemian |
+| Paternal autocrat | Kingdom of Bohemia | Bohemian |
+| National populist | Greater Bohemian State | Bohemian |
+
+### Great Moravia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Moravian People's Republic | Moravian |
+| Syndicalist | Union of Moravian Communes | Moravian |
+| Radical socialist | Moravian Socialist Federation | Moravian |
+| Social democrat | Federal Republic of Moravia and Slovakia | Moravian |
+| Social liberal | Moravian Federation | Moravian |
+| Market liberal | Moravian Confederation | Moravian |
+| Social conservative, National populist | Great Moravia | Moravian |
+| Authoritarian democrat | Great Moravian State | Moravian |
+| Paternal autocrat | Great Moravian Realm | Moravian |
+
+### Visegrad Union
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Visegrad People's Republic | Visegrad |
+| Syndicalist | Union of Visegrad Communes | Visegrad |
+| Radical socialist | Visegrad Socialist Federation | Visegrad |
+| Social democrat | Visegrad Federation | Visegrad |
+| Social liberal | Visegrad Federal Republic | Visegrad |
+| Market liberal | Visegrad Confederation | Visegrad |
+| Social conservative | Visegrad Union | Visegrad |
+| Authoritarian democrat | Visegrad Union State | Visegrad |
+| Paternal autocrat | United Kingdoms of Visegrad | Visegrad |
+| National populist | Greater Visegrad State | Visegrad |
+
+### Zapadoslavia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | West Slavic People's Republic | West Slavic |
+| Syndicalist | Union of West Slavic Communes | West Slavic |
+| Radical socialist | West Slavic Socialist Federation | West Slavic |
+| Social democrat | West Slavic Federation | West Slavic |
+| Social liberal | Federal Republic of Western Slavia | West Slavic |
+| Market liberal | West Slavic Confederation | West Slavic |
+| Social conservative | West Slavic Union | West Slavic |
+| Authoritarian democrat | Federal State of Western Slavia | West Slavic |
+| Paternal autocrat | Kingdom of Zapadoslavia | West Slavic |
+| National populist | Greater West Slavic State | West Slavic |
+
+### Intermarium
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Union of Intermarium Socialist Republics | Intermarian |
+| Syndicalist | Union of Intermarian Communes | Intermarian |
+| Radical socialist | Intermarian Socialist Federation | Intermarian |
+| Social democrat | Intermarium Federation | Intermarian |
+| Social liberal | Federal Republic of Intermarium | Intermarian |
+| Market liberal | Intermarium Confederation | Intermarian |
+| Social conservative, Paternal autocrat | Intermarium | Intermarian |
+| Authoritarian democrat | Federal State of Intermarium | Intermarian |
+| National populist | Greater Intermarium State | Intermarian |
+
+### Polish-Hungarian Union
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Polish-Hungarian People's Republic | Polish-Hungarian |
+| Syndicalist | Union of Polish-Hungarian Communes | Polish-Hungarian |
+| Radical socialist | Polish-Hungarian Socialist Federation | Polish-Hungarian |
+| Social democrat, Social liberal | Polish-Hungarian Federation | Polish-Hungarian |
+| Market liberal | Polish-Hungarian Confederation | Polish-Hungarian |
+| Social conservative, Authoritarian democrat | Polish-Hungarian Union | Polish-Hungarian |
+| Paternal autocrat | Kingdom of Poland and Hungary | Polish-Hungarian |
+| National populist | Polish-Hungarian State | Polish-Hungarian |
+
+### Polish-Romanian Union
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Polish-Romanian People's Republic | Polish-Romanian |
+| Syndicalist | Union of Polish-Romanian Communes | Polish-Romanian |
+| Radical socialist | Polish-Romanian Socialist Federation | Polish-Romanian |
+| Social democrat, Social liberal | Polish-Romanian Federation | Polish-Romanian |
+| Market liberal | Polish-Romanian Confederation | Polish-Romanian |
+| Social conservative, Authoritarian democrat | Polish-Romanian Union | Polish-Romanian |
+| Paternal autocrat | Kingdom of Poland and Romania | Polish-Romanian |
+| National populist | Polish-Romanian State | Polish-Romanian |
+
+### Polish-Swedish Union
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Polish-Swedish People's Republic | Polish-Swedish |
+| Syndicalist | Union of Polish-Swedish Communes | Polish-Swedish |
+| Radical socialist | Polish-Swedish Socialist Federation | Polish-Swedish |
+| Social democrat, Social liberal | Polish-Swedish Federation | Polish-Swedish |
+| Market liberal | Polish-Swedish Confederation | Polish-Swedish |
+| Social conservative, Authoritarian democrat | Polish-Swedish Union | Polish-Swedish |
+| Paternal autocrat | Kingdom of Poland and Sweden | Polish-Swedish |
+| National populist | Polish-Swedish State | Polish-Swedish |
+
+### Grand Duchy of Lithuania
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Lithuanian-Belarusian Soviet Republic | Lithuanian |
+| Syndicalist | Union of Lithuanian Communes | Lithuanian |
+| Radical socialist | Lithuanian Socialist Federation | Lithuanian |
+| Social democrat | Federal Republic of Lithuania | Lithuanian |
+| Social liberal | Lithuanian Federation | Lithuanian |
+| Market liberal | Lithuanian Confederation | Lithuanian |
+| Social conservative, Paternal autocrat | Grand Duchy of Lithuania | Lithuanian |
+| Authoritarian democrat | Lithuanian State | Lithuanian |
+| National populist | Greater Lithuanian State | Lithuanian |
+
+### Kievan Rus'
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | East Slavic People's Republic | East Slavic |
+| Syndicalist | Union of East Slavic Communes | East Slavic |
+| Radical socialist | East Slavic Socialist Federation | East Slavic |
+| Social democrat, Social liberal | East Slavic Federation | East Slavic |
+| Market liberal | East Slavic Confederation | East Slavic |
+| Social conservative, National populist | Kievan Rus' | Ruthenian |
+| Authoritarian democrat | Ruthenian State | Ruthenian |
+| Paternal autocrat | Grand Principality of Kiev | Ruthenian |
+
+### Russian Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Union of Soviet Socialist Republics | Russian |
+| Syndicalist | All-Russian Union of Communes | Russian |
+| Radical socialist | Russian Democratic Federative Republic | Russian |
+| Social democrat | Russian Federation | Russian |
+| Social liberal, Market liberal | Russian Republic | Russian |
+| Social conservative, Paternal autocrat | Russian Empire | Russian |
+| Authoritarian democrat | Russian State | Russian |
+| National populist | All-Russian National State | Russian |
+
+### Cossack Hosts
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Cossack People's Republic | Cossack |
+| Syndicalist | Union of Cossack Communes | Cossack |
+| Radical socialist | Cossack Socialist Federation | Cossack |
+| Social democrat | Cossack Federation | Cossack |
+| Social liberal | Federal Republic of the Cossack Lands | Cossack |
+| Market liberal | Cossack Confederation | Cossack |
+| Social conservative | Union of Cossack Hosts | Cossack |
+| Authoritarian democrat | Cossack State | Cossack |
+| Paternal autocrat | Great Cossack Host | Cossack |
+| National populist | Greater Cossack State | Cossack |
+
+### Crimean Khanate
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Crimean People's Republic | Crimean |
+| Syndicalist | Union of Crimean Communes | Crimean |
+| Radical socialist | Crimean Socialist Federation | Crimean |
+| Social democrat | Federal Republic of Crimea | Crimean |
+| Social liberal | Crimean Federation | Crimean |
+| Market liberal | Crimean Confederation | Crimean |
+| Social conservative, Paternal autocrat | Crimean Khanate | Crimean Tatar |
+| Authoritarian democrat | Crimean Tatar State | Crimean Tatar |
+| National populist | Greater Crimean State | Crimean Tatar |
+
+### Golden Horde
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Idel-Ural People's Republic | Idel-Ural |
+| Syndicalist | Union of Idel-Ural Communes | Idel-Ural |
+| Radical socialist | Idel-Ural Socialist Federation | Idel-Ural |
+| Social democrat | Federal Republic of Idel-Ural | Idel-Ural |
+| Social liberal | Idel-Ural Federation | Idel-Ural |
+| Market liberal | Idel-Ural Confederation | Idel-Ural |
+| Social conservative | Ulus of Jochi | Tatar |
+| Authoritarian democrat | Idel-Ural State | Tatar |
+| Paternal autocrat, National populist | Golden Horde | Tatar |
+
+### Avar Khaganate
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Pannonian People's Republic | Pannonian |
+| Syndicalist | Union of Pannonian Communes | Pannonian |
+| Radical socialist | Pannonian Socialist Federation | Pannonian |
+| Social democrat | Federal Republic of Pannonia | Pannonian |
+| Social liberal | Pannonian Federation | Pannonian |
+| Market liberal | Pannonian Confederation | Pannonian |
+| Social conservative, Paternal autocrat, National populist | Avar Khaganate | Avar |
+| Authoritarian democrat | Avar State | Avar |
+
+### Hunnic Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Carpatho-Pontic People's Republic | Carpatho-Pontic |
+| Syndicalist | Union of Carpatho-Pontic Communes | Carpatho-Pontic |
+| Radical socialist | Carpatho-Pontic Socialist Federation | Carpatho-Pontic |
+| Social democrat | Federal Republic of the Carpatho-Pontic Lands | Carpatho-Pontic |
+| Social liberal | Carpatho-Pontic Federation | Carpatho-Pontic |
+| Market liberal | Carpatho-Pontic Confederation | Carpatho-Pontic |
+| Social conservative, Paternal autocrat, National populist | Hunnic Empire | Hunnic |
+| Authoritarian democrat | Hunnic State | Hunnic |
+
+### Lands of the Crown of Saint Stephen
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Hungarian Soviet Republic | Hungarian |
+| Syndicalist | Union of Hungarian Councils | Hungarian |
+| Radical socialist | Hungarian Socialist Federation | Hungarian |
+| Social democrat, Social liberal | Hungarian Republic | Hungarian |
+| Market liberal | Hungarian Confederation | Hungarian |
+| Social conservative | Lands of the Crown of Saint Stephen | Hungarian |
+| Authoritarian democrat | Hungarian State | Hungarian |
+| Paternal autocrat | Kingdom of Hungary | Hungarian |
+| National populist | Greater Hungarian State | Hungarian |
+
+### Carpathia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Carpathian People's Republic | Carpathian |
+| Syndicalist | Union of Carpathian Communes | Carpathian |
+| Radical socialist | Carpathian Socialist Federation | Carpathian |
+| Social democrat | Carpathian Federation | Carpathian |
+| Social liberal | Federal Republic of Carpathia | Carpathian |
+| Market liberal | Carpathian Confederation | Carpathian |
+| Social conservative | Carpathian Union | Carpathian |
+| Authoritarian democrat | Federal State of Carpathia | Carpathian |
+| Paternal autocrat | Carpathian Principality | Carpathian |
+| National populist | Greater Carpathian State | Carpathian |
+
+### Dacia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Romanian People's Republic | Romanian |
+| Syndicalist | Union of Romanian Communes | Romanian |
+| Radical socialist | Romanian Socialist Federation | Romanian |
+| Social democrat | Federal Republic of Greater Romania | Romanian |
+| Social liberal | Romanian Federation | Romanian |
+| Market liberal | Romanian Confederation | Romanian |
+| Social conservative, Paternal autocrat | Kingdom of Dacia | Dacian |
+| Authoritarian democrat | Dacian State | Dacian |
+| National populist | Geto-Dacian Empire | Dacian |
+
+### Bulgarian-Romanian Union
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Bulgarian-Romanian People's Republic | Bulgarian-Romanian |
+| Syndicalist | Union of Bulgarian-Romanian Communes | Bulgarian-Romanian |
+| Radical socialist | Bulgarian-Romanian Socialist Federation | Bulgarian-Romanian |
+| Social democrat, Social liberal | Bulgarian-Romanian Federation | Bulgarian-Romanian |
+| Market liberal | Bulgarian-Romanian Confederation | Bulgarian-Romanian |
+| Social conservative, Authoritarian democrat | Bulgarian-Romanian Union | Bulgarian-Romanian |
+| Paternal autocrat | Tsardom of Bulgaria and Romania | Bulgarian-Romanian |
+| National populist | Bulgarian-Romanian State | Bulgarian-Romanian |
+
+### Bulgarian Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Bulgarian People's Republic | Bulgarian |
+| Syndicalist | Union of Bulgarian Communes | Bulgarian |
+| Radical socialist | Bulgarian Socialist Federation | Bulgarian |
+| Social democrat | Federal Republic of Greater Bulgaria | Bulgarian |
+| Social liberal | Bulgarian Federation | Bulgarian |
+| Market liberal | Bulgarian Confederation | Bulgarian |
+| Social conservative | Tsardom of Bulgaria | Bulgarian |
+| Authoritarian democrat | Bulgarian State | Bulgarian |
+| Paternal autocrat, National populist | Bulgarian Empire | Bulgarian |
+
+### Kingdom of Thrace
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Thracian People's Republic | Thracian |
+| Syndicalist | Union of Thracian Communes | Thracian |
+| Radical socialist | Thracian Socialist Federation | Thracian |
+| Social democrat | Federal Republic of Thrace | Thracian |
+| Social liberal | Thracian Federation | Thracian |
+| Market liberal | Thracian Confederation | Thracian |
+| Social conservative, Paternal autocrat, National populist | Kingdom of Thrace | Odrysian |
+| Authoritarian democrat | Odrysian State | Odrysian |
+
+### Illyrian Kingdom
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Illyrian People's Republic | Illyrian |
+| Syndicalist | Union of Illyrian Communes | Illyrian |
+| Radical socialist | Illyrian Socialist Federation | Illyrian |
+| Social democrat | Federal Republic of Illyria | Illyrian |
+| Social liberal | Illyrian Federation | Illyrian |
+| Market liberal | Illyrian Confederation | Illyrian |
+| Social conservative, Paternal autocrat, National populist | Kingdom of Illyria | Illyrian |
+| Authoritarian democrat | Illyrian State | Illyrian |
+
+### Greater Albania
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Albanian People's Republic | Albanian |
+| Syndicalist | Union of Albanian Communes | Albanian |
+| Radical socialist | Albanian Socialist Republic | Albanian |
+| Social democrat, Social liberal | Republic of Greater Albania | Albanian |
+| Market liberal, Social conservative, National populist | Greater Albania | Albanian |
+| Authoritarian democrat | Greater Albanian State | Albanian |
+| Paternal autocrat | Kingdom of Greater Albania | Albanian |
+
+### Greater Serbia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Serbian People's Republic | Serbian |
+| Syndicalist | Union of Serbian Communes | Serbian |
+| Radical socialist | Serbian Socialist Republic | Serbian |
+| Social democrat, Social liberal | Republic of Greater Serbia | Serbian |
+| Market liberal, Social conservative, National populist | Greater Serbia | Serbian |
+| Authoritarian democrat | Greater Serbian State | Serbian |
+| Paternal autocrat | Kingdom of Greater Serbia | Serbian |
+
+### Greater Croatia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Croatian People's Republic | Croatian |
+| Syndicalist | Union of Croatian Communes | Croatian |
+| Radical socialist | Croatian Socialist Republic | Croatian |
+| Social democrat, Social liberal | Republic of Greater Croatia | Croatian |
+| Market liberal, Social conservative, National populist | Greater Croatia | Croatian |
+| Authoritarian democrat | Greater Croatian State | Croatian |
+| Paternal autocrat | Kingdom of Greater Croatia | Croatian |
+
+### Greater Yugoslavia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Balkan Federative Republic | Yugoslav |
+| Syndicalist | Union of South Slavic Communes | Yugoslav |
+| Radical socialist | South Slavic Socialist Federation | Yugoslav |
+| Social democrat, Social liberal | Republic of Greater Yugoslavia | Yugoslav |
+| Market liberal, Social conservative, National populist | Greater Yugoslavia | Yugoslav |
+| Authoritarian democrat | Greater Yugoslav State | Yugoslav |
+| Paternal autocrat | Kingdom of Greater Yugoslavia | Yugoslav |
+
+### Adriatic Union
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Adriatic People's Republic | Adriatic |
+| Syndicalist | Union of Adriatic Communes | Adriatic |
+| Radical socialist | Adriatic Socialist Federation | Adriatic |
+| Social democrat | Adriatic Federation | Adriatic |
+| Social liberal | Federal Republic of the Adriatic | Adriatic |
+| Market liberal | Adriatic Confederation | Adriatic |
+| Social conservative | Adriatic Union | Adriatic |
+| Authoritarian democrat | Federal State of the Adriatic | Adriatic |
+| Paternal autocrat | Kingdom of the Adriatic | Adriatic |
+| National populist | Greater Adriatic State | Adriatic |
+
+### Greater Greece
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Hellenic People's Republic | Hellenic |
+| Syndicalist | Union of Hellenic Communes | Hellenic |
+| Radical socialist | Hellenic Socialist Federation | Hellenic |
+| Social democrat, Social liberal | Republic of Greater Greece | Hellenic |
+| Market liberal, National populist | Greater Greece | Hellenic |
+| Social conservative | Greece of Two Continents and Five Seas | Hellenic |
+| Authoritarian democrat | Greater Hellenic State | Hellenic |
+| Paternal autocrat | Kingdom of Greater Greece | Hellenic |
+
+### Greco-Turkish Union
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Greco-Turkish People's Republic | Greco-Turkish |
+| Syndicalist | Union of Greco-Turkish Communes | Greco-Turkish |
+| Radical socialist | Greco-Turkish Socialist Federation | Greco-Turkish |
+| Social democrat, Social liberal | Greco-Turkish Federation | Greco-Turkish |
+| Market liberal | Greco-Turkish Confederation | Greco-Turkish |
+| Social conservative, Authoritarian democrat | Greco-Turkish Union | Greco-Turkish |
+| Paternal autocrat | Greco-Turkish Empire | Greco-Turkish |
+| National populist | Greco-Turkish State | Greco-Turkish |
+
+### Macedonian Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Hellenistic People's Republic | Hellenistic |
+| Syndicalist | Union of Hellenistic Communes | Hellenistic |
+| Radical socialist | Hellenistic Socialist Federation | Hellenistic |
+| Social democrat | Federal Republic of the Hellenistic World | Hellenistic |
+| Social liberal | Hellenistic Federation | Hellenistic |
+| Market liberal | Hellenistic Confederation | Hellenistic |
+| Social conservative, Paternal autocrat, National populist | Macedonian Empire | Macedonian |
+| Authoritarian democrat | Macedonian State | Macedonian |
+
+### Seleucid Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Syro-Mesopotamian People's Republic | Syro-Mesopotamian |
+| Syndicalist | Union of Syro-Mesopotamian Communes | Syro-Mesopotamian |
+| Radical socialist | Syro-Mesopotamian Socialist Federation | Syro-Mesopotamian |
+| Social democrat | Federal Republic of Syria and Mesopotamia | Syro-Mesopotamian |
+| Social liberal | Syro-Mesopotamian Federation | Syro-Mesopotamian |
+| Market liberal | Syro-Mesopotamian Confederation | Syro-Mesopotamian |
+| Social conservative, Paternal autocrat, National populist | Seleucid Empire | Seleucid |
+| Authoritarian democrat | Seleucid State | Seleucid |
+
+### Kingdom of Pontus
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Pontic People's Republic | Pontic |
+| Syndicalist | Union of Pontic Communes | Pontic |
+| Radical socialist | Pontic Socialist Federation | Pontic |
+| Social democrat | Republic of Pontus | Pontic |
+| Social liberal | Pontic Federation | Pontic |
+| Market liberal | Pontic Confederation | Pontic |
+| Social conservative, Paternal autocrat, National populist | Kingdom of Pontus | Pontic |
+| Authoritarian democrat | Pontic State | Pontic |
+
+### United British Isles
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | People's Republic of the British Isles | British |
+| Syndicalist | Union of the British Isles | British |
+| Radical socialist | Socialist Federation of the British Isles | British |
+| Social democrat | Federal Republic of the British Isles | British |
+| Social liberal | Federation of the British Isles | British |
+| Market liberal | British-Irish Commonwealth | British |
+| Social conservative, Authoritarian democrat, Paternal autocrat | United Kingdom of Great Britain and Ireland | British |
+| National populist | Greater British State | British |
+
+### Celtic Union
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Celtic People's Republic | Celtic |
+| Syndicalist | Union of Celtic Communes | Celtic |
+| Radical socialist | Celtic Socialist Federation | Celtic |
+| Social democrat, Social liberal | Celtic Federation | Celtic |
+| Market liberal | Celtic Confederation | Celtic |
+| Social conservative, Authoritarian democrat | Celtic Union | Celtic |
+| Paternal autocrat | United Celtic Kingdom | Celtic |
+| National populist | Celtic State | Celtic |
+
+### Angevin Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Anglo-French People's Republic | Anglo-French |
+| Syndicalist | Union of Anglo-French Communes | Anglo-French |
+| Radical socialist | Anglo-French Socialist Federation | Anglo-French |
+| Social democrat, Social liberal | Franco-British Union | Anglo-French |
+| Market liberal | Anglo-French Confederation | Anglo-French |
+| Social conservative, Paternal autocrat, National populist | Angevin Empire | Angevin |
+| Authoritarian democrat | Angevin State | Angevin |
+
+### North Sea Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | North Sea People's Republic | North Sea |
+| Syndicalist | Union of North Sea Communes | North Sea |
+| Radical socialist | North Sea Socialist Federation | North Sea |
+| Social democrat | Federal Republic of the North Sea | North Sea |
+| Social liberal | North Sea Federation | North Sea |
+| Market liberal | North Sea Confederation | North Sea |
+| Social conservative, Paternal autocrat, National populist | North Sea Empire | Anglo-Scandinavian |
+| Authoritarian democrat | Anglo-Scandinavian State | Anglo-Scandinavian |
+
+### Denmark-Norway
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Dano-Norwegian People's Republic | Dano-Norwegian |
+| Syndicalist | Union of Dano-Norwegian Communes | Dano-Norwegian |
+| Radical socialist | Dano-Norwegian Socialist Federation | Dano-Norwegian |
+| Social democrat, Social liberal | Dano-Norwegian Federation | Dano-Norwegian |
+| Market liberal | Dano-Norwegian Confederation | Dano-Norwegian |
+| Social conservative | United Kingdoms of Denmark and Norway | Dano-Norwegian |
+| Authoritarian democrat | Dano-Norwegian Union | Dano-Norwegian |
+| Paternal autocrat | Denmark-Norway | Dano-Norwegian |
+| National populist | Dano-Norwegian State | Dano-Norwegian |
+
+### Sweden-Norway
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Swedish-Norwegian People's Republic | Swedish-Norwegian |
+| Syndicalist | Union of Swedish-Norwegian Communes | Swedish-Norwegian |
+| Radical socialist | Swedish-Norwegian Socialist Federation | Swedish-Norwegian |
+| Social democrat, Social liberal | Swedish-Norwegian Federation | Swedish-Norwegian |
+| Market liberal | Swedish-Norwegian Confederation | Swedish-Norwegian |
+| Social conservative | United Kingdoms of Sweden and Norway | Swedish-Norwegian |
+| Authoritarian democrat | Swedish-Norwegian Union | Swedish-Norwegian |
+| Paternal autocrat | Sweden-Norway | Swedish-Norwegian |
+| National populist | Swedish-Norwegian State | Swedish-Norwegian |
+
+### Swedish Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Swedish People's Republic | Swedish |
+| Syndicalist | Union of Swedish Communes | Swedish |
+| Radical socialist | Swedish Socialist Federation | Swedish |
+| Social democrat | Federal Republic of Greater Sweden | Swedish |
+| Social liberal | Swedish Federation | Swedish |
+| Market liberal | Swedish Confederation | Swedish |
+| Social conservative, Paternal autocrat, National populist | Swedish Empire | Swedish |
+| Authoritarian democrat | Swedish State | Swedish |
+
+### Greater Norway
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Norwegian People's Republic | Norwegian |
+| Syndicalist | Union of Norwegian Communes | Norwegian |
+| Radical socialist | Norwegian Socialist Republic | Norwegian |
+| Social democrat, Social liberal | Republic of Greater Norway | Norwegian |
+| Market liberal, Social conservative, National populist | Greater Norway | Norwegian |
+| Authoritarian democrat | Greater Norwegian State | Norwegian |
+| Paternal autocrat | Kingdom of Greater Norway | Norwegian |
+
+### Greater Finland
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Finnish Socialist Workers' Republic | Finnish |
+| Syndicalist | Union of Finnish Communes | Finnish |
+| Radical socialist | Finnish Socialist Republic | Finnish |
+| Social democrat, Social liberal | Republic of Greater Finland | Finnish |
+| Market liberal, Social conservative, National populist | Greater Finland | Finnish |
+| Authoritarian democrat | Greater Finnish State | Finnish |
+| Paternal autocrat | Kingdom of Greater Finland | Finnish |
+
+### Fennoscandia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Fennoscandian People's Republic | Fennoscandian |
+| Syndicalist | Union of Fennoscandian Communes | Fennoscandian |
+| Radical socialist | Fennoscandian Socialist Federation | Fennoscandian |
+| Social democrat | Fennoscandian Federation | Fennoscandian |
+| Social liberal | Federal Republic of Fennoscandia | Fennoscandian |
+| Market liberal | Fennoscandian Confederation | Fennoscandian |
+| Social conservative | Fennoscandian Union | Fennoscandian |
+| Authoritarian democrat | Federal State of Fennoscandia | Fennoscandian |
+| Paternal autocrat | United Kingdoms of Fennoscandia | Fennoscandian |
+| National populist | Greater Fennoscandian State | Fennoscandian |
+
+### Great Nordic Union
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Pan-Nordic People's Republic | Pan-Nordic |
+| Syndicalist | Union of Pan-Nordic Communes | Pan-Nordic |
+| Radical socialist | Pan-Nordic Socialist Federation | Pan-Nordic |
+| Social democrat | Pan-Nordic Federation | Pan-Nordic |
+| Social liberal | Federal Republic of the Greater North | Pan-Nordic |
+| Market liberal | Pan-Nordic Confederation | Pan-Nordic |
+| Social conservative | Pan-Nordic Union | Pan-Nordic |
+| Authoritarian democrat | Federal State of the Greater North | Pan-Nordic |
+| Paternal autocrat | Great Nordic Union | Pan-Nordic |
+| National populist | Greater Pan-Nordic State | Pan-Nordic |
+
+### French Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | French People's Republic | French |
+| Syndicalist | Federation of French Communes | French |
+| Radical socialist | French Socialist Federation | French |
+| Social democrat | French Union | French |
+| Social liberal | French Federal Republic | French |
+| Market liberal | French Republic | French |
+| Social conservative, Paternal autocrat | French Empire | French |
+| Authoritarian democrat | French Consulate | French |
+| National populist | Greater French State | French |
+
+### Franco-Spanish Union
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Franco-Spanish People's Republic | Franco-Spanish |
+| Syndicalist | Union of Franco-Spanish Communes | Franco-Spanish |
+| Radical socialist | Franco-Spanish Socialist Federation | Franco-Spanish |
+| Social democrat, Social liberal | Franco-Spanish Federation | Franco-Spanish |
+| Market liberal | Franco-Spanish Confederation | Franco-Spanish |
+| Social conservative, Authoritarian democrat | Franco-Spanish Union | Franco-Spanish |
+| Paternal autocrat | United Bourbon Crowns | Franco-Spanish |
+| National populist | Franco-Spanish State | Franco-Spanish |
+
+### Gallic Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Gallic People's Republic | Gallic |
+| Syndicalist | Union of Gallic Communes | Gallic |
+| Radical socialist | Gallic Socialist Federation | Gallic |
+| Social democrat | Federal Republic of Gaul | Gallic |
+| Social liberal | Gallic Federation | Gallic |
+| Market liberal | Gallic Confederation | Gallic |
+| Social conservative, Paternal autocrat | Gallic Empire | Gallic |
+| Authoritarian democrat | Gallic State | Gallic |
+| National populist | Imperium Galliarum | Gallic |
+
+### Kingdom of Burgundy
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Burgundian People's Republic | Burgundian |
+| Syndicalist | Union of Burgundian Communes | Burgundian |
+| Radical socialist | Burgundian Socialist Federation | Burgundian |
+| Social democrat | Federal Republic of Burgundy | Burgundian |
+| Social liberal | Burgundian Federation | Burgundian |
+| Market liberal | Burgundian Confederation | Burgundian |
+| Social conservative, Paternal autocrat | Kingdom of Burgundy | Burgundian |
+| Authoritarian democrat | Burgundian State | Burgundian |
+| National populist | Greater Burgundian State | Burgundian |
+
+### Kingdom of Lotharingia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Lotharingian People's Republic | Lotharingian |
+| Syndicalist | Union of Lotharingian Communes | Lotharingian |
+| Radical socialist | Lotharingian Socialist Federation | Lotharingian |
+| Social democrat | Federal Republic of Middle Francia | Lotharingian |
+| Social liberal | Lotharingian Federation | Lotharingian |
+| Market liberal | Lotharingian Confederation | Lotharingian |
+| Social conservative, Paternal autocrat, National populist | Kingdom of Lotharingia | Lotharingian |
+| Authoritarian democrat | Lotharingian State | Lotharingian |
+
+### Crown of Aragon
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Aragonese People's Republic | Aragonese |
+| Syndicalist | Federation of Aragonese Communes | Aragonese |
+| Radical socialist | Aragonese Socialist Federation | Aragonese |
+| Social democrat | Catalan-Aragonese Federation | Aragonese |
+| Social liberal | Aragonese Federation | Aragonese |
+| Market liberal | Aragonese Confederation | Aragonese |
+| Social conservative, Paternal autocrat, National populist | Crown of Aragon | Aragonese |
+| Authoritarian democrat | Aragonese State | Aragonese |
+
+### Al-Andalus
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Andalusi People's Republic | Andalusi |
+| Syndicalist | Union of Andalusi Communes | Andalusi |
+| Radical socialist | Andalusi Socialist Federation | Andalusi |
+| Social democrat | Federal Republic of al-Andalus | Andalusi |
+| Social liberal | Andalusi Federation | Andalusi |
+| Market liberal | Andalusi Confederation | Andalusi |
+| Social conservative | Al-Andalus | Andalusi |
+| Authoritarian democrat | Andalusi State | Andalusi |
+| Paternal autocrat | Caliphate of Córdoba | Andalusi |
+| National populist | Emirate of Granada | Andalusi |
+
+### Visigothic Kingdom
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Pan-Iberian People's Republic | Pan-Iberian |
+| Syndicalist | Union of Pan-Iberian Communes | Pan-Iberian |
+| Radical socialist | Pan-Iberian Socialist Federation | Pan-Iberian |
+| Social democrat | Federal Republic of Hispania | Pan-Iberian |
+| Social liberal | Pan-Iberian Federation | Pan-Iberian |
+| Market liberal | Pan-Iberian Confederation | Pan-Iberian |
+| Social conservative | Kingdom of Toledo | Visigothic |
+| Authoritarian democrat | Visigothic State | Visigothic |
+| Paternal autocrat, National populist | Visigothic Kingdom | Visigothic |
+
+### Ostrogothic Kingdom
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Italian People's Republic | Italian |
+| Syndicalist | Union of Italian Communes | Italian |
+| Radical socialist | Italian Socialist Federation | Italian |
+| Social democrat | Federal Republic of Italy | Italian |
+| Social liberal | Italian Federation | Italian |
+| Market liberal | Italian Confederation | Italian |
+| Social conservative, Paternal autocrat, National populist | Ostrogothic Kingdom | Ostrogothic |
+| Authoritarian democrat | Ostrogothic State | Ostrogothic |
+
+### Vandal Kingdom
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Tunisian People's Republic | Tunisian |
+| Syndicalist | Union of Tunisian Communes | Tunisian |
+| Radical socialist | Tunisian Socialist Federation | Tunisian |
+| Social democrat | Federal Republic of Tunisia | Tunisian |
+| Social liberal | Tunisian Federation | Tunisian |
+| Market liberal | Tunisian Confederation | Tunisian |
+| Social conservative, Paternal autocrat, National populist | Vandal Kingdom | Vandal |
+| Authoritarian democrat | Vandal State | Vandal |
+
+### Romano-Gothic Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Romano-Gothic People's Republic | Romano-Gothic |
+| Syndicalist | Union of Romano-Gothic Communes | Romano-Gothic |
+| Radical socialist | Romano-Gothic Socialist Federation | Romano-Gothic |
+| Social democrat | Federal Republic of the Gothic West | Romano-Gothic |
+| Social liberal | Romano-Gothic Federation | Romano-Gothic |
+| Market liberal | Romano-Gothic Confederation | Romano-Gothic |
+| Social conservative, Paternal autocrat, National populist | Romano-Gothic Empire | Romano-Gothic |
+| Authoritarian democrat | Romano-Gothic State | Romano-Gothic |
+
+### Western Roman Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Western Mediterranean People's Republic | Western Mediterranean |
+| Syndicalist | Union of Western Mediterranean Communes | Western Mediterranean |
+| Radical socialist | Western Mediterranean Socialist Federation | Western Mediterranean |
+| Social democrat | Federal Republic of the Western Mediterranean | Western Mediterranean |
+| Social liberal | Western Mediterranean Federation | Western Mediterranean |
+| Market liberal | Western Mediterranean Confederation | Western Mediterranean |
+| Social conservative, Paternal autocrat, National populist | Western Roman Empire | Roman |
+| Authoritarian democrat | Roman State | Roman |
+
+### Latin Union
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Latin People's Republic | Latin |
+| Syndicalist | Union of Latin Communes | Latin |
+| Radical socialist | Latin Socialist Federation | Latin |
+| Social democrat | Latin Federation | Latin |
+| Social liberal | Federal Republic of the Latin Nations | Latin |
+| Market liberal | Latin Union | Latin |
+| Social conservative | Latin Confederation | Latin |
+| Authoritarian democrat | Federal Latin State | Latin |
+| Paternal autocrat | Latin Empire | Latin |
+| National populist | Latin Imperium | Latin |
+
+### Italy
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Italian People's Republic | Italian |
+| Syndicalist | Federation of Italian Communes | Italian |
+| Radical socialist | Socialist Republic of Italy | Italian |
+| Social democrat, Social liberal | Italian Republic | Italian |
+| Market liberal | Federal Republic of Italy | Italian |
+| Social conservative, Authoritarian democrat, Paternal autocrat | Kingdom of Italy | Italian |
+| National populist | Italian National State | Italian |
+
+### Greater Italy
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Italian People's Republic | Italian |
+| Syndicalist | Union of Italian Communes | Italian |
+| Radical socialist | Italian Socialist Republic | Italian |
+| Social democrat, Social liberal | Republic of Greater Italy | Italian |
+| Market liberal, Social conservative, National populist | Greater Italy | Italian |
+| Authoritarian democrat | Greater Italian State | Italian |
+| Paternal autocrat | Italian Empire | Italian |
+
+### German Colonial Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | German Socialist Commonwealth | German |
+| Syndicalist | Union of German and Overseas Communes | German |
+| Radical socialist | German Socialist Union | German |
+| Social democrat | German Union | German |
+| Social liberal, Market liberal | German Commonwealth | German |
+| Social conservative, Authoritarian democrat, Paternal autocrat | German Colonial Empire | German |
+| National populist | Greater German Empire | German |
+
+### Dutch Colonial Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Dutch Socialist Commonwealth | Dutch |
+| Syndicalist | Union of Dutch and Overseas Communes | Dutch |
+| Radical socialist | Dutch Socialist Union | Dutch |
+| Social democrat | Netherlands-Indonesian Union | Dutch |
+| Social liberal | Commonwealth of the Netherlands | Dutch |
+| Market liberal | Dutch Commonwealth | Dutch |
+| Social conservative | Kingdom of the Netherlands | Dutch |
+| Authoritarian democrat, Paternal autocrat | Dutch Colonial Empire | Dutch |
+| National populist | Greater Dutch Empire | Dutch |
+
+### Danish Colonial Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Danish Socialist Commonwealth | Danish |
+| Syndicalist | Union of Danish and Overseas Communes | Danish |
+| Radical socialist | Danish Socialist Union | Danish |
+| Social democrat | Danish Union | Danish |
+| Social liberal, Market liberal | Danish Commonwealth | Danish |
+| Social conservative, Authoritarian democrat, Paternal autocrat | Danish Colonial Empire | Danish |
+| National populist | Greater Danish Empire | Danish |
+
+### Portuguese Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Portuguese Socialist Commonwealth | Portuguese |
+| Syndicalist | Union of Portuguese and Overseas Communes | Portuguese |
+| Radical socialist | Portuguese Socialist Union | Portuguese |
+| Social democrat | Portuguese Union | Portuguese |
+| Social liberal, Market liberal | Portuguese Commonwealth | Portuguese |
+| Social conservative | United Kingdom of Portugal, Brazil and the Algarves | Portuguese |
+| Authoritarian democrat, Paternal autocrat | Portuguese Empire | Portuguese |
+| National populist | Greater Portuguese Empire | Portuguese |
+
+### Spanish Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Spanish Socialist Commonwealth | Spanish |
+| Syndicalist | Union of Spanish and Overseas Communes | Spanish |
+| Radical socialist | Spanish Socialist Union | Spanish |
+| Social democrat | Spanish Union | Spanish |
+| Social liberal, Market liberal | Spanish Commonwealth | Spanish |
+| Social conservative | Catholic Monarchy | Spanish |
+| Authoritarian democrat, Paternal autocrat | Spanish Empire | Spanish |
+| National populist | Greater Spanish Empire | Spanish |
+
+### Ottoman Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Near Eastern People's Republic | Near Eastern |
+| Syndicalist | Union of Near Eastern Communes | Near Eastern |
+| Radical socialist | Near Eastern Socialist Federation | Near Eastern |
+| Social democrat | Ottoman Federal Republic | Ottoman |
+| Social liberal | Ottoman Federation | Ottoman |
+| Market liberal | Ottoman Confederation | Ottoman |
+| Social conservative, Paternal autocrat | Ottoman Empire | Ottoman |
+| Authoritarian democrat | Sublime Ottoman State | Ottoman |
+| National populist | Ottoman Caliphate | Ottoman |
+
+### Great Ottoman Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Union of Near Eastern Socialist Republics | Pan-Ottoman |
+| Syndicalist | Union of Pan-Ottoman Communes | Pan-Ottoman |
+| Radical socialist | Pan-Ottoman Socialist Federation | Pan-Ottoman |
+| Social democrat | Federal Republic of the Ottoman World | Pan-Ottoman |
+| Social liberal | Pan-Ottoman Federation | Pan-Ottoman |
+| Market liberal | Pan-Ottoman Confederation | Pan-Ottoman |
+| Social conservative, Paternal autocrat | Great Ottoman Empire | Ottoman |
+| Authoritarian democrat | Exalted Ottoman State | Ottoman |
+| National populist | Universal Ottoman Caliphate | Ottoman |
+
+### Misak-ı Milli Turkey
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Turkish People's Republic | Turkish |
+| Syndicalist | Union of Turkish Communes | Turkish |
+| Radical socialist | Turkish Socialist Republic | Turkish |
+| Social democrat, Social liberal, Market liberal | Republic of Turkey | Turkish |
+| Social conservative | Turkish State | Turkish |
+| Authoritarian democrat | Turkish National State | Turkish |
+| Paternal autocrat | Turkish Sultanate | Turkish |
+| National populist | Greater Turkish State | Turkish |
+
+### Greater Armenia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Armenian People's Republic | Armenian |
+| Syndicalist | Union of Armenian Communes | Armenian |
+| Radical socialist | Armenian Socialist Republic | Armenian |
+| Social democrat, Social liberal | Republic of Greater Armenia | Armenian |
+| Market liberal, Social conservative, National populist | Greater Armenia | Armenian |
+| Authoritarian democrat | Greater Armenian State | Armenian |
+| Paternal autocrat | Kingdom of Greater Armenia | Armenian |
+
+### Greater Azerbaijan
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Azerbaijani People's Republic | Azerbaijani |
+| Syndicalist | Union of Azerbaijani Communes | Azerbaijani |
+| Radical socialist | Azerbaijani Socialist Republic | Azerbaijani |
+| Social democrat, Social liberal | Republic of Greater Azerbaijan | Azerbaijani |
+| Market liberal, Social conservative, National populist | Greater Azerbaijan | Azerbaijani |
+| Authoritarian democrat | Greater Azerbaijani State | Azerbaijani |
+| Paternal autocrat | Kingdom of Greater Azerbaijan | Azerbaijani |
+
+### Greater Georgia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Georgian People's Republic | Georgian |
+| Syndicalist | Union of Georgian Communes | Georgian |
+| Radical socialist | Georgian Socialist Republic | Georgian |
+| Social democrat, Social liberal | Republic of Greater Georgia | Georgian |
+| Market liberal, Social conservative, National populist | Greater Georgia | Georgian |
+| Authoritarian democrat | Greater Georgian State | Georgian |
+| Paternal autocrat | Kingdom of Greater Georgia | Georgian |
+
+### Qara Qoyunlu
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Turkoman People's Republic | Turkoman |
+| Syndicalist | Union of Turkoman Communes | Turkoman |
+| Radical socialist | Turkoman Socialist Federation | Turkoman |
+| Social democrat | Federal Republic of Eastern Anatolia and Azerbaijan | Turkoman |
+| Social liberal | Turkoman Federation | Turkoman |
+| Market liberal | Turkoman Confederation | Turkoman |
+| Social conservative | Qara Qoyunlu Confederation | Qara Qoyunlu |
+| Authoritarian democrat | Turkoman State | Qara Qoyunlu |
+| Paternal autocrat | Qara Qoyunlu Sultanate | Qara Qoyunlu |
+| National populist | Qara Qoyunlu | Qara Qoyunlu |
+
+### Aq Qoyunlu
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Turkoman People's Republic | Turkoman |
+| Syndicalist | Union of Turkoman Communes | Turkoman |
+| Radical socialist | Turkoman Socialist Federation | Turkoman |
+| Social democrat | Federal Republic of the Turkoman Lands | Turkoman |
+| Social liberal | Turkoman Federation | Turkoman |
+| Market liberal | Turkoman Confederation | Turkoman |
+| Social conservative | Aq Qoyunlu Confederation | Aq Qoyunlu |
+| Authoritarian democrat | Aq Qoyunlu State | Aq Qoyunlu |
+| Paternal autocrat | Aq Qoyunlu Sultanate | Aq Qoyunlu |
+| National populist | Aq Qoyunlu | Aq Qoyunlu |
+
+### Seljuk Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Turco-Persian People's Republic | Turco-Persian |
+| Syndicalist | Union of Turco-Persian Communes | Turco-Persian |
+| Radical socialist | Turco-Persian Socialist Federation | Turco-Persian |
+| Social democrat | Federal Republic of Iran and Anatolia | Turco-Persian |
+| Social liberal | Turco-Persian Federation | Turco-Persian |
+| Market liberal | Turco-Persian Confederation | Turco-Persian |
+| Social conservative, Paternal autocrat, National populist | Great Seljuk Empire | Seljuk |
+| Authoritarian democrat | Seljuk State | Seljuk |
+
+### Sasanian Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Iranian People's Republic | Iranian |
+| Syndicalist | Union of Iranian Communes | Iranian |
+| Radical socialist | Iranian Socialist Federation | Iranian |
+| Social democrat | Federal Republic of Greater Iran | Iranian |
+| Social liberal | Iranian Federation | Iranian |
+| Market liberal | Iranian Confederation | Iranian |
+| Social conservative | Ērānšahr | Sasanian |
+| Authoritarian democrat | Sasanian State | Sasanian |
+| Paternal autocrat, National populist | Sasanian Empire | Sasanian |
+
+### Afsharid Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Iranian People's Republic | Iranian |
+| Syndicalist | Union of Iranian Communes | Iranian |
+| Radical socialist | Iranian Socialist Federation | Iranian |
+| Social democrat | Federal Republic of Greater Iran | Iranian |
+| Social liberal | Iranian Federation | Iranian |
+| Market liberal | Iranian Confederation | Iranian |
+| Social conservative, Paternal autocrat, National populist | Afsharid Empire | Afsharid |
+| Authoritarian democrat | Afsharid State | Afsharid |
+
+### Qajar Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Persian People's Republic | Persian |
+| Syndicalist | Union of Persian Communes | Persian |
+| Radical socialist | Persian Socialist Federation | Persian |
+| Social democrat | Federal Republic of Persia | Persian |
+| Social liberal | Persian Federation | Persian |
+| Market liberal | Persian Confederation | Persian |
+| Social conservative | Sublime State of Persia | Qajar |
+| Authoritarian democrat | Qajar State | Qajar |
+| Paternal autocrat, National populist | Qajar Empire | Qajar |
+
+### Durrani Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Afghan People's Republic | Afghan |
+| Syndicalist | Union of Afghan Communes | Afghan |
+| Radical socialist | Afghan Socialist Federation | Afghan |
+| Social democrat | Federal Republic of Afghanistan | Afghan |
+| Social liberal | Afghan Federation | Afghan |
+| Market liberal | Afghan Confederation | Afghan |
+| Social conservative | Kingdom of Afghanistan | Durrani |
+| Authoritarian democrat | Durrani State | Durrani |
+| Paternal autocrat, National populist | Durrani Empire | Durrani |
+
+### Ghaznavid Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Khorasani People's Republic | Khorasani |
+| Syndicalist | Union of Khorasani Communes | Khorasani |
+| Radical socialist | Khorasani Socialist Federation | Khorasani |
+| Social democrat | Federal Republic of Khorasan and Hindustan | Khorasani |
+| Social liberal | Khorasani Federation | Khorasani |
+| Market liberal | Khorasani Confederation | Khorasani |
+| Social conservative, Paternal autocrat, National populist | Ghaznavid Empire | Ghaznavid |
+| Authoritarian democrat | Ghaznavid State | Ghaznavid |
+
+### Assyria
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Assyrian People's Republic | Assyrian |
+| Syndicalist | Union of Assyrian Communes | Assyrian |
+| Radical socialist | Assyrian Socialist Federation | Assyrian |
+| Social democrat | Federal Republic of Assyria | Assyrian |
+| Social liberal | Assyrian Federation | Assyrian |
+| Market liberal | Assyrian Confederation | Assyrian |
+| Social conservative | Kingdom of Assyria | Assyrian |
+| Authoritarian democrat | Assyrian State | Assyrian |
+| Paternal autocrat | Assyrian Empire | Assyrian |
+| National populist | Greater Assyria | Assyrian |
+
+### Babylonian Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Mesopotamian People's Republic | Mesopotamian |
+| Syndicalist | Union of Mesopotamian Communes | Mesopotamian |
+| Radical socialist | Mesopotamian Socialist Federation | Mesopotamian |
+| Social democrat | Federal Republic of Mesopotamia | Mesopotamian |
+| Social liberal | Mesopotamian Federation | Mesopotamian |
+| Market liberal | Mesopotamian Confederation | Mesopotamian |
+| Social conservative | Kingdom of Babylon | Babylonian |
+| Authoritarian democrat | Babylonian State | Babylonian |
+| Paternal autocrat | Neo-Babylonian Empire | Babylonian |
+| National populist | Babylonian Empire | Babylonian |
+
+### Akkadian Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Lower Mesopotamian People's Republic | Lower Mesopotamian |
+| Syndicalist | Union of Lower Mesopotamian Communes | Lower Mesopotamian |
+| Radical socialist | Lower Mesopotamian Socialist Federation | Lower Mesopotamian |
+| Social democrat | Federal Republic of Lower Mesopotamia | Lower Mesopotamian |
+| Social liberal | Lower Mesopotamian Federation | Lower Mesopotamian |
+| Market liberal | Lower Mesopotamian Confederation | Lower Mesopotamian |
+| Social conservative | Kingdom of Akkad | Akkadian |
+| Authoritarian democrat | Akkadian State | Akkadian |
+| Paternal autocrat, National populist | Akkadian Empire | Akkadian |
+
+### Levant
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Levantine People's Republic | Levantine |
+| Syndicalist | Union of Levantine Communes | Levantine |
+| Radical socialist | Levantine Socialist Federation | Levantine |
+| Social democrat | Levantine Federation | Levantine |
+| Social liberal | Federal Republic of the Levant | Levantine |
+| Market liberal | Levantine Confederation | Levantine |
+| Social conservative | Levantine Union | Levantine |
+| Authoritarian democrat | Federal State of the Levant | Levantine |
+| Paternal autocrat | Arab Kingdom of Syria | Syrian |
+| National populist | Greater Syria | Syrian |
+
+### Greater Israel
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Israeli People's Republic | Israeli |
+| Syndicalist | United Kibbutzim of Israel | Israeli |
+| Radical socialist | Socialist Republic of Israel | Israeli |
+| Social democrat, Social liberal, Market liberal, Authoritarian democrat | State of Israel | Israeli |
+| Social conservative, Paternal autocrat | Kingdom of Israel | Israeli |
+| National populist | Greater Israel | Israeli |
+
+### Kingdom of Jerusalem
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Palestinian People's Republic | Palestinian |
+| Syndicalist | Union of Palestinian Communes | Palestinian |
+| Radical socialist | Palestinian Socialist Federation | Palestinian |
+| Social democrat | Federal Republic of Palestine | Palestinian |
+| Social liberal | Palestinian Federation | Palestinian |
+| Market liberal | Palestinian Confederation | Palestinian |
+| Social conservative, Paternal autocrat | Kingdom of Jerusalem | Jerusalemite |
+| Authoritarian democrat | Jerusalemite State | Jerusalemite |
+| National populist | Crusader State of Jerusalem | Jerusalemite |
+
+### Outremer
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Levantine People's Republic | Levantine |
+| Syndicalist | Union of Levantine Communes | Levantine |
+| Radical socialist | Levantine Socialist Federation | Levantine |
+| Social democrat | Federal Republic of the Levant Coast | Levantine |
+| Social liberal | Levantine Federation | Levantine |
+| Market liberal | Levantine Confederation | Levantine |
+| Social conservative | Crusader States | Outremer |
+| Authoritarian democrat | Latin East | Outremer |
+| Paternal autocrat, National populist | Empire of Outremer | Outremer |
+
+### Phoenicia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Phoenician People's Republic | Phoenician |
+| Syndicalist | Union of Phoenician Communes | Phoenician |
+| Radical socialist | Phoenician Socialist Federation | Phoenician |
+| Social democrat | Phoenician Republic | Phoenician |
+| Social liberal | Phoenician Federation | Phoenician |
+| Market liberal | Phoenician Confederation | Phoenician |
+| Social conservative, National populist | Phoenicia | Phoenician |
+| Authoritarian democrat | Phoenician State | Phoenician |
+| Paternal autocrat | Kingdom of Phoenicia | Phoenician |
+
+### Carthaginian Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Punic People's Republic | Punic |
+| Syndicalist | Union of Punic Communes | Punic |
+| Radical socialist | Punic Socialist Federation | Punic |
+| Social democrat | Punic Federation | Punic |
+| Social liberal | Punic Republic | Punic |
+| Market liberal | Punic Confederation | Punic |
+| Social conservative | Carthaginian Republic | Carthaginian |
+| Authoritarian democrat | Carthaginian State | Carthaginian |
+| Paternal autocrat | Carthaginian Empire | Carthaginian |
+| National populist | New Carthage | Carthaginian |
+
+### Umayyad Caliphate
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Pan-Arab People's Republic | Pan-Arab |
+| Syndicalist | Union of Pan-Arab Communes | Pan-Arab |
+| Radical socialist | Pan-Arab Socialist Federation | Pan-Arab |
+| Social democrat | Federal Republic of the Arab World | Pan-Arab |
+| Social liberal | Pan-Arab Federation | Pan-Arab |
+| Market liberal | Pan-Arab Confederation | Pan-Arab |
+| Social conservative, Paternal autocrat, National populist | Umayyad Caliphate | Umayyad |
+| Authoritarian democrat | Umayyad State | Umayyad |
+
+### Abbasid Caliphate
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Pan-Arab People's Republic | Pan-Arab |
+| Syndicalist | Union of Pan-Arab Communes | Pan-Arab |
+| Radical socialist | Pan-Arab Socialist Federation | Pan-Arab |
+| Social democrat | Federal Republic of the Arab World | Pan-Arab |
+| Social liberal | Pan-Arab Federation | Pan-Arab |
+| Market liberal | Pan-Arab Confederation | Pan-Arab |
+| Social conservative, Paternal autocrat, National populist | Abbasid Caliphate | Abbasid |
+| Authoritarian democrat | Abbasid State | Abbasid |
+
+### Mamluk Sultanate
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Egyptian-Syrian People's Republic | Egyptian-Syrian |
+| Syndicalist | Union of Egyptian-Syrian Communes | Egyptian-Syrian |
+| Radical socialist | Egyptian-Syrian Socialist Federation | Egyptian-Syrian |
+| Social democrat, Social liberal | United Arab Republic | Egyptian-Syrian |
+| Market liberal | Egyptian-Syrian Confederation | Egyptian-Syrian |
+| Social conservative, Paternal autocrat, National populist | Mamluk Sultanate | Mamluk |
+| Authoritarian democrat | Mamluk State | Mamluk |
+
+### Ayyubid Sultanate
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Egyptian-Levantine People's Republic | Egyptian-Levantine |
+| Syndicalist | Union of Egyptian-Levantine Communes | Egyptian-Levantine |
+| Radical socialist | Egyptian-Levantine Socialist Federation | Egyptian-Levantine |
+| Social democrat | Federal Republic of Egypt and the Levant | Egyptian-Levantine |
+| Social liberal | Egyptian-Levantine Federation | Egyptian-Levantine |
+| Market liberal | Egyptian-Levantine Confederation | Egyptian-Levantine |
+| Social conservative, Paternal autocrat, National populist | Ayyubid Sultanate | Ayyubid |
+| Authoritarian democrat | Ayyubid State | Ayyubid |
+
+### Bani Khalid Emirate
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Eastern Arabian People's Republic | Eastern Arabian |
+| Syndicalist | Union of Eastern Arabian Communes | Eastern Arabian |
+| Radical socialist | Eastern Arabian Socialist Federation | Eastern Arabian |
+| Social democrat | Federal Republic of Eastern Arabia | Eastern Arabian |
+| Social liberal | Eastern Arabian Federation | Eastern Arabian |
+| Market liberal | Eastern Arabian Confederation | Eastern Arabian |
+| Social conservative, Paternal autocrat, National populist | Bani Khalid Emirate | Khalidi |
+| Authoritarian democrat | Khalidi State | Khalidi |
+
+### Mutawakkilite Kingdom of Yemen
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | People's Democratic Republic of Yemen | Yemeni |
+| Syndicalist | Union of Yemeni Communes | Yemeni |
+| Radical socialist | Yemeni Socialist Federation | Yemeni |
+| Social democrat | Yemen Arab Republic | Yemeni |
+| Social liberal | Republic of Greater Yemen | Yemeni |
+| Market liberal | Yemeni Confederation | Yemeni |
+| Social conservative | Kingdom of Yemen | Yemeni |
+| Authoritarian democrat | Yemeni State | Yemeni |
+| Paternal autocrat | Mutawakkilite Kingdom of Yemen | Yemeni |
+| National populist | Zaidi Imamate | Yemeni |
+
+### Greater Egypt
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Egyptian People's Republic | Egyptian |
+| Syndicalist | Union of Egyptian Communes | Egyptian |
+| Radical socialist | Egyptian Socialist Federation | Egyptian |
+| Social democrat | Federal Republic of Greater Egypt | Egyptian |
+| Social liberal | Egyptian Federation | Egyptian |
+| Market liberal | Egyptian Confederation | Egyptian |
+| Social conservative | Khedivate of Egypt | Egyptian |
+| Authoritarian democrat | Egyptian State | Egyptian |
+| Paternal autocrat | Khedivate of Greater Egypt | Egyptian |
+| National populist | Greater Egyptian Empire | Egyptian |
+
+### Middle East
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Middle Eastern People's Republic | Middle Eastern |
+| Syndicalist | Union of Middle Eastern Communes | Middle Eastern |
+| Radical socialist | Middle Eastern Socialist Federation | Middle Eastern |
+| Social democrat | Middle Eastern Federation | Middle Eastern |
+| Social liberal | Federal Republic of the Middle East | Middle Eastern |
+| Market liberal | Middle Eastern Confederation | Middle Eastern |
+| Social conservative | Middle Eastern Union | Middle Eastern |
+| Authoritarian democrat | Federal State of the Middle East | Middle Eastern |
+| Paternal autocrat | Middle Eastern Empire | Middle Eastern |
+| National populist | Greater Middle Eastern State | Middle Eastern |
+
+### North Africa
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | North African People's Republic | North African |
+| Syndicalist | Union of North African Communes | North African |
+| Radical socialist | North African Socialist Federation | North African |
+| Social democrat | North African Federation | North African |
+| Social liberal | Federal Republic of North Africa | North African |
+| Market liberal | North African Confederation | North African |
+| Social conservative | North African Union | North African |
+| Authoritarian democrat | Federal State of North Africa | North African |
+| Paternal autocrat | Kingdom of North Africa | North African |
+| National populist | Greater North African State | North African |
+
+### Sahel
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Sahelian People's Republic | Sahelian |
+| Syndicalist | Union of Sahelian Communes | Sahelian |
+| Radical socialist | Sahelian Socialist Federation | Sahelian |
+| Social democrat | Sahelian Federation | Sahelian |
+| Social liberal | Federal Republic of the Sahel | Sahelian |
+| Market liberal | Sahelian Confederation | Sahelian |
+| Social conservative | Sahelian Union | Songhai |
+| Authoritarian democrat | Federal State of the Sahel | Songhai |
+| Paternal autocrat | Songhai Empire | Songhai |
+| National populist | Greater Sahelian State | Songhai |
+
+### Sub-Saharan Africa
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Pan-African People's Republic | Pan-African |
+| Syndicalist | Union of Pan-African Communes | Pan-African |
+| Radical socialist | Pan-African Socialist Federation | Pan-African |
+| Social democrat | Pan-African Federation | Pan-African |
+| Social liberal | Federal Republic of Sub-Saharan Africa | Pan-African |
+| Market liberal | Pan-African Confederation | Pan-African |
+| Social conservative | Pan-African Union | Pan-African |
+| Authoritarian democrat | Pan-African State | Pan-African |
+| Paternal autocrat | Great African Empire | Pan-African |
+| National populist | Greater Pan-African State | Pan-African |
+
+### Mali Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Malian People's Republic | Malian |
+| Syndicalist | Union of Malian Communes | Malian |
+| Radical socialist | Malian Socialist Federation | Malian |
+| Social democrat | Mali Federation | Malian |
+| Social liberal | Republic of Mali | Malian |
+| Market liberal | Malian Confederation | Malian |
+| Social conservative, Paternal autocrat, National populist | Mali Empire | Malian |
+| Authoritarian democrat | Malian State | Malian |
+
+### Kingdom of Aksum
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Abyssinian People's Republic | Abyssinian |
+| Syndicalist | Union of Abyssinian Communes | Abyssinian |
+| Radical socialist | Abyssinian Socialist Federation | Abyssinian |
+| Social democrat | Federal Republic of Abyssinia | Abyssinian |
+| Social liberal | Abyssinian Federation | Abyssinian |
+| Market liberal | Abyssinian Confederation | Abyssinian |
+| Social conservative, Paternal autocrat, National populist | Kingdom of Aksum | Aksumite |
+| Authoritarian democrat | Aksumite State | Aksumite |
+
+### Bantu Kingdom
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Bantu People's Republic | Bantu |
+| Syndicalist | Union of Bantu Communes | Bantu |
+| Radical socialist | Bantu Socialist Federation | Bantu |
+| Social democrat | Bantu Federation | Bantu |
+| Social liberal | Federal Republic of Bantu Africa | Bantu |
+| Market liberal | Bantu Confederation | Bantu |
+| Social conservative | Bantu Union | Bantu |
+| Authoritarian democrat | Federal State of Bantu Africa | Bantu |
+| Paternal autocrat | Bantu Empire | Bantu |
+| National populist | Greater Bantu State | Bantu |
+
+### Mughal Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Hindustani People's Republic | Hindustani |
+| Syndicalist | Union of Hindustani Communes | Hindustani |
+| Radical socialist | Hindustani Socialist Federation | Hindustani |
+| Social democrat | Federal Republic of Hindustan | Hindustani |
+| Social liberal | Hindustani Federation | Hindustani |
+| Market liberal | Hindustani Confederation | Hindustani |
+| Social conservative, Paternal autocrat, National populist | Mughal Empire | Mughal |
+| Authoritarian democrat | Mughal State | Mughal |
+
+### Akhand Bharat
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Union of Indian Socialist Republics | Indian |
+| Syndicalist | Federation of Indian Communes | Indian |
+| Radical socialist | Indian Socialist Federation | Indian |
+| Social democrat | Republic of India | Indian |
+| Social liberal | Federal Republic of India | Indian |
+| Market liberal | Indian Union | Indian |
+| Social conservative | Dominion of India | Indian |
+| Authoritarian democrat | Federation of India | Indian |
+| Paternal autocrat | Indian Empire | Indian |
+| National populist | Akhand Bharat | Indian |
+
+### Pala Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Bengali People's Republic | Bengali |
+| Syndicalist | Union of Bengali Communes | Bengali |
+| Radical socialist | Bengali Socialist Federation | Bengali |
+| Social democrat | Federal Republic of Bengal and Bihar | Bengali |
+| Social liberal | Bengali Federation | Bengali |
+| Market liberal | Bengali Confederation | Bengali |
+| Social conservative, Paternal autocrat, National populist | Pala Empire | Pala |
+| Authoritarian democrat | Pala State | Pala |
+
+### Bengal Sultanate
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Bengali People's Republic | Bengali |
+| Syndicalist | Union of Bengali Communes | Bengali |
+| Radical socialist | Bengali Socialist Federation | Bengali |
+| Social democrat | Federal Republic of Greater Bengal | Bengali |
+| Social liberal | Free State of Bengal | Bengali |
+| Market liberal | Bengali Confederation | Bengali |
+| Social conservative, Paternal autocrat, National populist | Bengal Sultanate | Bengali |
+| Authoritarian democrat | Bengali State | Bengali |
+
+### Chola Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Dravidian People's Republic | Dravidian |
+| Syndicalist | Union of Dravidian Communes | Dravidian |
+| Radical socialist | Dravidian Socialist Federation | Dravidian |
+| Social democrat | Federal Republic of Dravida Nadu | Dravidian |
+| Social liberal | Dravidian Federation | Dravidian |
+| Market liberal | Dravidian Confederation | Dravidian |
+| Social conservative, Paternal autocrat, National populist | Chola Empire | Chola |
+| Authoritarian democrat | Chola State | Chola |
+
+### Timurid Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Turkestani People's Republic | Turkestani |
+| Syndicalist | Union of Turkestani Communes | Turkestani |
+| Radical socialist | Turkestani Socialist Federation | Turkestani |
+| Social democrat | Federal Republic of Greater Turkestan | Turkestani |
+| Social liberal | Turkestani Federation | Turkestani |
+| Market liberal | Turkestani Confederation | Turkestani |
+| Social conservative, Paternal autocrat, National populist | Timurid Empire | Timurid |
+| Authoritarian democrat | Timurid State | Timurid |
+
+### Chagatai Khanate
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Central Asian People's Republic | Central Asian |
+| Syndicalist | Union of Central Asian Communes | Central Asian |
+| Radical socialist | Central Asian Socialist Federation | Central Asian |
+| Social democrat | Federal Republic of Moghulistan | Central Asian |
+| Social liberal | Central Asian Federation | Central Asian |
+| Market liberal | Central Asian Confederation | Central Asian |
+| Social conservative, Paternal autocrat, National populist | Chagatai Khanate | Chagatai |
+| Authoritarian democrat | Chagatai State | Chagatai |
+
+### Turkic Khaganate
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Pan-Turkic People's Republic | Pan-Turkic |
+| Syndicalist | Union of Pan-Turkic Communes | Pan-Turkic |
+| Radical socialist | Pan-Turkic Socialist Federation | Pan-Turkic |
+| Social democrat | Federal Republic of the Turkic Steppe | Pan-Turkic |
+| Social liberal | Pan-Turkic Federation | Pan-Turkic |
+| Market liberal | Pan-Turkic Confederation | Pan-Turkic |
+| Social conservative | Göktürk Khaganate | Göktürk |
+| Authoritarian democrat | Göktürk State | Göktürk |
+| Paternal autocrat, National populist | Turkic Khaganate | Göktürk |
+
+### Kyrgyz Khaganate
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Yenisei People's Republic | Yenisei |
+| Syndicalist | Union of Yenisei Communes | Yenisei |
+| Radical socialist | Yenisei Socialist Federation | Yenisei |
+| Social democrat | Federal Republic of the Yenisei | Yenisei |
+| Social liberal | Yenisei Federation | Yenisei |
+| Market liberal | Yenisei Confederation | Yenisei |
+| Social conservative, Paternal autocrat, National populist | Kyrgyz Khaganate | Kyrgyz |
+| Authoritarian democrat | Kyrgyz State | Kyrgyz |
+
+### Uyghur Khaganate
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Uyghur People's Republic | Uyghur |
+| Syndicalist | Union of Uyghur Communes | Uyghur |
+| Radical socialist | Uyghur Socialist Federation | Uyghur |
+| Social democrat | Federal Republic of Uyghuristan | Uyghur |
+| Social liberal | Uyghur Federation | Uyghur |
+| Market liberal | Uyghur Confederation | Uyghur |
+| Social conservative, Paternal autocrat | Uyghur Khaganate | Uyghur |
+| Authoritarian democrat | Uyghur State | Uyghur |
+| National populist | Greater Uyghuristan | Uyghur |
+
+### Xiongnu
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Mongolic People's Republic | Mongolic |
+| Syndicalist | Union of Mongolic Communes | Mongolic |
+| Radical socialist | Mongolic Socialist Federation | Mongolic |
+| Social democrat | Federal Republic of the Mongolic Steppe | Mongolic |
+| Social liberal | Mongolic Federation | Mongolic |
+| Market liberal | Mongolic Confederation | Mongolic |
+| Social conservative | Xiongnu | Xiongnu |
+| Authoritarian democrat | Xiongnu State | Xiongnu |
+| Paternal autocrat, National populist | Xiongnu Empire | Xiongnu |
+
+### Ilkhanate
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Iranian People's Republic | Iranian |
+| Syndicalist | Union of Iranian Communes | Iranian |
+| Radical socialist | Iranian Socialist Federation | Iranian |
+| Social democrat | Federal Republic of Iran and Mesopotamia | Iranian |
+| Social liberal | Iranian Federation | Iranian |
+| Market liberal | Iranian Confederation | Iranian |
+| Social conservative, Paternal autocrat, National populist | Ilkhanate | Ilkhanid |
+| Authoritarian democrat | Ilkhanid State | Ilkhanid |
+
+### Great Yuan
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Sino-Mongolian People's Republic | Sino-Mongolian |
+| Syndicalist | Union of Sino-Mongolian Communes | Sino-Mongolian |
+| Radical socialist | Sino-Mongolian Socialist Federation | Sino-Mongolian |
+| Social democrat | Federal Republic of China and Mongolia | Sino-Mongolian |
+| Social liberal | Sino-Mongolian Federation | Sino-Mongolian |
+| Market liberal | Sino-Mongolian Confederation | Sino-Mongolian |
+| Social conservative, Paternal autocrat, National populist | Great Yuan | Yuan |
+| Authoritarian democrat | Yuan State | Yuan |
+
+### Liao Dynasty
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Manchurian People's Republic | Manchurian |
+| Syndicalist | Union of Manchurian Communes | Manchurian |
+| Radical socialist | Manchurian Socialist Federation | Manchurian |
+| Social democrat | Federal Republic of Manchuria | Manchurian |
+| Social liberal | Manchurian Federation | Manchurian |
+| Market liberal | Manchurian Confederation | Manchurian |
+| Social conservative, Paternal autocrat, National populist | Liao Dynasty | Khitan |
+| Authoritarian democrat | Khitan State | Khitan |
+
+### Great Qing
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | People's Republic of China | Chinese |
+| Syndicalist | Federation of Chinese Communes | Chinese |
+| Radical socialist | Chinese Socialist Federation | Chinese |
+| Social democrat, Social liberal | Republic of China | Chinese |
+| Market liberal | United Provinces of China | Chinese |
+| Social conservative | Empire of China | Qing |
+| Authoritarian democrat | Qing State | Qing |
+| Paternal autocrat | Great Qing | Qing |
+| National populist | Qing Empire | Qing |
+
+### Great Ming
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Chinese Soviet Republic | Chinese |
+| Syndicalist | Chinese Federation of Communes | Chinese |
+| Radical socialist | Chinese Socialist Republic | Chinese |
+| Social democrat | Chinese Republic | Chinese |
+| Social liberal | Republic of China | Chinese |
+| Market liberal | Chinese Federation | Chinese |
+| Social conservative, Paternal autocrat | Great Ming | Ming |
+| Authoritarian democrat | Ming State | Ming |
+| National populist | Great Ming Empire | Ming |
+
+### Great Tang
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Greater Chinese People's Republic | Greater Chinese |
+| Syndicalist | Union of Greater Chinese Communes | Greater Chinese |
+| Radical socialist | Greater Chinese Socialist Federation | Greater Chinese |
+| Social democrat | Federal Republic of Greater China | Greater Chinese |
+| Social liberal | Greater Chinese Federation | Greater Chinese |
+| Market liberal | Greater Chinese Confederation | Greater Chinese |
+| Social conservative, Paternal autocrat | Great Tang | Tang |
+| Authoritarian democrat | Tang State | Tang |
+| National populist | Tang Empire | Tang |
+
+### Greater Tibet
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Tibetan People's Republic | Tibetan |
+| Syndicalist | Union of Tibetan Communes | Tibetan |
+| Radical socialist | Tibetan Socialist Republic | Tibetan |
+| Social democrat, Social liberal | Republic of Greater Tibet | Tibetan |
+| Market liberal, Social conservative, National populist | Greater Tibet | Tibetan |
+| Authoritarian democrat | Ganden Phodrang | Tibetan |
+| Paternal autocrat | Tibetan Empire | Tibetan |
+
+### Himalayan Federation
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Himalayan People's Republic | Himalayan |
+| Syndicalist | Union of Himalayan Communes | Himalayan |
+| Radical socialist | Himalayan Socialist Federation | Himalayan |
+| Social democrat | Himalayan Federation | Himalayan |
+| Social liberal | Federal Republic of the Himalayas | Himalayan |
+| Market liberal | Himalayan Confederation | Himalayan |
+| Social conservative | Himalayan Union | Himalayan |
+| Authoritarian democrat | Federal State of the Himalayas | Himalayan |
+| Paternal autocrat | Kingdom of the Himalayas | Himalayan |
+| National populist | Greater Himalayan State | Himalayan |
+
+### Druk Yul
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Bhutanese People's Republic | Bhutanese |
+| Syndicalist | Union of Bhutanese Communes | Bhutanese |
+| Radical socialist | Bhutanese Socialist Republic | Bhutanese |
+| Social democrat, Social liberal | Republic of Greater Bhutan | Bhutanese |
+| Market liberal | Greater Bhutan | Bhutanese |
+| Social conservative, National populist | Druk Yul | Bhutanese |
+| Authoritarian democrat | Greater Bhutanese State | Bhutanese |
+| Paternal autocrat | Druk Gyalkhap | Bhutanese |
+
+### Greater Korea
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Korean People's Republic | Korean |
+| Syndicalist | Union of Korean Communes | Korean |
+| Radical socialist | Korean Socialist Republic | Korean |
+| Social democrat, Social liberal | Republic of Greater Korea | Korean |
+| Market liberal, Social conservative, National populist | Greater Korea | Korean |
+| Authoritarian democrat | Greater Korean State | Korean |
+| Paternal autocrat | Korean Empire | Korean |
+
+### Unified Silla and Balhae
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Korean People's Republic | Korean |
+| Syndicalist | Union of Korean Communes | Korean |
+| Radical socialist | Korean Socialist Federation | Korean |
+| Social democrat, Social liberal | Korean Federation | Korean |
+| Market liberal | Korean Confederation | Korean |
+| Social conservative | Unified Silla and Balhae | Korean |
+| Authoritarian democrat | Korean Union | Korean |
+| Paternal autocrat | Kingdom of Silla and Balhae | Korean |
+| National populist | Korean State | Korean |
+
+### Goguryeo
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Korean People's Republic | Korean |
+| Syndicalist | Union of Korean Communes | Korean |
+| Radical socialist | Korean Socialist Federation | Korean |
+| Social democrat | Federal Republic of Goguryeo | Korean |
+| Social liberal | Korean Federation | Korean |
+| Market liberal | Korean Confederation | Korean |
+| Social conservative, National populist | Goguryeo | Goguryeo |
+| Authoritarian democrat | Goguryeo State | Goguryeo |
+| Paternal autocrat | Kingdom of Goguryeo | Goguryeo |
+
+### Greater Japan
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Japanese People's Republic | Japanese |
+| Syndicalist | Union of Japanese Communes | Japanese |
+| Radical socialist | Japanese Socialist Republic | Japanese |
+| Social democrat, Social liberal | Republic of Greater Japan | Japanese |
+| Market liberal | Greater Japan | Japanese |
+| Social conservative, Paternal autocrat | Empire of Greater Japan | Japanese |
+| Authoritarian democrat | Greater Japanese State | Japanese |
+| National populist | Greater Japanese Empire | Japanese |
+
+### Philippine Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Filipino People's Republic | Filipino |
+| Syndicalist | Union of Filipino Communes | Filipino |
+| Radical socialist | Socialist Republic of the Philippines | Filipino |
+| Social democrat | Republic of Maharlika | Filipino |
+| Social liberal | Republic of the Philippines | Filipino |
+| Market liberal | Federal Republic of the Philippines | Filipino |
+| Social conservative | Maharlika | Filipino |
+| Authoritarian democrat | Philippine Commonwealth | Filipino |
+| Paternal autocrat | Philippine Empire | Filipino |
+| National populist | Greater Maharlika | Filipino |
+
+### Srivijaya Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Sumatran-Malay People's Republic | Sumatran-Malay |
+| Syndicalist | Union of Sumatran-Malay Communes | Sumatran-Malay |
+| Radical socialist | Sumatran-Malay Socialist Federation | Sumatran-Malay |
+| Social democrat | Federal Republic of Sumatra and Malaya | Sumatran-Malay |
+| Social liberal | Sumatran-Malay Federation | Sumatran-Malay |
+| Market liberal | Sumatran-Malay Confederation | Sumatran-Malay |
+| Social conservative, Paternal autocrat, National populist | Srivijaya Empire | Srivijayan |
+| Authoritarian democrat | Srivijayan State | Srivijayan |
+
+### Khmer Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | People's Republic of Kampuchea | Cambodian |
+| Syndicalist | Union of Cambodian Communes | Cambodian |
+| Radical socialist | Cambodian Socialist Federation | Cambodian |
+| Social democrat | Federal Republic of Cambodia | Cambodian |
+| Social liberal | Cambodian Federation | Cambodian |
+| Market liberal | Cambodian Confederation | Cambodian |
+| Social conservative | Kingdom of Cambodia | Khmer |
+| Authoritarian democrat | Khmer Republic | Khmer |
+| Paternal autocrat | Khmer Empire | Khmer |
+| National populist | Greater Khmer State | Khmer |
+
+### Toungoo Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Burmese People's Republic | Burmese |
+| Syndicalist | Union of Burmese Communes | Burmese |
+| Radical socialist | Burmese Socialist Federation | Burmese |
+| Social democrat | Federal Republic of Burma | Burmese |
+| Social liberal | Burmese Federation | Burmese |
+| Market liberal | Burmese Confederation | Burmese |
+| Social conservative | Kingdom of Burma | Toungoo |
+| Authoritarian democrat | Toungoo State | Toungoo |
+| Paternal autocrat, National populist | Toungoo Empire | Toungoo |
+
+### Southeast Asia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Southeast Asian People's Republic | Southeast Asian |
+| Syndicalist | Union of Southeast Asian Communes | Southeast Asian |
+| Radical socialist | Southeast Asian Socialist Federation | Southeast Asian |
+| Social democrat | Southeast Asian Federation | Southeast Asian |
+| Social liberal | Federal Republic of Southeast Asia | Southeast Asian |
+| Market liberal | Association of Southeast Asian Nations | Southeast Asian |
+| Social conservative | Southeast Asian Union | Southeast Asian |
+| Authoritarian democrat | Federal State of Southeast Asia | Southeast Asian |
+| Paternal autocrat | Empire of Southeast Asia | Southeast Asian |
+| National populist | Greater Southeast Asian State | Southeast Asian |
+
+### Indochina
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Indochinese People's Republic | Indochinese |
+| Syndicalist | Union of Indochinese Communes | Indochinese |
+| Radical socialist | Indochinese Socialist Federation | Indochinese |
+| Social democrat | Indochinese Federation | Indochinese |
+| Social liberal | Federal Republic of Indochina | Indochinese |
+| Market liberal | Indochinese Confederation | Indochinese |
+| Social conservative | Indochinese Union | Indochinese |
+| Authoritarian democrat | Federal State of Indochina | Indochinese |
+| Paternal autocrat | Indochinese Empire | Indochinese |
+| National populist | Greater Indochinese State | Indochinese |
+
+### Central America
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Central American People's Republic | Central American |
+| Syndicalist | Union of Central American Communes | Central American |
+| Radical socialist | Central American Socialist Federation | Central American |
+| Social democrat, Social liberal | Federal Republic of Central America | Central American |
+| Market liberal | Central American Federation | Central American |
+| Social conservative | United Provinces of Central America | Central American |
+| Authoritarian democrat | Central American Republic | Central American |
+| Paternal autocrat | Captaincy General of Guatemala | Central American |
+| National populist | Greater Central American State | Central American |
+
+### Mexican Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Mexican People's Republic | Mexican |
+| Syndicalist | Union of Mexican Communes | Mexican |
+| Radical socialist | Mexican Socialist Federation | Mexican |
+| Social democrat | Federal Republic of Greater Mexico | Mexican |
+| Social liberal | Mexican Federation | Mexican |
+| Market liberal | Mexican Confederation | Mexican |
+| Social conservative, Paternal autocrat, National populist | Mexican Empire | Mexican |
+| Authoritarian democrat | Mexican State | Mexican |
+
+### Viceroyalty of New Spain
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Mesoamerican People's Republic | Mesoamerican |
+| Syndicalist | Union of Mesoamerican Communes | Mesoamerican |
+| Radical socialist | Mesoamerican Socialist Federation | Mesoamerican |
+| Social democrat | Federal Republic of Mesoamerica | Mesoamerican |
+| Social liberal | Mesoamerican Federation | Mesoamerican |
+| Market liberal | Mesoamerican Confederation | Mesoamerican |
+| Social conservative, Paternal autocrat | Viceroyalty of New Spain | Novohispanic |
+| Authoritarian democrat | Kingdom of New Spain | Novohispanic |
+| National populist | Greater Mexican State | Novohispanic |
+
+### Maya Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Mayan People's Republic | Mayan |
+| Syndicalist | Union of Mayan Communes | Mayan |
+| Radical socialist | Mayan Socialist Federation | Mayan |
+| Social democrat | Federal Republic of the Maya Lands | Mayan |
+| Social liberal | Mayan Federation | Mayan |
+| Market liberal | Mayan Confederation | Mayan |
+| Social conservative | Maya Confederation | Maya |
+| Authoritarian democrat | Maya State | Maya |
+| Paternal autocrat | Maya Empire | Maya |
+| National populist | Greater Maya State | Maya |
+
+### Caribbean
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Caribbean People's Republic | Caribbean |
+| Syndicalist | Union of Caribbean Communes | Caribbean |
+| Radical socialist | Caribbean Socialist Federation | Caribbean |
+| Social democrat | Caribbean Federation | Caribbean |
+| Social liberal | Federal Republic of the Caribbean | Caribbean |
+| Market liberal | Caribbean Confederation | Caribbean |
+| Social conservative | Antillean Confederation | Caribbean |
+| Authoritarian democrat | Federal State of the Caribbean | Caribbean |
+| Paternal autocrat | Kingdom of the Antilles | Caribbean |
+| National populist | Greater Antillean State | Caribbean |
+
+### Hispaniola
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Haitian-Dominican People's Republic | Haitian-Dominican |
+| Syndicalist | Union of Haitian-Dominican Communes | Haitian-Dominican |
+| Radical socialist | Haitian-Dominican Socialist Federation | Haitian-Dominican |
+| Social democrat, Social liberal | Republic of Hispaniola | Haitian-Dominican |
+| Market liberal | Haitian-Dominican Confederation | Haitian-Dominican |
+| Social conservative | Hispaniola | Haitian-Dominican |
+| Authoritarian democrat | Republic of Haiti | Haitian-Dominican |
+| Paternal autocrat | Empire of Haiti | Haitian-Dominican |
+| National populist | Haitian-Dominican State | Haitian-Dominican |
+
+### Republic of Pirates
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist, National populist | Brethren of the Coast | Pirate |
+| Syndicalist | Libertalia | Pirate |
+| Radical socialist | Free Republic of the Coast | Pirate |
+| Social democrat, Social liberal, Social conservative | Republic of Pirates | Pirate |
+| Market liberal | Free Port Republic | Pirate |
+| Authoritarian democrat | Pirate Republic | Pirate |
+| Paternal autocrat | Pirate Kingdom of Nassau | Pirate |
+
+### United Guyana
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Guianese People's Republic | Guianese |
+| Syndicalist | Union of Guianese Communes | Guianese |
+| Radical socialist | Guianese Socialist Federation | Guianese |
+| Social democrat | Guianese Federation | Guianese |
+| Social liberal | Federal Republic of the Guianas | Guianese |
+| Market liberal | Guianese Confederation | Guianese |
+| Social conservative | Guianese Union | Guianese |
+| Authoritarian democrat | Federal State of the Guianas | Guianese |
+| Paternal autocrat | Kingdom of Guiana | Guianese |
+| National populist | Greater Guianese State | Guianese |
+
+### Greater Brazil
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Brazilian People's Republic | Brazilian |
+| Syndicalist | Brazilian Commune | Brazilian |
+| Radical socialist | Brazilian Socialist Republic | Brazilian |
+| Social democrat, Social liberal | Republic of Greater Brazil | Brazilian |
+| Market liberal, National populist | Greater Brazil | Brazilian |
+| Social conservative | Empire of Brazil | Brazilian |
+| Authoritarian democrat | Greater Brazilian State | Brazilian |
+| Paternal autocrat | Empire of Greater Brazil | Brazilian |
+
+### Guaraní State
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Guaraní People's Republic | Guaraní |
+| Syndicalist | Union of Guaraní Communes | Guaraní |
+| Radical socialist | Guaraní Socialist Federation | Guaraní |
+| Social democrat | Guaraní Federation | Guaraní |
+| Social liberal | Republic of Paraguay and Misiones | Guaraní |
+| Market liberal | Guaraní Confederation | Guaraní |
+| Social conservative | Guaraní Union | Guaraní |
+| Authoritarian democrat | Guaraní State | Guaraní |
+| Paternal autocrat | Jesuit Guaraní Republic | Guaraní |
+| National populist | Greater Paraguayan State | Guaraní |
+
+### Muisca Confederation
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Chibchan People's Republic | Chibchan |
+| Syndicalist | Union of Chibchan Communes | Chibchan |
+| Radical socialist | Chibchan Socialist Federation | Chibchan |
+| Social democrat | Federal Republic of the Chibcha Lands | Chibchan |
+| Social liberal | Chibchan Federation | Chibchan |
+| Market liberal | Chibchan Confederation | Chibchan |
+| Social conservative, Paternal autocrat | Muisca Confederation | Muisca |
+| Authoritarian democrat | Muisca State | Muisca |
+| National populist | Chibchan State | Muisca |
+
+### Andean Federation
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Andean People's Republic | Andean |
+| Syndicalist | Union of Andean Communes | Andean |
+| Radical socialist | Andean Socialist Federation | Andean |
+| Social democrat | Andean Federation | Andean |
+| Social liberal | Federal Republic of the Andes | Andean |
+| Market liberal | Andean Community | Andean |
+| Social conservative | Andean Union | Andean |
+| Authoritarian democrat | Federal State of the Andes | Andean |
+| Paternal autocrat | Kingdom of the Andes | Andean |
+| National populist | Greater Andean State | Andean |
+
+### Chilean-Argentine Union
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Chilean-Argentine People's Republic | Chilean-Argentine |
+| Syndicalist | Union of Chilean-Argentine Communes | Chilean-Argentine |
+| Radical socialist | Chilean-Argentine Socialist Federation | Chilean-Argentine |
+| Social democrat, Social liberal | Chilean-Argentine Federation | Chilean-Argentine |
+| Market liberal | Chilean-Argentine Confederation | Chilean-Argentine |
+| Social conservative | United Provinces of the Southern Cone | Chilean-Argentine |
+| Authoritarian democrat | Chilean-Argentine Union | Chilean-Argentine |
+| Paternal autocrat | Kingdom of Araucanía and Patagonia | Chilean-Argentine |
+| National populist | Southern Cone State | Chilean-Argentine |
+
+### Greater Canada
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Canadian People's Republic | Canadian |
+| Syndicalist | Union of Canadian Communes | Canadian |
+| Radical socialist | Canadian Socialist Republic | Canadian |
+| Social democrat, Social liberal | Republic of Greater Canada | Canadian |
+| Market liberal, Social conservative, National populist | Greater Canada | Canadian |
+| Authoritarian democrat | Greater Canadian State | Canadian |
+| Paternal autocrat | Kingdom of Greater Canada | Canadian |
+
+### Greater United States
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | American People's Republic | American |
+| Syndicalist | Combined Syndicates of America | American |
+| Radical socialist | Socialist Commonwealth of America | American |
+| Social democrat, Social liberal, Market liberal, Social conservative | United States of America | American |
+| Authoritarian democrat | American Union State | American |
+| Paternal autocrat | American Empire | American |
+| National populist | American National State | American |
+
+### Anglosphere
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Union of English-Speaking Socialist Republics | Anglo-American |
+| Syndicalist | Combined Syndicates of the English-Speaking World | Anglo-American |
+| Radical socialist | Socialist Commonwealth of the English-Speaking Peoples | Anglo-American |
+| Social democrat | Anglo-American Union | Anglo-American |
+| Social liberal | Federation of the English-Speaking Peoples | Anglo-American |
+| Market liberal | Atlantic Union | Anglo-American |
+| Social conservative | Imperial Federation | Anglo-American |
+| Authoritarian democrat | Anglo-American Commonwealth | Anglo-American |
+| Paternal autocrat | Greater British Empire | Anglo-American |
+| National populist | Anglo-Saxon Union | Anglo-American |
+
+### Golden Circle
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Gulf People's Republic | Gulf |
+| Syndicalist | Union of Gulf Communes | Gulf |
+| Radical socialist | Gulf Socialist Federation | Gulf |
+| Social democrat | Gulf Federation | Gulf |
+| Social liberal | Federal Republic of the Gulf of Mexico | Gulf |
+| Market liberal | Gulf Confederation | Gulf |
+| Social conservative | Golden Circle Confederacy | Gulf |
+| Authoritarian democrat | Federal State of the Gulf of Mexico | Gulf |
+| Paternal autocrat | Empire of the Golden Circle | Gulf |
+| National populist | Golden Circle | Gulf |
+
+### Greater Australasia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Australasian People's Republic | Australasian |
+| Syndicalist | Union of Australasian Communes | Australasian |
+| Radical socialist | Australasian Socialist Federation | Australasian |
+| Social democrat | Australasian Federation | Australasian |
+| Social liberal | Federal Republic of Australasia | Australasian |
+| Market liberal | Australasian Confederation | Australasian |
+| Social conservative | Australasian Union | Australasian |
+| Authoritarian democrat | Federal State of Australasia | Australasian |
+| Paternal autocrat | Australasian Empire | Australasian |
+| National populist | Greater Australasian State | Australasian |
+
+### Melanesia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Melanesian People's Republic | Melanesian |
+| Syndicalist | Union of Melanesian Communes | Melanesian |
+| Radical socialist | Melanesian Socialist Federation | Melanesian |
+| Social democrat | Melanesian Federation | Melanesian |
+| Social liberal | Federal Republic of Melanesia | Melanesian |
+| Market liberal | Melanesian Confederation | Melanesian |
+| Social conservative | Melanesian Union | Melanesian |
+| Authoritarian democrat | Federal State of Melanesia | Melanesian |
+| Paternal autocrat | Kingdom of Melanesia | Melanesian |
+| National populist | Greater Melanesian State | Melanesian |
+
+### Polynesia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Polynesian People's Republic | Polynesian |
+| Syndicalist | Union of Polynesian Communes | Polynesian |
+| Radical socialist | Polynesian Socialist Federation | Polynesian |
+| Social democrat | Polynesian Federation | Polynesian |
+| Social liberal | Federal Republic of Polynesia | Polynesian |
+| Market liberal, Social conservative | Polynesian Confederation | Polynesian |
+| Authoritarian democrat | Federal State of Polynesia | Polynesian |
+| Paternal autocrat | Polynesian Kingdom | Polynesian |
+| National populist | Greater Polynesian State | Polynesian |
+
+### Pacific Union
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Pacific People's Republic | Pacific |
+| Syndicalist | Union of Pacific Communes | Pacific |
+| Radical socialist | Pacific Socialist Federation | Pacific |
+| Social democrat | Pacific Federation | Pacific |
+| Social liberal | Federal Republic of the Pacific | Pacific |
+| Market liberal | Pan-Pacific Union | Pacific |
+| Social conservative | Pacific Union | Pacific |
+| Authoritarian democrat | Federal State of the Pacific | Pacific |
+| Paternal autocrat | Pacific Empire | Pacific |
+| National populist | Greater Pacific State | Pacific |
+
+### Oceania
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Union of Oceanian Socialist Republics | Oceanian |
+| Syndicalist | Federation of Oceanian Communes | Oceanian |
+| Radical socialist | Socialist Union of Oceania | Oceanian |
+| Social democrat | United States of Oceania | Oceanian |
+| Social liberal | Oceanian Federation | Oceanian |
+| Market liberal | Oceanian Union | Oceanian |
+| Social conservative | Oceanian Confederation | Oceanian |
+| Authoritarian democrat | Federal State of Oceania | Oceanian |
+| Paternal autocrat | Empire of Oceania | Oceanian |
+| National populist | Oceanian Imperium | Oceanian |
+
+### Asian Union
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Union of Asian Socialist Republics | Asian |
+| Syndicalist | Federation of Asian Communes | Asian |
+| Radical socialist | Socialist Union of Asia | Asian |
+| Social democrat | United States of Asia | Asian |
+| Social liberal | Asian Federation | Asian |
+| Market liberal | Asian Union | Asian |
+| Social conservative | Asian Confederation | Asian |
+| Authoritarian democrat | Federal State of Asia | Asian |
+| Paternal autocrat | Empire of Asia | Asian |
+| National populist | Asian Imperium | Asian |
+
+### Eurasia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Union of Eurasian Socialist Republics | Eurasian |
+| Syndicalist | Federation of Eurasian Communes | Eurasian |
+| Radical socialist | Socialist Union of Eurasia | Eurasian |
+| Social democrat | United States of Eurasia | Eurasian |
+| Social liberal | Eurasian Federation | Eurasian |
+| Market liberal | Eurasian Union | Eurasian |
+| Social conservative | Eurasian Confederation | Eurasian |
+| Authoritarian democrat | Federal State of Eurasia | Eurasian |
+| Paternal autocrat | Empire of Eurasia | Eurasian |
+| National populist | Eurasian Imperium | Eurasian |
+
+### Afro-Eurasia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Union of Afro-Eurasian Socialist Republics | Afro-Eurasian |
+| Syndicalist | Federation of Afro-Eurasian Communes | Afro-Eurasian |
+| Radical socialist | Socialist Union of the Old World | Afro-Eurasian |
+| Social democrat | United States of the Old World | Afro-Eurasian |
+| Social liberal | Afro-Eurasian Federation | Afro-Eurasian |
+| Market liberal | Afro-Eurasian Union | Afro-Eurasian |
+| Social conservative | Afro-Eurasian Confederation | Afro-Eurasian |
+| Authoritarian democrat | Federal State of the Old World | Afro-Eurasian |
+| Paternal autocrat | Empire of the Old World | Afro-Eurasian |
+| National populist | Afro-Eurasian Imperium | Afro-Eurasian |
+
+### Americas
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Union of Pan-American Socialist Republics | Pan-American |
+| Syndicalist | Federation of Pan-American Communes | Pan-American |
+| Radical socialist | Socialist Union of the Americas | Pan-American |
+| Social democrat | United States of the Americas | Pan-American |
+| Social liberal | Pan-American Federation | Pan-American |
+| Market liberal | Pan-American Union | Pan-American |
+| Social conservative | Pan-American Confederation | Pan-American |
+| Authoritarian democrat | Federal State of the Americas | Pan-American |
+| Paternal autocrat | Empire of the Americas | Pan-American |
+| National populist | Pan-American Imperium | Pan-American |
+
+### Hispanic America
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Union of Latin American Socialist Republics | Hispanic American |
+| Syndicalist | Federation of Latin American Communes | Hispanic American |
+| Radical socialist | Latin American Socialist Federation | Hispanic American |
+| Social democrat | Hispanic American Federation | Hispanic American |
+| Social liberal | Federal Republic of Hispanic America | Hispanic American |
+| Market liberal | Hispanic American Confederation | Hispanic American |
+| Social conservative | Hispanic American Union | Hispanic American |
+| Authoritarian democrat | Federal State of Hispanic America | Hispanic American |
+| Paternal autocrat | Empire of the Indies | Hispanic American |
+| National populist | Greater Hispanic State | Hispanic American |
+
+### World State
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | World Socialist Republic | Global |
+| Syndicalist | Socialist Workers Union of the World | Global |
+| Radical socialist | World Socialist Federation | Global |
+| Social democrat | World Federation | Global |
+| Social liberal | Federation of the Earth | Global |
+| Market liberal | World Republic | Global |
+| Social conservative | Commonwealth of Nations | Global |
+| Authoritarian democrat | World State | Global |
+| Paternal autocrat | Universal Empire | Global |
+| National populist | World Imperium | Global |

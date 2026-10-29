@@ -65,6 +65,10 @@ def main(krx):
         for m in re.finditer(r'^\s*STATE_(\d+):\d*\s*"([^"]*)"', read(path), re.M):
             krx_state_loc.setdefault(int(m.group(1)), m.group(2))
 
+    krx_set_cosmetics = set()
+    for path in glob.glob(os.path.join(krx, 'common', '**', '*.txt'), recursive=True) + glob.glob(os.path.join(krx, 'events', '*.txt')):
+        krx_set_cosmetics |= set(re.findall(r'set_cosmetic_tag\s*=\s*([A-Za-z0-9_]+)', read(path)))
+
     print(f'Kaiserredux: {len(tags)} tags, {len(states)} states, ideologies: {", ".join(sorted(ideologies))}')
 
     ours = set(IDEOLOGIES)
@@ -144,7 +148,7 @@ def main(krx):
             if not os.path.isfile(os.path.join(MOD, 'gfx', 'flags', folder, cos + '.tga')):
                 errors.append(f'missing flag gfx/flags/{folder + "/" if folder else ""}{cos}.tga')
         for c in f['hide_cosmetics']:
-            if not any(k == c or k.startswith(c + '_') for k in krx_loc):
+            if c not in krx_set_cosmetics and not any(k == c or k.startswith(c + '_') for k in krx_loc):
                 warnings.append(f'{f["id"]}: Kaiserredux cosmetic tag {c} not found in its localisation (renamed?)')
         for t in f['hide_tags']:
             if t not in tags:

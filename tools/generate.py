@@ -30,7 +30,11 @@ ARTICLE_NOUNS = {
     'republic', 'republics', 'union', 'federation', 'confederation', 'commonwealth', 'kingdom', 'kingdoms',
     'empire', 'state', 'states', 'commune', 'communes', 'councils', 'provinces', 'sultanate', 'khanate',
     'realm', 'crown', 'monarchy', 'tsardom', 'principate', 'imperium', 'community', 'ayllus', 'fatherland',
-    'syndicates', 'domains', 'duchy',
+    'syndicates', 'domains', 'duchy', 'caliphate', 'emirate', 'khaganate', 'imamate', 'order', 'league', 'horde',
+    'dynasty', 'host', 'hosts', 'circle', 'confederacy', 'viceroyalty', 'captaincy', 'consulate', 'dominion',
+    'association', 'brethren', 'ulus', 'phodrang', 'anglosphere', 'ilkhanate', 'xiongnu', 'qoyunlu', 'qing',
+    'ming', 'tang', 'yuan', 'kibbutzim', 'east', 'principality', 'khedivate', 'crowns', 'isles', 'netherlands',
+    'congo', 'americas', 'caribbean', 'levant', 'sahel', 'solution', 'maghreb',
 }
 
 
@@ -210,8 +214,10 @@ def gen_decisions(F, names):
             out.append(f'\t\t\tNOT = {{ has_cosmetic_tag = {c} }}\n')
         out.append(f'\t\t\t{PREFIX}_eligible_{fid} = yes\n\t\t}}\n\n\t\tavailable = {{\n'
                    f'\t\t\t{PREFIX}_can_form_nation = yes\n')
+        # "direct" formables must be ruled outright, not through puppets
+        held = 'is_owned_and_controlled_by = ROOT' if f.get('direct') else f'{PREFIX}_held_by_ROOT = yes'
         for s in f['required']:
-            out.append(f'\t\t\t{s} = {{ {PREFIX}_held_by_ROOT = yes }} # {ascii_comment(names.get(str(s), "?"))}\n')
+            out.append(f'\t\t\t{s} = {{ {held} }} # {ascii_comment(names.get(str(s), "?"))}\n')
         out.append(f'''\t\t}}
 
 \t\tcomplete_effect = {{
@@ -494,6 +500,30 @@ def draw_flag(spec, socialist=False):
         r = H * 0.32
         d.ellipse([W / 2 - r, H / 2 - r, W / 2 + r, H / 2 + r], outline=spec['ring'], width=round(H * 0.06))
         star(spec['ring'], r=H * 0.12)
+    elif k == 'vstripes':
+        vstripes(spec['colors'])
+    elif k == 'hstripes_star':
+        hstripes(spec['colors'])
+        star(spec['star'], r=H * 0.22)
+    elif k == 'diagonal':
+        d.polygon([(0, 0), (W, 0), (0, H)], fill=spec['colors'][0])
+        d.polygon([(W, 0), (W, H), (0, H)], fill=spec['colors'][1])
+    elif k == 'quartered':
+        a, b = spec['colors']
+        for x, y in [(0, 0), (1, 0), (0, 1), (1, 1)]:
+            d.rectangle([x * W / 2, y * H / 2, (x + 1) * W / 2, (y + 1) * H / 2], fill=a if (x + y) % 2 == 0 else b)
+    elif k == 'canton':
+        d.rectangle([0, 0, W, H], fill=spec['field'])
+        d.rectangle([0, 0, W * 0.4, H / 2], fill=spec['canton'])
+        if spec.get('star'):
+            star(spec['star'], r=H * 0.14, cx=W * 0.2, cy=H / 4)
+    elif k == 'cross_saltire':
+        d.rectangle([0, 0, W, H], fill=spec['field'])
+        d.line([0, 0, W, H], fill=spec['saltire'], width=round(H * 0.18))
+        d.line([0, H, W, 0], fill=spec['saltire'], width=round(H * 0.18))
+        t = H * 0.2
+        d.rectangle([W / 2 - t / 2, 0, W / 2 + t / 2, H], fill=spec['cross'])
+        d.rectangle([0, H / 2 - t / 2, W, H / 2 + t / 2], fill=spec['cross'])
     else:
         raise ValueError('unknown flag kind ' + k)
 
@@ -527,9 +557,11 @@ def gen_flags(F):
 
 def gen_thumbnail(masters):
     from PIL import Image
-    cols, fw, fh, gap = 6, 76, 48, 8
+    size, gap = 512, 3
+    cols = math.ceil(math.sqrt(len(masters) * 1.2))
+    fw = (size - 16 - (cols - 1) * gap) // cols
+    fh = fw * 52 // 82
     rows = math.ceil(len(masters) / cols)
-    size = 512
     img = Image.new('RGB', (size, size), (24, 22, 20))
     grid_w = cols * fw + (cols - 1) * gap
     grid_h = rows * fh + (rows - 1) * gap
@@ -561,6 +593,8 @@ def gen_docs(F, names):
         else:
             who = 'Any nation with its capital in ' + ' / '.join(continents(f)).replace('_', ' ')
         required = ', '.join(f'{names.get(str(s), "?")} ({s})' for s in f['required'])
+        if f.get('direct'):
+            required += ' (owned directly, not through subjects)'
         territory = f'{len(f["region"])} states' if f['region'] else 'whole continent'
         hidden = ', '.join(f'`{c}`' for c in f['hide_cosmetics'] + [f'tag {t}' for t in f['hide_tags']]) or '-'
         title = f['title'][4:] if f['title'].startswith('the ') else f['title']
