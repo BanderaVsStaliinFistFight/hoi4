@@ -1,0 +1,1202 @@
+{
+ "ABK": [
+  "ABK"
+ ],
+ "ADU": [
+  "ADL"
+ ],
+ "AFA": [],
+ "AFG": [
+  "AFG"
+ ],
+ "ALB": [
+  "ALB"
+ ],
+ "ALG": [
+  "ALG"
+ ],
+ "ALT": [
+  "ALT"
+ ],
+ "ANG": [
+  "ANG"
+ ],
+ "ANU": [],
+ "AOI": [
+  "ETH"
+ ],
+ "ARG": [
+  "ARG"
+ ],
+ "ARM": [
+  "ARM"
+ ],
+ "AST": [
+  "AST"
+ ],
+ "ASY": [
+  "ASY"
+ ],
+ "ATJ": [],
+ "AUS": [
+  "AUS"
+ ],
+ "AZR": [
+  "AZE"
+ ],
+ "BAH": [],
+ "BAN": [
+  "BHC",
+  "INR"
+ ],
+ "BAR": [
+  "BRT"
+ ],
+ "BAS": [
+  "CAF"
+ ],
+ "BAY": [
+  "BAY"
+ ],
+ "BEG": [],
+ "BEL": [
+  "BEL",
+  "FLN",
+  "WLL"
+ ],
+ "BHR": [],
+ "BHU": [
+  "BHU"
+ ],
+ "BIA": [],
+ "BLC": [],
+ "BLI": [],
+ "BLR": [
+  "WHR"
+ ],
+ "BLZ": [],
+ "BOL": [
+  "BOL"
+ ],
+ "BOS": [
+  "BOS"
+ ],
+ "BOT": [
+  "BOT"
+ ],
+ "BOU": [],
+ "BRA": [
+  "BRA",
+  "SPO",
+  "GOY",
+  "AMA",
+  "GRP",
+  "PIR",
+  "BAH"
+ ],
+ "BRD": [
+  "BRD"
+ ],
+ "BRI": [
+  "BRI"
+ ],
+ "BRM": [
+  "BRM"
+ ],
+ "BRN": [
+  "SAR"
+ ],
+ "BSK": [
+  "BKN"
+ ],
+ "BUK": [
+  "UZB"
+ ],
+ "BUL": [
+  "BUL"
+ ],
+ "BYA": [
+  "BRY"
+ ],
+ "CAM": [
+  "CAM"
+ ],
+ "CAN": [
+  "CAN"
+ ],
+ "CAR": [
+  "CEA"
+ ],
+ "CAT": [
+  "CAT"
+ ],
+ "CAY": [],
+ "CBV": [
+  "CVG"
+ ],
+ "CHA": [
+  "WAD"
+ ],
+ "CHI": [
+  "CHI",
+  "QIE",
+  "LEP",
+  "LEC",
+  "SQI",
+  "SZC",
+  "HNN",
+  "ANQ",
+  "FNG"
+ ],
+ "CHL": [
+  "CHL"
+ ],
+ "CHM": [
+  "VIN"
+ ],
+ "CHR": [
+  "CHR"
+ ],
+ "CHU": [],
+ "CIN": [],
+ "CIP": [],
+ "CKK": [],
+ "CMR": [
+  "CMR"
+ ],
+ "COG": [
+  "COG"
+ ],
+ "COL": [
+  "COL"
+ ],
+ "COR": [],
+ "COS": [
+  "COS"
+ ],
+ "CPS": [
+  "LAO"
+ ],
+ "CRC": [],
+ "CRI": [
+  "CRM"
+ ],
+ "CRO": [
+  "CRO"
+ ],
+ "CSA": [
+  "CSA",
+  "TEX",
+  "CAL",
+  "COR",
+  "FSA"
+ ],
+ "CUB": [
+  "CUB"
+ ],
+ "CYP": [
+  "CYP"
+ ],
+ "CZE": [
+  "CZE"
+ ],
+ "D01": [
+  "D01"
+ ],
+ "D02": [
+  "D02"
+ ],
+ "D03": [
+  "D03"
+ ],
+ "D04": [
+  "D04"
+ ],
+ "D05": [
+  "D05"
+ ],
+ "D06": [
+  "D06"
+ ],
+ "D07": [
+  "D07"
+ ],
+ "D08": [
+  "D08"
+ ],
+ "D09": [
+  "D09"
+ ],
+ "D10": [
+  "D10"
+ ],
+ "D11": [
+  "D11"
+ ],
+ "D12": [
+  "D12"
+ ],
+ "D13": [
+  "D13"
+ ],
+ "D14": [
+  "D14"
+ ],
+ "D15": [
+  "D15"
+ ],
+ "D16": [
+  "D16"
+ ],
+ "D17": [
+  "D17"
+ ],
+ "D18": [
+  "D18"
+ ],
+ "D19": [
+  "D19"
+ ],
+ "D20": [
+  "D20"
+ ],
+ "D21": [
+  "D21"
+ ],
+ "D22": [
+  "D22"
+ ],
+ "D23": [
+  "D23"
+ ],
+ "D24": [
+  "D24"
+ ],
+ "D25": [
+  "D25"
+ ],
+ "D26": [
+  "D26"
+ ],
+ "D27": [
+  "D27"
+ ],
+ "D28": [
+  "D28"
+ ],
+ "D29": [
+  "D29"
+ ],
+ "D30": [
+  "D30"
+ ],
+ "D31": [
+  "D31"
+ ],
+ "D32": [
+  "D32"
+ ],
+ "D33": [
+  "D33"
+ ],
+ "D34": [
+  "D34"
+ ],
+ "D35": [
+  "D35"
+ ],
+ "D36": [
+  "D36"
+ ],
+ "D37": [
+  "D37"
+ ],
+ "D38": [
+  "D38"
+ ],
+ "D39": [
+  "D39"
+ ],
+ "D40": [
+  "D40"
+ ],
+ "D41": [
+  "D41"
+ ],
+ "D42": [
+  "D42"
+ ],
+ "D43": [
+  "D43"
+ ],
+ "D44": [
+  "D44"
+ ],
+ "D45": [
+  "D45"
+ ],
+ "D46": [
+  "D46"
+ ],
+ "D47": [
+  "D47"
+ ],
+ "D48": [
+  "D48"
+ ],
+ "D49": [
+  "D49"
+ ],
+ "D50": [
+  "D50"
+ ],
+ "D51": [
+  "D51"
+ ],
+ "D52": [
+  "D52"
+ ],
+ "D53": [
+  "D53"
+ ],
+ "D54": [
+  "D54"
+ ],
+ "D55": [
+  "D55"
+ ],
+ "D56": [
+  "D56"
+ ],
+ "D57": [
+  "D57"
+ ],
+ "D58": [
+  "D58"
+ ],
+ "D59": [
+  "D59"
+ ],
+ "D60": [
+  "D60"
+ ],
+ "D61": [
+  "D61"
+ ],
+ "D62": [
+  "D62"
+ ],
+ "D63": [
+  "D63"
+ ],
+ "D64": [
+  "D64"
+ ],
+ "D65": [
+  "D65"
+ ],
+ "D66": [
+  "D66"
+ ],
+ "D67": [
+  "D67"
+ ],
+ "D68": [
+  "D68"
+ ],
+ "D69": [
+  "D69"
+ ],
+ "D70": [
+  "D70"
+ ],
+ "D71": [
+  "D71"
+ ],
+ "D72": [
+  "D72"
+ ],
+ "D73": [
+  "D73"
+ ],
+ "D74": [
+  "D74"
+ ],
+ "D75": [
+  "D75"
+ ],
+ "DAG": [
+  "DAG"
+ ],
+ "DAH": [
+  "DAH"
+ ],
+ "DDR": [
+  "DDR"
+ ],
+ "DEN": [
+  "DEN"
+ ],
+ "DIP": [],
+ "DJI": [
+  "DJI"
+ ],
+ "DNZ": [],
+ "DOM": [
+  "DOM"
+ ],
+ "DON": [
+  "DKB"
+ ],
+ "ECU": [
+  "ECU"
+ ],
+ "EGY": [
+  "EGY"
+ ],
+ "ELS": [
+  "ELS"
+ ],
+ "ENG": [
+  "ENG",
+  "GBR",
+  "GBP"
+ ],
+ "EQG": [
+  "EQG"
+ ],
+ "ERI": [
+  "ERI"
+ ],
+ "EST": [
+  "EST"
+ ],
+ "ETH": [
+  "ETH"
+ ],
+ "EVE": [],
+ "EZO": [],
+ "FAR": [],
+ "FER": [
+  "TRB"
+ ],
+ "FIJ": [],
+ "FIN": [
+  "FIN"
+ ],
+ "FOR": [
+  "TAI"
+ ],
+ "FRA": [
+  "FRA",
+  "NFA",
+  "FRP"
+ ],
+ "FSA": [
+  "YEM"
+ ],
+ "FSM": [],
+ "GAB": [
+  "GAB"
+ ],
+ "GAL": [
+  "GAL"
+ ],
+ "GAM": [
+  "SEN"
+ ],
+ "GAR": [
+  "PAR"
+ ],
+ "GBA": [],
+ "GDC": [
+  "GXC",
+  "PRC"
+ ],
+ "GDL": [],
+ "GEN": [
+  "KRK"
+ ],
+ "GEO": [
+  "GEO"
+ ],
+ "GER": [
+  "GER",
+  "GRU"
+ ],
+ "GHA": [
+  "GHA"
+ ],
+ "GLC": [
+  "GLC"
+ ],
+ "GNA": [
+  "GNA"
+ ],
+ "GNB": [
+  "CVG"
+ ],
+ "GOW": [],
+ "GRE": [
+  "GRE",
+  "GRR"
+ ],
+ "GRN": [],
+ "GSM": [],
+ "GUA": [
+  "GUA"
+ ],
+ "GUM": [],
+ "GXC": [
+  "GXC"
+ ],
+ "GYA": [
+  "GYA"
+ ],
+ "HAI": [
+  "HAI"
+ ],
+ "HAN": [
+  "NGF"
+ ],
+ "HAR": [],
+ "HAW": [
+  "HAW"
+ ],
+ "HBC": [
+  "QIE"
+ ],
+ "HES": [],
+ "HOL": [
+  "HOL"
+ ],
+ "HON": [
+  "HON"
+ ],
+ "HRZ": [
+  "BOS"
+ ],
+ "HUN": [
+  "HUN"
+ ],
+ "HYD": [
+  "PRF"
+ ],
+ "IAS": [],
+ "ICE": [
+  "ICE"
+ ],
+ "IMO": [
+  "OMA"
+ ],
+ "INC": [
+  "INC"
+ ],
+ "INS": [
+  "INS",
+  "DEI"
+ ],
+ "INU": [
+  "ALA"
+ ],
+ "IRE": [
+  "IRE"
+ ],
+ "IRQ": [
+  "IRQ"
+ ],
+ "ISR": [
+  "PAL"
+ ],
+ "ITA": [
+  "ITA",
+  "SRI",
+  "SRD",
+  "PAP"
+ ],
+ "ITZ": [],
+ "IVO": [
+  "IVO"
+ ],
+ "JAM": [
+  "JAM"
+ ],
+ "JAN": [
+  "CHR",
+  "JMN"
+ ],
+ "JAP": [
+  "JAP"
+ ],
+ "JOR": [],
+ "KAL": [
+  "KLY"
+ ],
+ "KAR": [
+  "KAR"
+ ],
+ "KAS": [],
+ "KAT": [
+  "UMN"
+ ],
+ "KAZ": [
+  "ALO"
+ ],
+ "KBK": [],
+ "KEN": [
+  "KEN"
+ ],
+ "KHA": [
+  "KHA"
+ ],
+ "KHI": [
+  "KHI"
+ ],
+ "KHL": [],
+ "KHM": [],
+ "KKP": [],
+ "KLT": [],
+ "KOL": [
+  "PRF"
+ ],
+ "KOM": [],
+ "KOR": [
+  "KOR"
+ ],
+ "KOS": [],
+ "KSH": [],
+ "KUB": [
+  "KUB"
+ ],
+ "KUM": [
+  "TAN"
+ ],
+ "KUR": [
+  "KUR"
+ ],
+ "KUW": [],
+ "KYR": [
+  "KYR"
+ ],
+ "LAO": [
+  "LAO"
+ ],
+ "LAT": [
+  "LAT",
+  "BAT"
+ ],
+ "LBA": [
+  "LBA"
+ ],
+ "LBV": [
+  "VNC"
+ ],
+ "LEB": [
+  "LEB"
+ ],
+ "LIB": [
+  "LIB"
+ ],
+ "LIT": [
+  "LIT"
+ ],
+ "LUX": [
+  "LUX"
+ ],
+ "MAC": [
+  "MCD"
+ ],
+ "MAD": [
+  "MAG"
+ ],
+ "MAL": [
+  "MLY"
+ ],
+ "MAN": [
+  "MAN",
+  "FNG"
+ ],
+ "MAY": [],
+ "MEK": [],
+ "MEL": [],
+ "MEN": [],
+ "MEX": [
+  "MEX",
+  "YUC",
+  "RJM"
+ ],
+ "MIS": [
+  "CEN",
+  "NIC"
+ ],
+ "MLD": [],
+ "MLI": [
+  "MAL"
+ ],
+ "MLT": [
+  "MLT"
+ ],
+ "MLW": [
+  "MLW"
+ ],
+ "MNT": [
+  "MNT"
+ ],
+ "MOL": [
+  "MOL"
+ ],
+ "MON": [
+  "MON"
+ ],
+ "MOR": [
+  "MOR"
+ ],
+ "MPU": [],
+ "MRT": [
+  "MRT"
+ ],
+ "MYS": [
+  "MYS"
+ ],
+ "MZB": [
+  "MZB"
+ ],
+ "NAH": [
+  "ELS"
+ ],
+ "NAV": [
+  "BAS"
+ ],
+ "NEN": [],
+ "NEP": [
+  "NEP"
+ ],
+ "NGA": [
+  "NGR"
+ ],
+ "NGR": [
+  "NER"
+ ],
+ "NIC": [
+  "NIC"
+ ],
+ "NIR": [
+  "ULS"
+ ],
+ "NMB": [
+  "NMB"
+ ],
+ "NOA": [
+  "MTR"
+ ],
+ "NOR": [
+  "NOR"
+ ],
+ "NWF": [],
+ "NXM": [],
+ "NZL": [
+  "NZL"
+ ],
+ "OCC": [
+  "OCC"
+ ],
+ "OKN": [],
+ "OMA": [
+  "OMA"
+ ],
+ "ORO": [],
+ "OVO": [],
+ "PAK": [],
+ "PAL": [
+  "PAL"
+ ],
+ "PAN": [
+  "PAN"
+ ],
+ "PAP": [
+  "PAP"
+ ],
+ "PAR": [
+  "PAR"
+ ],
+ "PER": [
+  "PER"
+ ],
+ "PHI": [
+  "PHI"
+ ],
+ "PLU": [],
+ "PNG": [
+  "PNG"
+ ],
+ "POK": [],
+ "POL": [
+  "POL"
+ ],
+ "POR": [
+  "POR"
+ ],
+ "PRC": [
+  "LEP",
+  "LEC"
+ ],
+ "PRE": [
+  "DDR",
+  "EPR"
+ ],
+ "PRU": [
+  "PRU"
+ ],
+ "PSH": [
+  "ALG",
+  "FAR",
+  "NFA"
+ ],
+ "PSR": [
+  "PHI"
+ ],
+ "PUE": [
+  "PRI"
+ ],
+ "QAT": [],
+ "QEM": [],
+ "QUE": [
+  "QUE"
+ ],
+ "RAA": [
+  "PNG"
+ ],
+ "RAJ": [
+  "DEH",
+  "PGI",
+  "BHC",
+  "PRF",
+  "MAD",
+  "INR"
+ ],
+ "RAN": [],
+ "RAP": [],
+ "RAR": [
+  "IRQ"
+ ],
+ "RAS": [
+  "TRV"
+ ],
+ "RCG": [
+  "TKE",
+  "KOG"
+ ],
+ "RCO": [],
+ "RGB": [
+  "ENG",
+  "GBP",
+  "GBR"
+ ],
+ "RHD": [
+  "DEH",
+  "PGI"
+ ],
+ "RHI": [
+  "WGR"
+ ],
+ "RIF": [
+  "RIF"
+ ],
+ "RIG": [],
+ "RJP": [],
+ "RKA": [
+  "MAF",
+  "TZN",
+  "ZZB"
+ ],
+ "RKB": [
+  "BEL",
+  "FLN"
+ ],
+ "RKC": [
+  "CRO"
+ ],
+ "RKG": [
+  "NOR"
+ ],
+ "RKH": [
+  "CZE"
+ ],
+ "RKI": [
+  "SPR"
+ ],
+ "RKK": [
+  "GEO"
+ ],
+ "RKL": [],
+ "RKM": [],
+ "RKN": [
+  "HOL"
+ ],
+ "RKO": [
+  "BAT",
+  "LAT"
+ ],
+ "RKT": [],
+ "RKU": [
+  "UKR"
+ ],
+ "RKV": [
+  "VEN"
+ ],
+ "RNA": [
+  "TUN"
+ ],
+ "RNG": [
+  "LEC"
+ ],
+ "ROA": [],
+ "ROM": [
+  "ROM"
+ ],
+ "RUS": [
+  "RUS"
+ ],
+ "RUT": [
+  "CPU"
+ ],
+ "RWA": [
+  "RWA"
+ ],
+ "SAB": [],
+ "SAF": [
+  "SAF"
+ ],
+ "SAM": [],
+ "SAR": [
+  "SAR"
+ ],
+ "SAU": [
+  "SAU"
+ ],
+ "SAX": [],
+ "SCO": [
+  "SCT"
+ ],
+ "SDL": [
+  "PGU"
+ ],
+ "SEN": [
+  "SEN"
+ ],
+ "SER": [
+  "SER"
+ ],
+ "SHL": [],
+ "SHX": [
+  "SHX"
+ ],
+ "SIA": [
+  "SIA"
+ ],
+ "SIC": [
+  "SZC"
+ ],
+ "SID": [],
+ "SIE": [
+  "SIE"
+ ],
+ "SIK": [
+  "SIK"
+ ],
+ "SIL": [],
+ "SIN": [],
+ "SKK": [
+  "SKM"
+ ],
+ "SLO": [
+  "SVK"
+ ],
+ "SLV": [
+  "SLO"
+ ],
+ "SMI": [
+  "SAM"
+ ],
+ "SND": [
+  "SQI"
+ ],
+ "SNG": [],
+ "SOK": [
+  "HAU"
+ ],
+ "SOL": [],
+ "SOM": [
+  "SOM"
+ ],
+ "SOV": [
+  "RUS",
+  "WRA",
+  "RVA",
+  "RRF",
+  "SIB"
+ ],
+ "SPA": [
+  "CAR",
+  "CNT"
+ ],
+ "SPM": [
+  "SRI",
+  "SRD"
+ ],
+ "SPR": [
+  "SPR",
+  "CAR",
+  "CNT"
+ ],
+ "SRL": [
+  "CEY"
+ ],
+ "SSI": [],
+ "SUD": [
+  "SUD"
+ ],
+ "SUR": [
+  "SUR"
+ ],
+ "SWE": [
+  "SWE"
+ ],
+ "SWI": [
+  "SWI"
+ ],
+ "SYR": [
+  "SYR"
+ ],
+ "TAH": [],
+ "TAJ": [
+  "TAJ"
+ ],
+ "TAN": [],
+ "TAT": [
+  "TTR"
+ ],
+ "TAY": [],
+ "THU": [],
+ "TIB": [
+  "TIB"
+ ],
+ "TIG": [],
+ "TML": [],
+ "TMS": [],
+ "TNE": [],
+ "TOG": [
+  "TOG"
+ ],
+ "TOS": [
+  "TUS"
+ ],
+ "TRA": [
+  "TRS"
+ ],
+ "TRI": [
+  "TRI"
+ ],
+ "TTS": [
+  "SIC"
+ ],
+ "TUN": [
+  "TUN"
+ ],
+ "TUR": [
+  "TUR"
+ ],
+ "TZN": [
+  "TZN"
+ ],
+ "UAE": [
+  "TRU"
+ ],
+ "UBD": [
+  "BAT",
+  "LAT"
+ ],
+ "UDM": [],
+ "UGA": [
+  "UGA"
+ ],
+ "UKR": [
+  "UKR"
+ ],
+ "URG": [
+  "URG"
+ ],
+ "USA": [
+  "USA",
+  "CSA",
+  "TEX",
+  "CAL",
+  "NEE",
+  "COR",
+  "FSA"
+ ],
+ "USB": [
+  "BDN",
+  "ENC",
+  "USA",
+  "WCC"
+ ],
+ "UZB": [
+  "UZB"
+ ],
+ "VAN": [],
+ "VEN": [
+  "VEN"
+ ],
+ "VGE": [],
+ "VIN": [
+  "VIN"
+ ],
+ "VLA": [
+  "TRM"
+ ],
+ "VOL": [
+  "BFA"
+ ],
+ "WES": [],
+ "WGR": [
+  "WGR"
+ ],
+ "WIS": [],
+ "WLA": [
+  "FOP"
+ ],
+ "WLS": [
+  "WAL"
+ ],
+ "WPG": [
+  "PNG"
+ ],
+ "WUR": [],
+ "XIC": [],
+ "XSM": [
+  "XSM"
+ ],
+ "YAK": [
+  "YAK"
+ ],
+ "YAM": [],
+ "YEM": [
+  "YEM"
+ ],
+ "YUC": [
+  "YUC"
+ ],
+ "YUG": [
+  "SER"
+ ],
+ "YUN": [
+  "YUN"
+ ],
+ "ZAM": [
+  "ZAM"
+ ],
+ "ZIM": [
+  "ZIM"
+ ]
+}

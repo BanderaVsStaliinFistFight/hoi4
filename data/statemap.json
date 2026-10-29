@@ -1,0 +1,11671 @@
+{
+ "states": {
+  "1": {
+   "name": "France",
+   "to": [
+    1
+   ],
+   "capital": 1,
+   "krx_names": [
+    "Corsica"
+   ]
+  },
+  "2": {
+   "name": "Italy",
+   "to": [
+    2,
+    764,
+    1149
+   ],
+   "capital": 2,
+   "krx_names": [
+    "Latium",
+    "Viterbo",
+    "Anzio"
+   ]
+  },
+  "3": {
+   "name": "Swiss Plateau",
+   "to": [
+    3
+   ],
+   "capital": 3,
+   "krx_names": [
+    "Swiss Plateau"
+   ]
+  },
+  "4": {
+   "name": "Austria",
+   "to": [
+    4,
+    1137
+   ],
+   "capital": 1137,
+   "krx_names": [
+    "Lower Austria",
+    "Vienna"
+   ]
+  },
+  "5": {
+   "name": "Germany",
+   "to": [
+    777
+   ],
+   "capital": 777,
+   "krx_names": [
+    "Masuria"
+   ]
+  },
+  "6": {
+   "name": "Belgium",
+   "to": [
+    6
+   ],
+   "capital": 6,
+   "krx_names": [
+    "Flanders"
+   ]
+  },
+  "7": {
+   "name": "Holland",
+   "to": [
+    7
+   ],
+   "capital": 7,
+   "krx_names": [
+    "Holland"
+   ]
+  },
+  "8": {
+   "name": "Luxemburg",
+   "to": [
+    8
+   ],
+   "capital": 8,
+   "krx_names": [
+    "Luxemburg"
+   ]
+  },
+  "9": {
+   "name": "Czechoslovakia",
+   "to": [
+    9,
+    1129,
+    1130,
+    1134,
+    1138
+   ],
+   "capital": 1129,
+   "krx_names": [
+    "Bohemia",
+    "Prague",
+    "Pilsen",
+    "Hradec Kralove",
+    "Northeast Sudetenland"
+   ]
+  },
+  "10": {
+   "name": "Poland",
+   "to": [
+    10
+   ],
+   "capital": 10,
+   "krx_names": [
+    "Warsaw"
+   ]
+  },
+  "11": {
+   "name": "Kaunas",
+   "to": [
+    11
+   ],
+   "capital": 11,
+   "krx_names": [
+    "Kovno"
+   ]
+  },
+  "12": {
+   "name": "Latvia",
+   "to": [
+    12
+   ],
+   "capital": 12,
+   "krx_names": [
+    "Livonia"
+   ]
+  },
+  "13": {
+   "name": "Estonia",
+   "to": [
+    191
+   ],
+   "capital": 191,
+   "krx_names": [
+    "Northern Livonia"
+   ]
+  },
+  "14": {
+   "name": "Brittany",
+   "to": [
+    14,
+    983
+   ],
+   "capital": 983,
+   "krx_names": [
+    "Upper Brittany",
+    "Brittany"
+   ]
+  },
+  "15": {
+   "name": "Normandy",
+   "to": [
+    15
+   ],
+   "capital": 15,
+   "krx_names": [
+    "Normandy"
+   ]
+  },
+  "16": {
+   "name": "Ile de France",
+   "to": [
+    16
+   ],
+   "capital": 16,
+   "krx_names": [
+    "Isle of France"
+   ]
+  },
+  "17": {
+   "name": "Alcase Lorraine",
+   "to": [
+    779
+   ],
+   "capital": 779,
+   "krx_names": [
+    "Nancy"
+   ]
+  },
+  "18": {
+   "name": "Champagne",
+   "to": [
+    18,
+    785
+   ],
+   "capital": 785,
+   "krx_names": [
+    "Champagne",
+    "Lorraine Plateau"
+   ]
+  },
+  "19": {
+   "name": "Aquitaine",
+   "to": [
+    19
+   ],
+   "capital": 19,
+   "krx_names": [
+    "Aquitaine"
+   ]
+  },
+  "20": {
+   "name": "Franche-comte",
+   "to": [
+    20,
+    32
+   ],
+   "capital": 20,
+   "krx_names": [
+    "Lyonnais",
+    "Rhone"
+   ]
+  },
+  "21": {
+   "name": "Bouches-du-Rhone",
+   "to": [
+    21
+   ],
+   "capital": 21,
+   "krx_names": [
+    "Provence"
+   ]
+  },
+  "22": {
+   "name": "Roussillion",
+   "to": [
+    22
+   ],
+   "capital": 22,
+   "krx_names": [
+    "Languedoc"
+   ]
+  },
+  "23": {
+   "name": "Poitou",
+   "to": [
+    23
+   ],
+   "capital": 23,
+   "krx_names": [
+    "Poitou"
+   ]
+  },
+  "24": {
+   "name": "Centre",
+   "to": [
+    33
+   ],
+   "capital": 33,
+   "krx_names": [
+    "Loire Plains"
+   ]
+  },
+  "25": {
+   "name": "Limousin",
+   "to": [
+    25
+   ],
+   "capital": 25,
+   "krx_names": [
+    "Limousin"
+   ]
+  },
+  "26": {
+   "name": "Bourgogne",
+   "to": [
+    26
+   ],
+   "capital": 26,
+   "krx_names": [
+    "Auvergne"
+   ]
+  },
+  "27": {
+   "name": "Champagne2",
+   "to": [
+    27
+   ],
+   "capital": 27,
+   "krx_names": [
+    "Burgundy"
+   ]
+  },
+  "28": {
+   "name": "Alcase",
+   "to": [
+    28
+   ],
+   "capital": 28,
+   "krx_names": [
+    "Alsace-Lorraine"
+   ]
+  },
+  "29": {
+   "name": "Pas de Calais",
+   "to": [
+    17,
+    29,
+    980
+   ],
+   "capital": 980,
+   "krx_names": [
+    "Pas-de-Calais",
+    "Maritime Flanders",
+    "French Hainaut"
+   ]
+  },
+  "30": {
+   "name": "Loire",
+   "to": [
+    30
+   ],
+   "capital": 30,
+   "krx_names": [
+    "Loire"
+   ]
+  },
+  "31": {
+   "name": "Midi Pyrenees",
+   "to": [
+    31,
+    817,
+    984
+   ],
+   "capital": 31,
+   "krx_names": [
+    "Garrone",
+    "Roussilon",
+    "Pyrenees"
+   ]
+  },
+  "32": {
+   "name": "Rhone Alpes",
+   "to": [
+    763
+   ],
+   "capital": 763,
+   "krx_names": [
+    "Alpes"
+   ]
+  },
+  "33": {
+   "name": "Centre sud",
+   "to": [
+    25
+   ],
+   "capital": 25,
+   "krx_names": [
+    "Limousin"
+   ]
+  },
+  "34": {
+   "name": "Wallonie",
+   "to": [
+    34
+   ],
+   "capital": 34,
+   "krx_names": [
+    "Wallonia"
+   ]
+  },
+  "35": {
+   "name": "Gelderland",
+   "to": [
+    35,
+    978,
+    979
+   ],
+   "capital": 35,
+   "krx_names": [
+    "Brabant",
+    "Limburg",
+    "Westerscheldt"
+   ]
+  },
+  "36": {
+   "name": "Friesland",
+   "to": [
+    36,
+    866
+   ],
+   "capital": 866,
+   "krx_names": [
+    "Frisia",
+    "Guelders"
+   ]
+  },
+  "37": {
+   "name": "Denmark",
+   "to": [
+    37
+   ],
+   "capital": 37,
+   "krx_names": [
+    "Zealand"
+   ]
+  },
+  "38": {
+   "name": "Sweden",
+   "to": [
+    38
+   ],
+   "capital": 38,
+   "krx_names": [
+    "Norrland"
+   ]
+  },
+  "39": {
+   "name": "South Tyrol",
+   "to": [
+    39
+   ],
+   "capital": 39,
+   "krx_names": [
+    "Southern Tyrol"
+   ]
+  },
+  "40": {
+   "name": "USSR",
+   "to": [
+    40,
+    1292
+   ],
+   "capital": 40,
+   "krx_names": [
+    "Barnaul",
+    "Biysk"
+   ]
+  },
+  "41": {
+   "name": "Madrid",
+   "to": [
+    41,
+    1342
+   ],
+   "capital": 41,
+   "krx_names": [
+    "Madrid",
+    "Toledo"
+   ]
+  },
+  "42": {
+   "name": "Rhineland",
+   "to": [
+    42
+   ],
+   "capital": 42,
+   "krx_names": [
+    "Palatinate"
+   ]
+  },
+  "43": {
+   "name": "Hungary",
+   "to": [
+    43,
+    1109
+   ],
+   "capital": 43,
+   "krx_names": [
+    "Northern Hungary",
+    "Northern Hungary"
+   ]
+  },
+  "44": {
+   "name": "Albania",
+   "to": [
+    44
+   ],
+   "capital": 44,
+   "krx_names": [
+    "Scutari"
+   ]
+  },
+  "45": {
+   "name": "Yugoslavia",
+   "to": [
+    45
+   ],
+   "capital": 45,
+   "krx_names": [
+    "Vojvodina"
+   ]
+  },
+  "46": {
+   "name": "Romania",
+   "to": [
+    46
+   ],
+   "capital": 46,
+   "krx_names": [
+    "Muntenia"
+   ]
+  },
+  "47": {
+   "name": "Greece",
+   "to": [
+    47,
+    768
+   ],
+   "capital": 47,
+   "krx_names": [
+    "Central Greece",
+    "Thessaly"
+   ]
+  },
+  "48": {
+   "name": "Bulgaria",
+   "to": [
+    48,
+    1090
+   ],
+   "capital": 48,
+   "krx_names": [
+    "Sofia",
+    "Vidin"
+   ]
+  },
+  "49": {
+   "name": "Turkey",
+   "to": [
+    49
+   ],
+   "capital": 49,
+   "krx_names": [
+    "Ankara"
+   ]
+  },
+  "50": {
+   "name": "Baden",
+   "to": [
+    50
+   ],
+   "capital": 50,
+   "krx_names": [
+    "Wurttemberg"
+   ]
+  },
+  "51": {
+   "name": "Moselland",
+   "to": [
+    51,
+    781
+   ],
+   "capital": 51,
+   "krx_names": [
+    "Eastern Rhineland",
+    "Western Rhineland"
+   ]
+  },
+  "52": {
+   "name": "Wuttemberg",
+   "to": [
+    52
+   ],
+   "capital": 52,
+   "krx_names": [
+    "Upper Bavaria"
+   ]
+  },
+  "53": {
+   "name": "Oberbayern",
+   "to": [
+    53
+   ],
+   "capital": 53,
+   "krx_names": [
+    "Lower Bavaria"
+   ]
+  },
+  "54": {
+   "name": "Bayreuth",
+   "to": [
+    54
+   ],
+   "capital": 54,
+   "krx_names": [
+    "Franconia"
+   ]
+  },
+  "55": {
+   "name": "Nassau",
+   "to": [
+    55
+   ],
+   "capital": 55,
+   "krx_names": [
+    "Hesse"
+   ]
+  },
+  "56": {
+   "name": "Weser-Ems",
+   "to": [
+    56
+   ],
+   "capital": 56,
+   "krx_names": [
+    "Oldenburg"
+   ]
+  },
+  "57": {
+   "name": "Westfalen",
+   "to": [
+    57
+   ],
+   "capital": 57,
+   "krx_names": [
+    "Westphalia"
+   ]
+  },
+  "58": {
+   "name": "Schleswig - Holstein",
+   "to": [
+    58
+   ],
+   "capital": 58,
+   "krx_names": [
+    "Holstein"
+   ]
+  },
+  "59": {
+   "name": "Ost - Hannover",
+   "to": [
+    59
+   ],
+   "capital": 59,
+   "krx_names": [
+    "Hanover"
+   ]
+  },
+  "60": {
+   "name": "Sud-Hannover",
+   "to": [
+    60
+   ],
+   "capital": 60,
+   "krx_names": [
+    "Thuringia"
+   ]
+  },
+  "61": {
+   "name": "Mecklenburg",
+   "to": [
+    61
+   ],
+   "capital": 61,
+   "krx_names": [
+    "Mecklenburg"
+   ]
+  },
+  "62": {
+   "name": "Pommern",
+   "to": [
+    62
+   ],
+   "capital": 62,
+   "krx_names": [
+    "Hither Pomerania"
+   ]
+  },
+  "63": {
+   "name": "WestPrussen",
+   "to": [
+    63,
+    1357
+   ],
+   "capital": 1357,
+   "krx_names": [
+    "Farther Pomerania",
+    "Szczecin"
+   ]
+  },
+  "64": {
+   "name": "Brandenburg",
+   "to": [
+    64
+   ],
+   "capital": 64,
+   "krx_names": [
+    "Brandenburg"
+   ]
+  },
+  "65": {
+   "name": "Sachsen",
+   "to": [
+    65
+   ],
+   "capital": 65,
+   "krx_names": [
+    "Saxony"
+   ]
+  },
+  "66": {
+   "name": "Niederschlesien",
+   "to": [
+    66
+   ],
+   "capital": 66,
+   "krx_names": [
+    "Lower Silesia"
+   ]
+  },
+  "67": {
+   "name": "Oberschlesien",
+   "to": [
+    67
+   ],
+   "capital": 67,
+   "krx_names": [
+    "Upper Silesia"
+   ]
+  },
+  "68": {
+   "name": "Wartheland",
+   "to": [
+    68
+   ],
+   "capital": 68,
+   "krx_names": [
+    "Neumark"
+   ]
+  },
+  "69": {
+   "name": "Sudatenland",
+   "to": [
+    69,
+    1133,
+    1139
+   ],
+   "capital": 69,
+   "krx_names": [
+    "German Bohemia",
+    "Karlovy Vary",
+    "West Pilsen"
+   ]
+  },
+  "70": {
+   "name": "Slovakia",
+   "to": [
+    70,
+    664,
+    1123,
+    1135
+   ],
+   "capital": 1123,
+   "krx_names": [
+    "Pressburg",
+    "Gomor & Kishont",
+    "Pressburg",
+    "Trnava"
+   ]
+  },
+  "71": {
+   "name": "East Slovakia",
+   "to": [
+    1120,
+    1121
+   ],
+   "capital": 1121,
+   "krx_names": [
+    "Zilina",
+    "Presov"
+   ]
+  },
+  "72": {
+   "name": "Zaolzie",
+   "to": [
+    1131
+   ],
+   "capital": 1131,
+   "krx_names": [
+    "Bohemian Silesia"
+   ]
+  },
+  "73": {
+   "name": "Carpathian Ruthenia",
+   "to": [
+    73,
+    1119
+   ],
+   "capital": 1119,
+   "krx_names": [
+    "Maramaros",
+    "Ung"
+   ]
+  },
+  "74": {
+   "name": "East Sudatenland",
+   "to": [
+    74
+   ],
+   "capital": 74,
+   "krx_names": [
+    "German Moravia"
+   ]
+  },
+  "75": {
+   "name": "Moravia",
+   "to": [
+    75,
+    1132
+   ],
+   "capital": 75,
+   "krx_names": [
+    "Moravia",
+    "Vysocina"
+   ]
+  },
+  "76": {
+   "name": "Northern Transylvania",
+   "to": [
+    76,
+    789,
+    1112,
+    1117,
+    1118
+   ],
+   "capital": 1118,
+   "krx_names": [
+    "Northern Transylvania",
+    "Szeklerland",
+    "Kolozs",
+    "Szatmar",
+    "Bihar"
+   ]
+  },
+  "77": {
+   "name": "Dobrogea",
+   "to": [
+    77
+   ],
+   "capital": 77,
+   "krx_names": [
+    "Silistria"
+   ]
+  },
+  "78": {
+   "name": "Bessarabia",
+   "to": [
+    78,
+    1320
+   ],
+   "capital": 78,
+   "krx_names": [
+    "Bessarabia",
+    "Hotin"
+   ]
+  },
+  "79": {
+   "name": "moldovia",
+   "to": [
+    79,
+    713
+   ],
+   "capital": 79,
+   "krx_names": [
+    "Moldavia",
+    "Suceava"
+   ]
+  },
+  "80": {
+   "name": "Bocovina",
+   "to": [
+    80
+   ],
+   "capital": 80,
+   "krx_names": [
+    "Cernauti"
+   ]
+  },
+  "81": {
+   "name": "Oltenia",
+   "to": [
+    81
+   ],
+   "capital": 81,
+   "krx_names": [
+    "Oltenia"
+   ]
+  },
+  "82": {
+   "name": "Banat",
+   "to": [
+    82,
+    1114
+   ],
+   "capital": 1114,
+   "krx_names": [
+    "Banat",
+    "Temes"
+   ]
+  },
+  "83": {
+   "name": "crisana",
+   "to": [
+    83
+   ],
+   "capital": 83,
+   "krx_names": [
+    "Korosvidek"
+   ]
+  },
+  "84": {
+   "name": "Transylvania",
+   "to": [
+    84,
+    1113,
+    1115,
+    1116
+   ],
+   "capital": 1116,
+   "krx_names": [
+    "Transylvania",
+    "Hunyad",
+    "Torda-Aranyos",
+    "Brasso"
+   ]
+  },
+  "85": {
+   "name": "Danzig",
+   "to": [
+    776
+   ],
+   "capital": 776,
+   "krx_names": [
+    "West Prussia"
+   ]
+  },
+  "86": {
+   "name": "Poznan",
+   "to": [
+    86
+   ],
+   "capital": 86,
+   "krx_names": [
+    "Posen"
+   ]
+  },
+  "87": {
+   "name": "Lodz",
+   "to": [
+    87
+   ],
+   "capital": 87,
+   "krx_names": [
+    "Kalisz"
+   ]
+  },
+  "88": {
+   "name": "Kielce",
+   "to": [
+    88,
+    1124,
+    1125,
+    1314,
+    1319,
+    1366
+   ],
+   "capital": 1124,
+   "krx_names": [
+    "Krakow",
+    "Krakow",
+    "Rzeszow",
+    "Lemkivshchyna",
+    "East Lemkivshchyna",
+    "Tarnow"
+   ]
+  },
+  "89": {
+   "name": "Krakow",
+   "to": [
+    89,
+    1126
+   ],
+   "capital": 89,
+   "krx_names": [
+    "Stanislau",
+    "Sambor"
+   ]
+  },
+  "90": {
+   "name": "Lwow",
+   "to": [
+    90
+   ],
+   "capital": 90,
+   "krx_names": [
+    "Kielce"
+   ]
+  },
+  "91": {
+   "name": "Tarnopol",
+   "to": [
+    91,
+    1127,
+    1140
+   ],
+   "capital": 91,
+   "krx_names": [
+    "Lemberg",
+    "Belz",
+    "Tarnopol"
+   ]
+  },
+  "92": {
+   "name": "Lublin",
+   "to": [
+    92,
+    1088
+   ],
+   "capital": 92,
+   "krx_names": [
+    "Lublin",
+    "Chelm"
+   ]
+  },
+  "93": {
+   "name": "Volhynian",
+   "to": [
+    792,
+    1228
+   ],
+   "capital": 1228,
+   "krx_names": [
+    "Volhynia",
+    "Rivne"
+   ]
+  },
+  "94": {
+   "name": "Polesie",
+   "to": [
+    93,
+    95,
+    997
+   ],
+   "capital": 93,
+   "krx_names": [
+    "Brest",
+    "Pinsk",
+    "Polesia"
+   ]
+  },
+  "95": {
+   "name": "Nowogrodek",
+   "to": [
+    94,
+    1295
+   ],
+   "capital": 1295,
+   "krx_names": [
+    "Wolkowysk",
+    "Navahradak"
+   ]
+  },
+  "96": {
+   "name": "Wilejka",
+   "to": [
+    207
+   ],
+   "capital": 207,
+   "krx_names": [
+    "Braslaw"
+   ]
+  },
+  "97": {
+   "name": "Bialystok",
+   "to": [
+    97,
+    1148,
+    1329
+   ],
+   "capital": 97,
+   "krx_names": [
+    "Belostok",
+    "Lomza",
+    "Suwalki"
+   ]
+  },
+  "98": {
+   "name": "Mazurskie",
+   "to": [
+    98
+   ],
+   "capital": 98,
+   "krx_names": [
+    "Plock"
+   ]
+  },
+  "99": {
+   "name": "Jutland",
+   "to": [
+    99
+   ],
+   "capital": 99,
+   "krx_names": [
+    "Jutland"
+   ]
+  },
+  "100": {
+   "name": "Iceland",
+   "to": [
+    100
+   ],
+   "capital": 100,
+   "krx_names": [
+    "Iceland"
+   ]
+  },
+  "101": {
+   "name": "Greenland",
+   "to": [
+    101,
+    926
+   ],
+   "capital": 101,
+   "krx_names": [
+    "Coastal Greenland",
+    "Humboldt Glacier"
+   ]
+  },
+  "102": {
+   "name": "North-Eastern Slovenia",
+   "to": [
+    102,
+    1104,
+    1111,
+    1272
+   ],
+   "capital": 1272,
+   "krx_names": [
+    "Carniola",
+    "Drava",
+    "West Zala",
+    "Maribor"
+   ]
+  },
+  "103": {
+   "name": "Croatia",
+   "to": [
+    103,
+    163,
+    1098,
+    1099,
+    1105,
+    1206
+   ],
+   "capital": 1098,
+   "krx_names": [
+    "Lika",
+    "Split",
+    "Dubrovnik",
+    "Karlovac",
+    "Gorski Kotar",
+    "Fiume"
+   ]
+  },
+  "104": {
+   "name": "Bosnia",
+   "to": [
+    104,
+    1141,
+    1142,
+    1143
+   ],
+   "capital": 104,
+   "krx_names": [
+    "Podrinje",
+    "Semberija",
+    "Krajina",
+    "Tropojie"
+   ]
+  },
+  "105": {
+   "name": "Montenegro",
+   "to": [
+    105,
+    1097,
+    1270
+   ],
+   "capital": 105,
+   "krx_names": [
+    "Montenegro",
+    "Northern Region",
+    "Herceg Novi"
+   ]
+  },
+  "106": {
+   "name": "Macedonia",
+   "to": [
+    106
+   ],
+   "capital": 106,
+   "krx_names": [
+    "Macedonia"
+   ]
+  },
+  "107": {
+   "name": "Kosavo",
+   "to": [
+    107
+   ],
+   "capital": 107,
+   "krx_names": [
+    "Belgrade"
+   ]
+  },
+  "108": {
+   "name": "Eastern Serbia",
+   "to": [
+    108,
+    767,
+    1269
+   ],
+   "capital": 767,
+   "krx_names": [
+    "Moravia",
+    "Nis",
+    "Prijepolje"
+   ]
+  },
+  "109": {
+   "name": "Eastern Croatia",
+   "to": [
+    109,
+    794,
+    1102,
+    1128
+   ],
+   "capital": 109,
+   "krx_names": [
+    "Posavina",
+    "Syrmia",
+    "Slavonia",
+    "East Syrmia"
+   ]
+  },
+  "110": {
+   "name": "Norway",
+   "to": [
+    110
+   ],
+   "capital": 110,
+   "krx_names": [
+    "Ostlandet"
+   ]
+  },
+  "111": {
+   "name": "Uusima",
+   "to": [
+    840
+   ],
+   "capital": 840,
+   "krx_names": [
+    "Nyland"
+   ]
+  },
+  "112": {
+   "name": "Lisbon",
+   "to": [
+    112
+   ],
+   "capital": 112,
+   "krx_names": [
+    "Lisbon"
+   ]
+  },
+  "113": {
+   "name": "Ireland",
+   "to": [
+    113
+   ],
+   "capital": 113,
+   "krx_names": [
+    "Leinster"
+   ]
+  },
+  "114": {
+   "name": "Sardinia",
+   "to": [
+    114,
+    1002
+   ],
+   "capital": 114,
+   "krx_names": [
+    "Sardinia",
+    "Sassari"
+   ]
+  },
+  "115": {
+   "name": "Sicily",
+   "to": [
+    115
+   ],
+   "capital": 115,
+   "krx_names": [
+    "Sicily"
+   ]
+  },
+  "116": {
+   "name": "Malta",
+   "to": [
+    116
+   ],
+   "capital": 116,
+   "krx_names": [
+    "Malta"
+   ]
+  },
+  "117": {
+   "name": "Napoli",
+   "to": [
+    117,
+    1006
+   ],
+   "capital": 117,
+   "krx_names": [
+    "Campania",
+    "Basilicata"
+   ]
+  },
+  "118": {
+   "name": "Gibralter",
+   "to": [
+    118
+   ],
+   "capital": 118,
+   "krx_names": [
+    "Gibraltar"
+   ]
+  },
+  "119": {
+   "name": "Northern Ireland",
+   "to": [
+    119
+   ],
+   "capital": 119,
+   "krx_names": [
+    "Ulster"
+   ]
+  },
+  "120": {
+   "name": "Scottish Highlands",
+   "to": [
+    120
+   ],
+   "capital": 120,
+   "krx_names": [
+    "Scottish Highlands"
+   ]
+  },
+  "121": {
+   "name": "Scottish Lowlands",
+   "to": [
+    121
+   ],
+   "capital": 121,
+   "krx_names": [
+    "Lothian"
+   ]
+  },
+  "122": {
+   "name": "Wales",
+   "to": [
+    122,
+    1225
+   ],
+   "capital": 122,
+   "krx_names": [
+    "Wales",
+    "North Wales"
+   ]
+  },
+  "123": {
+   "name": "Cornwall",
+   "to": [
+    123
+   ],
+   "capital": 123,
+   "krx_names": [
+    "Cornwall"
+   ]
+  },
+  "124": {
+   "name": "Gotland",
+   "to": [
+    124
+   ],
+   "capital": 124,
+   "krx_names": [
+    "Gotland"
+   ]
+  },
+  "125": {
+   "name": "East Anglia",
+   "to": [
+    125
+   ],
+   "capital": 125,
+   "krx_names": [
+    "East Anglia"
+   ]
+  },
+  "126": {
+   "name": "Greater London Area",
+   "to": [
+    126
+   ],
+   "capital": 126,
+   "krx_names": [
+    "Greater London Area"
+   ]
+  },
+  "127": {
+   "name": "South-east England",
+   "to": [
+    127
+   ],
+   "capital": 127,
+   "krx_names": [
+    "Sussex"
+   ]
+  },
+  "128": {
+   "name": "West Midlands",
+   "to": [
+    128
+   ],
+   "capital": 128,
+   "krx_names": [
+    "West Midlands"
+   ]
+  },
+  "129": {
+   "name": "East Midlands",
+   "to": [
+    129
+   ],
+   "capital": 129,
+   "krx_names": [
+    "East Midlands"
+   ]
+  },
+  "130": {
+   "name": "Yorkshire",
+   "to": [
+    130
+   ],
+   "capital": 130,
+   "krx_names": [
+    "Yorkshire"
+   ]
+  },
+  "131": {
+   "name": "Northern England",
+   "to": [
+    131
+   ],
+   "capital": 131,
+   "krx_names": [
+    "Northern England"
+   ]
+  },
+  "132": {
+   "name": "North-west England",
+   "to": [
+    132
+   ],
+   "capital": 132,
+   "krx_names": [
+    "Lacanshire"
+   ]
+  },
+  "133": {
+   "name": "Strathclyde",
+   "to": [
+    133
+   ],
+   "capital": 133,
+   "krx_names": [
+    "Lanark"
+   ]
+  },
+  "134": {
+   "name": "Connaught",
+   "to": [
+    134
+   ],
+   "capital": 134,
+   "krx_names": [
+    "Connacht"
+   ]
+  },
+  "135": {
+   "name": "Munster",
+   "to": [
+    135
+   ],
+   "capital": 135,
+   "krx_names": [
+    "Munster"
+   ]
+  },
+  "136": {
+   "name": "Aberdeenshire",
+   "to": [
+    136
+   ],
+   "capital": 136,
+   "krx_names": [
+    "Aberdeenshire"
+   ]
+  },
+  "137": {
+   "name": "Crimea",
+   "to": [
+    137,
+    1220,
+    1221
+   ],
+   "capital": 1221,
+   "krx_names": [
+    "Crimea",
+    "Perekop",
+    "Sevastopol"
+   ]
+  },
+  "138": {
+   "name": "Skane",
+   "to": [
+    138
+   ],
+   "capital": 138,
+   "krx_names": [
+    "Skaneland"
+   ]
+  },
+  "139": {
+   "name": "Smaland",
+   "to": [
+    139
+   ],
+   "capital": 139,
+   "krx_names": [
+    "Smaland"
+   ]
+  },
+  "140": {
+   "name": "Vaster Gotland",
+   "to": [
+    140
+   ],
+   "capital": 140,
+   "krx_names": [
+    "Vastergotland"
+   ]
+  },
+  "141": {
+   "name": "Sodermanland",
+   "to": [
+    141
+   ],
+   "capital": 141,
+   "krx_names": [
+    "Svealand"
+   ]
+  },
+  "142": {
+   "name": "Vestlandet",
+   "to": [
+    142
+   ],
+   "capital": 142,
+   "krx_names": [
+    "Vestlandet"
+   ]
+  },
+  "143": {
+   "name": "Midt-Noreg",
+   "to": [
+    143
+   ],
+   "capital": 143,
+   "krx_names": [
+    "Trondelag"
+   ]
+  },
+  "144": {
+   "name": "Nord-Noreg",
+   "to": [
+    144
+   ],
+   "capital": 144,
+   "krx_names": [
+    "Nordland & Troms"
+   ]
+  },
+  "145": {
+   "name": "Aland",
+   "to": [
+    145
+   ],
+   "capital": 145,
+   "krx_names": [
+    "Aland"
+   ]
+  },
+  "146": {
+   "name": "Karelia",
+   "to": [
+    146,
+    1324,
+    1325,
+    1327
+   ],
+   "capital": 1325,
+   "krx_names": [
+    "Karelia",
+    "Rajvola",
+    "Viipuri",
+    "Olonets"
+   ]
+  },
+  "147": {
+   "name": "Salla",
+   "to": [
+    147
+   ],
+   "capital": 147,
+   "krx_names": [
+    "Kuolajarvi"
+   ]
+  },
+  "148": {
+   "name": "Lappi",
+   "to": [
+    148,
+    844
+   ],
+   "capital": 148,
+   "krx_names": [
+    "Lapland",
+    "Inari"
+   ]
+  },
+  "149": {
+   "name": "Vaasa",
+   "to": [
+    149
+   ],
+   "capital": 149,
+   "krx_names": [
+    "Ostrobothnia"
+   ]
+  },
+  "150": {
+   "name": "Kuopio",
+   "to": [
+    864,
+    865
+   ],
+   "capital": 864,
+   "krx_names": [
+    "Savo",
+    "Western Karelia"
+   ]
+  },
+  "151": {
+   "name": "Eastern Swiss Alps",
+   "to": [
+    151
+   ],
+   "capital": 151,
+   "krx_names": [
+    "Eastern Switzerland"
+   ]
+  },
+  "152": {
+   "name": "Upper Austria",
+   "to": [
+    152
+   ],
+   "capital": 152,
+   "krx_names": [
+    "Upper Austria"
+   ]
+  },
+  "153": {
+   "name": "Tyrol",
+   "to": [
+    153,
+    836
+   ],
+   "capital": 836,
+   "krx_names": [
+    "Tyrol",
+    "Salzburg"
+   ]
+  },
+  "154": {
+   "name": "Southern plain",
+   "to": [
+    154,
+    1108,
+    1110
+   ],
+   "capital": 154,
+   "krx_names": [
+    "Alfold",
+    "Southeast Great Plain",
+    "Northern Great Plain"
+   ]
+  },
+  "155": {
+   "name": "Western Hungary",
+   "to": [
+    155
+   ],
+   "capital": 155,
+   "krx_names": [
+    "Transdanubia"
+   ]
+  },
+  "156": {
+   "name": "Calabria",
+   "to": [
+    156
+   ],
+   "capital": 156,
+   "krx_names": [
+    "Calabria"
+   ]
+  },
+  "157": {
+   "name": "Abruzzo",
+   "to": [
+    157,
+    742,
+    1005,
+    1236
+   ],
+   "capital": 157,
+   "krx_names": [
+    "Marches",
+    "Abruzzo",
+    "Umbria",
+    "San Marino"
+   ]
+  },
+  "158": {
+   "name": "Piedmont",
+   "to": [
+    158,
+    838,
+    1003
+   ],
+   "capital": 158,
+   "krx_names": [
+    "Piedmont",
+    "Liguria",
+    "Aosta Valley"
+   ]
+  },
+  "159": {
+   "name": "Lombardy",
+   "to": [
+    159
+   ],
+   "capital": 159,
+   "krx_names": [
+    "Lombardy"
+   ]
+  },
+  "160": {
+   "name": "Veneto",
+   "to": [
+    160,
+    759
+   ],
+   "capital": 160,
+   "krx_names": [
+    "Veneto",
+    "Friuli"
+   ]
+  },
+  "161": {
+   "name": "Emilia Romagna",
+   "to": [
+    161,
+    1004
+   ],
+   "capital": 161,
+   "krx_names": [
+    "Romagna",
+    "Emilia"
+   ]
+  },
+  "162": {
+   "name": "Tuscany",
+   "to": [
+    162
+   ],
+   "capital": 162,
+   "krx_names": [
+    "Tuscany"
+   ]
+  },
+  "163": {
+   "name": "Dalmatia",
+   "to": [
+    1367
+   ],
+   "capital": 1367,
+   "krx_names": [
+    "Zadar"
+   ]
+  },
+  "164": {
+   "name": "Dodecanese",
+   "to": [
+    164
+   ],
+   "capital": 164,
+   "krx_names": [
+    "Dodecanese"
+   ]
+  },
+  "165": {
+   "name": "Catalonia",
+   "to": [
+    165,
+    1313
+   ],
+   "capital": 165,
+   "krx_names": [
+    "Catalonia",
+    "Andorra"
+   ]
+  },
+  "166": {
+   "name": "Western Aragon",
+   "to": [
+    166
+   ],
+   "capital": 166,
+   "krx_names": [
+    "South Aragon"
+   ]
+  },
+  "167": {
+   "name": "Valencia",
+   "to": [
+    167
+   ],
+   "capital": 167,
+   "krx_names": [
+    "Valencia"
+   ]
+  },
+  "168": {
+   "name": "Murcia",
+   "to": [
+    168
+   ],
+   "capital": 168,
+   "krx_names": [
+    "Murcia"
+   ]
+  },
+  "169": {
+   "name": "Sevilla",
+   "to": [
+    169,
+    1336
+   ],
+   "capital": 169,
+   "krx_names": [
+    "Andalusia",
+    "Huelva"
+   ]
+  },
+  "170": {
+   "name": "Extremadura",
+   "to": [
+    170,
+    1316,
+    1337
+   ],
+   "capital": 1337,
+   "krx_names": [
+    "Extremadura",
+    "Olivienza",
+    "Badajoz"
+   ]
+  },
+  "171": {
+   "name": "Galicia",
+   "to": [
+    171
+   ],
+   "capital": 171,
+   "krx_names": [
+    "Galicia"
+   ]
+  },
+  "172": {
+   "name": "Navarre",
+   "to": [
+    172
+   ],
+   "capital": 172,
+   "krx_names": [
+    "Navarre"
+   ]
+  },
+  "173": {
+   "name": "Granada",
+   "to": [
+    173,
+    1343
+   ],
+   "capital": 173,
+   "krx_names": [
+    "Almeria",
+    "Granada"
+   ]
+  },
+  "174": {
+   "name": "Leon",
+   "to": [
+    174
+   ],
+   "capital": 174,
+   "krx_names": [
+    "Leon"
+   ]
+  },
+  "175": {
+   "name": "Ciudad Real",
+   "to": [
+    175
+   ],
+   "capital": 175,
+   "krx_names": [
+    "La Mancha"
+   ]
+  },
+  "176": {
+   "name": "Burgos",
+   "to": [
+    1338
+   ],
+   "capital": 1338,
+   "krx_names": [
+    "La Rioja"
+   ]
+  },
+  "177": {
+   "name": "Balearic Islands",
+   "to": [
+    177
+   ],
+   "capital": 177,
+   "krx_names": [
+    "Balearic Islands"
+   ]
+  },
+  "178": {
+   "name": "Canary islands",
+   "to": [
+    178
+   ],
+   "capital": 178,
+   "krx_names": [
+    "Canary islands"
+   ]
+  },
+  "179": {
+   "name": "Beja",
+   "to": [
+    179
+   ],
+   "capital": 179,
+   "krx_names": [
+    "Beja"
+   ]
+  },
+  "180": {
+   "name": "Porto",
+   "to": [
+    180
+   ],
+   "capital": 180,
+   "krx_names": [
+    "Porto"
+   ]
+  },
+  "181": {
+   "name": "Guarda",
+   "to": [
+    181
+   ],
+   "capital": 181,
+   "krx_names": [
+    "Guarda"
+   ]
+  },
+  "182": {
+   "name": "Crete",
+   "to": [
+    182
+   ],
+   "capital": 182,
+   "krx_names": [
+    "Crete"
+   ]
+  },
+  "183": {
+   "name": "Cyprus",
+   "to": [
+    183
+   ],
+   "capital": 183,
+   "krx_names": [
+    "Cyprus"
+   ]
+  },
+  "184": {
+   "name": "Thrace",
+   "to": [
+    184,
+    769
+   ],
+   "capital": 184,
+   "krx_names": [
+    "Western Thrace",
+    "Eastern Salonica"
+   ]
+  },
+  "185": {
+   "name": "Epirus",
+   "to": [
+    185,
+    758,
+    1076
+   ],
+   "capital": 1076,
+   "krx_names": [
+    "Epirus",
+    "Ionian Islands",
+    "Karaferia"
+   ]
+  },
+  "186": {
+   "name": "Peloponnese",
+   "to": [
+    186
+   ],
+   "capital": 186,
+   "krx_names": [
+    "Peloponnese"
+   ]
+  },
+  "187": {
+   "name": "Aegean Islands",
+   "to": [
+    187,
+    939
+   ],
+   "capital": 187,
+   "krx_names": [
+    "Aegean Islands",
+    "Cyclades"
+   ]
+  },
+  "188": {
+   "name": "Memel",
+   "to": [
+    188
+   ],
+   "capital": 188,
+   "krx_names": [
+    "Memel"
+   ]
+  },
+  "189": {
+   "name": "Kaunas",
+   "to": [
+    189
+   ],
+   "capital": 189,
+   "krx_names": [
+    "Shavli"
+   ]
+  },
+  "190": {
+   "name": "Kurzeme",
+   "to": [
+    190
+   ],
+   "capital": 190,
+   "krx_names": [
+    "Courland"
+   ]
+  },
+  "191": {
+   "name": "Tartu",
+   "to": [
+    191
+   ],
+   "capital": 191,
+   "krx_names": [
+    "Northern Livonia"
+   ]
+  },
+  "192": {
+   "name": "Odessa",
+   "to": [
+    192
+   ],
+   "capital": 192,
+   "krx_names": [
+    "Odessa"
+   ]
+  },
+  "193": {
+   "name": "Kiev",
+   "to": [
+    193,
+    1237
+   ],
+   "capital": 193,
+   "krx_names": [
+    "Chernigov",
+    "Pereyaslav"
+   ]
+  },
+  "194": {
+   "name": "Pinsk Marches",
+   "to": [
+    194
+   ],
+   "capital": 194,
+   "krx_names": [
+    "Mozyr"
+   ]
+  },
+  "195": {
+   "name": "Leningrad Area",
+   "to": [
+    195,
+    1328
+   ],
+   "capital": 195,
+   "krx_names": [
+    "Petrograd",
+    "Kiryasalo"
+   ]
+  },
+  "196": {
+   "name": "Kherson",
+   "to": [
+    196
+   ],
+   "capital": 196,
+   "krx_names": [
+    "Taurida"
+   ]
+  },
+  "197": {
+   "name": "Mykolaiv",
+   "to": [
+    197,
+    1232
+   ],
+   "capital": 1232,
+   "krx_names": [
+    "Kherson",
+    "Mykolaiv"
+   ]
+  },
+  "198": {
+   "name": "Vinnytsia",
+   "to": [
+    198,
+    1245
+   ],
+   "capital": 198,
+   "krx_names": [
+    "Vinnitsa",
+    "Bratslav"
+   ]
+  },
+  "199": {
+   "name": "Khmelnytskyi",
+   "to": [
+    199
+   ],
+   "capital": 199,
+   "krx_names": [
+    "Proskurov"
+   ]
+  },
+  "200": {
+   "name": "Rivne",
+   "to": [
+    200,
+    1234
+   ],
+   "capital": 200,
+   "krx_names": [
+    "Alexandrovsk",
+    "Priazovye"
+   ]
+  },
+  "201": {
+   "name": "Zhytomyr",
+   "to": [
+    201,
+    1244
+   ],
+   "capital": 201,
+   "krx_names": [
+    "Zhitomir",
+    "Korosten"
+   ]
+  },
+  "202": {
+   "name": "Western Kiev",
+   "to": [
+    202,
+    1240
+   ],
+   "capital": 202,
+   "krx_names": [
+    "Kiev",
+    "Bela Tserkva"
+   ]
+  },
+  "203": {
+   "name": "Cherkasy",
+   "to": [
+    203,
+    1233,
+    1241
+   ],
+   "capital": 203,
+   "krx_names": [
+    "Cherkasy",
+    "Yelisavetgrad",
+    "Pobuzhie"
+   ]
+  },
+  "204": {
+   "name": "Brest",
+   "to": [
+    204
+   ],
+   "capital": 204,
+   "krx_names": [
+    "Bobruisk"
+   ]
+  },
+  "205": {
+   "name": "Hrodna",
+   "to": [
+    205
+   ],
+   "capital": 205,
+   "krx_names": [
+    "Kaluga"
+   ]
+  },
+  "206": {
+   "name": "Minsk",
+   "to": [
+    206,
+    1087
+   ],
+   "capital": 206,
+   "krx_names": [
+    "Minsk",
+    "Mogilev"
+   ]
+  },
+  "207": {
+   "name": "Viciebsk",
+   "to": [
+    755,
+    1287,
+    1294
+   ],
+   "capital": 755,
+   "krx_names": [
+    "Vitebsk",
+    "Polotsk",
+    "Borisov"
+   ]
+  },
+  "208": {
+   "name": "Pskov",
+   "to": [
+    208,
+    1288
+   ],
+   "capital": 208,
+   "krx_names": [
+    "Luga",
+    "Ivangorod"
+   ]
+  },
+  "209": {
+   "name": "Smolensk",
+   "to": [
+    209,
+    1289,
+    1291
+   ],
+   "capital": 209,
+   "krx_names": [
+    "Pskov",
+    "Porkhov",
+    "Yamburg"
+   ]
+  },
+  "210": {
+   "name": "Bryansk",
+   "to": [
+    210,
+    1290
+   ],
+   "capital": 210,
+   "krx_names": [
+    "Velikye Luki",
+    "Ostrov"
+   ]
+  },
+  "211": {
+   "name": "Burgas",
+   "to": [
+    211,
+    771
+   ],
+   "capital": 771,
+   "krx_names": [
+    "Burgas",
+    "Varna"
+   ]
+  },
+  "212": {
+   "name": "Plovdiv",
+   "to": [
+    212,
+    1089
+   ],
+   "capital": 212,
+   "krx_names": [
+    "Plovdiv",
+    "Momchilgrad"
+   ]
+  },
+  "213": {
+   "name": "Murmansk",
+   "to": [
+    213
+   ],
+   "capital": 213,
+   "krx_names": [
+    "Murmansk"
+   ]
+  },
+  "214": {
+   "name": "Arkhangelsk",
+   "to": [
+    214
+   ],
+   "capital": 214,
+   "krx_names": [
+    "Arkhangelsk"
+   ]
+  },
+  "215": {
+   "name": "Eastern Karelia",
+   "to": [
+    215,
+    1274,
+    1326
+   ],
+   "capital": 215,
+   "krx_names": [
+    "Sorotsk",
+    "Kem",
+    "Reboly Porajarvi"
+   ]
+  },
+  "216": {
+   "name": "Below Zero",
+   "to": [
+    216
+   ],
+   "capital": 216,
+   "krx_names": [
+    "Petrozavodsk"
+   ]
+  },
+  "217": {
+   "name": "Stalingrad Area",
+   "to": [
+    217
+   ],
+   "capital": 217,
+   "krx_names": [
+    "Volgograd"
+   ]
+  },
+  "218": {
+   "name": "Rostov Area",
+   "to": [
+    218,
+    1231,
+    1263
+   ],
+   "capital": 218,
+   "krx_names": [
+    "Novocherkassk",
+    "Taganrog",
+    "Rostov"
+   ]
+  },
+  "219": {
+   "name": "Moscow Area",
+   "to": [
+    219
+   ],
+   "capital": 219,
+   "krx_names": [
+    "Moscow"
+   ]
+  },
+  "220": {
+   "name": "Kursk Area",
+   "to": [
+    220,
+    821
+   ],
+   "capital": 220,
+   "krx_names": [
+    "Kursk",
+    "Sudzha"
+   ]
+  },
+  "221": {
+   "name": "Kharkov",
+   "to": [
+    221,
+    1239,
+    1285
+   ],
+   "capital": 221,
+   "krx_names": [
+    "Kharkov",
+    "Slovyansk",
+    "Izyum"
+   ]
+  },
+  "222": {
+   "name": "Orel",
+   "to": [
+    222
+   ],
+   "capital": 222,
+   "krx_names": [
+    "Orel"
+   ]
+  },
+  "223": {
+   "name": "tula",
+   "to": [
+    223
+   ],
+   "capital": 223,
+   "krx_names": [
+    "tula"
+   ]
+  },
+  "224": {
+   "name": "Bryansk",
+   "to": [
+    224,
+    1230
+   ],
+   "capital": 224,
+   "krx_names": [
+    "Bryansk",
+    "Starodub"
+   ]
+  },
+  "225": {
+   "name": "Glukhov",
+   "to": [
+    225,
+    1242
+   ],
+   "capital": 225,
+   "krx_names": [
+    "Sumy",
+    "Konotop"
+   ]
+  },
+  "226": {
+   "name": "Nikopol",
+   "to": [
+    226,
+    1286
+   ],
+   "capital": 226,
+   "krx_names": [
+    "Ekaterinoslav",
+    "Pavlohrad"
+   ]
+  },
+  "227": {
+   "name": "Stalino",
+   "to": [
+    227,
+    228,
+    1283
+   ],
+   "capital": 227,
+   "krx_names": [
+    "Yuzovka",
+    "Mariupol",
+    "Bakhmut"
+   ]
+  },
+  "228": {
+   "name": "Taganrog",
+   "to": [
+    1282,
+    1284
+   ],
+   "capital": 1284,
+   "krx_names": [
+    "Starobilske",
+    "Luhansk"
+   ]
+  },
+  "229": {
+   "name": "baku",
+   "to": [
+    229,
+    990,
+    998,
+    1081,
+    1300,
+    1302,
+    1304
+   ],
+   "capital": 990,
+   "krx_names": [
+    "Azerbaijan",
+    "Baku",
+    "Mountainous Karabagh",
+    "Sakataly",
+    "Ganja",
+    "Shusha",
+    "Mugan"
+   ]
+  },
+  "230": {
+   "name": "Armenia",
+   "to": [
+    230,
+    1082,
+    1298,
+    1299,
+    1303
+   ],
+   "capital": 230,
+   "krx_names": [
+    "Erivan",
+    "Lori",
+    "Nakhchivan",
+    "Zangezur",
+    "Sevan"
+   ]
+  },
+  "231": {
+   "name": "Georgia",
+   "to": [
+    231,
+    1188,
+    1301
+   ],
+   "capital": 231,
+   "krx_names": [
+    "Georgia",
+    "Imereti",
+    "Kura"
+   ]
+  },
+  "232": {
+   "name": "Grozny",
+   "to": [
+    232,
+    1191,
+    1267
+   ],
+   "capital": 232,
+   "krx_names": [
+    "Daghestan",
+    "Kizlyar",
+    "Derbent"
+   ]
+  },
+  "233": {
+   "name": "Caucasus Mountains",
+   "to": [
+    1187,
+    1190
+   ],
+   "capital": 1190,
+   "krx_names": [
+    "Karachaevo-Circassia",
+    "Sochi"
+   ]
+  },
+  "234": {
+   "name": "Krasodar",
+   "to": [
+    234,
+    1227
+   ],
+   "capital": 234,
+   "krx_names": [
+    "Kuban",
+    "Novorossiysk"
+   ]
+  },
+  "235": {
+   "name": "Stravropol",
+   "to": [
+    235,
+    1189,
+    1266
+   ],
+   "capital": 235,
+   "krx_names": [
+    "Stravropol",
+    "Tersky",
+    "Arzgir"
+   ]
+  },
+  "236": {
+   "name": "Astrakhan",
+   "to": [
+    236
+   ],
+   "capital": 236,
+   "krx_names": [
+    "Astrakhan"
+   ]
+  },
+  "237": {
+   "name": "Elista",
+   "to": [
+    237
+   ],
+   "capital": 237,
+   "krx_names": [
+    "Elista"
+   ]
+  },
+  "238": {
+   "name": "volgodonsk",
+   "to": [
+    1226
+   ],
+   "capital": 1226,
+   "krx_names": [
+    "Salsk"
+   ]
+  },
+  "239": {
+   "name": "Saratov",
+   "to": [
+    239
+   ],
+   "capital": 239,
+   "krx_names": [
+    "Saratov"
+   ]
+  },
+  "240": {
+   "name": "Voronezh",
+   "to": [
+    240
+   ],
+   "capital": 240,
+   "krx_names": [
+    "Byelgorod"
+   ]
+  },
+  "241": {
+   "name": "Pochep",
+   "to": [
+    241,
+    243
+   ],
+   "capital": 241,
+   "krx_names": [
+    "Gomel",
+    "Mstislavl"
+   ]
+  },
+  "242": {
+   "name": "Smolensk",
+   "to": [
+    242
+   ],
+   "capital": 242,
+   "krx_names": [
+    "Smolensk"
+   ]
+  },
+  "243": {
+   "name": "Roslavl",
+   "to": [
+    242
+   ],
+   "capital": 242,
+   "krx_names": [
+    "Smolensk"
+   ]
+  },
+  "244": {
+   "name": "Gatchina",
+   "to": [
+    244
+   ],
+   "capital": 244,
+   "krx_names": [
+    "Volkhov"
+   ]
+  },
+  "245": {
+   "name": "Donetsk",
+   "to": [
+    238,
+    245,
+    1264
+   ],
+   "capital": 245,
+   "krx_names": [
+    "Ust-Medvyeditsa",
+    "Kamensk",
+    "Konstantinovsk"
+   ]
+  },
+  "246": {
+   "name": "Rzhev",
+   "to": [
+    246
+   ],
+   "capital": 246,
+   "krx_names": [
+    "Rzhev"
+   ]
+  },
+  "247": {
+   "name": "Tver",
+   "to": [
+    247
+   ],
+   "capital": 247,
+   "krx_names": [
+    "Tver"
+   ]
+  },
+  "248": {
+   "name": "Yaroslavl",
+   "to": [
+    248
+   ],
+   "capital": 248,
+   "krx_names": [
+    "Yaroslavl"
+   ]
+  },
+  "249": {
+   "name": "Kazan",
+   "to": [
+    249,
+    1197,
+    1198,
+    1199
+   ],
+   "capital": 249,
+   "krx_names": [
+    "Kazan",
+    "Menzelinsk",
+    "Buinsk",
+    "Bugulma"
+   ]
+  },
+  "250": {
+   "name": "ulyanovsky",
+   "to": [
+    250,
+    1204
+   ],
+   "capital": 250,
+   "krx_names": [
+    "Simbirsk",
+    "Saransk"
+   ]
+  },
+  "251": {
+   "name": "Samara",
+   "to": [
+    251
+   ],
+   "capital": 251,
+   "krx_names": [
+    "Samara"
+   ]
+  },
+  "252": {
+   "name": "Nizhny Novogrod",
+   "to": [
+    252
+   ],
+   "capital": 252,
+   "krx_names": [
+    "Nizhny Novogrod"
+   ]
+  },
+  "253": {
+   "name": "Ivanovo",
+   "to": [
+    253
+   ],
+   "capital": 253,
+   "krx_names": [
+    "Vladimir"
+   ]
+  },
+  "254": {
+   "name": "Ryazan",
+   "to": [
+    254
+   ],
+   "capital": 254,
+   "krx_names": [
+    "Ryazan"
+   ]
+  },
+  "255": {
+   "name": "Penza",
+   "to": [
+    255,
+    1205
+   ],
+   "capital": 255,
+   "krx_names": [
+    "Penza",
+    "Zubovo Pole"
+   ]
+  },
+  "256": {
+   "name": "Cheboksary",
+   "to": [
+    256
+   ],
+   "capital": 256,
+   "krx_names": [
+    "Cheboksary"
+   ]
+  },
+  "257": {
+   "name": "Livny",
+   "to": [
+    257
+   ],
+   "capital": 257,
+   "krx_names": [
+    "Tambov"
+   ]
+  },
+  "258": {
+   "name": "lipetsk",
+   "to": [
+    258
+   ],
+   "capital": 258,
+   "krx_names": [
+    "lipetsk"
+   ]
+  },
+  "259": {
+   "name": "Liski",
+   "to": [
+    259,
+    1238,
+    1243
+   ],
+   "capital": 259,
+   "krx_names": [
+    "Poltava",
+    "Kremenchuk",
+    "Hadyach"
+   ]
+  },
+  "260": {
+   "name": "Borisoglbsk",
+   "to": [
+    260,
+    1229
+   ],
+   "capital": 260,
+   "krx_names": [
+    "Voronezh",
+    "Stary Oskol"
+   ]
+  },
+  "261": {
+   "name": "USA",
+   "to": [
+    261,
+    1153
+   ],
+   "capital": 261,
+   "krx_names": [
+    "Ohio",
+    "Southern Ohio"
+   ]
+  },
+  "262": {
+   "name": "Torzhok",
+   "to": [
+    397
+   ],
+   "capital": 397,
+   "krx_names": [
+    "Ust-Sysolsk"
+   ]
+  },
+  "263": {
+   "name": "Veliky Novogrod",
+   "to": [
+    263
+   ],
+   "capital": 263,
+   "krx_names": [
+    "Novogrod"
+   ]
+  },
+  "264": {
+   "name": "Tikhvin",
+   "to": [
+    264
+   ],
+   "capital": 264,
+   "krx_names": [
+    "Tikhvin"
+   ]
+  },
+  "265": {
+   "name": "Mikhaylovka",
+   "to": [
+    265
+   ],
+   "capital": 265,
+   "krx_names": [
+    "Uryupinsk"
+   ]
+  },
+  "266": {
+   "name": "Persia",
+   "to": [
+    418,
+    420
+   ],
+   "capital": 420,
+   "krx_names": [
+    "Golestan",
+    "Mazanderan"
+   ]
+  },
+  "267": {
+   "name": "Afghanistan",
+   "to": [
+    267
+   ],
+   "capital": 267,
+   "krx_names": [
+    "Kabul"
+   ]
+  },
+  "268": {
+   "name": "French Somaliland",
+   "to": [
+    268
+   ],
+   "capital": 268,
+   "krx_names": [
+    "Djibouti"
+   ]
+  },
+  "269": {
+   "name": "British Somaliland",
+   "to": [
+    269,
+    1297
+   ],
+   "capital": 269,
+   "krx_names": [
+    "Hargeisa",
+    "Berbera"
+   ]
+  },
+  "270": {
+   "name": "Pitcarin Island",
+   "to": [
+    270
+   ],
+   "capital": 270,
+   "krx_names": [
+    "Easter Island"
+   ]
+  },
+  "271": {
+   "name": "ethiopia",
+   "to": [
+    271
+   ],
+   "capital": 271,
+   "krx_names": [
+    "Addis Ababa"
+   ]
+  },
+  "272": {
+   "name": "French Africa",
+   "to": [
+    272
+   ],
+   "capital": 272,
+   "krx_names": [
+    "Senegal"
+   ]
+  },
+  "273": {
+   "name": "Italian Africa",
+   "to": [
+    273,
+    1009
+   ],
+   "capital": 1009,
+   "krx_names": [
+    "Fezzan",
+    "Kufra"
+   ]
+  },
+  "274": {
+   "name": "British Africa",
+   "to": [
+    274,
+    1321,
+    1322,
+    1323
+   ],
+   "capital": 274,
+   "krx_names": [
+    "Gold Coast",
+    "Ashanti",
+    "Volta Basin",
+    "Tamale"
+   ]
+  },
+  "275": {
+   "name": "South Africa",
+   "to": [
+    275,
+    947
+   ],
+   "capital": 275,
+   "krx_names": [
+    "Transvaal",
+    "Orange Free State"
+   ]
+  },
+  "276": {
+   "name": "Canada",
+   "to": [
+    276,
+    739
+   ],
+   "capital": 276,
+   "krx_names": [
+    "Southern Ontario",
+    "Ottawa"
+   ]
+  },
+  "277": {
+   "name": "Mexico",
+   "to": [
+    277
+   ],
+   "capital": 277,
+   "krx_names": [
+    "Mexico"
+   ]
+  },
+  "278": {
+   "name": "Argentina",
+   "to": [
+    278
+   ],
+   "capital": 278,
+   "krx_names": [
+    "Buenos Aires"
+   ]
+  },
+  "279": {
+   "name": "Chile",
+   "to": [
+    279
+   ],
+   "capital": 279,
+   "krx_names": [
+    "Santiago"
+   ]
+  },
+  "280": {
+   "name": "Brazil",
+   "to": [
+    280,
+    504
+   ],
+   "capital": 280,
+   "krx_names": [
+    "Mato Grosso",
+    "Campo Grande"
+   ]
+  },
+  "281": {
+   "name": "India",
+   "to": [
+    281
+   ],
+   "capital": 281,
+   "krx_names": [
+    "Maldives"
+   ]
+  },
+  "282": {
+   "name": "Japan",
+   "to": [
+    282,
+    1351
+   ],
+   "capital": 282,
+   "krx_names": [
+    "Kanto",
+    "North Kanto"
+   ]
+  },
+  "283": {
+   "name": "China",
+   "to": [
+    283
+   ],
+   "capital": 283,
+   "krx_names": [
+    "Gansu"
+   ]
+  },
+  "284": {
+   "name": "New Zealand",
+   "to": [
+    284
+   ],
+   "capital": 284,
+   "krx_names": [
+    "North Island"
+   ]
+  },
+  "285": {
+   "name": "Austraila",
+   "to": [
+    285,
+    985
+   ],
+   "capital": 285,
+   "krx_names": [
+    "New South Wales",
+    "Canberra"
+   ]
+  },
+  "286": {
+   "name": "Indochina",
+   "to": [
+    827
+   ],
+   "capital": 827,
+   "krx_names": [
+    "Annam"
+   ]
+  },
+  "287": {
+   "name": "Sinkiang",
+   "to": [
+    1085
+   ],
+   "capital": 1085,
+   "krx_names": [
+    "Taklamakan Desert"
+   ]
+  },
+  "288": {
+   "name": "Magwe",
+   "to": [
+    640
+   ],
+   "capital": 640,
+   "krx_names": [
+    "Mandalay"
+   ]
+  },
+  "289": {
+   "name": "Western Siam",
+   "to": [
+    289
+   ],
+   "capital": 289,
+   "krx_names": [
+    "Siam"
+   ]
+  },
+  "290": {
+   "name": "Spanish Africa",
+   "to": [
+    290
+   ],
+   "capital": 290,
+   "krx_names": [
+    "The Rif"
+   ]
+  },
+  "291": {
+   "name": "Iraq",
+   "to": [
+    291
+   ],
+   "capital": 291,
+   "krx_names": [
+    "Baghdad"
+   ]
+  },
+  "292": {
+   "name": "Saudi Arabia",
+   "to": [
+    292,
+    675,
+    991
+   ],
+   "capital": 292,
+   "krx_names": [
+    "Nejd",
+    "Qassim",
+    "Summan"
+   ]
+  },
+  "293": {
+   "name": "Yemen",
+   "to": [
+    293
+   ],
+   "capital": 293,
+   "krx_names": [
+    "Yemen"
+   ]
+  },
+  "294": {
+   "name": "Oman",
+   "to": [
+    294
+   ],
+   "capital": 294,
+   "krx_names": [
+    "Oman"
+   ]
+  },
+  "295": {
+   "name": "Congo",
+   "to": [
+    295,
+    881
+   ],
+   "capital": 881,
+   "krx_names": [
+    "Kinshasa",
+    "Bas-Congo"
+   ]
+  },
+  "296": {
+   "name": "Portugal Africa",
+   "to": [
+    296
+   ],
+   "capital": 296,
+   "krx_names": [
+    "Portuguese Guinea"
+   ]
+  },
+  "297": {
+   "name": "Belgian Africa",
+   "to": [
+    297,
+    1335
+   ],
+   "capital": 1335,
+   "krx_names": [
+    "Equatorial Guinea",
+    "Santa Isabel"
+   ]
+  },
+  "298": {
+   "name": "Liberia",
+   "to": [
+    298,
+    966
+   ],
+   "capital": 298,
+   "krx_names": [
+    "Grain Coast",
+    "Hinterland"
+   ]
+  },
+  "299": {
+   "name": "Falkand Islands",
+   "to": [
+    299
+   ],
+   "capital": 299,
+   "krx_names": [
+    "Falkand Islands"
+   ]
+  },
+  "300": {
+   "name": "Uruguay",
+   "to": [
+    300
+   ],
+   "capital": 300,
+   "krx_names": [
+    "Uruguay"
+   ]
+  },
+  "301": {
+   "name": "paraguay",
+   "to": [
+    301
+   ],
+   "capital": 301,
+   "krx_names": [
+    "paraguay"
+   ]
+  },
+  "302": {
+   "name": "bolivia",
+   "to": [
+    302,
+    848,
+    1073
+   ],
+   "capital": 302,
+   "krx_names": [
+    "La Paz",
+    "Potosi",
+    "Tarija"
+   ]
+  },
+  "303": {
+   "name": "Peru",
+   "to": [
+    303,
+    845
+   ],
+   "capital": 303,
+   "krx_names": [
+    "Lima",
+    "Cajamarca"
+   ]
+  },
+  "304": {
+   "name": "Panama",
+   "to": [
+    304,
+    854,
+    1248,
+    1257
+   ],
+   "capital": 304,
+   "krx_names": [
+    "Panama",
+    "David",
+    "Tula",
+    "Veraguas"
+   ]
+  },
+  "305": {
+   "name": "Ecuador",
+   "to": [
+    305,
+    1280
+   ],
+   "capital": 305,
+   "krx_names": [
+    "Pichincha",
+    "Guayas"
+   ]
+  },
+  "306": {
+   "name": "Colombia",
+   "to": [
+    306,
+    852,
+    1215
+   ],
+   "capital": 306,
+   "krx_names": [
+    "Cundinamarca",
+    "Cauca",
+    "Narino"
+   ]
+  },
+  "307": {
+   "name": "Venezuela",
+   "to": [
+    307,
+    850,
+    912
+   ],
+   "capital": 307,
+   "krx_names": [
+    "Llanos",
+    "Sucre",
+    "Bolivar"
+   ]
+  },
+  "308": {
+   "name": "Britain SA",
+   "to": [
+    308
+   ],
+   "capital": 308,
+   "krx_names": [
+    "Leeward Islands"
+   ]
+  },
+  "309": {
+   "name": "Dutch SA",
+   "to": [
+    309,
+    1038
+   ],
+   "capital": 309,
+   "krx_names": [
+    "Suriname",
+    "Suriname Jungle"
+   ]
+  },
+  "310": {
+   "name": "French SA",
+   "to": [
+    310,
+    1037,
+    1309
+   ],
+   "capital": 310,
+   "krx_names": [
+    "East Guyana",
+    "East Guyana Jungle",
+    "Courantyne Jungle"
+   ]
+  },
+  "311": {
+   "name": "BritMex",
+   "to": [
+    311
+   ],
+   "capital": 311,
+   "krx_names": [
+    "British Honduras"
+   ]
+  },
+  "312": {
+   "name": "Honduras",
+   "to": [
+    312,
+    842,
+    1249,
+    1262
+   ],
+   "capital": 842,
+   "krx_names": [
+    "San Pedro Sula",
+    "Tegucigalpa",
+    "Gracias a Dios",
+    "La Esperanza"
+   ]
+  },
+  "313": {
+   "name": "Guatemala",
+   "to": [
+    313,
+    1250,
+    1251
+   ],
+   "capital": 313,
+   "krx_names": [
+    "Guatemala",
+    "Peten",
+    "Quetzaltenango"
+   ]
+  },
+  "314": {
+   "name": "El Salvador",
+   "to": [
+    314,
+    1256
+   ],
+   "capital": 314,
+   "krx_names": [
+    "Salvador",
+    "San Miguel"
+   ]
+  },
+  "315": {
+   "name": "Cuba",
+   "to": [
+    315,
+    818,
+    820
+   ],
+   "capital": 315,
+   "krx_names": [
+    "Havana",
+    "Guantanamo Bay",
+    "Santiago de Cuba"
+   ]
+  },
+  "316": {
+   "name": "Costa Rica",
+   "to": [
+    316,
+    1070,
+    1258,
+    1259
+   ],
+   "capital": 316,
+   "krx_names": [
+    "Costa Rica",
+    "Coto Brus",
+    "Alajuela",
+    "Limon"
+   ]
+  },
+  "317": {
+   "name": "Nicaragua",
+   "to": [
+    317,
+    1071,
+    1247,
+    1260,
+    1261
+   ],
+   "capital": 317,
+   "krx_names": [
+    "Nicaragua",
+    "Matagalpa",
+    "Miskito",
+    "Chinandega",
+    "Puerto Cabezas"
+   ]
+  },
+  "318": {
+   "name": "Haiti",
+   "to": [
+    318
+   ],
+   "capital": 318,
+   "krx_names": [
+    "Haiti"
+   ]
+  },
+  "319": {
+   "name": "Dominican Republic",
+   "to": [
+    319
+   ],
+   "capital": 319,
+   "krx_names": [
+    "Dominican Hispaniola"
+   ]
+  },
+  "320": {
+   "name": "French India",
+   "to": [
+    1095
+   ],
+   "capital": 1095,
+   "krx_names": [
+    "Pondicherry"
+   ]
+  },
+  "321": {
+   "name": "Goa",
+   "to": [
+    321
+   ],
+   "capital": 321,
+   "krx_names": [
+    "Goa"
+   ]
+  },
+  "322": {
+   "name": "Tibet",
+   "to": [
+    1086
+   ],
+   "capital": 1086,
+   "krx_names": [
+    "Changtang"
+   ]
+  },
+  "323": {
+   "name": "Nepal",
+   "to": [
+    323
+   ],
+   "capital": 323,
+   "krx_names": [
+    "Nepal"
+   ]
+  },
+  "324": {
+   "name": "Bhutan",
+   "to": [
+    324
+   ],
+   "capital": 324,
+   "krx_names": [
+    "Bhutan"
+   ]
+  },
+  "325": {
+   "name": "Yunnan",
+   "to": [
+    325
+   ],
+   "capital": 325,
+   "krx_names": [
+    "Yunnan"
+   ]
+  },
+  "326": {
+   "name": "HongKong",
+   "to": [
+    326
+   ],
+   "capital": 326,
+   "krx_names": [
+    "Hong Kong"
+   ]
+  },
+  "327": {
+   "name": "Philippines",
+   "to": [
+    327
+   ],
+   "capital": 327,
+   "krx_names": [
+    "Central Luzon"
+   ]
+  },
+  "328": {
+   "name": "Manchukuo",
+   "to": [
+    328,
+    886
+   ],
+   "capital": 886,
+   "krx_names": [
+    "Andong",
+    "Jilin"
+   ]
+  },
+  "329": {
+   "name": "Tannu Tuva",
+   "to": [
+    329
+   ],
+   "capital": 329,
+   "krx_names": [
+    "Tuva"
+   ]
+  },
+  "330": {
+   "name": "Mongolia",
+   "to": [
+    330
+   ],
+   "capital": 330,
+   "krx_names": [
+    "Mongolia"
+   ]
+  },
+  "331": {
+   "name": "Newfoundland",
+   "to": [
+    331
+   ],
+   "capital": 331,
+   "krx_names": [
+    "Newfoundland"
+   ]
+  },
+  "332": {
+   "name": "Labrador",
+   "to": [
+    332
+   ],
+   "capital": 332,
+   "krx_names": [
+    "Labrador"
+   ]
+  },
+  "333": {
+   "name": "British Borneo",
+   "to": [
+    333
+   ],
+   "capital": 333,
+   "krx_names": [
+    "North Borneo"
+   ]
+  },
+  "334": {
+   "name": "Kalimantan Barat",
+   "to": [
+    334
+   ],
+   "capital": 334,
+   "krx_names": [
+    "West Kalimantan"
+   ]
+  },
+  "335": {
+   "name": "West Java",
+   "to": [
+    335
+   ],
+   "capital": 335,
+   "krx_names": [
+    "Central Java"
+   ]
+  },
+  "336": {
+   "name": "Singapore",
+   "to": [
+    846
+   ],
+   "capital": 846,
+   "krx_names": [
+    "Malaya"
+   ]
+  },
+  "337": {
+   "name": "Faroe Islands",
+   "to": [
+    337
+   ],
+   "capital": 337,
+   "krx_names": [
+    "Faroe Islands"
+   ]
+  },
+  "338": {
+   "name": "Gloucestershire",
+   "to": [
+    338
+   ],
+   "capital": 338,
+   "krx_names": [
+    "Gloucestershire"
+   ]
+  },
+  "339": {
+   "name": "Izmir",
+   "to": [
+    339
+   ],
+   "capital": 339,
+   "krx_names": [
+    "Smyrna"
+   ]
+  },
+  "340": {
+   "name": "Bursa",
+   "to": [
+    340
+   ],
+   "capital": 340,
+   "krx_names": [
+    "Bursa"
+   ]
+  },
+  "341": {
+   "name": "Edirne",
+   "to": [
+    341
+   ],
+   "capital": 341,
+   "krx_names": [
+    "Adrianople"
+   ]
+  },
+  "342": {
+   "name": "Antalya",
+   "to": [
+    342
+   ],
+   "capital": 342,
+   "krx_names": [
+    "Mugla"
+   ]
+  },
+  "343": {
+   "name": "Afyon",
+   "to": [
+    343
+   ],
+   "capital": 343,
+   "krx_names": [
+    "Afyon"
+   ]
+  },
+  "344": {
+   "name": "Adana",
+   "to": [
+    344
+   ],
+   "capital": 344,
+   "krx_names": [
+    "Adana"
+   ]
+  },
+  "345": {
+   "name": "Mersin",
+   "to": [
+    346
+   ],
+   "capital": 346,
+   "krx_names": [
+    "Konya"
+   ]
+  },
+  "346": {
+   "name": "Konya",
+   "to": [
+    346
+   ],
+   "capital": 346,
+   "krx_names": [
+    "Konya"
+   ]
+  },
+  "347": {
+   "name": "Izmit",
+   "to": [
+    340
+   ],
+   "capital": 340,
+   "krx_names": [
+    "Bursa"
+   ]
+  },
+  "348": {
+   "name": "Kayseri",
+   "to": [
+    345
+   ],
+   "capital": 345,
+   "krx_names": [
+    "Sivas"
+   ]
+  },
+  "349": {
+   "name": "Silvas",
+   "to": [
+    345
+   ],
+   "capital": 345,
+   "krx_names": [
+    "Sivas"
+   ]
+  },
+  "350": {
+   "name": "Diyarbekir",
+   "to": [
+    350
+   ],
+   "capital": 350,
+   "krx_names": [
+    "Diyarbakir"
+   ]
+  },
+  "351": {
+   "name": "Vologda",
+   "to": [
+    351
+   ],
+   "capital": 351,
+   "krx_names": [
+    "Vologda"
+   ]
+  },
+  "352": {
+   "name": "Hakkari",
+   "to": [
+    352
+   ],
+   "capital": 352,
+   "krx_names": [
+    "Van"
+   ]
+  },
+  "353": {
+   "name": "Erzurum",
+   "to": [
+    354
+   ],
+   "capital": 354,
+   "krx_names": [
+    "Erzurum"
+   ]
+  },
+  "354": {
+   "name": "Trabzon",
+   "to": [
+    1000,
+    1001,
+    1213
+   ],
+   "capital": 1000,
+   "krx_names": [
+    "Kars-Igdir",
+    "Lazistan",
+    "Batumi"
+   ]
+  },
+  "355": {
+   "name": "Samsun",
+   "to": [
+    355
+   ],
+   "capital": 355,
+   "krx_names": [
+    "Trebizond"
+   ]
+  },
+  "356": {
+   "name": "Sinop",
+   "to": [
+    356
+   ],
+   "capital": 356,
+   "krx_names": [
+    "Kastamonu"
+   ]
+  },
+  "357": {
+   "name": "New England",
+   "to": [
+    357,
+    931,
+    932,
+    933,
+    934,
+    935
+   ],
+   "capital": 932,
+   "krx_names": [
+    "Maine",
+    "Connecticut",
+    "Massachusetts",
+    "Vermont",
+    "New Hampshire",
+    "Rhode Island"
+   ]
+  },
+  "358": {
+   "name": "New York",
+   "to": [
+    358,
+    796
+   ],
+   "capital": 358,
+   "krx_names": [
+    "New York City",
+    "Upstate New York"
+   ]
+  },
+  "359": {
+   "name": "New Jersey",
+   "to": [
+    359,
+    1162
+   ],
+   "capital": 359,
+   "krx_names": [
+    "New Jersey",
+    "Southern New Jersey"
+   ]
+  },
+  "360": {
+   "name": "Pennsylvania",
+   "to": [
+    360
+   ],
+   "capital": 360,
+   "krx_names": [
+    "Pennsylvania"
+   ]
+  },
+  "361": {
+   "name": "Maryland",
+   "to": [
+    361,
+    930
+   ],
+   "capital": 361,
+   "krx_names": [
+    "Maryland",
+    "Delaware"
+   ]
+  },
+  "362": {
+   "name": "Virginia",
+   "to": [
+    362,
+    1155
+   ],
+   "capital": 362,
+   "krx_names": [
+    "Virginia",
+    "Southern Virginia"
+   ]
+  },
+  "363": {
+   "name": "North Carolina",
+   "to": [
+    363,
+    1158
+   ],
+   "capital": 363,
+   "krx_names": [
+    "North Carolina",
+    "North Carolinan Coast"
+   ]
+  },
+  "364": {
+   "name": "South Carolina",
+   "to": [
+    364,
+    1170
+   ],
+   "capital": 1170,
+   "krx_names": [
+    "South Carolina",
+    "Black South Carolina"
+   ]
+  },
+  "365": {
+   "name": "Georgia",
+   "to": [
+    365,
+    1169
+   ],
+   "capital": 365,
+   "krx_names": [
+    "Georgia",
+    "Southern Georgia"
+   ]
+  },
+  "366": {
+   "name": "Florida",
+   "to": [
+    366,
+    1171,
+    1172
+   ],
+   "capital": 1171,
+   "krx_names": [
+    "Florida",
+    "Northern Florida",
+    "Western Florida"
+   ]
+  },
+  "367": {
+   "name": "Alabama",
+   "to": [
+    367,
+    1167
+   ],
+   "capital": 1167,
+   "krx_names": [
+    "Alabama",
+    "Southern Alabama"
+   ]
+  },
+  "368": {
+   "name": "Tennesse",
+   "to": [
+    368
+   ],
+   "capital": 368,
+   "krx_names": [
+    "Tennesse"
+   ]
+  },
+  "369": {
+   "name": "Kentucky",
+   "to": [
+    369
+   ],
+   "capital": 369,
+   "krx_names": [
+    "Kentucky"
+   ]
+  },
+  "370": {
+   "name": "Mississippi",
+   "to": [
+    370,
+    1168
+   ],
+   "capital": 1168,
+   "krx_names": [
+    "Mississippi",
+    "Northern Mississippi"
+   ]
+  },
+  "371": {
+   "name": "Louisiana",
+   "to": [
+    371
+   ],
+   "capital": 371,
+   "krx_names": [
+    "Louisiana"
+   ]
+  },
+  "372": {
+   "name": "Arkansas",
+   "to": [
+    372,
+    1156
+   ],
+   "capital": 372,
+   "krx_names": [
+    "Arkansas",
+    "Northern Arkansas"
+   ]
+  },
+  "373": {
+   "name": "Missouri",
+   "to": [
+    373,
+    1163
+   ],
+   "capital": 373,
+   "krx_names": [
+    "Missouri",
+    "Northern Missouri"
+   ]
+  },
+  "374": {
+   "name": "Oklahoma",
+   "to": [
+    374
+   ],
+   "capital": 374,
+   "krx_names": [
+    "Oklahoma"
+   ]
+  },
+  "375": {
+   "name": "Texas",
+   "to": [
+    375,
+    833,
+    1166
+   ],
+   "capital": 375,
+   "krx_names": [
+    "Northern Texas",
+    "Southern Texas",
+    "TransPecos"
+   ]
+  },
+  "376": {
+   "name": "New Mexico",
+   "to": [
+    376,
+    1096,
+    1161
+   ],
+   "capital": 1096,
+   "krx_names": [
+    "New Mexico",
+    "Rio-Grande",
+    "Eastern New Mexico"
+   ]
+  },
+  "377": {
+   "name": "Arizona",
+   "to": [
+    377
+   ],
+   "capital": 377,
+   "krx_names": [
+    "Arizona"
+   ]
+  },
+  "378": {
+   "name": "California",
+   "to": [
+    378,
+    797,
+    798,
+    829
+   ],
+   "capital": 798,
+   "krx_names": [
+    "Northern California",
+    "San Francisco",
+    "Los Angeles",
+    "Southern California"
+   ]
+  },
+  "379": {
+   "name": "Nevada",
+   "to": [
+    379,
+    1165
+   ],
+   "capital": 379,
+   "krx_names": [
+    "Nevada",
+    "Western Nevada"
+   ]
+  },
+  "380": {
+   "name": "Utah",
+   "to": [
+    380
+   ],
+   "capital": 380,
+   "krx_names": [
+    "Utah"
+   ]
+  },
+  "381": {
+   "name": "Wyoming",
+   "to": [
+    381,
+    1164
+   ],
+   "capital": 381,
+   "krx_names": [
+    "Wyoming",
+    "Eastern Wyoming"
+   ]
+  },
+  "382": {
+   "name": "Colorado",
+   "to": [
+    382,
+    1150,
+    1174,
+    1175
+   ],
+   "capital": 382,
+   "krx_names": [
+    "Colorado",
+    "East Colorado",
+    "Carson",
+    "Oklahoma Panhandle"
+   ]
+  },
+  "383": {
+   "name": "Kansas",
+   "to": [
+    383
+   ],
+   "capital": 383,
+   "krx_names": [
+    "Kansas"
+   ]
+  },
+  "384": {
+   "name": "Nebraska",
+   "to": [
+    384
+   ],
+   "capital": 384,
+   "krx_names": [
+    "Nebraska"
+   ]
+  },
+  "385": {
+   "name": "Oregon",
+   "to": [
+    385
+   ],
+   "capital": 385,
+   "krx_names": [
+    "Oregon"
+   ]
+  },
+  "386": {
+   "name": "Washington",
+   "to": [
+    386
+   ],
+   "capital": 386,
+   "krx_names": [
+    "Washington"
+   ]
+  },
+  "387": {
+   "name": "Idaho",
+   "to": [
+    387
+   ],
+   "capital": 387,
+   "krx_names": [
+    "Idaho"
+   ]
+  },
+  "388": {
+   "name": "Montana",
+   "to": [
+    388,
+    1157
+   ],
+   "capital": 1157,
+   "krx_names": [
+    "Montana",
+    "Western Montana"
+   ]
+  },
+  "389": {
+   "name": "North Dakota",
+   "to": [
+    389
+   ],
+   "capital": 389,
+   "krx_names": [
+    "North Dakota"
+   ]
+  },
+  "390": {
+   "name": "South Dakota",
+   "to": [
+    390
+   ],
+   "capital": 390,
+   "krx_names": [
+    "South Dakota"
+   ]
+  },
+  "391": {
+   "name": "Minnesota",
+   "to": [
+    391,
+    1173
+   ],
+   "capital": 391,
+   "krx_names": [
+    "Minnesota",
+    "Arrowhead Minnesota"
+   ]
+  },
+  "392": {
+   "name": "Iowa",
+   "to": [
+    392
+   ],
+   "capital": 392,
+   "krx_names": [
+    "Iowa"
+   ]
+  },
+  "393": {
+   "name": "Michigan",
+   "to": [
+    393
+   ],
+   "capital": 393,
+   "krx_names": [
+    "Michigan"
+   ]
+  },
+  "394": {
+   "name": "Wisconsin",
+   "to": [
+    394,
+    1152
+   ],
+   "capital": 1152,
+   "krx_names": [
+    "Wisconsin",
+    "Eastern Wisconsin"
+   ]
+  },
+  "395": {
+   "name": "Illinois",
+   "to": [
+    395,
+    1154
+   ],
+   "capital": 395,
+   "krx_names": [
+    "Illinois",
+    "Southern Illinois"
+   ]
+  },
+  "396": {
+   "name": "Indiana",
+   "to": [
+    396,
+    1151
+   ],
+   "capital": 396,
+   "krx_names": [
+    "Indiana",
+    "Southern Indiana"
+   ]
+  },
+  "397": {
+   "name": "Syktyvkar",
+   "to": [
+    397
+   ],
+   "capital": 397,
+   "krx_names": [
+    "Ust-Sysolsk"
+   ]
+  },
+  "398": {
+   "name": "Perm",
+   "to": [
+    398
+   ],
+   "capital": 398,
+   "krx_names": [
+    "Perm"
+   ]
+  },
+  "399": {
+   "name": "Izhevsk",
+   "to": [
+    399
+   ],
+   "capital": 399,
+   "krx_names": [
+    "Izhevsk"
+   ]
+  },
+  "400": {
+   "name": "Kirov",
+   "to": [
+    400
+   ],
+   "capital": 400,
+   "krx_names": [
+    "Vyatka"
+   ]
+  },
+  "401": {
+   "name": "Engels",
+   "to": [
+    1207
+   ],
+   "capital": 1207,
+   "krx_names": [
+    "Balakovo"
+   ]
+  },
+  "402": {
+   "name": "Akhtubinsk",
+   "to": [
+    402
+   ],
+   "capital": 402,
+   "krx_names": [
+    "Turgai"
+   ]
+  },
+  "403": {
+   "name": "Kharabali",
+   "to": [
+    403
+   ],
+   "capital": 403,
+   "krx_names": [
+    "Tyumen"
+   ]
+  },
+  "404": {
+   "name": "Saykhin",
+   "to": [
+    712,
+    1203
+   ],
+   "capital": 1203,
+   "krx_names": [
+    "Syrdaria",
+    "Turkestan"
+   ]
+  },
+  "405": {
+   "name": "Atyrau",
+   "to": [
+    407,
+    1209
+   ],
+   "capital": 407,
+   "krx_names": [
+    "Tashkent",
+    "Samarkand"
+   ]
+  },
+  "406": {
+   "name": "Krasnyy Yar",
+   "to": [
+    1212
+   ],
+   "capital": 1212,
+   "krx_names": [
+    "Oyil"
+   ]
+  },
+  "407": {
+   "name": "Uralsk",
+   "to": [
+    406,
+    1212,
+    1224
+   ],
+   "capital": 406,
+   "krx_names": [
+    "Uralsk",
+    "Oyil",
+    "Urda"
+   ]
+  },
+  "408": {
+   "name": "Vladivostok",
+   "to": [
+    408,
+    1246
+   ],
+   "capital": 408,
+   "krx_names": [
+    "Vladivostok",
+    "Primorye"
+   ]
+  },
+  "409": {
+   "name": "Khabarovsk",
+   "to": [
+    409
+   ],
+   "capital": 409,
+   "krx_names": [
+    "Khabarovsk"
+   ]
+  },
+  "410": {
+   "name": "Sistan",
+   "to": [
+    410
+   ],
+   "capital": 410,
+   "krx_names": [
+    "Sistan"
+   ]
+  },
+  "411": {
+   "name": "Hormozgan",
+   "to": [
+    411
+   ],
+   "capital": 411,
+   "krx_names": [
+    "Isfahan"
+   ]
+  },
+  "412": {
+   "name": "Fars",
+   "to": [
+    412
+   ],
+   "capital": 412,
+   "krx_names": [
+    "Fars"
+   ]
+  },
+  "413": {
+   "name": "Khuzestan",
+   "to": [
+    413
+   ],
+   "capital": 413,
+   "krx_names": [
+    "Khuzestan"
+   ]
+  },
+  "414": {
+   "name": "Kerman",
+   "to": [
+    414
+   ],
+   "capital": 414,
+   "krx_names": [
+    "Kerman"
+   ]
+  },
+  "415": {
+   "name": "South Khorasan",
+   "to": [
+    415
+   ],
+   "capital": 415,
+   "krx_names": [
+    "Herat"
+   ]
+  },
+  "416": {
+   "name": "Razavi Khorasan",
+   "to": [
+    804
+   ],
+   "capital": 804,
+   "krx_names": [
+    "Northern Khorasan"
+   ]
+  },
+  "417": {
+   "name": "Golestan",
+   "to": [
+    266
+   ],
+   "capital": 266,
+   "krx_names": [
+    "Teheran"
+   ]
+  },
+  "418": {
+   "name": "Semnan",
+   "to": [
+    266
+   ],
+   "capital": 266,
+   "krx_names": [
+    "Teheran"
+   ]
+  },
+  "419": {
+   "name": "Azerbaijan",
+   "to": [
+    417
+   ],
+   "capital": 417,
+   "krx_names": [
+    "Western Azerbaijan"
+   ]
+  },
+  "420": {
+   "name": "Gilan",
+   "to": [
+    419
+   ],
+   "capital": 419,
+   "krx_names": [
+    "Eastern Azerbaijan"
+   ]
+  },
+  "421": {
+   "name": "Kurdistan",
+   "to": [
+    421
+   ],
+   "capital": 421,
+   "krx_names": [
+    "Kurdistan"
+   ]
+  },
+  "422": {
+   "name": "Ceylon",
+   "to": [
+    422
+   ],
+   "capital": 422,
+   "krx_names": [
+    "Ceylon"
+   ]
+  },
+  "423": {
+   "name": "Madras",
+   "to": [
+    320,
+    423,
+    1034
+   ],
+   "capital": 320,
+   "krx_names": [
+    "Madras",
+    "Madurai",
+    "Malabar Coast"
+   ]
+  },
+  "424": {
+   "name": "Andra Pradesh",
+   "to": [
+    424
+   ],
+   "capital": 424,
+   "krx_names": [
+    "Andra"
+   ]
+  },
+  "425": {
+   "name": "Mysore",
+   "to": [
+    425
+   ],
+   "capital": 425,
+   "krx_names": [
+    "Mysore"
+   ]
+  },
+  "426": {
+   "name": "Orissa",
+   "to": [
+    426,
+    889
+   ],
+   "capital": 426,
+   "krx_names": [
+    "Odisha",
+    "Vizagapatnam"
+   ]
+  },
+  "427": {
+   "name": "Hyderabad",
+   "to": [
+    427
+   ],
+   "capital": 427,
+   "krx_names": [
+    "Hydrabad"
+   ]
+  },
+  "428": {
+   "name": "Western Indian States",
+   "to": [
+    428
+   ],
+   "capital": 428,
+   "krx_names": [
+    "Gujarat"
+   ]
+  },
+  "429": {
+   "name": "Bombay",
+   "to": [
+    429,
+    1360,
+    1361
+   ],
+   "capital": 429,
+   "krx_names": [
+    "Bombay",
+    "Poona",
+    "Bombay-Deccan"
+   ]
+  },
+  "430": {
+   "name": "Bangladesh",
+   "to": [
+    430,
+    1358,
+    1362,
+    1363
+   ],
+   "capital": 1362,
+   "krx_names": [
+    "East Bengal",
+    "Rajshahi",
+    "Dacca",
+    "Chittagong"
+   ]
+  },
+  "431": {
+   "name": "Calcutta",
+   "to": [
+    431,
+    887,
+    1359
+   ],
+   "capital": 431,
+   "krx_names": [
+    "West Bengal",
+    "Darjeeling",
+    "Jalpaiguri"
+   ]
+  },
+  "432": {
+   "name": "Assam",
+   "to": [
+    432,
+    434
+   ],
+   "capital": 432,
+   "krx_names": [
+    "Assam",
+    "Manipur"
+   ]
+  },
+  "433": {
+   "name": "Rajputana",
+   "to": [
+    433,
+    1094
+   ],
+   "capital": 433,
+   "krx_names": [
+    "Rajahsthan",
+    "Ajmer"
+   ]
+  },
+  "434": {
+   "name": "Arunachal Pradesh",
+   "to": [
+    858
+   ],
+   "capital": 858,
+   "krx_names": [
+    "Tawang"
+   ]
+  },
+  "435": {
+   "name": "Bihar",
+   "to": [
+    435
+   ],
+   "capital": 435,
+   "krx_names": [
+    "Bihar"
+   ]
+  },
+  "436": {
+   "name": "Central Provinces",
+   "to": [
+    436,
+    893,
+    1093
+   ],
+   "capital": 1093,
+   "krx_names": [
+    "Raipur",
+    "Nagpur",
+    "Chhatisgarh"
+   ]
+  },
+  "437": {
+   "name": "Central Indian Provinces",
+   "to": [
+    437
+   ],
+   "capital": 437,
+   "krx_names": [
+    "Indore"
+   ]
+  },
+  "438": {
+   "name": "United Provinces",
+   "to": [
+    438,
+    814,
+    1057
+   ],
+   "capital": 438,
+   "krx_names": [
+    "Agra & Oudh",
+    "Uttarakhand",
+    "Bagelkhand"
+   ]
+  },
+  "439": {
+   "name": "Delhi",
+   "to": [
+    439
+   ],
+   "capital": 439,
+   "krx_names": [
+    "Delhi"
+   ]
+  },
+  "440": {
+   "name": "West Punjab",
+   "to": [
+    440,
+    891
+   ],
+   "capital": 891,
+   "krx_names": [
+    "Punjab",
+    "Lahore"
+   ]
+  },
+  "441": {
+   "name": "Kashmir",
+   "to": [
+    441,
+    897
+   ],
+   "capital": 441,
+   "krx_names": [
+    "Kashmir",
+    "Aksai Chin"
+   ]
+  },
+  "442": {
+   "name": "Peshawar",
+   "to": [
+    442
+   ],
+   "capital": 442,
+   "krx_names": [
+    "Peshawar"
+   ]
+  },
+  "443": {
+   "name": "Sind",
+   "to": [
+    443
+   ],
+   "capital": 443,
+   "krx_names": [
+    "Sindh"
+   ]
+  },
+  "444": {
+   "name": "Baluchistan States",
+   "to": [
+    444
+   ],
+   "capital": 444,
+   "krx_names": [
+    "Baluchistan"
+   ]
+  },
+  "445": {
+   "name": "Quetta",
+   "to": [
+    445
+   ],
+   "capital": 445,
+   "krx_names": [
+    "Quetta"
+   ]
+  },
+  "446": {
+   "name": "Cairo",
+   "to": [
+    753
+   ],
+   "capital": 753,
+   "krx_names": [
+    "Suez Canal"
+   ]
+  },
+  "447": {
+   "name": "Alexandria",
+   "to": [
+    447
+   ],
+   "capital": 447,
+   "krx_names": [
+    "Alexandria"
+   ]
+  },
+  "448": {
+   "name": "Tripoli",
+   "to": [
+    448
+   ],
+   "capital": 448,
+   "krx_names": [
+    "Tripoli"
+   ]
+  },
+  "449": {
+   "name": "Libyan Coast",
+   "to": [
+    448
+   ],
+   "capital": 448,
+   "krx_names": [
+    "Tripoli"
+   ]
+  },
+  "450": {
+   "name": "Benghasi",
+   "to": [
+    450
+   ],
+   "capital": 450,
+   "krx_names": [
+    "Benghazi"
+   ]
+  },
+  "451": {
+   "name": "Derna",
+   "to": [
+    451
+   ],
+   "capital": 451,
+   "krx_names": [
+    "Ajdabiya"
+   ]
+  },
+  "452": {
+   "name": "Marsa Matruh",
+   "to": [
+    452
+   ],
+   "capital": 452,
+   "krx_names": [
+    "Marsa Matruh"
+   ]
+  },
+  "453": {
+   "name": "Sinai",
+   "to": [
+    453
+   ],
+   "capital": 453,
+   "krx_names": [
+    "Sinai"
+   ]
+  },
+  "454": {
+   "name": "Israel",
+   "to": [
+    454,
+    992
+   ],
+   "capital": 454,
+   "krx_names": [
+    "Jerusalem",
+    "Haifa"
+   ]
+  },
+  "455": {
+   "name": "Jordan",
+   "to": [
+    455
+   ],
+   "capital": 455,
+   "krx_names": [
+    "Ma'an"
+   ]
+  },
+  "456": {
+   "name": "Luxor",
+   "to": [
+    456,
+    1008
+   ],
+   "capital": 456,
+   "krx_names": [
+    "Aswan",
+    "Girga"
+   ]
+  },
+  "457": {
+   "name": "Aswan",
+   "to": [
+    457
+   ],
+   "capital": 457,
+   "krx_names": [
+    "Eastern Desert"
+   ]
+  },
+  "458": {
+   "name": "Tunisia",
+   "to": [
+    458
+   ],
+   "capital": 458,
+   "krx_names": [
+    "Tunisia"
+   ]
+  },
+  "459": {
+   "name": "Western Algeria",
+   "to": [
+    459
+   ],
+   "capital": 459,
+   "krx_names": [
+    "Algiers"
+   ]
+  },
+  "460": {
+   "name": "Eastern Algeria",
+   "to": [
+    460
+   ],
+   "capital": 460,
+   "krx_names": [
+    "Constantine"
+   ]
+  },
+  "461": {
+   "name": "Northern Morocco",
+   "to": [
+    461
+   ],
+   "capital": 461,
+   "krx_names": [
+    "Casablanca"
+   ]
+  },
+  "462": {
+   "name": "Southern Morocco",
+   "to": [
+    462
+   ],
+   "capital": 462,
+   "krx_names": [
+    "Marrakesh"
+   ]
+  },
+  "463": {
+   "name": "Alaska",
+   "to": [
+    463,
+    1348,
+    1349,
+    1350
+   ],
+   "capital": 463,
+   "krx_names": [
+    "Alaska",
+    "Anchorage",
+    "Kodiak-Aleutia",
+    "North Alaska"
+   ]
+  },
+  "464": {
+   "name": "Nova Scotia",
+   "to": [
+    464,
+    1330,
+    1331
+   ],
+   "capital": 464,
+   "krx_names": [
+    "Nova Scotia",
+    "Cape Breton Island",
+    "Prince Edward Island"
+   ]
+  },
+  "465": {
+   "name": "New Brunswick",
+   "to": [
+    465
+   ],
+   "capital": 465,
+   "krx_names": [
+    "New Brunswick"
+   ]
+  },
+  "466": {
+   "name": "Quebec",
+   "to": [
+    683
+   ],
+   "capital": 683,
+   "krx_names": [
+    "New Quebec"
+   ]
+  },
+  "467": {
+   "name": "Manitoba",
+   "to": [
+    467
+   ],
+   "capital": 467,
+   "krx_names": [
+    "Manitoba"
+   ]
+  },
+  "468": {
+   "name": "Nunavut",
+   "to": [
+    468
+   ],
+   "capital": 468,
+   "krx_names": [
+    "Saint Lawrence"
+   ]
+  },
+  "469": {
+   "name": "Saskatchewan",
+   "to": [
+    469
+   ],
+   "capital": 469,
+   "krx_names": [
+    "Saskatchewan"
+   ]
+  },
+  "470": {
+   "name": "Alberta",
+   "to": [
+    470
+   ],
+   "capital": 470,
+   "krx_names": [
+    "Alberta"
+   ]
+  },
+  "471": {
+   "name": "Northwestern Canada",
+   "to": [
+    473
+   ],
+   "capital": 473,
+   "krx_names": [
+    "British Columbia"
+   ]
+  },
+  "472": {
+   "name": "Northwest Territories",
+   "to": [
+    472
+   ],
+   "capital": 472,
+   "krx_names": [
+    "Northwest Territories"
+   ]
+  },
+  "473": {
+   "name": "British Columbia",
+   "to": [
+    473
+   ],
+   "capital": 473,
+   "krx_names": [
+    "British Columbia"
+   ]
+  },
+  "474": {
+   "name": "Yucatan",
+   "to": [
+    474,
+    1254,
+    1255
+   ],
+   "capital": 474,
+   "krx_names": [
+    "Yucatan",
+    "Campeche",
+    "Quintana Roo"
+   ]
+  },
+  "475": {
+   "name": "Chiapas",
+   "to": [
+    475,
+    1252,
+    1253
+   ],
+   "capital": 475,
+   "krx_names": [
+    "Chiapas",
+    "Tabasco",
+    "Los Altos"
+   ]
+  },
+  "476": {
+   "name": "Oaxaca",
+   "to": [
+    476
+   ],
+   "capital": 476,
+   "krx_names": [
+    "Oaxaca"
+   ]
+  },
+  "477": {
+   "name": "Veracruz",
+   "to": [
+    477
+   ],
+   "capital": 477,
+   "krx_names": [
+    "Vera Cruz"
+   ]
+  },
+  "478": {
+   "name": "Nayarit",
+   "to": [
+    478
+   ],
+   "capital": 478,
+   "krx_names": [
+    "Jalisco"
+   ]
+  },
+  "479": {
+   "name": "Tamaulipas",
+   "to": [
+    479
+   ],
+   "capital": 479,
+   "krx_names": [
+    "Tamaulipas"
+   ]
+  },
+  "480": {
+   "name": "Coahuila",
+   "to": [
+    480
+   ],
+   "capital": 480,
+   "krx_names": [
+    "Coahuila"
+   ]
+  },
+  "481": {
+   "name": "Sinaloa",
+   "to": [
+    481
+   ],
+   "capital": 481,
+   "krx_names": [
+    "Durango"
+   ]
+  },
+  "482": {
+   "name": "Chihuahua",
+   "to": [
+    482
+   ],
+   "capital": 482,
+   "krx_names": [
+    "Chihuahua"
+   ]
+  },
+  "483": {
+   "name": "Sonora",
+   "to": [
+    483
+   ],
+   "capital": 483,
+   "krx_names": [
+    "Sonora"
+   ]
+  },
+  "484": {
+   "name": "Baja California",
+   "to": [
+    484
+   ],
+   "capital": 484,
+   "krx_names": [
+    "Baja California"
+   ]
+  },
+  "485": {
+   "name": "Guerrero",
+   "to": [
+    485
+   ],
+   "capital": 485,
+   "krx_names": [
+    "Guerrero"
+   ]
+  },
+  "486": {
+   "name": "Meta",
+   "to": [
+    486,
+    851,
+    1214
+   ],
+   "capital": 486,
+   "krx_names": [
+    "Meta",
+    "Caqueta",
+    "Lower Caqueta"
+   ]
+  },
+  "487": {
+   "name": "Amazinas",
+   "to": [
+    487,
+    847,
+    1027
+   ],
+   "capital": 487,
+   "krx_names": [
+    "Santa Cruz",
+    "Beni",
+    "Bolivian Chaco"
+   ]
+  },
+  "488": {
+   "name": "Bolivar",
+   "to": [
+    488,
+    1036
+   ],
+   "capital": 1036,
+   "krx_names": [
+    "Guaiana Highlands",
+    "Bolivar Jungle"
+   ]
+  },
+  "489": {
+   "name": "Monagas",
+   "to": [
+    489,
+    849
+   ],
+   "capital": 849,
+   "krx_names": [
+    "Zulia",
+    "Caracas"
+   ]
+  },
+  "490": {
+   "name": "Pastaza",
+   "to": [
+    490
+   ],
+   "capital": 490,
+   "krx_names": [
+    "Pastaza"
+   ]
+  },
+  "491": {
+   "name": "Loreto",
+   "to": [
+    491
+   ],
+   "capital": 491,
+   "krx_names": [
+    "Loreto"
+   ]
+  },
+  "492": {
+   "name": "Piura",
+   "to": [
+    492
+   ],
+   "capital": 492,
+   "krx_names": [
+    "Arequipa"
+   ]
+  },
+  "493": {
+   "name": "La Libertad",
+   "to": [
+    493,
+    853,
+    1216
+   ],
+   "capital": 493,
+   "krx_names": [
+    "Caribe",
+    "Choco",
+    "Santander"
+   ]
+  },
+  "494": {
+   "name": "Ucayali",
+   "to": [
+    494
+   ],
+   "capital": 494,
+   "krx_names": [
+    "Cuzco"
+   ]
+  },
+  "495": {
+   "name": "Amazonas",
+   "to": [
+    495,
+    1031
+   ],
+   "capital": 495,
+   "krx_names": [
+    "Amazonas",
+    "Northern Amazonas"
+   ]
+  },
+  "496": {
+   "name": "Para",
+   "to": [
+    496
+   ],
+   "capital": 496,
+   "krx_names": [
+    "Minas Gerais"
+   ]
+  },
+  "497": {
+   "name": "Maranhao",
+   "to": [
+    896
+   ],
+   "capital": 896,
+   "krx_names": [
+    "Maranhao"
+   ]
+  },
+  "498": {
+   "name": "Rio Grande",
+   "to": [
+    498
+   ],
+   "capital": 498,
+   "krx_names": [
+    "Northeastern Brazil"
+   ]
+  },
+  "499": {
+   "name": "Bahia",
+   "to": [
+    499
+   ],
+   "capital": 499,
+   "krx_names": [
+    "Bahia"
+   ]
+  },
+  "500": {
+   "name": "Rio de Janerio",
+   "to": [
+    500
+   ],
+   "capital": 500,
+   "krx_names": [
+    "Rio de Janerio"
+   ]
+  },
+  "501": {
+   "name": "Saol Paulo",
+   "to": [
+    501
+   ],
+   "capital": 501,
+   "krx_names": [
+    "Sao Paulo"
+   ]
+  },
+  "502": {
+   "name": "Rio Grande Sul",
+   "to": [
+    502
+   ],
+   "capital": 502,
+   "krx_names": [
+    "Rio Grande do Sul"
+   ]
+  },
+  "503": {
+   "name": "Santa Catarina",
+   "to": [
+    894
+   ],
+   "capital": 894,
+   "krx_names": [
+    "Santa Catarina"
+   ]
+  },
+  "504": {
+   "name": "Iguacu",
+   "to": [
+    1043
+   ],
+   "capital": 1043,
+   "krx_names": [
+    "Ponta Pora"
+   ]
+  },
+  "505": {
+   "name": "Goias",
+   "to": [
+    505
+   ],
+   "capital": 505,
+   "krx_names": [
+    "Goyaz"
+   ]
+  },
+  "506": {
+   "name": "Northern Chile",
+   "to": [
+    506
+   ],
+   "capital": 506,
+   "krx_names": [
+    "Antofagasta"
+   ]
+  },
+  "507": {
+   "name": "Southern Chile",
+   "to": [
+    507
+   ],
+   "capital": 507,
+   "krx_names": [
+    "Magallanes"
+   ]
+  },
+  "508": {
+   "name": "Argentine Northwest",
+   "to": [
+    508
+   ],
+   "capital": 508,
+   "krx_names": [
+    "Tucuman"
+   ]
+  },
+  "509": {
+   "name": "Gran Chaco",
+   "to": [
+    509
+   ],
+   "capital": 509,
+   "krx_names": [
+    "Santiago del Estero"
+   ]
+  },
+  "510": {
+   "name": "Mesopotamia",
+   "to": [
+    510,
+    1074
+   ],
+   "capital": 1074,
+   "krx_names": [
+    "Entre Rios",
+    "Corrientes"
+   ]
+  },
+  "511": {
+   "name": "Cuyo",
+   "to": [
+    511
+   ],
+   "capital": 511,
+   "krx_names": [
+    "Mendoza"
+   ]
+  },
+  "512": {
+   "name": "Patagonia",
+   "to": [
+    449,
+    579
+   ],
+   "capital": 579,
+   "krx_names": [
+    "La Pampa",
+    "Neuquen"
+   ]
+  },
+  "513": {
+   "name": "Southern Algeria",
+   "to": [
+    459,
+    805
+   ],
+   "capital": 459,
+   "krx_names": [
+    "Algiers",
+    "Oran"
+   ]
+  },
+  "514": {
+   "name": "North Africa",
+   "to": [
+    513,
+    514
+   ],
+   "capital": 513,
+   "krx_names": [
+    "Southern Territories",
+    "Sahara"
+   ]
+  },
+  "515": {
+   "name": "Central Africa",
+   "to": [
+    910,
+    1192
+   ],
+   "capital": 910,
+   "krx_names": [
+    "Niger Desert",
+    "Maradi"
+   ]
+  },
+  "516": {
+   "name": "Northern Siberia",
+   "to": [
+    516
+   ],
+   "capital": 516,
+   "krx_names": [
+    "Taymyr"
+   ]
+  },
+  "517": {
+   "name": "Victoria",
+   "to": [
+    517
+   ],
+   "capital": 517,
+   "krx_names": [
+    "Victoria"
+   ]
+  },
+  "518": {
+   "name": "Tasmania",
+   "to": [
+    518
+   ],
+   "capital": 518,
+   "krx_names": [
+    "Tasmania"
+   ]
+  },
+  "519": {
+   "name": "South Australia",
+   "to": [
+    519
+   ],
+   "capital": 519,
+   "krx_names": [
+    "South Australia"
+   ]
+  },
+  "520": {
+   "name": "Northern Territory",
+   "to": [
+    520
+   ],
+   "capital": 520,
+   "krx_names": [
+    "Northern Territory"
+   ]
+  },
+  "521": {
+   "name": "Queensland",
+   "to": [
+    521
+   ],
+   "capital": 521,
+   "krx_names": [
+    "Southern Queensland"
+   ]
+  },
+  "522": {
+   "name": "Western Australia",
+   "to": [
+    988
+   ],
+   "capital": 988,
+   "krx_names": [
+    "Pilbara"
+   ]
+  },
+  "523": {
+   "name": "New Guinea",
+   "to": [
+    523
+   ],
+   "capital": 523,
+   "krx_names": [
+    "Papua"
+   ]
+  },
+  "524": {
+   "name": "Taiwan",
+   "to": [
+    524
+   ],
+   "capital": 524,
+   "krx_names": [
+    "Taipei"
+   ]
+  },
+  "525": {
+   "name": "South Korea",
+   "to": [
+    525
+   ],
+   "capital": 525,
+   "krx_names": [
+    "Southern Korea"
+   ]
+  },
+  "526": {
+   "name": "Okinawa",
+   "to": [
+    526
+   ],
+   "capital": 526,
+   "krx_names": [
+    "Ryukyu Islands"
+   ]
+  },
+  "527": {
+   "name": "North Korea",
+   "to": [
+    527
+   ],
+   "capital": 527,
+   "krx_names": [
+    "Northern Korea"
+   ]
+  },
+  "528": {
+   "name": "Nagasaki",
+   "to": [
+    528
+   ],
+   "capital": 528,
+   "krx_names": [
+    "Kyushu"
+   ]
+  },
+  "529": {
+   "name": "Hiroshima",
+   "to": [
+    529
+   ],
+   "capital": 529,
+   "krx_names": [
+    "Chugoku"
+   ]
+  },
+  "530": {
+   "name": "Tokushima",
+   "to": [
+    530
+   ],
+   "capital": 530,
+   "krx_names": [
+    "Shikoku"
+   ]
+  },
+  "531": {
+   "name": "Osaka",
+   "to": [
+    531,
+    1354
+   ],
+   "capital": 531,
+   "krx_names": [
+    "Kansai",
+    "Hyogo"
+   ]
+  },
+  "532": {
+   "name": "Nagoya",
+   "to": [
+    532,
+    1355
+   ],
+   "capital": 532,
+   "krx_names": [
+    "Tokai",
+    "Koshinsei"
+   ]
+  },
+  "533": {
+   "name": "Akita",
+   "to": [
+    1356
+   ],
+   "capital": 1356,
+   "krx_names": [
+    "North Tohoku"
+   ]
+  },
+  "534": {
+   "name": "Niigata",
+   "to": [
+    534
+   ],
+   "capital": 534,
+   "krx_names": [
+    "Hokuriku"
+   ]
+  },
+  "535": {
+   "name": "Nagano",
+   "to": [
+    535
+   ],
+   "capital": 535,
+   "krx_names": [
+    "Koshinetsu"
+   ]
+  },
+  "536": {
+   "name": "Hokkaido",
+   "to": [
+    536
+   ],
+   "capital": 536,
+   "krx_names": [
+    "Hokkaido"
+   ]
+  },
+  "537": {
+   "name": "South Sakhalin",
+   "to": [
+    537
+   ],
+   "capital": 537,
+   "krx_names": [
+    "Karafuto"
+   ]
+  },
+  "538": {
+   "name": "Cameroun",
+   "to": [
+    538,
+    1025,
+    1180
+   ],
+   "capital": 1025,
+   "krx_names": [
+    "Equatorial Congo",
+    "South Ubangi",
+    "North Ubangi"
+   ]
+  },
+  "539": {
+   "name": "Gabon",
+   "to": [
+    539
+   ],
+   "capital": 539,
+   "krx_names": [
+    "Gabun"
+   ]
+  },
+  "540": {
+   "name": "Angola",
+   "to": [
+    540,
+    916
+   ],
+   "capital": 540,
+   "krx_names": [
+    "Central Angola",
+    "Old Kongo"
+   ]
+  },
+  "541": {
+   "name": "South West Africa",
+   "to": [
+    541
+   ],
+   "capital": 541,
+   "krx_names": [
+    "South West Africa"
+   ]
+  },
+  "542": {
+   "name": "Bechuana Land",
+   "to": [
+    542
+   ],
+   "capital": 542,
+   "krx_names": [
+    "Bechuanaland"
+   ]
+  },
+  "543": {
+   "name": "Madagascar",
+   "to": [
+    543,
+    1177,
+    1178,
+    1179
+   ],
+   "capital": 543,
+   "krx_names": [
+    "Madagascar",
+    "West Madagascar",
+    "East Madagascar",
+    "South Madagascar"
+   ]
+  },
+  "544": {
+   "name": "East Africa",
+   "to": [
+    950
+   ],
+   "capital": 950,
+   "krx_names": [
+    "Inhambane & Gaza"
+   ]
+  },
+  "545": {
+   "name": "Rhodessa",
+   "to": [
+    545
+   ],
+   "capital": 545,
+   "krx_names": [
+    "Rhodesia"
+   ]
+  },
+  "546": {
+   "name": "Tanganyika",
+   "to": [
+    546,
+    899,
+    905,
+    918,
+    965,
+    1032
+   ],
+   "capital": 965,
+   "krx_names": [
+    "Dodoma",
+    "Ruvuma",
+    "Zanzibar",
+    "Kagera",
+    "Dar-es-Salaam",
+    "Tabora"
+   ]
+  },
+  "547": {
+   "name": "East Africa",
+   "to": [
+    925
+   ],
+   "capital": 925,
+   "krx_names": [
+    "Gallaland"
+   ]
+  },
+  "548": {
+   "name": "Uganda",
+   "to": [
+    548
+   ],
+   "capital": 548,
+   "krx_names": [
+    "Uganda"
+   ]
+  },
+  "549": {
+   "name": "Sudan",
+   "to": [
+    1010
+   ],
+   "capital": 1010,
+   "krx_names": [
+    "Darfur"
+   ]
+  },
+  "550": {
+   "name": "Eritrea",
+   "to": [
+    550,
+    961
+   ],
+   "capital": 550,
+   "krx_names": [
+    "Eritrea",
+    "Dankalia"
+   ]
+  },
+  "551": {
+   "name": "Khartoum",
+   "to": [
+    551
+   ],
+   "capital": 551,
+   "krx_names": [
+    "Khartoum"
+   ]
+  },
+  "552": {
+   "name": "Western Egypt",
+   "to": [
+    552
+   ],
+   "capital": 552,
+   "krx_names": [
+    "Western Desert"
+   ]
+  },
+  "553": {
+   "name": "Lebanon",
+   "to": [
+    553
+   ],
+   "capital": 553,
+   "krx_names": [
+    "Beirut"
+   ]
+  },
+  "554": {
+   "name": "Syria",
+   "to": [
+    554
+   ],
+   "capital": 554,
+   "krx_names": [
+    "Syria"
+   ]
+  },
+  "555": {
+   "name": "Lagos",
+   "to": [
+    555
+   ],
+   "capital": 555,
+   "krx_names": [
+    "Kuril Islands"
+   ]
+  },
+  "556": {
+   "name": "Mali",
+   "to": [
+    556
+   ],
+   "capital": 556,
+   "krx_names": [
+    "French Sudan"
+   ]
+  },
+  "557": {
+   "name": "Mauritania",
+   "to": [
+    557
+   ],
+   "capital": 557,
+   "krx_names": [
+    "Mauretania"
+   ]
+  },
+  "558": {
+   "name": "Nigeria",
+   "to": [
+    973
+   ],
+   "capital": 973,
+   "krx_names": [
+    "Lagos"
+   ]
+  },
+  "559": {
+   "name": "Somaliland",
+   "to": [
+    559
+   ],
+   "capital": 559,
+   "krx_names": [
+    "Mogadishu"
+   ]
+  },
+  "560": {
+   "name": "TS 2",
+   "to": [
+    560
+   ],
+   "capital": 560,
+   "krx_names": [
+    "Nikolayevsk"
+   ]
+  },
+  "561": {
+   "name": "TS 3",
+   "to": [
+    657
+   ],
+   "capital": 657,
+   "krx_names": [
+    "Blagoveshchensk"
+   ]
+  },
+  "562": {
+   "name": "TS 4",
+   "to": [
+    574
+   ],
+   "capital": 574,
+   "krx_names": [
+    "Yakutsk"
+   ]
+  },
+  "563": {
+   "name": "TS 5",
+   "to": [
+    563
+   ],
+   "capital": 563,
+   "krx_names": [
+    "Chita"
+   ]
+  },
+  "564": {
+   "name": "TS 6",
+   "to": [
+    564
+   ],
+   "capital": 564,
+   "krx_names": [
+    "Verkhneudinsk"
+   ]
+  },
+  "565": {
+   "name": "TS 7",
+   "to": [
+    565
+   ],
+   "capital": 565,
+   "krx_names": [
+    "Bodaybo"
+   ]
+  },
+  "566": {
+   "name": "TS 8",
+   "to": [
+    566
+   ],
+   "capital": 566,
+   "krx_names": [
+    "Irkutsk"
+   ]
+  },
+  "567": {
+   "name": "TS 9",
+   "to": [
+    567
+   ],
+   "capital": 567,
+   "krx_names": [
+    "Bratsk"
+   ]
+  },
+  "568": {
+   "name": "TS 10",
+   "to": [
+    568,
+    575,
+    811
+   ],
+   "capital": 568,
+   "krx_names": [
+    "Krasnoyarsk",
+    "Achinsk",
+    "Minusinsk"
+   ]
+  },
+  "569": {
+   "name": "TS 11",
+   "to": [
+    569,
+    1293
+   ],
+   "capital": 1293,
+   "krx_names": [
+    "Shcheglovsk",
+    "Khakassia"
+   ]
+  },
+  "570": {
+   "name": "TS 12",
+   "to": [
+    570
+   ],
+   "capital": 570,
+   "krx_names": [
+    "Novo-Nikolayevsk"
+   ]
+  },
+  "571": {
+   "name": "TS 13",
+   "to": [
+    571
+   ],
+   "capital": 571,
+   "krx_names": [
+    "Omsk"
+   ]
+  },
+  "572": {
+   "name": "TS 14",
+   "to": [
+    572
+   ],
+   "capital": 572,
+   "krx_names": [
+    "Chelyabinsk"
+   ]
+  },
+  "573": {
+   "name": "Ts 15",
+   "to": [
+    581
+   ],
+   "capital": 581,
+   "krx_names": [
+    "Northern Ural"
+   ]
+  },
+  "574": {
+   "name": "Siberia 1",
+   "to": [
+    574
+   ],
+   "capital": 574,
+   "krx_names": [
+    "Yakutsk"
+   ]
+  },
+  "575": {
+   "name": "Siberia 2",
+   "to": [
+    644
+   ],
+   "capital": 644,
+   "krx_names": [
+    "Northeast Siberia"
+   ]
+  },
+  "576": {
+   "name": "Siberia 3",
+   "to": [
+    576
+   ],
+   "capital": 576,
+   "krx_names": [
+    "Yeniseysk"
+   ]
+  },
+  "577": {
+   "name": "Siberia 4",
+   "to": [
+    577
+   ],
+   "capital": 577,
+   "krx_names": [
+    "Surgut"
+   ]
+  },
+  "578": {
+   "name": "Siberia 5",
+   "to": [
+    578
+   ],
+   "capital": 578,
+   "krx_names": [
+    "Tomsk"
+   ]
+  },
+  "579": {
+   "name": "Siberia 6",
+   "to": [
+    1200
+   ],
+   "capital": 1200,
+   "krx_names": [
+    "Obdorsk"
+   ]
+  },
+  "580": {
+   "name": "Siberia 7",
+   "to": [
+    580
+   ],
+   "capital": 580,
+   "krx_names": [
+    "Tobolsk"
+   ]
+  },
+  "581": {
+   "name": "Northern Urals",
+   "to": [
+    581
+   ],
+   "capital": 581,
+   "krx_names": [
+    "Northern Ural"
+   ]
+  },
+  "582": {
+   "name": "Sourthern Urals",
+   "to": [
+    582,
+    1195
+   ],
+   "capital": 582,
+   "krx_names": [
+    "Orsk",
+    "Southern Ural"
+   ]
+  },
+  "583": {
+   "name": "Kazakhstan",
+   "to": [
+    402
+   ],
+   "capital": 402,
+   "krx_names": [
+    "Turgai"
+   ]
+  },
+  "584": {
+   "name": "Turkmenistan",
+   "to": [
+    584,
+    1275,
+    1276
+   ],
+   "capital": 584,
+   "krx_names": [
+    "Karakum",
+    "Merv",
+    "Chardzhuy"
+   ]
+  },
+  "585": {
+   "name": "Uzbekistan",
+   "to": [
+    585
+   ],
+   "capital": 585,
+   "krx_names": [
+    "Kyzylorda"
+   ]
+  },
+  "586": {
+   "name": "Kyrgyzstan",
+   "to": [
+    589
+   ],
+   "capital": 589,
+   "krx_names": [
+    "Semiryechensk"
+   ]
+  },
+  "587": {
+   "name": "Western Kazakstan",
+   "to": [
+    587
+   ],
+   "capital": 587,
+   "krx_names": [
+    "Fort-Alexandrovsky"
+   ]
+  },
+  "588": {
+   "name": "Some Mountains",
+   "to": [
+    404,
+    810
+   ],
+   "capital": 810,
+   "krx_names": [
+    "Ust-Kamenogorsk",
+    "Alash"
+   ]
+  },
+  "589": {
+   "name": "Eastern Kazakhstan",
+   "to": [
+    589
+   ],
+   "capital": 589,
+   "krx_names": [
+    "Semiryechensk"
+   ]
+  },
+  "590": {
+   "name": "Northern Kazakhstan",
+   "to": [
+    583
+   ],
+   "capital": 583,
+   "krx_names": [
+    "Petropavlovsk"
+   ]
+  },
+  "591": {
+   "name": "Hainan",
+   "to": [
+    591
+   ],
+   "capital": 591,
+   "krx_names": [
+    "Qiongya"
+   ]
+  },
+  "592": {
+   "name": "Guangzhou",
+   "to": [
+    592,
+    593
+   ],
+   "capital": 592,
+   "krx_names": [
+    "Guangzhou",
+    "Yuehai"
+   ]
+  },
+  "593": {
+   "name": "Guangdong",
+   "to": [
+    800,
+    801,
+    1012
+   ],
+   "capital": 800,
+   "krx_names": [
+    "Shaoguan",
+    "Shantou",
+    "Chaoshan"
+   ]
+  },
+  "594": {
+   "name": "Nanning",
+   "to": [
+    594,
+    1053,
+    1054
+   ],
+   "capital": 594,
+   "krx_names": [
+    "Nanning",
+    "Zhennan",
+    "Tiannan"
+   ]
+  },
+  "595": {
+   "name": "Fujian",
+   "to": [
+    595,
+    747,
+    802,
+    1046,
+    1066
+   ],
+   "capital": 1066,
+   "krx_names": [
+    "Jianan",
+    "Fuzhou",
+    "Xiamen",
+    "Tingzhang",
+    "Minheu"
+   ]
+  },
+  "596": {
+   "name": "Zhejiang",
+   "to": [
+    596,
+    746,
+    803,
+    1067,
+    1068,
+    1069
+   ],
+   "capital": 596,
+   "krx_names": [
+    "Qiantang",
+    "Ningbo",
+    "Wengzhou",
+    "Jinhua",
+    "Kuaiji",
+    "Lishui"
+   ]
+  },
+  "597": {
+   "name": "Shandong",
+   "to": [
+    996,
+    1065
+   ],
+   "capital": 996,
+   "krx_names": [
+    "Weihaiwei",
+    "Jiaodong"
+   ]
+  },
+  "598": {
+   "name": "Jiansu",
+   "to": [
+    598,
+    1047
+   ],
+   "capital": 1047,
+   "krx_names": [
+    "Yangzhou",
+    "Subei"
+   ]
+  },
+  "599": {
+   "name": "Guanxi",
+   "to": [
+    599,
+    1055
+   ],
+   "capital": 599,
+   "krx_names": [
+    "Guilin",
+    "Liujiang"
+   ]
+  },
+  "600": {
+   "name": "Jiangxi",
+   "to": [
+    600,
+    1044,
+    1045
+   ],
+   "capital": 1044,
+   "krx_names": [
+    "Gannan",
+    "Gandongbei",
+    "Ganxibei"
+   ]
+  },
+  "601": {
+   "name": "China 1",
+   "to": [
+    693,
+    748
+   ],
+   "capital": 693,
+   "krx_names": [
+    "Chamdo",
+    "Bome"
+   ]
+  },
+  "602": {
+   "name": "China 2",
+   "to": [
+    602
+   ],
+   "capital": 602,
+   "krx_names": [
+    "Xiangjiang"
+   ]
+  },
+  "603": {
+   "name": "China 3",
+   "to": [
+    603,
+    1051,
+    1052
+   ],
+   "capital": 1051,
+   "krx_names": [
+    "Qianzhong",
+    "Guixi",
+    "Zhenyuan"
+   ]
+  },
+  "604": {
+   "name": "China 4",
+   "to": [
+    353
+   ],
+   "capital": 353,
+   "krx_names": [
+    "Yushu"
+   ]
+  },
+  "605": {
+   "name": "China 5",
+   "to": [
+    661,
+    1049
+   ],
+   "capital": 661,
+   "krx_names": [
+    "Eastern Sichuan",
+    "Shihe"
+   ]
+  },
+  "606": {
+   "name": "China 6",
+   "to": [
+    606,
+    1050
+   ],
+   "capital": 606,
+   "krx_names": [
+    "Anqing",
+    "Huaisi"
+   ]
+  },
+  "607": {
+   "name": "China 7",
+   "to": [
+    607,
+    1058,
+    1059,
+    1060
+   ],
+   "capital": 1059,
+   "krx_names": [
+    "Heluo",
+    "Ruyang",
+    "Kaifeng",
+    "Hebei"
+   ]
+  },
+  "608": {
+   "name": "Beijing",
+   "to": [
+    608,
+    609
+   ],
+   "capital": 608,
+   "krx_names": [
+    "Beijing",
+    "Tianjin"
+   ]
+  },
+  "609": {
+   "name": "China 8",
+   "to": [
+    614
+   ],
+   "capital": 614,
+   "krx_names": [
+    "Jidong"
+   ]
+  },
+  "610": {
+   "name": "China 9",
+   "to": [
+    610
+   ],
+   "capital": 610,
+   "krx_names": [
+    "Jehol"
+   ]
+  },
+  "611": {
+   "name": "China 10",
+   "to": [
+    612
+   ],
+   "capital": 612,
+   "krx_names": [
+    "Chahar"
+   ]
+  },
+  "612": {
+   "name": "China 11",
+   "to": [
+    612
+   ],
+   "capital": 612,
+   "krx_names": [
+    "Chahar"
+   ]
+  },
+  "613": {
+   "name": "China 12",
+   "to": [
+    743
+   ],
+   "capital": 743,
+   "krx_names": [
+    "Shanghai"
+   ]
+  },
+  "614": {
+   "name": "China 13",
+   "to": [
+    1062
+   ],
+   "capital": 1062,
+   "krx_names": [
+    "Baoding"
+   ]
+  },
+  "615": {
+   "name": "Shanxi",
+   "to": [
+    615,
+    1015,
+    1072
+   ],
+   "capital": 1072,
+   "krx_names": [
+    "Jindong",
+    "Jinxi",
+    "Jinzhong"
+   ]
+  },
+  "616": {
+   "name": "China 14",
+   "to": [
+    348
+   ],
+   "capital": 348,
+   "krx_names": [
+    "Ningxia"
+   ]
+  },
+  "617": {
+   "name": "Xinjiang",
+   "to": [
+    617
+   ],
+   "capital": 617,
+   "krx_names": [
+    "Dihua"
+   ]
+  },
+  "618": {
+   "name": "China 15",
+   "to": [
+    618
+   ],
+   "capital": 618,
+   "krx_names": [
+    "Dzungaria"
+   ]
+  },
+  "619": {
+   "name": "China 16",
+   "to": [
+    619
+   ],
+   "capital": 619,
+   "krx_names": [
+    "Kashgar"
+   ]
+  },
+  "620": {
+   "name": "China 17",
+   "to": [
+    620
+   ],
+   "capital": 620,
+   "krx_names": [
+    "Jianghan"
+   ]
+  },
+  "621": {
+   "name": "China 18",
+   "to": [
+    621
+   ],
+   "capital": 621,
+   "krx_names": [
+    "Suiyuan"
+   ]
+  },
+  "622": {
+   "name": "China 19",
+   "to": [
+    622
+   ],
+   "capital": 622,
+   "krx_names": [
+    "Shaanxi"
+   ]
+  },
+  "623": {
+   "name": "Luzon",
+   "to": [
+    623
+   ],
+   "capital": 623,
+   "krx_names": [
+    "Northern Luzon"
+   ]
+  },
+  "624": {
+   "name": "Central islands",
+   "to": [
+    624
+   ],
+   "capital": 624,
+   "krx_names": [
+    "Southern Luzon"
+   ]
+  },
+  "625": {
+   "name": "Samar",
+   "to": [
+    625
+   ],
+   "capital": 625,
+   "krx_names": [
+    "Samar"
+   ]
+  },
+  "626": {
+   "name": "Palawan",
+   "to": [
+    626
+   ],
+   "capital": 626,
+   "krx_names": [
+    "Palawan"
+   ]
+  },
+  "627": {
+   "name": "Mindanao",
+   "to": [
+    627
+   ],
+   "capital": 627,
+   "krx_names": [
+    "Mindanao"
+   ]
+  },
+  "628": {
+   "name": "Cebu",
+   "to": [
+    628
+   ],
+   "capital": 628,
+   "krx_names": [
+    "Western Visayas"
+   ]
+  },
+  "629": {
+   "name": "Hawaii",
+   "to": [
+    629
+   ],
+   "capital": 629,
+   "krx_names": [
+    "Hawaii"
+   ]
+  },
+  "630": {
+   "name": "Johnston Atoll",
+   "to": [
+    630
+   ],
+   "capital": 630,
+   "krx_names": [
+    "Johnston Atoll"
+   ]
+  },
+  "631": {
+   "name": "Midway Island",
+   "to": [
+    631
+   ],
+   "capital": 631,
+   "krx_names": [
+    "Midway Island"
+   ]
+  },
+  "632": {
+   "name": "Wake Island",
+   "to": [
+    632
+   ],
+   "capital": 632,
+   "krx_names": [
+    "Wake Island"
+   ]
+  },
+  "633": {
+   "name": "Marshall Islands",
+   "to": [
+    633
+   ],
+   "capital": 633,
+   "krx_names": [
+    "Marshall Islands"
+   ]
+  },
+  "634": {
+   "name": "Solomon Islands",
+   "to": [
+    634
+   ],
+   "capital": 634,
+   "krx_names": [
+    "Solomon Islands"
+   ]
+  },
+  "635": {
+   "name": "New Caledonia",
+   "to": [
+    635
+   ],
+   "capital": 635,
+   "krx_names": [
+    "New Caledonia"
+   ]
+  },
+  "636": {
+   "name": "Fiji",
+   "to": [
+    636
+   ],
+   "capital": 636,
+   "krx_names": [
+    "Fiji"
+   ]
+  },
+  "637": {
+   "name": "State 1",
+   "to": [
+    637
+   ],
+   "capital": 637,
+   "krx_names": [
+    "Kamchatka"
+   ]
+  },
+  "638": {
+   "name": "Guam",
+   "to": [
+    638
+   ],
+   "capital": 638,
+   "krx_names": [
+    "Guam"
+   ]
+  },
+  "639": {
+   "name": "Maiana",
+   "to": [
+    639
+   ],
+   "capital": 639,
+   "krx_names": [
+    "Gilbert Islands"
+   ]
+  },
+  "640": {
+   "name": "Mandalay",
+   "to": [
+    640
+   ],
+   "capital": 640,
+   "krx_names": [
+    "Mandalay"
+   ]
+  },
+  "641": {
+   "name": "Tahiti",
+   "to": [
+    641
+   ],
+   "capital": 641,
+   "krx_names": [
+    "German Polynesia"
+   ]
+  },
+  "642": {
+   "name": "Phoenix Island",
+   "to": [
+    642
+   ],
+   "capital": 642,
+   "krx_names": [
+    "Phoenix Island"
+   ]
+  },
+  "643": {
+   "name": "Fongafale",
+   "to": [
+    643
+   ],
+   "capital": 643,
+   "krx_names": [
+    "Ellice Islands"
+   ]
+  },
+  "644": {
+   "name": "state 3",
+   "to": [
+    644
+   ],
+   "capital": 644,
+   "krx_names": [
+    "Northeast Siberia"
+   ]
+  },
+  "645": {
+   "name": "Iwo Jima",
+   "to": [
+    645
+   ],
+   "capital": 645,
+   "krx_names": [
+    "Iwo Island"
+   ]
+  },
+  "646": {
+   "name": "Saipan",
+   "to": [
+    646
+   ],
+   "capital": 646,
+   "krx_names": [
+    "Mariana Islands"
+   ]
+  },
+  "647": {
+   "name": "Palau",
+   "to": [
+    647
+   ],
+   "capital": 647,
+   "krx_names": [
+    "Palau Islands"
+   ]
+  },
+  "648": {
+   "name": "Marcus Island",
+   "to": [
+    648
+   ],
+   "capital": 648,
+   "krx_names": [
+    "Marcus Island"
+   ]
+  },
+  "649": {
+   "name": "Galapagos Islands",
+   "to": [
+    649
+   ],
+   "capital": 649,
+   "krx_names": [
+    "Galapagos Islands"
+   ]
+  },
+  "650": {
+   "name": "Attu Island",
+   "to": [
+    1273
+   ],
+   "capital": 1273,
+   "krx_names": [
+    "Attu Island"
+   ]
+  },
+  "651": {
+   "name": "Sov state 5",
+   "to": [
+    573,
+    651,
+    1194
+   ],
+   "capital": 651,
+   "krx_names": [
+    "Zlatoust",
+    "Ufa",
+    "Sterlitamak"
+   ]
+  },
+  "652": {
+   "name": "Sov state 6",
+   "to": [
+    652,
+    1208
+   ],
+   "capital": 1208,
+   "krx_names": [
+    "Orenburg",
+    "Orenburg"
+   ]
+  },
+  "653": {
+   "name": "Sov state 7",
+   "to": [
+    653
+   ],
+   "capital": 653,
+   "krx_names": [
+    "Ekaterinburg"
+   ]
+  },
+  "654": {
+   "name": "sov state 8",
+   "to": [
+    654
+   ],
+   "capital": 654,
+   "krx_names": [
+    "Ulala"
+   ]
+  },
+  "655": {
+   "name": "North Sakhalin",
+   "to": [
+    537
+   ],
+   "capital": 537,
+   "krx_names": [
+    "Karafuto"
+   ]
+  },
+  "656": {
+   "name": "Kuwait",
+   "to": [
+    812
+   ],
+   "capital": 812,
+   "krx_names": [
+    "Basra"
+   ]
+  },
+  "657": {
+   "name": "Border state",
+   "to": [
+    561
+   ],
+   "capital": 561,
+   "krx_names": [
+    "Amur"
+   ]
+  },
+  "658": {
+   "name": "Arab UK 1",
+   "to": [
+    658
+   ],
+   "capital": 658,
+   "krx_names": [
+    "Abu Dhabi"
+   ]
+  },
+  "659": {
+   "name": "Arabian UK 2",
+   "to": [
+    752
+   ],
+   "capital": 752,
+   "krx_names": [
+    "Hadhramaut"
+   ]
+  },
+  "660": {
+   "name": "Equatorial Africa",
+   "to": [
+    660,
+    971
+   ],
+   "capital": 660,
+   "krx_names": [
+    "Ubangi-Shari",
+    "East New Cameroon"
+   ]
+  },
+  "661": {
+   "name": "Tripolitania",
+   "to": [
+    448
+   ],
+   "capital": 448,
+   "krx_names": [
+    "Tripoli"
+   ]
+  },
+  "662": {
+   "name": "Sirte",
+   "to": [
+    448
+   ],
+   "capital": 448,
+   "krx_names": [
+    "Tripoli"
+   ]
+  },
+  "663": {
+   "name": "Cyrenaica",
+   "to": [
+    663
+   ],
+   "capital": 663,
+   "krx_names": [
+    "Jaghbub"
+   ]
+  },
+  "664": {
+   "name": "Southern Slovakia",
+   "to": [
+    1122,
+    1136
+   ],
+   "capital": 1122,
+   "krx_names": [
+    "Kosice",
+    "Southwest Slovakia"
+   ]
+  },
+  "665": {
+   "name": "Gabes",
+   "to": [
+    665
+   ],
+   "capital": 665,
+   "krx_names": [
+    "Gabes"
+   ]
+  },
+  "666": {
+   "name": "Norrnorrland",
+   "to": [
+    909,
+    960
+   ],
+   "capital": 960,
+   "krx_names": [
+    "Torne Valley",
+    "Kiruna"
+   ]
+  },
+  "667": {
+   "name": "West Nusa Tenggara",
+   "to": [
+    667
+   ],
+   "capital": 667,
+   "krx_names": [
+    "Western Lesser Sunda Is"
+   ]
+  },
+  "668": {
+   "name": "The Moluccas",
+   "to": [
+    668
+   ],
+   "capital": 668,
+   "krx_names": [
+    "Moluccas"
+   ]
+  },
+  "669": {
+   "name": "Dutch New Guinea",
+   "to": [
+    669
+   ],
+   "capital": 669,
+   "krx_names": [
+    "Northwest New Guinea"
+   ]
+  },
+  "670": {
+   "name": "Laos",
+   "to": [
+    670
+   ],
+   "capital": 670,
+   "krx_names": [
+    "Laos"
+   ]
+  },
+  "671": {
+   "name": "Annam",
+   "to": [
+    671,
+    857
+   ],
+   "capital": 671,
+   "krx_names": [
+    "Tonkin",
+    "Dong Bac"
+   ]
+  },
+  "672": {
+   "name": "South Sumatra",
+   "to": [
+    1021
+   ],
+   "capital": 1021,
+   "krx_names": [
+    "Southern Sumatra"
+   ]
+  },
+  "673": {
+   "name": "Sulawesi",
+   "to": [
+    673
+   ],
+   "capital": 673,
+   "krx_names": [
+    "Celebes"
+   ]
+  },
+  "674": {
+   "name": "Central Australia",
+   "to": [
+    674
+   ],
+   "capital": 674,
+   "krx_names": [
+    "Central Australia"
+   ]
+  },
+  "675": {
+   "name": "Al Hajara",
+   "to": [
+    1035
+   ],
+   "capital": 1035,
+   "krx_names": [
+    "Anizzah"
+   ]
+  },
+  "676": {
+   "name": "Mosul",
+   "to": [
+    349,
+    676,
+    819
+   ],
+   "capital": 676,
+   "krx_names": [
+    "Marash",
+    "Mosul",
+    "Sulaymaniyah"
+   ]
+  },
+  "677": {
+   "name": "Aleppo",
+   "to": [
+    680
+   ],
+   "capital": 680,
+   "krx_names": [
+    "Der az-Zur"
+   ]
+  },
+  "678": {
+   "name": "Rub al Khali",
+   "to": [
+    678
+   ],
+   "capital": 678,
+   "krx_names": [
+    "Rub al Khali"
+   ]
+  },
+  "679": {
+   "name": "Hejaz",
+   "to": [
+    754
+   ],
+   "capital": 754,
+   "krx_names": [
+    "Medina"
+   ]
+  },
+  "680": {
+   "name": "Deir-az-Zur",
+   "to": [
+    677,
+    995
+   ],
+   "capital": 677,
+   "krx_names": [
+    "Aleppo",
+    "Homs"
+   ]
+  },
+  "681": {
+   "name": "Soviet Lakes",
+   "to": [
+    681,
+    945,
+    1176
+   ],
+   "capital": 1176,
+   "krx_names": [
+    "Western Cape",
+    "Northern Cape",
+    "Cape Town"
+   ]
+  },
+  "682": {
+   "name": "Northern Ontario",
+   "to": [
+    682
+   ],
+   "capital": 682,
+   "krx_names": [
+    "Northern Ontario"
+   ]
+  },
+  "683": {
+   "name": "Northeastern Canada",
+   "to": [
+    472
+   ],
+   "capital": 472,
+   "krx_names": [
+    "Northwest Territories"
+   ]
+  },
+  "684": {
+   "name": "Caroline Islands",
+   "to": [
+    684
+   ],
+   "capital": 684,
+   "krx_names": [
+    "Caroline Islands"
+   ]
+  },
+  "685": {
+   "name": "Panama Canal",
+   "to": [
+    685
+   ],
+   "capital": 685,
+   "krx_names": [
+    "Panama Canal"
+   ]
+  },
+  "686": {
+   "name": "Puerto Rico",
+   "to": [
+    686,
+    1312
+   ],
+   "capital": 686,
+   "krx_names": [
+    "Puerto Rico",
+    "US Virgin Islands"
+   ]
+  },
+  "687": {
+   "name": "British Guyana",
+   "to": [
+    687,
+    1039,
+    1078,
+    1079,
+    1308
+   ],
+   "capital": 687,
+   "krx_names": [
+    "West Guyana",
+    "West Guyana Jungle",
+    "Mabaruma",
+    "Mabaruma Jungle",
+    "Lawa Jungle"
+   ]
+  },
+  "688": {
+   "name": "Chaco Boreal",
+   "to": [
+    688
+   ],
+   "capital": 688,
+   "krx_names": [
+    "Chaco Boreal"
+   ]
+  },
+  "689": {
+   "name": "Jamaica",
+   "to": [
+    689
+   ],
+   "capital": 689,
+   "krx_names": [
+    "Jamaica"
+   ]
+  },
+  "690": {
+   "name": "Bahama Islands",
+   "to": [
+    690
+   ],
+   "capital": 690,
+   "krx_names": [
+    "Northern Bahamas"
+   ]
+  },
+  "691": {
+   "name": "Trinidad",
+   "to": [
+    691
+   ],
+   "capital": 691,
+   "krx_names": [
+    "Trinidad & Tobago"
+   ]
+  },
+  "692": {
+   "name": "Windward Islands",
+   "to": [
+    692
+   ],
+   "capital": 692,
+   "krx_names": [
+    "Windward Islands"
+   ]
+  },
+  "693": {
+   "name": "Southern Bahamas",
+   "to": [
+    690
+   ],
+   "capital": 690,
+   "krx_names": [
+    "Northern Bahamas"
+   ]
+  },
+  "694": {
+   "name": "French Caribbean",
+   "to": [
+    694,
+    1077
+   ],
+   "capital": 694,
+   "krx_names": [
+    "French Caribbean",
+    "Saint Martin"
+   ]
+  },
+  "695": {
+   "name": "Curacao",
+   "to": [
+    695
+   ],
+   "capital": 695,
+   "krx_names": [
+    "Curacao"
+   ]
+  },
+  "696": {
+   "name": "Bermuda",
+   "to": [
+    696
+   ],
+   "capital": 696,
+   "krx_names": [
+    "Bermuda"
+   ]
+  },
+  "697": {
+   "name": "Madeira",
+   "to": [
+    697
+   ],
+   "capital": 697,
+   "krx_names": [
+    "Madeira"
+   ]
+  },
+  "698": {
+   "name": "Azores",
+   "to": [
+    698
+   ],
+   "capital": 698,
+   "krx_names": [
+    "Azores"
+   ]
+  },
+  "699": {
+   "name": "Rio de Oro",
+   "to": [
+    699
+   ],
+   "capital": 699,
+   "krx_names": [
+    "Rio de Oro"
+   ]
+  },
+  "700": {
+   "name": "Sierra Leone",
+   "to": [
+    700
+   ],
+   "capital": 700,
+   "krx_names": [
+    "Sierra Leone"
+   ]
+  },
+  "701": {
+   "name": "Gambia",
+   "to": [
+    834
+   ],
+   "capital": 834,
+   "krx_names": [
+    "Gambia"
+   ]
+  },
+  "702": {
+   "name": "Cape Verde",
+   "to": [
+    702
+   ],
+   "capital": 702,
+   "krx_names": [
+    "Cape Verde"
+   ]
+  },
+  "703": {
+   "name": "Ascension",
+   "to": [
+    703
+   ],
+   "capital": 703,
+   "krx_names": [
+    "Ascension"
+   ]
+  },
+  "704": {
+   "name": "Saint Helena",
+   "to": [
+    704
+   ],
+   "capital": 704,
+   "krx_names": [
+    "Saint Helena"
+   ]
+  },
+  "705": {
+   "name": "Sao Tome",
+   "to": [
+    705
+   ],
+   "capital": 705,
+   "krx_names": [
+    "Sao Tome"
+   ]
+  },
+  "706": {
+   "name": "Reunion",
+   "to": [
+    706
+   ],
+   "capital": 706,
+   "krx_names": [
+    "Reunion"
+   ]
+  },
+  "707": {
+   "name": "Mauritius",
+   "to": [
+    707
+   ],
+   "capital": 707,
+   "krx_names": [
+    "Mauritius"
+   ]
+  },
+  "708": {
+   "name": "Comoro Islands",
+   "to": [
+    708
+   ],
+   "capital": 708,
+   "krx_names": [
+    "Comoro Islands"
+   ]
+  },
+  "709": {
+   "name": "Seychelles",
+   "to": [
+    709
+   ],
+   "capital": 709,
+   "krx_names": [
+    "Seychelles"
+   ]
+  },
+  "710": {
+   "name": "Diego Garcia",
+   "to": [
+    710
+   ],
+   "capital": 710,
+   "krx_names": [
+    "Diego Garcia"
+   ]
+  },
+  "711": {
+   "name": "Christmas Island",
+   "to": [
+    711
+   ],
+   "capital": 711,
+   "krx_names": [
+    "Christmas Island"
+   ]
+  },
+  "712": {
+   "name": "Cocos Islands",
+   "to": [
+    711
+   ],
+   "capital": 711,
+   "krx_names": [
+    "Christmas Island"
+   ]
+  },
+  "714": {
+   "name": "Heilungkiang",
+   "to": [
+    714,
+    883
+   ],
+   "capital": 714,
+   "krx_names": [
+    "Nenjiang",
+    "Heilongjiang"
+   ]
+  },
+  "715": {
+   "name": "Liaoning",
+   "to": [
+    715
+   ],
+   "capital": 715,
+   "krx_names": [
+    "Liaobei"
+   ]
+  },
+  "716": {
+   "name": "Liaotung",
+   "to": [
+    716
+   ],
+   "capital": 716,
+   "krx_names": [
+    "Fengtian"
+   ]
+  },
+  "717": {
+   "name": "Chuho",
+   "to": [
+    717,
+    885
+   ],
+   "capital": 885,
+   "krx_names": [
+    "Hejiang",
+    "Songjiang"
+   ]
+  },
+  "718": {
+   "name": "Stanleyville",
+   "to": [
+    718,
+    1026
+   ],
+   "capital": 718,
+   "krx_names": [
+    "Welle",
+    "Haut-Congo"
+   ]
+  },
+  "719": {
+   "name": "Natal",
+   "to": [
+    85,
+    719,
+    738,
+    946
+   ],
+   "capital": 719,
+   "krx_names": [
+    "Lesotho",
+    "Natal",
+    "Swaziland",
+    "Eastern Cape"
+   ]
+  },
+  "720": {
+   "name": "South Georgia",
+   "to": [
+    720
+   ],
+   "capital": 720,
+   "krx_names": [
+    "South Georgia"
+   ]
+  },
+  "721": {
+   "name": "Portuguese Timor",
+   "to": [
+    721,
+    972
+   ],
+   "capital": 721,
+   "krx_names": [
+    "East Timor",
+    "Oecusse"
+   ]
+  },
+  "722": {
+   "name": "Petsamo",
+   "to": [
+    722
+   ],
+   "capital": 722,
+   "krx_names": [
+    "Pechenga"
+   ]
+  },
+  "723": {
+   "name": "Southern Island",
+   "to": [
+    723
+   ],
+   "capital": 723,
+   "krx_names": [
+    "South Island"
+   ]
+  },
+  "724": {
+   "name": "Southern Siam",
+   "to": [
+    724,
+    830
+   ],
+   "capital": 724,
+   "krx_names": [
+    "Kra Isthmus",
+    "Pattani"
+   ]
+  },
+  "725": {
+   "name": "Nauru",
+   "to": [
+    725
+   ],
+   "capital": 725,
+   "krx_names": [
+    "Nauru"
+   ]
+  },
+  "726": {
+   "name": "Samoa",
+   "to": [
+    941
+   ],
+   "capital": 941,
+   "krx_names": [
+    "German Samoa"
+   ]
+  },
+  "727": {
+   "name": "Line Islands",
+   "to": [
+    727
+   ],
+   "capital": 727,
+   "krx_names": [
+    "Line Islands"
+   ]
+  },
+  "728": {
+   "name": "Guangzhouwan",
+   "to": [
+    728
+   ],
+   "capital": 728,
+   "krx_names": [
+    "Guangzhouwan"
+   ]
+  },
+  "729": {
+   "name": "Macau",
+   "to": [
+    729
+   ],
+   "capital": 729,
+   "krx_names": [
+    "Macao"
+   ]
+  },
+  "730": {
+   "name": "St Pierre and Miquelon",
+   "to": [
+    730
+   ],
+   "capital": 730,
+   "krx_names": [
+    "St Pierre"
+   ]
+  },
+  "731": {
+   "name": "Central Macedonia",
+   "to": [
+    731,
+    989
+   ],
+   "capital": 989,
+   "krx_names": [
+    "Western Salonica",
+    "Chalcidice"
+   ]
+  },
+  "732": {
+   "name": "Pamir",
+   "to": [
+    586,
+    1042,
+    1196,
+    1279
+   ],
+   "capital": 1279,
+   "krx_names": [
+    "Pishpek",
+    "Osh",
+    "Talas",
+    "Fergana"
+   ]
+  },
+  "733": {
+   "name": "Andaman",
+   "to": [
+    733
+   ],
+   "capital": 733,
+   "krx_names": [
+    "Andaman Islands"
+   ]
+  },
+  "734": {
+   "name": "Nendo",
+   "to": [
+    734
+   ],
+   "capital": 734,
+   "krx_names": [
+    "Nendo"
+   ]
+  },
+  "735": {
+   "name": "Savoy",
+   "to": [
+    735,
+    762,
+    943
+   ],
+   "capital": 762,
+   "krx_names": [
+    "Savoy",
+    "Nice",
+    "Upper Savoy"
+   ]
+  },
+  "736": {
+   "name": "Litorale",
+   "to": [
+    736,
+    1100
+   ],
+   "capital": 1100,
+   "krx_names": [
+    "Gorizia",
+    "Trieste"
+   ]
+  },
+  "737": {
+   "name": "New Britain",
+   "to": [
+    737
+   ],
+   "capital": 737,
+   "krx_names": [
+    "Bismarck Achipelago"
+   ]
+  },
+  "738": {
+   "name": "Aru Islands",
+   "to": [
+    668
+   ],
+   "capital": 668,
+   "krx_names": [
+    "Moluccas"
+   ]
+  },
+  "739": {
+   "name": "Haida Gwaii",
+   "to": [
+    1332
+   ],
+   "capital": 1332,
+   "krx_names": [
+    "Haida Gwaii"
+   ]
+  },
+  "740": {
+   "name": "Vancouver Island",
+   "to": [
+    740
+   ],
+   "capital": 740,
+   "krx_names": [
+    "Vancouver Island"
+   ]
+  },
+  "741": {
+   "name": "Cambodia",
+   "to": [
+    750,
+    826
+   ],
+   "capital": 750,
+   "krx_names": [
+    "Pnom Penh",
+    "Stung Treng"
+   ]
+  },
+  "742": {
+   "name": "Stalinabad",
+   "to": [
+    732,
+    1210,
+    1211
+   ],
+   "capital": 1210,
+   "krx_names": [
+    "Pamir",
+    "Dushanbe",
+    "East Pamir"
+   ]
+  },
+  "743": {
+   "name": "Qingdao",
+   "to": [
+    744
+   ],
+   "capital": 744,
+   "krx_names": [
+    "Kiaochow"
+   ]
+  },
+  "744": {
+   "name": "Xian",
+   "to": [
+    799
+   ],
+   "capital": 799,
+   "krx_names": [
+    "Southern Shanxi"
+   ]
+  },
+  "745": {
+   "name": "Dalian",
+   "to": [
+    745
+   ],
+   "capital": 745,
+   "krx_names": [
+    "Kwantung"
+   ]
+  },
+  "746": {
+   "name": "Ordos",
+   "to": [
+    616
+   ],
+   "capital": 616,
+   "krx_names": [
+    "Ordos"
+   ]
+  },
+  "747": {
+   "name": "Dali Bai",
+   "to": [
+    816
+   ],
+   "capital": 816,
+   "krx_names": [
+    "Dali"
+   ]
+  },
+  "748": {
+   "name": "Zunyi",
+   "to": [
+    650
+   ],
+   "capital": 650,
+   "krx_names": [
+    "Chongqing"
+   ]
+  },
+  "749": {
+   "name": "Huangshan",
+   "to": [
+    1014
+   ],
+   "capital": 1014,
+   "krx_names": [
+    "Wuhu"
+   ]
+  },
+  "750": {
+   "name": "Changde",
+   "to": [
+    1013
+   ],
+   "capital": 1013,
+   "krx_names": [
+    "Chenyuan"
+   ]
+  },
+  "751": {
+   "name": "Liangshan",
+   "to": [
+    601
+   ],
+   "capital": 601,
+   "krx_names": [
+    "Xikang"
+   ]
+  },
+  "752": {
+   "name": "Chamdo",
+   "to": [
+    601
+   ],
+   "capital": 601,
+   "krx_names": [
+    "Xikang"
+   ]
+  },
+  "753": {
+   "name": "Gannan",
+   "to": [
+    788
+   ],
+   "capital": 788,
+   "krx_names": [
+    "Northern Sichuan"
+   ]
+  },
+  "754": {
+   "name": "Golog",
+   "to": [
+    604
+   ],
+   "capital": 604,
+   "krx_names": [
+    "Qinghai"
+   ]
+  },
+  "755": {
+   "name": "Haixi",
+   "to": [
+    604
+   ],
+   "capital": 604,
+   "krx_names": [
+    "Qinghai"
+   ]
+  },
+  "756": {
+   "name": "Jiuquan",
+   "to": [
+    774
+   ],
+   "capital": 774,
+   "krx_names": [
+    "Northern Gansu"
+   ]
+  },
+  "757": {
+   "name": "Shigatse",
+   "to": [
+    322
+   ],
+   "capital": 322,
+   "krx_names": [
+    "Tibet"
+   ]
+  },
+  "758": {
+   "name": "Ngari",
+   "to": [
+    322
+   ],
+   "capital": 322,
+   "krx_names": [
+    "Tibet"
+   ]
+  },
+  "759": {
+   "name": "Kunlun",
+   "to": [
+    287
+   ],
+   "capital": 287,
+   "krx_names": [
+    "Hotan"
+   ]
+  },
+  "760": {
+   "name": "Dabancheng",
+   "to": [
+    1083
+   ],
+   "capital": 1083,
+   "krx_names": [
+    "Kumul"
+   ]
+  },
+  "761": {
+   "name": "Hulunbuir",
+   "to": [
+    884
+   ],
+   "capital": 884,
+   "krx_names": [
+    "Xingan"
+   ]
+  },
+  "762": {
+   "name": "Katowice",
+   "to": [
+    67
+   ],
+   "capital": 67,
+   "krx_names": [
+    "Upper Silesia"
+   ]
+  },
+  "763": {
+   "name": "Konigsberg",
+   "to": [
+    5
+   ],
+   "capital": 5,
+   "krx_names": [
+    "East Prussia"
+   ]
+  },
+  "764": {
+   "name": "West Banat",
+   "to": [
+    875
+   ],
+   "capital": 875,
+   "krx_names": [
+    "West Banat"
+   ]
+  },
+  "765": {
+   "name": "Qatar",
+   "to": [
+    993
+   ],
+   "capital": 993,
+   "krx_names": [
+    "Qatar"
+   ]
+  },
+  "766": {
+   "name": "Southern Bessarabia",
+   "to": [
+    1222
+   ],
+   "capital": 1222,
+   "krx_names": [
+    "Budjak"
+   ]
+  },
+  "767": {
+   "name": "North Darfur",
+   "to": [
+    862
+   ],
+   "capital": 862,
+   "krx_names": [
+    "Sudanese Desert"
+   ]
+  },
+  "768": {
+   "name": "Rwanda",
+   "to": [
+    869
+   ],
+   "capital": 869,
+   "krx_names": [
+    "Ruanda"
+   ]
+  },
+  "769": {
+   "name": "Burundi",
+   "to": [
+    870
+   ],
+   "capital": 870,
+   "krx_names": [
+    "Burundi"
+   ]
+  },
+  "770": {
+   "name": "Malawi",
+   "to": [
+    871
+   ],
+   "capital": 871,
+   "krx_names": [
+    "Nyasaland"
+   ]
+  },
+  "771": {
+   "name": "Zambia",
+   "to": [
+    955,
+    956
+   ],
+   "capital": 956,
+   "krx_names": [
+    "Eastern Zambezia",
+    "Northern Zambezia"
+   ]
+  },
+  "772": {
+   "name": "Middle Congo",
+   "to": [
+    928,
+    953,
+    974
+   ],
+   "capital": 928,
+   "krx_names": [
+    "Middle Congo",
+    "Tekeland",
+    "Ubangi"
+   ]
+  },
+  "773": {
+   "name": "Cameroon",
+   "to": [
+    927,
+    952,
+    962
+   ],
+   "capital": 952,
+   "krx_names": [
+    "Cameroon",
+    "Adamawa",
+    "Marua"
+   ]
+  },
+  "774": {
+   "name": "Chad",
+   "to": [
+    515,
+    975
+   ],
+   "capital": 975,
+   "krx_names": [
+    "Chad",
+    "South Chad"
+   ]
+  },
+  "775": {
+   "name": "B.E.T.",
+   "to": [
+    911
+   ],
+   "capital": 911,
+   "krx_names": [
+    "Borkou-Ennedi"
+   ]
+  },
+  "776": {
+   "name": "Dahomey",
+   "to": [
+    876
+   ],
+   "capital": 876,
+   "krx_names": [
+    "Dahomey"
+   ]
+  },
+  "777": {
+   "name": "Togo",
+   "to": [
+    877
+   ],
+   "capital": 877,
+   "krx_names": [
+    "Togoland"
+   ]
+  },
+  "778": {
+   "name": "Upper Volta",
+   "to": [
+    808
+   ],
+   "capital": 808,
+   "krx_names": [
+    "Upper Volta"
+   ]
+  },
+  "779": {
+   "name": "Ivory Coast",
+   "to": [
+    807,
+    963
+   ],
+   "capital": 807,
+   "krx_names": [
+    "Ivory Coast",
+    "Akanland"
+   ]
+  },
+  "780": {
+   "name": "Guinea",
+   "to": [
+    806
+   ],
+   "capital": 806,
+   "krx_names": [
+    "Guinea"
+   ]
+  },
+  "781": {
+   "name": "Niger",
+   "to": [
+    809
+   ],
+   "capital": 809,
+   "krx_names": [
+    "Niger"
+   ]
+  },
+  "782": {
+   "name": "Tombouctou",
+   "to": [
+    860
+   ],
+   "capital": 860,
+   "krx_names": [
+    "Malian Desert"
+   ]
+  },
+  "783": {
+   "name": "Sidi Ifni",
+   "to": [
+    1318
+   ],
+   "capital": 1318,
+   "krx_names": [
+    "Sidi Ifni"
+   ]
+  },
+  "784": {
+   "name": "Ermland-Masuren",
+   "to": [
+    96
+   ],
+   "capital": 96,
+   "krx_names": [
+    "Vilna"
+   ]
+  },
+  "785": {
+   "name": "Picardy",
+   "to": [
+    24
+   ],
+   "capital": 24,
+   "krx_names": [
+    "Picardy"
+   ]
+  },
+  "786": {
+   "name": "Mauritanian Desert",
+   "to": [
+    967,
+    968
+   ],
+   "capital": 967,
+   "krx_names": [
+    "Mauritanian Desert",
+    "Adrar"
+   ]
+  },
+  "787": {
+   "name": "North Kashmir",
+   "to": [
+    441
+   ],
+   "capital": 441,
+   "krx_names": [
+    "Kashmir"
+   ]
+  },
+  "788": {
+   "name": "Salamanca",
+   "to": [
+    951
+   ],
+   "capital": 951,
+   "krx_names": [
+    "South Leon"
+   ]
+  },
+  "789": {
+   "name": "Cordoba",
+   "to": [
+    795
+   ],
+   "capital": 795,
+   "krx_names": [
+    "Granada"
+   ]
+  },
+  "790": {
+   "name": "Asturias",
+   "to": [
+    793,
+    1339
+   ],
+   "capital": 793,
+   "krx_names": [
+    "Asturias",
+    "Cantabria"
+   ]
+  },
+  "791": {
+   "name": "Valladolid",
+   "to": [
+    176,
+    1344
+   ],
+   "capital": 1344,
+   "krx_names": [
+    "Old Castille",
+    "Northern Old Castille"
+   ]
+  },
+  "792": {
+   "name": "Basque Country",
+   "to": [
+    172
+   ],
+   "capital": 172,
+   "krx_names": [
+    "Navarre"
+   ]
+  },
+  "793": {
+   "name": "Guadalajara",
+   "to": [
+    1340,
+    1341
+   ],
+   "capital": 1341,
+   "krx_names": [
+    "Guadalajara",
+    "Cuenca"
+   ]
+  },
+  "794": {
+   "name": "Eastern Aragon",
+   "to": [
+    940
+   ],
+   "capital": 940,
+   "krx_names": [
+    "North Aragon"
+   ]
+  },
+  "795": {
+   "name": "Santarem",
+   "to": [
+    179
+   ],
+   "capital": 179,
+   "krx_names": [
+    "Beja"
+   ]
+  },
+  "796": {
+   "name": "North Angola",
+   "to": [
+    914
+   ],
+   "capital": 914,
+   "krx_names": [
+    "Kabinda"
+   ]
+  },
+  "797": {
+   "name": "Istanbul",
+   "to": [
+    773
+   ],
+   "capital": 773,
+   "krx_names": [
+    "Constantinople"
+   ]
+  },
+  "798": {
+   "name": "Amasya",
+   "to": [
+    49
+   ],
+   "capital": 49,
+   "krx_names": [
+    "Ankara"
+   ]
+  },
+  "799": {
+   "name": "Hatay",
+   "to": [
+    344
+   ],
+   "capital": 344,
+   "krx_names": [
+    "Adana"
+   ]
+  },
+  "800": {
+   "name": "Van",
+   "to": [
+    352
+   ],
+   "capital": 352,
+   "krx_names": [
+    "Van"
+   ]
+  },
+  "801": {
+   "name": "Moesia",
+   "to": [
+    770
+   ],
+   "capital": 770,
+   "krx_names": [
+    "Plevna"
+   ]
+  },
+  "802": {
+   "name": "Kosovo",
+   "to": [
+    765
+   ],
+   "capital": 765,
+   "krx_names": [
+    "Kosovo"
+   ]
+  },
+  "803": {
+   "name": "Southern Serbia",
+   "to": [
+    841
+   ],
+   "capital": 841,
+   "krx_names": [
+    "Pirot"
+   ]
+  },
+  "804": {
+   "name": "Herzegovina",
+   "to": [
+    1145
+   ],
+   "capital": 1145,
+   "krx_names": [
+    "Herzegovina"
+   ]
+  },
+  "805": {
+   "name": "Northern Epirus",
+   "to": [
+    766
+   ],
+   "capital": 766,
+   "krx_names": [
+    "Northern Epirus"
+   ]
+  },
+  "806": {
+   "name": "French Basque Country",
+   "to": [
+    1334
+   ],
+   "capital": 1334,
+   "krx_names": [
+    "Labourd"
+   ]
+  },
+  "807": {
+   "name": "Gdynia",
+   "to": [
+    776
+   ],
+   "capital": 776,
+   "krx_names": [
+    "West Prussia"
+   ]
+  },
+  "808": {
+   "name": "Riga",
+   "to": [
+    1091
+   ],
+   "capital": 1091,
+   "krx_names": [
+    "Riga"
+   ]
+  },
+  "809": {
+   "name": "Latgale",
+   "to": [
+    190
+   ],
+   "capital": 190,
+   "krx_names": [
+    "Courland"
+   ]
+  },
+  "810": {
+   "name": "Zemgale",
+   "to": [
+    880
+   ],
+   "capital": 880,
+   "krx_names": [
+    "Dvinsk"
+   ]
+  },
+  "811": {
+   "name": "Saaremaa",
+   "to": [
+    13
+   ],
+   "capital": 13,
+   "krx_names": [
+    "Estonia"
+   ]
+  },
+  "812": {
+   "name": "Tallinn",
+   "to": [
+    13
+   ],
+   "capital": 13,
+   "krx_names": [
+    "Estonia"
+   ]
+  },
+  "813": {
+   "name": "Rakvere",
+   "to": [
+    13
+   ],
+   "capital": 13,
+   "krx_names": [
+    "Estonia"
+   ]
+  },
+  "814": {
+   "name": "Suduva",
+   "to": [
+    655
+   ],
+   "capital": 655,
+   "krx_names": [
+    "Sudovia"
+   ]
+  },
+  "815": {
+   "name": "Aukstaitija",
+   "to": [
+    11
+   ],
+   "capital": 11,
+   "krx_names": [
+    "Kovno"
+   ]
+  },
+  "816": {
+   "name": "West Virginia",
+   "to": [
+    929,
+    1159,
+    1160
+   ],
+   "capital": 929,
+   "krx_names": [
+    "West Virginia",
+    "Eastern Panhandle",
+    "South WV"
+   ]
+  },
+  "817": {
+   "name": "Gobi",
+   "to": [
+    330
+   ],
+   "capital": 330,
+   "krx_names": [
+    "Mongolia"
+   ]
+  },
+  "818": {
+   "name": "Khovd",
+   "to": [
+    1084
+   ],
+   "capital": 1084,
+   "krx_names": [
+    "West Mongolia"
+   ]
+  },
+  "819": {
+   "name": "Dornod",
+   "to": [
+    1265
+   ],
+   "capital": 1265,
+   "krx_names": [
+    "Bayan Tumen"
+   ]
+  },
+  "820": {
+   "name": "Khovsgol",
+   "to": [
+    330
+   ],
+   "capital": 330,
+   "krx_names": [
+    "Mongolia"
+   ]
+  },
+  "821": {
+   "name": "Chenchnya-Ingushetia",
+   "to": [
+    787
+   ],
+   "capital": 787,
+   "krx_names": [
+    "Chechnya"
+   ]
+  },
+  "822": {
+   "name": "Chukotka",
+   "to": [
+    1202
+   ],
+   "capital": 1202,
+   "krx_names": [
+    "Chukotka"
+   ]
+  },
+  "823": {
+   "name": "Karakalpakstan",
+   "to": [
+    1278
+   ],
+   "capital": 1278,
+   "krx_names": [
+    "Nukus"
+   ]
+  },
+  "824": {
+   "name": "Yamalia",
+   "to": [
+    1201
+   ],
+   "capital": 1201,
+   "krx_names": [
+    "Northwestern Siberia"
+   ]
+  },
+  "825": {
+   "name": "Nenetsia",
+   "to": [
+    262
+   ],
+   "capital": 262,
+   "krx_names": [
+    "Pechora"
+   ]
+  },
+  "826": {
+   "name": "Abkhazia",
+   "to": [
+    1080
+   ],
+   "capital": 1080,
+   "krx_names": [
+    "Abkhazia"
+   ]
+  },
+  "827": {
+   "name": "Kabardino-Balkaria",
+   "to": [
+    1186
+   ],
+   "capital": 1186,
+   "krx_names": [
+    "Kabardino-Balkaria"
+   ]
+  },
+  "828": {
+   "name": "North Ossetia",
+   "to": [
+    233
+   ],
+   "capital": 233,
+   "krx_names": [
+    "Vladikavkaz"
+   ]
+  },
+  "829": {
+   "name": "Volga Germany",
+   "to": [
+    401
+   ],
+   "capital": 401,
+   "krx_names": [
+    "Pokrovsk"
+   ]
+  },
+  "830": {
+   "name": "Bukhara",
+   "to": [
+    405,
+    1277
+   ],
+   "capital": 405,
+   "krx_names": [
+    "Bokhara",
+    "Qarshi"
+   ]
+  },
+  "831": {
+   "name": "Khiva",
+   "to": [
+    861
+   ],
+   "capital": 861,
+   "krx_names": [
+    "Khiva"
+   ]
+  },
+  "832": {
+   "name": "Dashhowuz",
+   "to": [
+    1281
+   ],
+   "capital": 1281,
+   "krx_names": [
+    "Dashoguz"
+   ]
+  },
+  "833": {
+   "name": "Mari El",
+   "to": [
+    1193
+   ],
+   "capital": 1193,
+   "krx_names": [
+    "Mari"
+   ]
+  },
+  "834": {
+   "name": "Balta",
+   "to": [
+    791
+   ],
+   "capital": 791,
+   "krx_names": [
+    "Podolia"
+   ]
+  },
+  "835": {
+   "name": "Haraghe",
+   "to": [
+    906,
+    944
+   ],
+   "capital": 944,
+   "krx_names": [
+    "Ogaden",
+    "Harar"
+   ]
+  },
+  "836": {
+   "name": "Bale",
+   "to": [
+    944
+   ],
+   "capital": 944,
+   "krx_names": [
+    "Harar"
+   ]
+  },
+  "837": {
+   "name": "Sidamo",
+   "to": [
+    919
+   ],
+   "capital": 919,
+   "krx_names": [
+    "Oromia"
+   ]
+  },
+  "838": {
+   "name": "Illubabor",
+   "to": [
+    922
+   ],
+   "capital": 922,
+   "krx_names": [
+    "Omo"
+   ]
+  },
+  "839": {
+   "name": "Welega",
+   "to": [
+    271
+   ],
+   "capital": 271,
+   "krx_names": [
+    "Addis Ababa"
+   ]
+  },
+  "840": {
+   "name": "Gojjam",
+   "to": [
+    924
+   ],
+   "capital": 924,
+   "krx_names": [
+    "Benishangul-Gumaz"
+   ]
+  },
+  "841": {
+   "name": "Begemder",
+   "to": [
+    920
+   ],
+   "capital": 920,
+   "krx_names": [
+    "Amhara"
+   ]
+  },
+  "842": {
+   "name": "Tigray",
+   "to": [
+    923
+   ],
+   "capital": 923,
+   "krx_names": [
+    "Tigray"
+   ]
+  },
+  "843": {
+   "name": "Wello",
+   "to": [
+    920
+   ],
+   "capital": 920,
+   "krx_names": [
+    "Amhara"
+   ]
+  },
+  "844": {
+   "name": "jubaland",
+   "to": [
+    892
+   ],
+   "capital": 892,
+   "krx_names": [
+    "Jubaland"
+   ]
+  },
+  "845": {
+   "name": "Jura Mountains",
+   "to": [
+    760
+   ],
+   "capital": 760,
+   "krx_names": [
+    "Romandy"
+   ]
+  },
+  "846": {
+   "name": "Ticino",
+   "to": [
+    761
+   ],
+   "capital": 761,
+   "krx_names": [
+    "Ticino"
+   ]
+  },
+  "847": {
+   "name": "Western Swiss Alps",
+   "to": [
+    3
+   ],
+   "capital": 3,
+   "krx_names": [
+    "Swiss Plateau"
+   ]
+  },
+  "848": {
+   "name": "Voralberg",
+   "to": [
+    942,
+    1235
+   ],
+   "capital": 942,
+   "krx_names": [
+    "Vorarlberg",
+    "Liechtenstein"
+   ]
+  },
+  "849": {
+   "name": "Puglia",
+   "to": [
+    837
+   ],
+   "capital": 837,
+   "krx_names": [
+    "Apulia"
+   ]
+  },
+  "850": {
+   "name": "Trentino",
+   "to": [
+    783
+   ],
+   "capital": 783,
+   "krx_names": [
+    "Trentino"
+   ]
+  },
+  "851": {
+   "name": "Var",
+   "to": [
+    21
+   ],
+   "capital": 21,
+   "krx_names": [
+    "Provence"
+   ]
+  },
+  "852": {
+   "name": "Istria",
+   "to": [
+    1144
+   ],
+   "capital": 1144,
+   "krx_names": [
+    "Istria"
+   ]
+  },
+  "853": {
+   "name": "Ljubljana",
+   "to": [
+    1101,
+    1103
+   ],
+   "capital": 1103,
+   "krx_names": [
+    "Southeast Slovenia",
+    "Inner Carniola"
+   ]
+  },
+  "854": {
+   "name": "Jawf",
+   "to": [
+    994
+   ],
+   "capital": 994,
+   "krx_names": [
+    "Jawf"
+   ]
+  },
+  "855": {
+   "name": "Tabuk",
+   "to": [
+    754
+   ],
+   "capital": 754,
+   "krx_names": [
+    "Medina"
+   ]
+  },
+  "856": {
+   "name": "Asir-Makkah",
+   "to": [
+    679,
+    982
+   ],
+   "capital": 679,
+   "krx_names": [
+    "Hejaz",
+    "Asir"
+   ]
+  },
+  "857": {
+   "name": "Ha'il",
+   "to": [
+    915
+   ],
+   "capital": 915,
+   "krx_names": [
+    "Hail"
+   ]
+  },
+  "858": {
+   "name": "Najiran",
+   "to": [
+    981
+   ],
+   "capital": 981,
+   "krx_names": [
+    "Najran"
+   ]
+  },
+  "859": {
+   "name": "Dammam",
+   "to": [
+    656
+   ],
+   "capital": 656,
+   "krx_names": [
+    "Al-Hasa"
+   ]
+  },
+  "860": {
+   "name": "Cote-Nord",
+   "to": [
+    466
+   ],
+   "capital": 466,
+   "krx_names": [
+    "Quebec"
+   ]
+  },
+  "861": {
+   "name": "Saguenay",
+   "to": [
+    683
+   ],
+   "capital": 683,
+   "krx_names": [
+    "New Quebec"
+   ]
+  },
+  "862": {
+   "name": "ouest du quebec",
+   "to": [
+    832
+   ],
+   "capital": 832,
+   "krx_names": [
+    "Montreal"
+   ]
+  },
+  "863": {
+   "name": "Maurice",
+   "to": [
+    466
+   ],
+   "capital": 466,
+   "krx_names": [
+    "Quebec"
+   ]
+  },
+  "864": {
+   "name": "Yukon",
+   "to": [
+    471
+   ],
+   "capital": 471,
+   "krx_names": [
+    "Yukon Territory"
+   ]
+  },
+  "865": {
+   "name": "Northern Saskatchewan",
+   "to": [
+    469
+   ],
+   "capital": 469,
+   "krx_names": [
+    "Saskatchewan"
+   ]
+  },
+  "866": {
+   "name": "Districts of Ontario",
+   "to": [
+    682
+   ],
+   "capital": 682,
+   "krx_names": [
+    "Northern Ontario"
+   ]
+  },
+  "867": {
+   "name": "Northern Manitoba",
+   "to": [
+    467
+   ],
+   "capital": 467,
+   "krx_names": [
+    "Manitoba"
+   ]
+  },
+  "868": {
+   "name": "Isan",
+   "to": [
+    823
+   ],
+   "capital": 823,
+   "krx_names": [
+    "Isan"
+   ]
+  },
+  "869": {
+   "name": "Lanna",
+   "to": [
+    822
+   ],
+   "capital": 822,
+   "krx_names": [
+    "Lan Na"
+   ]
+  },
+  "870": {
+   "name": "Pilbara-Kimberley",
+   "to": [
+    987
+   ],
+   "capital": 987,
+   "krx_names": [
+    "Kimberley"
+   ]
+  },
+  "871": {
+   "name": "Esperence-Goldfields",
+   "to": [
+    522
+   ],
+   "capital": 522,
+   "krx_names": [
+    "Western Australia"
+   ]
+  },
+  "872": {
+   "name": "North Queensland",
+   "to": [
+    986
+   ],
+   "capital": 986,
+   "krx_names": [
+    "North Queensland"
+   ]
+  },
+  "873": {
+   "name": "Channel Country",
+   "to": [
+    521
+   ],
+   "capital": 521,
+   "krx_names": [
+    "Southern Queensland"
+   ]
+  },
+  "874": {
+   "name": "Magadan",
+   "to": [
+    562
+   ],
+   "capital": 562,
+   "krx_names": [
+    "Okhotsk"
+   ]
+  },
+  "875": {
+   "name": "Chukchi Peninsulay",
+   "to": [
+    1202
+   ],
+   "capital": 1202,
+   "krx_names": [
+    "Chukotka"
+   ]
+  },
+  "876": {
+   "name": "Udachny",
+   "to": [
+    644
+   ],
+   "capital": 644,
+   "krx_names": [
+    "Northeast Siberia"
+   ]
+  },
+  "877": {
+   "name": "Verkhoyansk",
+   "to": [
+    644
+   ],
+   "capital": 644,
+   "krx_names": [
+    "Northeast Siberia"
+   ]
+  },
+  "878": {
+   "name": "Khatangsky",
+   "to": [
+    516
+   ],
+   "capital": 516,
+   "krx_names": [
+    "Taymyr"
+   ]
+  },
+  "879": {
+   "name": "Kargopol",
+   "to": [
+    214
+   ],
+   "capital": 214,
+   "krx_names": [
+    "Arkhangelsk"
+   ]
+  },
+  "880": {
+   "name": "Kotlas",
+   "to": [
+    214
+   ],
+   "capital": 214,
+   "krx_names": [
+    "Arkhangelsk"
+   ]
+  },
+  "881": {
+   "name": "Karagandy",
+   "to": [
+    590
+   ],
+   "capital": 590,
+   "krx_names": [
+    "Akmolinsk"
+   ]
+  },
+  "882": {
+   "name": "Pavlodar",
+   "to": [
+    588
+   ],
+   "capital": 588,
+   "krx_names": [
+    "Pavlodar"
+   ]
+  },
+  "883": {
+   "name": "Kassala",
+   "to": [
+    1007
+   ],
+   "capital": 1007,
+   "krx_names": [
+    "Halayeb"
+   ]
+  },
+  "884": {
+   "name": "Upper Nile",
+   "to": [
+    549
+   ],
+   "capital": 549,
+   "krx_names": [
+    "Sudan"
+   ]
+  },
+  "885": {
+   "name": "Bahr al Ghazal",
+   "to": [
+    549
+   ],
+   "capital": 549,
+   "krx_names": [
+    "Sudan"
+   ]
+  },
+  "886": {
+   "name": "Blue Nile",
+   "to": [
+    1011
+   ],
+   "capital": 1011,
+   "krx_names": [
+    "Sennar"
+   ]
+  },
+  "887": {
+   "name": "South Darfur",
+   "to": [
+    1010
+   ],
+   "capital": 1010,
+   "krx_names": [
+    "Darfur"
+   ]
+  },
+  "888": {
+   "name": "Lusambo",
+   "to": [
+    949,
+    976,
+    1184,
+    1185
+   ],
+   "capital": 976,
+   "krx_names": [
+    "Maniema",
+    "Kasai",
+    "Sankuru",
+    "North Kasai"
+   ]
+  },
+  "889": {
+   "name": "Elisabethville",
+   "to": [
+    879,
+    1182,
+    1183
+   ],
+   "capital": 1183,
+   "krx_names": [
+    "Katanga",
+    "Tanganika",
+    "Lualaba"
+   ]
+  },
+  "890": {
+   "name": "Costermansville",
+   "to": [
+    948,
+    977,
+    1181
+   ],
+   "capital": 948,
+   "krx_names": [
+    "Ngoma",
+    "Kivu",
+    "Kibali"
+   ]
+  },
+  "891": {
+   "name": "Zambesi",
+   "to": [
+    959
+   ],
+   "capital": 959,
+   "krx_names": [
+    "Eastern Angola"
+   ]
+  },
+  "892": {
+   "name": "South West Angola",
+   "to": [
+    917
+   ],
+   "capital": 917,
+   "krx_names": [
+    "Southern Angola"
+   ]
+  },
+  "893": {
+   "name": "Karas",
+   "to": [
+    541
+   ],
+   "capital": 541,
+   "krx_names": [
+    "South West Africa"
+   ]
+  },
+  "894": {
+   "name": "Kuneme",
+   "to": [
+    964
+   ],
+   "capital": 964,
+   "krx_names": [
+    "Amboland"
+   ]
+  },
+  "895": {
+   "name": "Kavango",
+   "to": [
+    964
+   ],
+   "capital": 964,
+   "krx_names": [
+    "Amboland"
+   ]
+  },
+  "896": {
+   "name": "Manica e Sofala",
+   "to": [
+    954
+   ],
+   "capital": 954,
+   "krx_names": [
+    "Tete"
+   ]
+  },
+  "897": {
+   "name": "Zambezia-Mocambique",
+   "to": [
+    544
+   ],
+   "capital": 544,
+   "krx_names": [
+    "Zambezia"
+   ]
+  },
+  "898": {
+   "name": "Gao",
+   "to": [
+    556
+   ],
+   "capital": 556,
+   "krx_names": [
+    "French Sudan"
+   ]
+  },
+  "899": {
+   "name": "Kayes-Koulikoro",
+   "to": [
+    556
+   ],
+   "capital": 556,
+   "krx_names": [
+    "French Sudan"
+   ]
+  },
+  "900": {
+   "name": "Benue",
+   "to": [
+    558
+   ],
+   "capital": 558,
+   "krx_names": [
+    "Nigeria"
+   ]
+  },
+  "901": {
+   "name": "Borno",
+   "to": [
+    913
+   ],
+   "capital": 913,
+   "krx_names": [
+    "Bornu"
+   ]
+  },
+  "902": {
+   "name": "Sokoto",
+   "to": [
+    662,
+    878
+   ],
+   "capital": 878,
+   "krx_names": [
+    "Northern Nigeria",
+    "Hausaland"
+   ]
+  },
+  "903": {
+   "name": "Garissa",
+   "to": [
+    892
+   ],
+   "capital": 892,
+   "krx_names": [
+    "Jubaland"
+   ]
+  },
+  "904": {
+   "name": "Nyanza-Rift Valley",
+   "to": [
+    969
+   ],
+   "capital": 969,
+   "krx_names": [
+    "Rift Valley"
+   ]
+  },
+  "905": {
+   "name": "Mombasa",
+   "to": [
+    547,
+    970
+   ],
+   "capital": 547,
+   "krx_names": [
+    "Kenya",
+    "Mombasa"
+   ]
+  },
+  "906": {
+   "name": "Socotra",
+   "to": [
+    752
+   ],
+   "capital": 752,
+   "krx_names": [
+    "Hadhramaut"
+   ]
+  },
+  "907": {
+   "name": "Cairo",
+   "to": [
+    446
+   ],
+   "capital": 446,
+   "krx_names": [
+    "Cairo"
+   ]
+  },
+  "908": {
+   "name": "Afar",
+   "to": [
+    921
+   ],
+   "capital": 921,
+   "krx_names": [
+    "Afar"
+   ]
+  },
+  "909": {
+   "name": "South Schleswig",
+   "to": [
+    839
+   ],
+   "capital": 839,
+   "krx_names": [
+    "Schleswig"
+   ]
+  },
+  "910": {
+   "name": "Bornholm",
+   "to": [
+    37
+   ],
+   "capital": 37,
+   "krx_names": [
+    "Zealand"
+   ]
+  },
+  "911": {
+   "name": "Fyn",
+   "to": [
+    37
+   ],
+   "capital": 37,
+   "krx_names": [
+    "Zealand"
+   ]
+  },
+  "912": {
+   "name": "Sonderjylland",
+   "to": [
+    782
+   ],
+   "capital": 782,
+   "krx_names": [
+    "Northern Schleswig"
+   ]
+  },
+  "913": {
+   "name": "Ostergotland",
+   "to": [
+    139
+   ],
+   "capital": 139,
+   "krx_names": [
+    "Smaland"
+   ]
+  },
+  "914": {
+   "name": "JanMayen",
+   "to": [
+    1146
+   ],
+   "capital": 1146,
+   "krx_names": [
+    "Jan Mayen"
+   ]
+  },
+  "915": {
+   "name": "Bohuslan",
+   "to": [
+    908
+   ],
+   "capital": 908,
+   "krx_names": [
+    "Bohuslan"
+   ]
+  },
+  "916": {
+   "name": "Dalarna",
+   "to": [
+    38
+   ],
+   "capital": 38,
+   "krx_names": [
+    "Norrland"
+   ]
+  },
+  "917": {
+   "name": "Jamtland",
+   "to": [
+    778
+   ],
+   "capital": 778,
+   "krx_names": [
+    "Jamtland"
+   ]
+  },
+  "918": {
+   "name": "Vasterbotten",
+   "to": [
+    666
+   ],
+   "capital": 666,
+   "krx_names": [
+    "Lappland"
+   ]
+  },
+  "919": {
+   "name": "Varmland",
+   "to": [
+    140
+   ],
+   "capital": 140,
+   "krx_names": [
+    "Vastergotland"
+   ]
+  },
+  "920": {
+   "name": "Opplandene",
+   "to": [
+    110
+   ],
+   "capital": 110,
+   "krx_names": [
+    "Ostlandet"
+   ]
+  },
+  "921": {
+   "name": "Telemark",
+   "to": [
+    110
+   ],
+   "capital": 110,
+   "krx_names": [
+    "Ostlandet"
+   ]
+  },
+  "922": {
+   "name": "Agder",
+   "to": [
+    142
+   ],
+   "capital": 142,
+   "krx_names": [
+    "Vestlandet"
+   ]
+  },
+  "923": {
+   "name": "Helgeland",
+   "to": [
+    144
+   ],
+   "capital": 144,
+   "krx_names": [
+    "Nordland & Troms"
+   ]
+  },
+  "924": {
+   "name": "Troms",
+   "to": [
+    144
+   ],
+   "capital": 144,
+   "krx_names": [
+    "Nordland & Troms"
+   ]
+  },
+  "925": {
+   "name": "Finnmark",
+   "to": [
+    144,
+    936,
+    937
+   ],
+   "capital": 144,
+   "krx_names": [
+    "Nordland & Troms",
+    "Varanger Peninsula",
+    "Finnmark Plateau"
+   ]
+  },
+  "926": {
+   "name": "Turku",
+   "to": [
+    863
+   ],
+   "capital": 863,
+   "krx_names": [
+    "Southwest Finland"
+   ]
+  },
+  "927": {
+   "name": "Hame",
+   "to": [
+    111
+   ],
+   "capital": 111,
+   "krx_names": [
+    "Tavastia"
+   ]
+  },
+  "928": {
+   "name": "Kyme",
+   "to": [
+    865
+   ],
+   "capital": 865,
+   "krx_names": [
+    "Western Karelia"
+   ]
+  },
+  "929": {
+   "name": "Oulu",
+   "to": [
+    150
+   ],
+   "capital": 150,
+   "krx_names": [
+    "Kajanaland"
+   ]
+  },
+  "930": {
+   "name": "Mikkeli",
+   "to": [
+    864
+   ],
+   "capital": 864,
+   "krx_names": [
+    "Savo"
+   ]
+  },
+  "931": {
+   "name": "Cumbria",
+   "to": [
+    131
+   ],
+   "capital": 131,
+   "krx_names": [
+    "Northern England"
+   ]
+  },
+  "932": {
+   "name": "Isle of Man",
+   "to": [
+    1317
+   ],
+   "capital": 1317,
+   "krx_names": [
+    "Mann"
+   ]
+  },
+  "933": {
+   "name": "Shetland",
+   "to": [
+    938
+   ],
+   "capital": 938,
+   "krx_names": [
+    "Northern Isles"
+   ]
+  },
+  "934": {
+   "name": "Shkoder",
+   "to": [
+    1268
+   ],
+   "capital": 1268,
+   "krx_names": [
+    "Shkoder"
+   ]
+  },
+  "935": {
+   "name": "Ceara",
+   "to": [
+    498
+   ],
+   "capital": 498,
+   "krx_names": [
+    "Northeastern Brazil"
+   ]
+  },
+  "936": {
+   "name": "Pernambuco",
+   "to": [
+    498
+   ],
+   "capital": 498,
+   "krx_names": [
+    "Northeastern Brazil"
+   ]
+  },
+  "937": {
+   "name": "Piaui",
+   "to": [
+    497
+   ],
+   "capital": 497,
+   "krx_names": [
+    "Piaui"
+   ]
+  },
+  "938": {
+   "name": "Para",
+   "to": [
+    898
+   ],
+   "capital": 898,
+   "krx_names": [
+    "Para"
+   ]
+  },
+  "939": {
+   "name": "Amapa",
+   "to": [
+    1305,
+    1306,
+    1311
+   ],
+   "capital": 1311,
+   "krx_names": [
+    "Cunani",
+    "Cunani Jungle",
+    "Portuguese Guyana"
+   ]
+  },
+  "940": {
+   "name": "Acre",
+   "to": [
+    855,
+    1040
+   ],
+   "capital": 855,
+   "krx_names": [
+    "Acre",
+    "Acre Jungle"
+   ]
+  },
+  "941": {
+   "name": "Tocantins",
+   "to": [
+    505
+   ],
+   "capital": 505,
+   "krx_names": [
+    "Goyaz"
+   ]
+  },
+  "942": {
+   "name": "Rondonia",
+   "to": [
+    900
+   ],
+   "capital": 900,
+   "krx_names": [
+    "Guapore"
+   ]
+  },
+  "943": {
+   "name": "Espirito Santo",
+   "to": [
+    895
+   ],
+   "capital": 895,
+   "krx_names": [
+    "Espirito Santo"
+   ]
+  },
+  "944": {
+   "name": "Parana",
+   "to": [
+    503,
+    1041
+   ],
+   "capital": 503,
+   "krx_names": [
+    "Parana",
+    "Iguassu"
+   ]
+  },
+  "945": {
+   "name": "Cerro Largo",
+   "to": [
+    300
+   ],
+   "capital": 300,
+   "krx_names": [
+    "Uruguay"
+   ]
+  },
+  "946": {
+   "name": "Paysandu",
+   "to": [
+    300
+   ],
+   "capital": 300,
+   "krx_names": [
+    "Uruguay"
+   ]
+  },
+  "947": {
+   "name": "Tacna",
+   "to": [
+    872
+   ],
+   "capital": 872,
+   "krx_names": [
+    "Tacna"
+   ]
+  },
+  "948": {
+   "name": "Easter Island",
+   "to": [
+    270
+   ],
+   "capital": 270,
+   "krx_names": [
+    "Easter Island"
+   ]
+  },
+  "949": {
+   "name": "Aysen",
+   "to": [
+    507
+   ],
+   "capital": 507,
+   "krx_names": [
+    "Magallanes"
+   ]
+  },
+  "950": {
+   "name": "Araucania",
+   "to": [
+    507
+   ],
+   "capital": 507,
+   "krx_names": [
+    "Magallanes"
+   ]
+  },
+  "951": {
+   "name": "Arica",
+   "to": [
+    873
+   ],
+   "capital": 873,
+   "krx_names": [
+    "Tarapaca"
+   ]
+  },
+  "952": {
+   "name": "Atacama",
+   "to": [
+    874
+   ],
+   "capital": 874,
+   "krx_names": [
+    "Atacama"
+   ]
+  },
+  "953": {
+   "name": "Tierra del Fuego",
+   "to": [
+    1028
+   ],
+   "capital": 1028,
+   "krx_names": [
+    "Tierra del Fuego"
+   ]
+  },
+  "954": {
+   "name": "Santa Cruz",
+   "to": [
+    1029
+   ],
+   "capital": 1029,
+   "krx_names": [
+    "Santa Cruz"
+   ]
+  },
+  "955": {
+   "name": "Chubut",
+   "to": [
+    512
+   ],
+   "capital": 512,
+   "krx_names": [
+    "Chubut"
+   ]
+  },
+  "956": {
+   "name": "Santa Fe",
+   "to": [
+    902
+   ],
+   "capital": 902,
+   "krx_names": [
+    "Cordoba"
+   ]
+  },
+  "957": {
+   "name": "Formosa",
+   "to": [
+    901
+   ],
+   "capital": 901,
+   "krx_names": [
+    "Chaco Austral"
+   ]
+  },
+  "958": {
+   "name": "San Luis",
+   "to": [
+    511
+   ],
+   "capital": 511,
+   "krx_names": [
+    "Mendoza"
+   ]
+  },
+  "959": {
+   "name": "Los Andes",
+   "to": [
+    903
+   ],
+   "capital": 903,
+   "krx_names": [
+    "Jujuy"
+   ]
+  },
+  "960": {
+   "name": "San Juan",
+   "to": [
+    508,
+    904
+   ],
+   "capital": 904,
+   "krx_names": [
+    "Tucuman",
+    "Rioja"
+   ]
+  },
+  "961": {
+   "name": "Deep Amazonas",
+   "to": [
+    1031
+   ],
+   "capital": 1031,
+   "krx_names": [
+    "Northern Amazonas"
+   ]
+  },
+  "962": {
+   "name": "Deep Amazonas",
+   "to": [
+    1030
+   ],
+   "capital": 1030,
+   "krx_names": [
+    "Western Amazonas"
+   ]
+  },
+  "963": {
+   "name": "Deep Amazonas",
+   "to": [
+    1030
+   ],
+   "capital": 1030,
+   "krx_names": [
+    "Western Amazonas"
+   ]
+  },
+  "964": {
+   "name": "Deep Amazonas",
+   "to": [
+    1030
+   ],
+   "capital": 1030,
+   "krx_names": [
+    "Western Amazonas"
+   ]
+  },
+  "965": {
+   "name": "Deep Amazonas",
+   "to": [
+    1033
+   ],
+   "capital": 1033,
+   "krx_names": [
+    "Eastern Amazonas"
+   ]
+  },
+  "966": {
+   "name": "Deep Amazonas",
+   "to": [
+    1033
+   ],
+   "capital": 1033,
+   "krx_names": [
+    "Eastern Amazonas"
+   ]
+  },
+  "967": {
+   "name": "Deep Amazonas",
+   "to": [
+    1307
+   ],
+   "capital": 1307,
+   "krx_names": [
+    "Guiana Shield"
+   ]
+  },
+  "968": {
+   "name": "Deep Amazonas",
+   "to": [
+    1307,
+    1310
+   ],
+   "capital": 1307,
+   "krx_names": [
+    "Guiana Shield",
+    "Portuguese Guyana Jungle"
+   ]
+  },
+  "969": {
+   "name": "Rio Branco",
+   "to": [
+    1307
+   ],
+   "capital": 1307,
+   "krx_names": [
+    "Guiana Shield"
+   ]
+  },
+  "970": {
+   "name": "Western Macedonia",
+   "to": [
+    1271
+   ],
+   "capital": 1271,
+   "krx_names": [
+    "Ilirida"
+   ]
+  },
+  "971": {
+   "name": "Northern Dobruja",
+   "to": [
+    772
+   ],
+   "capital": 772,
+   "krx_names": [
+    "Dobrudja"
+   ]
+  },
+  "972": {
+   "name": "South Sudetenland",
+   "to": [
+    71,
+    786
+   ],
+   "capital": 786,
+   "krx_names": [
+    "Eperies",
+    "South German Moravia"
+   ]
+  },
+  "973": {
+   "name": "Bacs",
+   "to": [
+    1107
+   ],
+   "capital": 1107,
+   "krx_names": [
+    "Southwest Great Plain"
+   ]
+  },
+  "974": {
+   "name": "South Transdanubia",
+   "to": [
+    1106
+   ],
+   "capital": 1106,
+   "krx_names": [
+    "Southern Transdanubia"
+   ]
+  },
+  "975": {
+   "name": "Burgenland",
+   "to": [
+    784
+   ],
+   "capital": 784,
+   "krx_names": [
+    "German West Hungary"
+   ]
+  },
+  "976": {
+   "name": "Steiermark Karnten",
+   "to": [
+    775,
+    835
+   ],
+   "capital": 775,
+   "krx_names": [
+    "Styria",
+    "Carinthia"
+   ]
+  },
+  "977": {
+   "name": "Antwerp",
+   "to": [
+    6
+   ],
+   "capital": 6,
+   "krx_names": [
+    "Flanders"
+   ]
+  },
+  "978": {
+   "name": "Actual Baden",
+   "to": [
+    780
+   ],
+   "capital": 780,
+   "krx_names": [
+    "Baden"
+   ]
+  },
+  "979": {
+   "name": "Kaiser Wilhelms Land",
+   "to": [
+    757,
+    1364
+   ],
+   "capital": 757,
+   "krx_names": [
+    "Madang",
+    "Sepik"
+   ]
+  },
+  "980": {
+   "name": "Ardennes",
+   "to": [
+    741
+   ],
+   "capital": 741,
+   "krx_names": [
+    "Wallonian Luxemburg"
+   ]
+  },
+  "981": {
+   "name": "Barotseland",
+   "to": [
+    813,
+    957,
+    958
+   ],
+   "capital": 958,
+   "krx_names": [
+    "South Zambezia",
+    "Western Barotseland",
+    "Eastern Barotseland"
+   ]
+  },
+  "982": {
+   "name": "Madras States",
+   "to": [
+    867
+   ],
+   "capital": 867,
+   "krx_names": [
+    "Travancore"
+   ]
+  },
+  "983": {
+   "name": "Deccan States",
+   "to": [
+    868
+   ],
+   "capital": 868,
+   "krx_names": [
+    "Kolhapur"
+   ]
+  },
+  "984": {
+   "name": "Bastar",
+   "to": [
+    1093
+   ],
+   "capital": 1093,
+   "krx_names": [
+    "Chhatisgarh"
+   ]
+  },
+  "985": {
+   "name": "Sikkim",
+   "to": [
+    888
+   ],
+   "capital": 888,
+   "krx_names": [
+    "Sikkim"
+   ]
+  },
+  "986": {
+   "name": "East Punjab",
+   "to": [
+    815,
+    890
+   ],
+   "capital": 815,
+   "krx_names": [
+    "Patiala",
+    "Shimla"
+   ]
+  },
+  "987": {
+   "name": "Waziristan",
+   "to": [
+    442
+   ],
+   "capital": 442,
+   "krx_names": [
+    "Peshawar"
+   ]
+  },
+  "988": {
+   "name": "Baluchistan",
+   "to": [
+    1219
+   ],
+   "capital": 1219,
+   "krx_names": [
+    "Dalbandin"
+   ]
+  },
+  "989": {
+   "name": "Bahawalpur",
+   "to": [
+    433
+   ],
+   "capital": 433,
+   "krx_names": [
+    "Rajahsthan"
+   ]
+  },
+  "990": {
+   "name": "Manipur",
+   "to": [
+    432
+   ],
+   "capital": 432,
+   "krx_names": [
+    "Assam"
+   ]
+  },
+  "991": {
+   "name": "Gwalior",
+   "to": [
+    1092
+   ],
+   "capital": 1092,
+   "krx_names": [
+    "Gwalior"
+   ]
+  },
+  "992": {
+   "name": "Province of Aden",
+   "to": [
+    659
+   ],
+   "capital": 659,
+   "krx_names": [
+    "Aden"
+   ]
+  },
+  "993": {
+   "name": "Kentung and Yawnghwe",
+   "to": [
+    756
+   ],
+   "capital": 756,
+   "krx_names": [
+    "Lower Shan"
+   ]
+  },
+  "994": {
+   "name": "Tenasserim",
+   "to": [
+    749,
+    831
+   ],
+   "capital": 749,
+   "krx_names": [
+    "Tenasserim",
+    "Moulmein"
+   ]
+  },
+  "995": {
+   "name": "Pegu",
+   "to": [
+    288
+   ],
+   "capital": 288,
+   "krx_names": [
+    "Rangoon"
+   ]
+  },
+  "996": {
+   "name": "Irrawaddy",
+   "to": [
+    288
+   ],
+   "capital": 288,
+   "krx_names": [
+    "Rangoon"
+   ]
+  },
+  "997": {
+   "name": "Arakan",
+   "to": [
+    790
+   ],
+   "capital": 790,
+   "krx_names": [
+    "Arakan"
+   ]
+  },
+  "998": {
+   "name": "Sagaing",
+   "to": [
+    701
+   ],
+   "capital": 701,
+   "krx_names": [
+    "Kachin"
+   ]
+  },
+  "999": {
+   "name": "Federated Shan States",
+   "to": [
+    72
+   ],
+   "capital": 72,
+   "krx_names": [
+    "Upper Shan"
+   ]
+  },
+  "1000": {
+   "name": "East Azerbaijan",
+   "to": [
+    419
+   ],
+   "capital": 419,
+   "krx_names": [
+    "Eastern Azerbaijan"
+   ]
+  },
+  "1001": {
+   "name": "Kurdistan",
+   "to": [
+    421
+   ],
+   "capital": 421,
+   "krx_names": [
+    "Kurdistan"
+   ]
+  },
+  "1002": {
+   "name": "Yazd",
+   "to": [
+    411
+   ],
+   "capital": 411,
+   "krx_names": [
+    "Isfahan"
+   ]
+  },
+  "1003": {
+   "name": "South Khorasan",
+   "to": [
+    416
+   ],
+   "capital": 416,
+   "krx_names": [
+    "Khorasan"
+   ]
+  },
+  "1004": {
+   "name": "North Khorasan",
+   "to": [
+    416
+   ],
+   "capital": 416,
+   "krx_names": [
+    "Khorasan"
+   ]
+  },
+  "1005": {
+   "name": "Qataghan",
+   "to": [
+    1217
+   ],
+   "capital": 1217,
+   "krx_names": [
+    "Jalalabad"
+   ]
+  },
+  "1006": {
+   "name": "Khyber Pass",
+   "to": [
+    1217
+   ],
+   "capital": 1217,
+   "krx_names": [
+    "Jalalabad"
+   ]
+  },
+  "1007": {
+   "name": "Maymanah",
+   "to": [
+    267
+   ],
+   "capital": 267,
+   "krx_names": [
+    "Kabul"
+   ]
+  },
+  "1008": {
+   "name": "Qandahar",
+   "to": [
+    1218
+   ],
+   "capital": 1218,
+   "krx_names": [
+    "Qandahar"
+   ]
+  },
+  "1009": {
+   "name": "Farah",
+   "to": [
+    415
+   ],
+   "capital": 415,
+   "krx_names": [
+    "Herat"
+   ]
+  },
+  "1010": {
+   "name": "Al Anbar",
+   "to": [
+    1035
+   ],
+   "capital": 1035,
+   "krx_names": [
+    "Anizzah"
+   ]
+  },
+  "1011": {
+   "name": "Al Basrah",
+   "to": [
+    812
+   ],
+   "capital": 812,
+   "krx_names": [
+    "Basra"
+   ]
+  },
+  "1012": {
+   "name": "Kalat",
+   "to": [
+    444
+   ],
+   "capital": 444,
+   "krx_names": [
+    "Baluchistan"
+   ]
+  },
+  "1013": {
+   "name": "Musamdam",
+   "to": [
+    347
+   ],
+   "capital": 347,
+   "krx_names": [
+    "Khasab"
+   ]
+  },
+  "1014": {
+   "name": "Bahrain",
+   "to": [
+    907
+   ],
+   "capital": 907,
+   "krx_names": [
+    "Bahrain"
+   ]
+  },
+  "1015": {
+   "name": "Interior Oman",
+   "to": [
+    859
+   ],
+   "capital": 859,
+   "krx_names": [
+    "Kaohsiung"
+   ]
+  },
+  "1016": {
+   "name": "Dhofar",
+   "to": [
+    1024
+   ],
+   "capital": 1024,
+   "krx_names": [
+    "Dhofar"
+   ]
+  },
+  "1017": {
+   "name": "Trung Bo",
+   "to": [
+    827
+   ],
+   "capital": 827,
+   "krx_names": [
+    "Annam"
+   ]
+  },
+  "1018": {
+   "name": "South Kyushu",
+   "to": [
+    1352
+   ],
+   "capital": 1352,
+   "krx_names": [
+    "South Kyushu"
+   ]
+  },
+  "1019": {
+   "name": "South Tohoku",
+   "to": [
+    533
+   ],
+   "capital": 533,
+   "krx_names": [
+    "Tohoku"
+   ]
+  },
+  "1020": {
+   "name": "Sanin",
+   "to": [
+    1353
+   ],
+   "capital": 1353,
+   "krx_names": [
+    "San'in"
+   ]
+  },
+  "1021": {
+   "name": "Actual Singapore",
+   "to": [
+    336
+   ],
+   "capital": 336,
+   "krx_names": [
+    "Singapore"
+   ]
+  },
+  "1022": {
+   "name": "Interior Borneo",
+   "to": [
+    334
+   ],
+   "capital": 334,
+   "krx_names": [
+    "West Kalimantan"
+   ]
+  },
+  "1023": {
+   "name": "Brunei",
+   "to": [
+    333
+   ],
+   "capital": 333,
+   "krx_names": [
+    "North Borneo"
+   ]
+  },
+  "1024": {
+   "name": "Sabah",
+   "to": [
+    828
+   ],
+   "capital": 828,
+   "krx_names": [
+    "Sabah"
+   ]
+  },
+  "1025": {
+   "name": "Zamboanga",
+   "to": [
+    627
+   ],
+   "capital": 627,
+   "krx_names": [
+    "Mindanao"
+   ]
+  },
+  "1026": {
+   "name": "North Mindanao",
+   "to": [
+    627
+   ],
+   "capital": 627,
+   "krx_names": [
+    "Mindanao"
+   ]
+  },
+  "1027": {
+   "name": "Bataan",
+   "to": [
+    623
+   ],
+   "capital": 623,
+   "krx_names": [
+    "Northern Luzon"
+   ]
+  },
+  "1028": {
+   "name": "Hamgyong",
+   "to": [
+    1347
+   ],
+   "capital": 1347,
+   "krx_names": [
+    "Gwanbuk"
+   ]
+  },
+  "1029": {
+   "name": "Gangwon",
+   "to": [
+    525
+   ],
+   "capital": 525,
+   "krx_names": [
+    "Southern Korea"
+   ]
+  },
+  "1030": {
+   "name": "Gyeongsang",
+   "to": [
+    1345
+   ],
+   "capital": 1345,
+   "krx_names": [
+    "Samnam"
+   ]
+  },
+  "1031": {
+   "name": "Chungcheong Jeolla",
+   "to": [
+    1345,
+    1346
+   ],
+   "capital": 1345,
+   "krx_names": [
+    "Samnam",
+    "Jeju"
+   ]
+  },
+  "1032": {
+   "name": "Yanan",
+   "to": [
+    622
+   ],
+   "capital": 622,
+   "krx_names": [
+    "Shaanxi"
+   ]
+  },
+  "1033": {
+   "name": "Fangchenggang",
+   "to": [
+    1056
+   ],
+   "capital": 1056,
+   "krx_names": [
+    "Qinlian"
+   ]
+  },
+  "1034": {
+   "name": "Suzhou",
+   "to": [
+    613,
+    1075
+   ],
+   "capital": 613,
+   "krx_names": [
+    "Nanjing",
+    "Nantong"
+   ]
+  },
+  "1035": {
+   "name": "Nanjing",
+   "to": [
+    606
+   ],
+   "capital": 606,
+   "krx_names": [
+    "Anqing"
+   ]
+  },
+  "1036": {
+   "name": "Wuhan",
+   "to": [
+    1048
+   ],
+   "capital": 1048,
+   "krx_names": [
+    "Wuhan"
+   ]
+  },
+  "1037": {
+   "name": "Chongqing",
+   "to": [
+    605
+   ],
+   "capital": 605,
+   "krx_names": [
+    "Sichuan Basin"
+   ]
+  },
+  "1038": {
+   "name": "Jinan",
+   "to": [
+    597,
+    1061,
+    1063,
+    1064
+   ],
+   "capital": 597,
+   "krx_names": [
+    "Jinan",
+    "Daming",
+    "Cangzhou",
+    "Linyi"
+   ]
+  },
+  "1039": {
+   "name": "Hebei-Chahar",
+   "to": [
+    611
+   ],
+   "capital": 611,
+   "krx_names": [
+    "Southern Chahar"
+   ]
+  },
+  "1040": {
+   "name": "Alxa",
+   "to": [
+    348
+   ],
+   "capital": 348,
+   "krx_names": [
+    "Ningxia"
+   ]
+  },
+  "1041": {
+   "name": "Chengdu",
+   "to": [
+    605
+   ],
+   "capital": 605,
+   "krx_names": [
+    "Sichuan Basin"
+   ]
+  },
+  "1042": {
+   "name": "Khotan",
+   "to": [
+    287
+   ],
+   "capital": 287,
+   "krx_names": [
+    "Hotan"
+   ]
+  },
+  "1043": {
+   "name": "Pailingmiao",
+   "to": [
+    621
+   ],
+   "capital": 621,
+   "krx_names": [
+    "Suiyuan"
+   ]
+  },
+  "1044": {
+   "name": "Wuwei",
+   "to": [
+    774
+   ],
+   "capital": 774,
+   "krx_names": [
+    "Northern Gansu"
+   ]
+  },
+  "1045": {
+   "name": "Guyuan",
+   "to": [
+    283
+   ],
+   "capital": 283,
+   "krx_names": [
+    "Gansu"
+   ]
+  },
+  "1046": {
+   "name": "Yulin",
+   "to": [
+    622
+   ],
+   "capital": 622,
+   "krx_names": [
+    "Shaanxi"
+   ]
+  },
+  "1047": {
+   "name": "Bangka-Belitung",
+   "to": [
+    1021
+   ],
+   "capital": 1021,
+   "krx_names": [
+    "Southern Sumatra"
+   ]
+  },
+  "1048": {
+   "name": "Padang",
+   "to": [
+    1022
+   ],
+   "capital": 1022,
+   "krx_names": [
+    "Central Sumatra"
+   ]
+  },
+  "1049": {
+   "name": "Medan and Riouw",
+   "to": [
+    672
+   ],
+   "capital": 672,
+   "krx_names": [
+    "East Sumatra"
+   ]
+  },
+  "1050": {
+   "name": "Ajteh",
+   "to": [
+    1023
+   ],
+   "capital": 1023,
+   "krx_names": [
+    "Northern Sumatra"
+   ]
+  },
+  "1051": {
+   "name": "East Java",
+   "to": [
+    1019
+   ],
+   "capital": 1019,
+   "krx_names": [
+    "Eastern Java"
+   ]
+  },
+  "1052": {
+   "name": "Bali",
+   "to": [
+    667
+   ],
+   "capital": 667,
+   "krx_names": [
+    "Western Lesser Sunda Is"
+   ]
+  },
+  "1053": {
+   "name": "East Nusa Tenggara",
+   "to": [
+    1018
+   ],
+   "capital": 1018,
+   "krx_names": [
+    "Flores & Sumba"
+   ]
+  },
+  "1054": {
+   "name": "Dutch Timor",
+   "to": [
+    1017
+   ],
+   "capital": 1017,
+   "krx_names": [
+    "West Timor"
+   ]
+  },
+  "1055": {
+   "name": "Eastern Kalimantan",
+   "to": [
+    1016
+   ],
+   "capital": 1016,
+   "krx_names": [
+    "Southeast Borneo"
+   ]
+  },
+  "1056": {
+   "name": "Manado",
+   "to": [
+    1333
+   ],
+   "capital": 1333,
+   "krx_names": [
+    "Minahasa"
+   ]
+  },
+  "1057": {
+   "name": "Dutch Southern New Guinea",
+   "to": [
+    843
+   ],
+   "capital": 843,
+   "krx_names": [
+    "Southwest New Guinea"
+   ]
+  },
+  "1058": {
+   "name": "Batavia",
+   "to": [
+    1020
+   ],
+   "capital": 1020,
+   "krx_names": [
+    "Batavia"
+   ]
+  },
+  "1059": {
+   "name": "Limbang",
+   "to": [
+    333
+   ],
+   "capital": 333,
+   "krx_names": [
+    "North Borneo"
+   ]
+  },
+  "1060": {
+   "name": "Johor",
+   "to": [
+    846
+   ],
+   "capital": 846,
+   "krx_names": [
+    "Malaya"
+   ]
+  },
+  "1061": {
+   "name": "Perlis Kedah",
+   "to": [
+    999
+   ],
+   "capital": 999,
+   "krx_names": [
+    "Northwestern Malaya"
+   ]
+  },
+  "1062": {
+   "name": "Kelantan",
+   "to": [
+    751
+   ],
+   "capital": 751,
+   "krx_names": [
+    "Northern Malaya"
+   ]
+  },
+  "1063": {
+   "name": "Pahang",
+   "to": [
+    846
+   ],
+   "capital": 846,
+   "krx_names": [
+    "Malaya"
+   ]
+  },
+  "1064": {
+   "name": "Perak",
+   "to": [
+    846
+   ],
+   "capital": 846,
+   "krx_names": [
+    "Malaya"
+   ]
+  },
+  "1065": {
+   "name": "Penang",
+   "to": [
+    999
+   ],
+   "capital": 999,
+   "krx_names": [
+    "Northwestern Malaya"
+   ]
+  },
+  "1066": {
+   "name": "Mekong Delta",
+   "to": [
+    286,
+    856
+   ],
+   "capital": 286,
+   "krx_names": [
+    "Cochinchina",
+    "Mekong Delta"
+   ]
+  },
+  "1067": {
+   "name": "Battambang",
+   "to": [
+    825
+   ],
+   "capital": 825,
+   "krx_names": [
+    "Battambang"
+   ]
+  },
+  "1068": {
+   "name": "Bassac",
+   "to": [
+    670
+   ],
+   "capital": 670,
+   "krx_names": [
+    "Laos"
+   ]
+  },
+  "1069": {
+   "name": "Lan Chang",
+   "to": [
+    882
+   ],
+   "capital": 882,
+   "krx_names": [
+    "Chaiyaburi"
+   ]
+  },
+  "1070": {
+   "name": "Bougainville",
+   "to": [
+    634
+   ],
+   "capital": 634,
+   "krx_names": [
+    "Solomon Islands"
+   ]
+  },
+  "1071": {
+   "name": "Vanuatu",
+   "to": [
+    635
+   ],
+   "capital": 635,
+   "krx_names": [
+    "New Caledonia"
+   ]
+  },
+  "1072": {
+   "name": "American Samoa",
+   "to": [
+    726
+   ],
+   "capital": 726,
+   "krx_names": [
+    "Samoa"
+   ]
+  },
+  "1073": {
+   "name": "Interior Papua",
+   "to": [
+    1365
+   ],
+   "capital": 1365,
+   "krx_names": [
+    "New Guinean Highlands"
+   ]
+  },
+  "1074": {
+   "name": "Gibson Desert",
+   "to": [
+    674
+   ],
+   "capital": 674,
+   "krx_names": [
+    "Central Australia"
+   ]
+  },
+  "1075": {
+   "name": "West Queensland",
+   "to": [
+    674
+   ],
+   "capital": 674,
+   "krx_names": [
+    "Central Australia"
+   ]
+  },
+  "1076": {
+   "name": "Bangkok",
+   "to": [
+    289
+   ],
+   "capital": 289,
+   "krx_names": [
+    "Siam"
+   ]
+  },
+  "1077": {
+   "name": "Central Siam",
+   "to": [
+    822
+   ],
+   "capital": 822,
+   "krx_names": [
+    "Lan Na"
+   ]
+  },
+  "1078": {
+   "name": "Eastern Siam",
+   "to": [
+    824
+   ],
+   "capital": 824,
+   "krx_names": [
+    "Rayong"
+   ]
+  },
+  "1079": {
+   "name": "Auckland",
+   "to": [
+    284
+   ],
+   "capital": 284,
+   "krx_names": [
+    "North Island"
+   ]
+  },
+  "1080": {
+   "name": "Marlborough",
+   "to": [
+    723
+   ],
+   "capital": 723,
+   "krx_names": [
+    "South Island"
+   ]
+  },
+  "1081": {
+   "name": "Otago",
+   "to": [
+    723
+   ],
+   "capital": 723,
+   "krx_names": [
+    "South Island"
+   ]
+  }
+ },
+ "unmapped": [
+  713
+ ]
+}
