@@ -18,18 +18,19 @@ TOOLS = os.path.join(ROOT, 'tools')
 MOD = os.path.join(ROOT, 'formable_nations_krx')
 PREFIX = 'FNKX'
 
-IDEOLOGY_GROUPS = {
-    'socialist': ['totalist', 'syndicalist', 'radical_socialist'],
-    'democratic': ['social_democrat', 'social_liberal', 'market_liberal'],
-    'conservative': ['social_conservative', 'authoritarian_democrat'],
-    'autocratic': ['paternal_autocrat', 'national_populist'],
-}
-SOCIALIST = IDEOLOGY_GROUPS['socialist']
+# Kaiserredux ideologies, left to right. Every formable names itself for each one.
+IDEOLOGIES = ['totalist', 'syndicalist', 'radical_socialist', 'social_democrat', 'social_liberal',
+              'market_liberal', 'social_conservative', 'authoritarian_democrat', 'paternal_autocrat',
+              'national_populist']
+SOCIALIST = IDEOLOGIES[:3]  # these get the red star flag variant
 
-# Names that read naturally without "the" in front of them.
-NO_ARTICLE = {
-    'Yugoslavia', 'Francia', 'Gran Colombia', 'Maphilindo', 'Tawantinsuyu', 'Turan',
-    'Greater Iran', 'Greater Ethiopia', 'Greater Mongolia',
+# A name containing one of these words takes "the" ("the Kalmar Union");
+# a bare place name does not ("Yugoslavia", "Greater Iran", "Patria Grande").
+ARTICLE_NOUNS = {
+    'republic', 'republics', 'union', 'federation', 'confederation', 'commonwealth', 'kingdom', 'kingdoms',
+    'empire', 'state', 'states', 'commune', 'communes', 'councils', 'provinces', 'sultanate', 'khanate',
+    'realm', 'crown', 'monarchy', 'tsardom', 'principate', 'imperium', 'community', 'ayllus', 'fatherland',
+    'syndicates', 'domains', 'duchy',
 }
 
 
@@ -44,7 +45,8 @@ def ascii_comment(text):
 
 
 def definite(name):
-    return name if name in NO_ARTICLE else 'the ' + name
+    words = {w.strip(",'").lower() for w in name.split()}
+    return 'the ' + name if words & ARTICLE_NOUNS else name
 
 
 def write(rel, text, bom=False):
@@ -375,11 +377,10 @@ def gen_localisation(F):
         out.append(yml(tag, n['base']))
         out.append(yml(f'{tag}_DEF', definite(n['base'])))
         out.append(yml(f'{tag}_ADJ', n['adj']))
-        for group, ideologies in IDEOLOGY_GROUPS.items():
-            for ideology in ideologies:
-                out.append(yml(f'{tag}_{ideology}', n[group]))
-                out.append(yml(f'{tag}_{ideology}_DEF', definite(n[group])))
-                out.append(yml(f'{tag}_{ideology}_ADJ', n['adj']))
+        for ideology in IDEOLOGIES:
+            out.append(yml(f'{tag}_{ideology}', n[ideology]))
+            out.append(yml(f'{tag}_{ideology}_DEF', definite(n[ideology])))
+            out.append(yml(f'{tag}_{ideology}_ADJ', n.get(ideology + '_adj', n['adj'])))
     return ''.join(out)
 
 
@@ -552,8 +553,6 @@ def gen_docs(F, names):
            '| Nation | Who can proclaim it | Required states | Territory | Cost | Hidden if Kaiserredux already gave you |\n',
            '|---|---|---|---|---|---|\n']
     for f in F:
-        n = f['names']
-        styles = ' / '.join(dict.fromkeys([n['socialist'], n['democratic'], n['conservative'], n['autocratic']]))
         if f['eligible']:
             who = ', '.join(f['eligible'])
             if f['eligible_flags']:
@@ -565,7 +564,18 @@ def gen_docs(F, names):
         territory = f'{len(f["region"])} states' if f['region'] else 'whole continent'
         hidden = ', '.join(f'`{c}`' for c in f['hide_cosmetics'] + [f'tag {t}' for t in f['hide_tags']]) or '-'
         title = f['title'][4:] if f['title'].startswith('the ') else f['title']
-        out.append(f'| **{title}**<br>{styles} | {who} | {required} | {territory} | {f["cost"]} | {hidden} |\n')
+        out.append(f'| **{title}** | {who} | {required} | {territory} | {f["cost"]} | {hidden} |\n')
+
+    out.append('\n## Names by ideology\n\nA proclaimed nation renames itself whenever its ruling ideology changes.\n')
+    for f in F:
+        n = f['names']
+        grouped = {}
+        for ideology in IDEOLOGIES:
+            key = (n[ideology], n.get(ideology + '_adj', n['adj']))
+            grouped.setdefault(key, []).append(ideology.replace('_', ' ').capitalize())
+        out.append(f'\n### {n["base"]}\n\n| Ideology | Name | Adjective |\n|---|---|---|\n')
+        for (name, adj), ideologies in grouped.items():
+            out.append(f'| {", ".join(ideologies)} | {name} | {adj} |\n')
     with open(os.path.join(ROOT, 'FORMABLES.md'), 'w', encoding='utf-8', newline='\n') as fh:
         fh.write(''.join(out))
 

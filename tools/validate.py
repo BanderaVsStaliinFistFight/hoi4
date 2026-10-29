@@ -17,7 +17,7 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MOD = os.path.join(ROOT, 'formable_nations_krx')
 sys.path.insert(0, os.path.join(ROOT, 'tools'))
-from generate import IDEOLOGY_GROUPS, PREFIX, SIZES  # noqa: E402
+from generate import IDEOLOGIES, PREFIX, SIZES  # noqa: E402
 
 errors, warnings = [], []
 
@@ -67,9 +67,9 @@ def main(krx):
 
     print(f'Kaiserredux: {len(tags)} tags, {len(states)} states, ideologies: {", ".join(sorted(ideologies))}')
 
-    ours = {i for group in IDEOLOGY_GROUPS.values() for i in group}
+    ours = set(IDEOLOGIES)
     for i in sorted(ideologies - ours):
-        errors.append(f'Kaiserredux ideology "{i}" has no cosmetic name group in generate.py')
+        errors.append(f'Kaiserredux ideology "{i}" is missing from IDEOLOGIES in generate.py (and from every nation in formables.json)')
     for i in sorted(ours - ideologies):
         errors.append(f'ideology "{i}" in generate.py does not exist in Kaiserredux')
 

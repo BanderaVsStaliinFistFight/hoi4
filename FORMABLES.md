@@ -6,37 +6,511 @@ Each decision costs political power and needs the listed states to be owned and 
 
 | Nation | Who can proclaim it | Required states | Territory | Cost | Hidden if Kaiserredux already gave you |
 |---|---|---|---|---|---|
-| **Nordic Union**<br>Nordic Commune / Nordic Federation / Nordic Union / Kalmar Union | SWE, NOR, DEN, FIN, ICE, SAM | Svealand (141), Østlandet (110), Zealand (37), Nyland (840) | 42 states | 100 | `SCA_KALMAR`, `tag SCA` |
-| **Iberian Union**<br>Iberian Socialist Federation / Iberian Federation / Iberian Union / Iberian Crown | SPR, POR, CAR, CNT, CAT, ADL, BAS, ASU, GLC, CRS | Madrid (41), Lisbon (112), Catalonia (165), Seville (169) | 37 states | 100 | - |
-| **United Netherlands**<br>Benelux Commune / Benelux Federation / United Netherlands / United Kingdom of the Netherlands | HOL, BEL, FLN, WLL, LUX | Holland (7), Flanders (6), Wallonia (34), Luxembourg (8) | 11 states | 100 | - |
-| **Danubian Federation**<br>Danubian Union of Councils / Danubian Federation / Danubian Confederation / Danubian Monarchy | AUS, HUN, CZE, SVK, CRO, SLO, BOS, GAL, TRS, CPU, PGU, BUK, SZK, KRK, BAN | Vienna (1137), Budapest (43), Prague (1129), Posavina (109), Pressburg (1123), Lwow (91) | 99 states | 100 | `DNF`, `AUS_federalized_tag`, `CZE_agrarian_danube_balkans`, `AUS_HRE` |
-| **Yugoslavia**<br>Socialist Federal Republic of Yugoslavia / Federal Republic of Yugoslavia / Kingdom of Yugoslavia | SER, CRO, SLO, BOS, MNT, MCD | Belgrade (107), Posavina (109), Inner Carniola (1103), Drina Valley (104), Montenegro (105), Macedonia (106) | 37 states | 100 | - |
-| **Balkan Federation**<br>Balkan Socialist Federation / Balkan Federation / Balkan Confederation / Balkan Union | SER, CRO, SLO, BOS, MNT, MCD, BUL, GRE, GRR, CRE, ALB, ROM, MOL | Belgrade (107), Posavina (109), Sofia (48), Central Greece (47), Muntenia (46), Tirana (44) | 68 states | 100 | - |
-| **Baltic Federation**<br>Baltic Union of Councils / Baltic Federation / Baltic Union / Baltic Kingdom | EST, LAT, LIT, BAT | Estonia (13), Riga (1091), Vilnius (96), Kaunas (11) | 13 states | 100 | - |
-| **Polish-Lithuanian Commonwealth**<br>Commune of Two Nations / Republic of Two Nations / Polish-Lithuanian Commonwealth | POL, LIT, WHR | Warsaw (10), Vilnius (96), Minsk (206), Krakow (1124) | 39 states | 100 | `POL_PLC`, `POL_intermarium` |
-| **Holy Roman Empire**<br>Holy Roman Commune / Holy Roman Federation / Holy Roman Empire | GER, GRU, BAY, DDR, NGF, WGR, EPR, SWI | Brandenburg (64), Vienna (1137), Prague (1129), Western Rhineland (781), Upper Bavaria (52), Lombardy (159) | 83 states | 150 | `AUS_HRE` |
-| **Francia**<br>Frankish Commune / Frankish Federation / Frankish Union / Frankish Empire | FRA, NFA, FRP, OCC, BRI, NRM, WLL | Île de France (16), Western Rhineland (781), Flanders (6), Lombardy (159), Upper Bavaria (52) | 68 states | 150 | `CEA_FRANKISH_EMPIRE`, `WLL_CAROLINGIAN`, `WLL_LOTHARINGIA`, `WLL_BURGUNDY` |
-| **Roman Empire**<br>Roman People's Republic / Roman Republic / Roman Empire | ITA, SRI, SRD, SIC, SCL, PAP, TUS, VNC, LOM, EMI, FIU, or whoever proclaimed Byzantium | Latium (2), Constantinople (773), Central Greece (47), Cairo (446), Tunis (458), Jerusalem (454), Madrid (41), Provence (21) | 174 states | 250 | - |
-| **Byzantine Empire**<br>Rhomaic Socialist Republic / Rhomaic Republic / Byzantine Empire | GRE, GRR, CRE, CYP | Constantinople (773), Central Greece (47), Bursa (340), Smyrna (339), Ankara (49), Trebizond (355) | 34 states | 150 | - |
-| **Greater Maghreb**<br>Maghreb Socialist Union / Maghreb Federation / Arab Maghreb Union / Sultanate of the Maghreb | MOR, ALG, TUN, LBA, TRP, RIF, MRT, TUA | Casablanca (461), Algiers (459), Tunis (458), Tripoli (448) | 24 states | 100 | `IFR` |
-| **Arab Federation**<br>United Arab Socialist Republic / United Arab Republic / Arab Federation / United Arab Kingdom | EGY, SYR, IRQ, HEJ, SAU, JBS, YEM, LEB, PAL, OMA, TRU, ASY, IKH | Cairo (446), Syria (554), Baghdad (291), Hejaz (679), Nejd (292) | 43 states | 150 | `EGY_UAS`, `JBS_UAE` |
-| **Nile Valley Union**<br>Nile Valley Socialist Republic / Republic of the Nile Valley / Kingdom of Egypt and the Sudan | EGY, SUD | Cairo (446), Khartoum (551), Sudan (549), Aswan (456) | 14 states | 100 | - |
-| **Transcaucasian Federation**<br>Transcaucasian Socialist Federation / Transcaucasian Democratic Federation / Caucasian Confederation / Kingdom of the Caucasus | GEO, ARM, AZE, ABK, MTR, DAG | Georgia (231), Erivan (230), Baku (990) | 25 states | 100 | `ARM_TCU` |
-| **Greater Iran**<br>Iranian Socialist Union / Iranian Federation / Imperial State of Iran / Persian Empire | PER, AFG, KUR | Teheran (266), Kabul (267), Baghdad (291), Baku (990) | 41 states | 150 | - |
-| **Turan**<br>Turkestan Socialist Federation / Federation of Turan / Turanian Union / Turanian Khaganate | TRK, UZB, KHI, ALO, TAJ, ETS, SIK, TAN, KYR | Tashkent (407), Bukhara (405), Khiva (861), Alash (810), Kashgar (619) | 36 states | 150 | - |
-| **Mongol Empire**<br>Mongolian People's Union / Greater Mongolian Federation / Great Mongol State / Mongol Empire | MON, BRY, ALT, KLY | Mongolia (330), Suiyuan (621), Northern Chahar (612), Verkhneudinsk (564), Dzungaria (618) | 18 states | 150 | - |
-| **West African Federation**<br>West African Socialist Union / West African Federation / United States of West Africa / West African Empire | GHA, SEN, NGR, DAH, TOG, IVO, MAL, NER, SIE, LIB, GNA, CVG, HAU, KBR, CIV | Lagos (973), Gold Coast (274), Senegal (272), French Sudan (556), Togoland (877) | 28 states | 150 | `TOG_FED` |
-| **East African Federation**<br>East African Socialist Federation / East African Federation / East African Union / Azanian Empire | KEN, UGA, TZN, ZZB, RWA, BRD, KIK | Kenya (547), Uganda (548), Dar-es-Salaam (965), Zanzibar (905) | 14 states | 100 | `MAG_EAST_AFRICA`, `SOM_EAST_AFRICA` |
-| **Central African Federation**<br>Zambezian Socialist Republic / Federation of Rhodesia and Nyasaland / Central African Federation / Kingdom of Zambezia | ZIM, ZAM, MLW, BRT | Rhodesia (545), South Zambezia (813), Nyasaland (871) | 7 states | 100 | `ZAM_ANGLO` |
-| **Greater Ethiopia**<br>Horn of Africa Socialist Federation / Federation of the Horn / Ethiopian Federation / Greater Ethiopian Empire | ETH, ERI, SOM, DJI | Addis Ababa (271), Eritrea (550), Mogadishu (559), Djibouti (268) | 16 states | 100 | `ETH_ABYSSINIA` |
-| **United Congo**<br>Congolese People's Union / Federation of the Congo / United Congo / Greater Kongo | COG, KAS, KIV, LPD, UMN, MSF, TKE, KOG | Bas-Congo (881), Kasai (976), Katanga (879), Kivu (977), Middle Congo (928) | 19 states | 100 | - |
-| **United States of Africa**<br>African Socialist Union / United States of Africa / African Union / African Empire | Any nation with its capital in africa | Cairo (446), Lagos (973), Addis Ababa (271), Bas-Congo (881), Kenya (547), Transvaal (275), Algiers (459), Senegal (272) | whole continent | 300 | - |
-| **Maphilindo**<br>Maphilindo Socialist Federation / Maphilindo / Malay Confederation / Nusantara Empire | PHI, MLY, INS, DEI, BOR, SAR | Central Luzon (327), Malaya (846), Batavia (1020), Southeast Borneo (1016) | 32 states | 150 | - |
-| **Gran Colombia**<br>Gran Colombian Socialist Union / Republic of Gran Colombia / Gran Colombia | COL, VEN, ECU, PAN | Cundinamarca (306), Caracas (849), Pichincha (305), Panama (304) | 26 states | 100 | `GCL` |
-| **Peru-Bolivian Confederation**<br>Andean Socialist Confederation / Peru-Bolivian Confederation / Andean Empire | PRU, BOL | Lima (303), La Paz (302), Cuzco (494) | 12 states | 100 | `PBC`, `BOL_PBC`, `QCH` |
-| **Tawantinsuyu**<br>Andean Ayllu Federation / Republic of Tawantinsuyu / Tawantinsuyu / Inca Empire | PRU, BOL, ECU | Cuzco (494), Lima (303), La Paz (302), Pichincha (305), Antofagasta (506) | 20 states | 150 | `QCH` |
-| **United Provinces of the Río de la Plata**<br>Platine Socialist Federation / United Provinces of the Río de la Plata / Kingdom of the Río de la Plata | ARG, URG, PAR, FOP | Buenos Aires (278), Uruguay (300), Paraguay (301) | 23 states | 100 | `ARG_LA_PLATA`, `CAR_VICEROY_LA_PLATA` |
-| **Union of South American Nations**<br>Union of South American Socialist Republics / United States of South America / South American Union / South American Empire | Any nation with its capital in south america | Buenos Aires (278), Rio de Janeiro (500), Lima (303), Cundinamarca (306), Caracas (849), Santiago (279) | whole continent | 300 | - |
-| **North American Union**<br>Union of North American Socialist Republics / North American Federation / North American Union / North American Empire | Any nation with its capital in north america / central america | Maryland (361), Ottawa (739), Mexico (277) | whole continent | 300 | - |
-| **Pan-Slavic Union**<br>Union of Slavic Socialist Republics / Slavic Federation / Slavic Union / Pan-Slavic Empire | RUS, UKR, WHR, POL, CZE, SVK, SER, BUL, CRO, SLO, BOS, MNT, MCD, CPU, DKB, KUB | Moscow (219), Kyiv (202), Warsaw (10), Prague (1129), Belgrade (107), Sofia (48), Minsk (206) | 182 states | 250 | - |
-| **European Federation**<br>European Commune / United States of Europe / European Confederation / European Empire | Any nation with its capital in europe | Île de France (16), Brandenburg (64), Greater London (126), Latium (2), Madrid (41), Vienna (1137), Warsaw (10) | whole continent | 300 | - |
+| **Nordic Union** | SWE, NOR, DEN, FIN, ICE, SAM | Svealand (141), Østlandet (110), Zealand (37), Nyland (840) | 42 states | 100 | `SCA_KALMAR`, `tag SCA` |
+| **Iberian Union** | SPR, POR, CAR, CNT, CAT, ADL, BAS, ASU, GLC, CRS | Madrid (41), Lisbon (112), Catalonia (165), Seville (169) | 37 states | 100 | - |
+| **United Netherlands** | HOL, BEL, FLN, WLL, LUX | Holland (7), Flanders (6), Wallonia (34), Luxembourg (8) | 11 states | 100 | - |
+| **Danubian Federation** | AUS, HUN, CZE, SVK, CRO, SLO, BOS, GAL, TRS, CPU, PGU, BUK, SZK, KRK, BAN | Vienna (1137), Budapest (43), Prague (1129), Posavina (109), Pressburg (1123), Lwow (91) | 99 states | 100 | `DNF`, `AUS_federalized_tag`, `CZE_agrarian_danube_balkans`, `AUS_HRE` |
+| **Yugoslavia** | SER, CRO, SLO, BOS, MNT, MCD | Belgrade (107), Posavina (109), Inner Carniola (1103), Drina Valley (104), Montenegro (105), Macedonia (106) | 37 states | 100 | - |
+| **Balkan Federation** | SER, CRO, SLO, BOS, MNT, MCD, BUL, GRE, GRR, CRE, ALB, ROM, MOL | Belgrade (107), Posavina (109), Sofia (48), Central Greece (47), Muntenia (46), Tirana (44) | 68 states | 100 | - |
+| **Baltic Federation** | EST, LAT, LIT, BAT | Estonia (13), Riga (1091), Vilnius (96), Kaunas (11) | 13 states | 100 | - |
+| **Polish-Lithuanian Commonwealth** | POL, LIT, WHR | Warsaw (10), Vilnius (96), Minsk (206), Krakow (1124) | 39 states | 100 | `POL_PLC`, `POL_intermarium` |
+| **Holy Roman Empire** | GER, GRU, BAY, DDR, NGF, WGR, EPR, SWI | Brandenburg (64), Vienna (1137), Prague (1129), Western Rhineland (781), Upper Bavaria (52), Lombardy (159) | 83 states | 150 | `AUS_HRE` |
+| **Francia** | FRA, NFA, FRP, OCC, BRI, NRM, WLL | Île de France (16), Western Rhineland (781), Flanders (6), Lombardy (159), Upper Bavaria (52) | 68 states | 150 | `CEA_FRANKISH_EMPIRE`, `WLL_CAROLINGIAN`, `WLL_LOTHARINGIA`, `WLL_BURGUNDY` |
+| **Roman Empire** | ITA, SRI, SRD, SIC, SCL, PAP, TUS, VNC, LOM, EMI, FIU, or whoever proclaimed Byzantium | Latium (2), Constantinople (773), Central Greece (47), Cairo (446), Tunis (458), Jerusalem (454), Madrid (41), Provence (21) | 174 states | 250 | - |
+| **Byzantine Empire** | GRE, GRR, CRE, CYP | Constantinople (773), Central Greece (47), Bursa (340), Smyrna (339), Ankara (49), Trebizond (355) | 34 states | 150 | - |
+| **Greater Maghreb** | MOR, ALG, TUN, LBA, TRP, RIF, MRT, TUA | Casablanca (461), Algiers (459), Tunis (458), Tripoli (448) | 24 states | 100 | `IFR` |
+| **Arab Federation** | EGY, SYR, IRQ, HEJ, SAU, JBS, YEM, LEB, PAL, OMA, TRU, ASY, IKH | Cairo (446), Syria (554), Baghdad (291), Hejaz (679), Nejd (292) | 43 states | 150 | `EGY_UAS`, `JBS_UAE` |
+| **Nile Valley Union** | EGY, SUD | Cairo (446), Khartoum (551), Sudan (549), Aswan (456) | 14 states | 100 | - |
+| **Transcaucasian Federation** | GEO, ARM, AZE, ABK, MTR, DAG | Georgia (231), Erivan (230), Baku (990) | 25 states | 100 | `ARM_TCU` |
+| **Greater Iran** | PER, AFG, KUR | Teheran (266), Kabul (267), Baghdad (291), Baku (990) | 41 states | 150 | - |
+| **Turan** | TRK, UZB, KHI, ALO, TAJ, ETS, SIK, TAN, KYR | Tashkent (407), Bukhara (405), Khiva (861), Alash (810), Kashgar (619) | 36 states | 150 | - |
+| **Mongol Empire** | MON, BRY, ALT, KLY | Mongolia (330), Suiyuan (621), Northern Chahar (612), Verkhneudinsk (564), Dzungaria (618) | 18 states | 150 | - |
+| **West African Federation** | GHA, SEN, NGR, DAH, TOG, IVO, MAL, NER, SIE, LIB, GNA, CVG, HAU, KBR, CIV | Lagos (973), Gold Coast (274), Senegal (272), French Sudan (556), Togoland (877) | 28 states | 150 | `TOG_FED` |
+| **East African Federation** | KEN, UGA, TZN, ZZB, RWA, BRD, KIK | Kenya (547), Uganda (548), Dar-es-Salaam (965), Zanzibar (905) | 14 states | 100 | `MAG_EAST_AFRICA`, `SOM_EAST_AFRICA` |
+| **Central African Federation** | ZIM, ZAM, MLW, BRT | Rhodesia (545), South Zambezia (813), Nyasaland (871) | 7 states | 100 | `ZAM_ANGLO` |
+| **Greater Ethiopia** | ETH, ERI, SOM, DJI | Addis Ababa (271), Eritrea (550), Mogadishu (559), Djibouti (268) | 16 states | 100 | `ETH_ABYSSINIA` |
+| **United Congo** | COG, KAS, KIV, LPD, UMN, MSF, TKE, KOG | Bas-Congo (881), Kasai (976), Katanga (879), Kivu (977), Middle Congo (928) | 19 states | 100 | - |
+| **United States of Africa** | Any nation with its capital in africa | Cairo (446), Lagos (973), Addis Ababa (271), Bas-Congo (881), Kenya (547), Transvaal (275), Algiers (459), Senegal (272) | whole continent | 300 | - |
+| **Maphilindo** | PHI, MLY, INS, DEI, BOR, SAR | Central Luzon (327), Malaya (846), Batavia (1020), Southeast Borneo (1016) | 32 states | 150 | - |
+| **Gran Colombia** | COL, VEN, ECU, PAN | Cundinamarca (306), Caracas (849), Pichincha (305), Panama (304) | 26 states | 100 | `GCL` |
+| **Peru-Bolivian Confederation** | PRU, BOL | Lima (303), La Paz (302), Cuzco (494) | 12 states | 100 | `PBC`, `BOL_PBC`, `QCH` |
+| **Tawantinsuyu** | PRU, BOL, ECU | Cuzco (494), Lima (303), La Paz (302), Pichincha (305), Antofagasta (506) | 20 states | 150 | `QCH` |
+| **United Provinces of the Río de la Plata** | ARG, URG, PAR, FOP | Buenos Aires (278), Uruguay (300), Paraguay (301) | 23 states | 100 | `ARG_LA_PLATA`, `CAR_VICEROY_LA_PLATA` |
+| **Union of South American Nations** | Any nation with its capital in south america | Buenos Aires (278), Rio de Janeiro (500), Lima (303), Cundinamarca (306), Caracas (849), Santiago (279) | whole continent | 300 | - |
+| **North American Union** | Any nation with its capital in north america / central america | Maryland (361), Ottawa (739), Mexico (277) | whole continent | 300 | - |
+| **Pan-Slavic Union** | RUS, UKR, WHR, POL, CZE, SVK, SER, BUL, CRO, SLO, BOS, MNT, MCD, CPU, DKB, KUB | Moscow (219), Kyiv (202), Warsaw (10), Prague (1129), Belgrade (107), Sofia (48), Minsk (206) | 182 states | 250 | - |
+| **European Federation** | Any nation with its capital in europe | Île de France (16), Brandenburg (64), Greater London (126), Latium (2), Madrid (41), Vienna (1137), Warsaw (10) | whole continent | 300 | - |
+
+## Names by ideology
+
+A proclaimed nation renames itself whenever its ruling ideology changes.
+
+### Nordic Union
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Nordic People's Republic | Nordic |
+| Syndicalist | Union of Nordic Communes | Nordic |
+| Radical socialist | Nordic Socialist Federation | Nordic |
+| Social democrat, Social liberal | Nordic Federation | Nordic |
+| Market liberal | Nordic Confederation | Nordic |
+| Social conservative | United Kingdoms of the North | Nordic |
+| Authoritarian democrat | Nordic Union | Nordic |
+| Paternal autocrat | Kalmar Union | Nordic |
+| National populist | Nordic Realm | Nordic |
+
+### Iberian Union
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Iberian People's Republic | Iberian |
+| Syndicalist | Federation of Iberian Communes | Iberian |
+| Radical socialist | Iberian Socialist Republic | Iberian |
+| Social democrat, Social liberal | Iberian Federal Republic | Iberian |
+| Market liberal | Iberian Confederation | Iberian |
+| Social conservative | United Kingdom of Iberia | Iberian |
+| Authoritarian democrat | Iberian Union | Iberian |
+| Paternal autocrat | Hispanic Monarchy | Hispanic |
+| National populist | Iberian National State | Iberian |
+
+### United Netherlands
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | People's Republic of the Low Countries | Netherlandish |
+| Syndicalist | Commune of the Low Countries | Netherlandish |
+| Radical socialist | Socialist Republic of the Low Countries | Netherlandish |
+| Social democrat, Social liberal | Federation of the Low Countries | Netherlandish |
+| Market liberal | United Provinces of the Low Countries | Netherlandish |
+| Social conservative, Authoritarian democrat | United Kingdom of the Netherlands | Netherlandish |
+| Paternal autocrat | Kingdom of the Low Countries | Netherlandish |
+| National populist | Greater Dietsland | Dutch |
+
+### Danubian Federation
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Danubian People's Republic | Danubian |
+| Syndicalist | Danubian Union of Councils | Danubian |
+| Radical socialist | Danubian Socialist Federation | Danubian |
+| Social democrat, Social liberal | Danubian Federation | Danubian |
+| Market liberal | Danubian Commonwealth | Danubian |
+| Social conservative | Danubian Confederation | Danubian |
+| Authoritarian democrat | Federal State of the Danube | Danubian |
+| Paternal autocrat | Danubian Monarchy | Danubian |
+| National populist | Carpathian-Danubian Great Fatherland | Danubian |
+
+### Yugoslavia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Federal People's Republic of Yugoslavia | Yugoslav |
+| Syndicalist | Union of Yugoslav Communes | Yugoslav |
+| Radical socialist | Socialist Federal Republic of Yugoslavia | Yugoslav |
+| Social democrat | Democratic Federal Yugoslavia | Yugoslav |
+| Social liberal, Market liberal | Federal Republic of Yugoslavia | Yugoslav |
+| Social conservative | Kingdom of Serbs, Croats and Slovenes | Yugoslav |
+| Authoritarian democrat, Paternal autocrat | Kingdom of Yugoslavia | Yugoslav |
+| National populist | Yugoslav National State | Yugoslav |
+
+### Balkan Federation
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Balkan Federative People's Republic | Balkan |
+| Syndicalist | Union of Balkan Communes | Balkan |
+| Radical socialist | Balkan Socialist Federation | Balkan |
+| Social democrat, Social liberal | Balkan Federation | Balkan |
+| Market liberal | Balkan Confederation | Balkan |
+| Social conservative, Authoritarian democrat | Balkan Union | Balkan |
+| Paternal autocrat | United Kingdoms of the Balkans | Balkan |
+| National populist | Greater Balkan State | Balkan |
+
+### Baltic Federation
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Baltic People's Republic | Baltic |
+| Syndicalist | Baltic Commune | Baltic |
+| Radical socialist | Baltic Socialist Republic | Baltic |
+| Social democrat, Social liberal | Baltic Federation | Baltic |
+| Market liberal | Baltic Confederation | Baltic |
+| Social conservative, Authoritarian democrat | Baltic Union | Baltic |
+| Paternal autocrat | Baltic Grand Duchy | Baltic |
+| National populist | Baltic National State | Baltic |
+
+### Polish-Lithuanian Commonwealth
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Polish-Lithuanian People's Republic | Polish-Lithuanian |
+| Syndicalist | Commune of the Two Nations | Polish-Lithuanian |
+| Radical socialist | Socialist Republic of Poland-Lithuania | Polish-Lithuanian |
+| Social democrat, Social liberal | Republic of the Two Nations | Polish-Lithuanian |
+| Market liberal | Commonwealth of the Two Nations | Polish-Lithuanian |
+| Social conservative, Authoritarian democrat | Polish-Lithuanian Commonwealth | Polish-Lithuanian |
+| Paternal autocrat | Crown of Poland and Lithuania | Polish-Lithuanian |
+| National populist | Jagiellonian State | Jagiellonian |
+
+### Holy Roman Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Central European People's Republic | Central European |
+| Syndicalist | Central European Union of Councils | Central European |
+| Radical socialist | Central European Socialist Federation | Central European |
+| Social democrat, Social liberal | Central European Federation | Central European |
+| Market liberal | Central European Confederation | Central European |
+| Social conservative, Authoritarian democrat | Holy Roman Empire | Imperial |
+| Paternal autocrat | Holy Roman Empire of the German Nation | Imperial |
+| National populist | Holy Imperial Realm | Imperial |
+
+### Francia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Western European People's Republic | Western European |
+| Syndicalist | Union of Western European Communes | Western European |
+| Radical socialist | Western European Socialist Federation | Western European |
+| Social democrat, Social liberal | Western European Federation | Western European |
+| Market liberal | Western European Confederation | Western European |
+| Social conservative | Kingdom of the Franks | Frankish |
+| Authoritarian democrat | Frankish Realm | Frankish |
+| Paternal autocrat | Carolingian Empire | Carolingian |
+| National populist | Frankish Empire | Frankish |
+
+### Roman Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Mediterranean People's Republic | Mediterranean |
+| Syndicalist | Federation of Mediterranean Communes | Mediterranean |
+| Radical socialist | Mediterranean Socialist Federation | Mediterranean |
+| Social democrat, Social liberal | Roman Republic | Roman |
+| Market liberal | Mediterranean Union | Mediterranean |
+| Social conservative | Roman Commonwealth | Roman |
+| Authoritarian democrat | Roman Principate | Roman |
+| Paternal autocrat | Roman Empire | Roman |
+| National populist | New Roman Empire | Roman |
+
+### Byzantine Empire
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Aegean People's Republic | Aegean |
+| Syndicalist | Union of Aegean Communes | Aegean |
+| Radical socialist | Aegean Socialist Federation | Aegean |
+| Social democrat, Social liberal | Greater Hellenic Republic | Hellenic |
+| Market liberal | Hellenic Federation | Hellenic |
+| Social conservative | Kingdom of the Hellenes | Hellenic |
+| Authoritarian democrat | Greater Hellenic State | Hellenic |
+| Paternal autocrat | Eastern Roman Empire | Byzantine |
+| National populist | Byzantine Empire | Byzantine |
+
+### Greater Maghreb
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | People's Republic of the Maghreb | Maghrebi |
+| Syndicalist | Union of Maghrebi Communes | Maghrebi |
+| Radical socialist | Maghreb Socialist Federation | Maghrebi |
+| Social democrat | Federal Republic of the Maghreb | Maghrebi |
+| Social liberal | Maghreb Federation | Maghrebi |
+| Market liberal | Arab Maghreb Union | Maghrebi |
+| Social conservative | Kingdom of the Maghreb | Maghrebi |
+| Authoritarian democrat | Federal State of the Maghreb | Maghrebi |
+| Paternal autocrat | Sharifian Empire | Sharifian |
+| National populist | Greater Maghrebi State | Maghrebi |
+
+### Arab Federation
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Arab People's Republic | Arab |
+| Syndicalist | Union of Arab Communes | Arab |
+| Radical socialist | Arab Socialist Federation | Arab |
+| Social democrat, Social liberal | United Arab Republic | Arab |
+| Market liberal | Federation of Arab Republics | Arab |
+| Social conservative | Arab Federation | Arab |
+| Authoritarian democrat | United Arab States | Arab |
+| Paternal autocrat | United Arab Kingdom | Arab |
+| National populist | Arab National State | Arab |
+
+### Nile Valley Union
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | People's Republic of the Nile Valley | Egyptian |
+| Syndicalist | Commune of the Nile Valley | Egyptian |
+| Radical socialist | Socialist Republic of the Nile Valley | Egyptian |
+| Social democrat, Social liberal | Republic of the Nile Valley | Egyptian |
+| Market liberal | Nile Valley Federation | Egyptian |
+| Social conservative, Authoritarian democrat | Kingdom of Egypt and the Sudan | Egyptian |
+| Paternal autocrat | Sultanate of Egypt and the Sudan | Egyptian |
+| National populist | Greater Egyptian State | Egyptian |
+
+### Transcaucasian Federation
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Transcaucasian Socialist Federative Republic | Transcaucasian |
+| Syndicalist | Union of Transcaucasian Communes | Transcaucasian |
+| Radical socialist | Transcaucasian Socialist Federation | Transcaucasian |
+| Social democrat | Transcaucasian Democratic Federative Republic | Transcaucasian |
+| Social liberal | Caucasian Federation | Caucasian |
+| Market liberal | Caucasian Confederation | Caucasian |
+| Social conservative | Caucasian Union | Caucasian |
+| Authoritarian democrat | Federal State of the Caucasus | Caucasian |
+| Paternal autocrat | Caucasian Kingdom | Caucasian |
+| National populist | Greater Caucasian State | Caucasian |
+
+### Greater Iran
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Iranian People's Republic | Iranian |
+| Syndicalist | Iranian Commune | Iranian |
+| Radical socialist | Iranian Socialist Republic | Iranian |
+| Social democrat | Federal Republic of Iran | Iranian |
+| Social liberal, Market liberal | Republic of Greater Iran | Iranian |
+| Social conservative | Sublime State of Persia | Persian |
+| Authoritarian democrat | Imperial State of Iran | Iranian |
+| Paternal autocrat | Guarded Domains of Iran | Iranian |
+| National populist | Greater Iranian State | Iranian |
+
+### Turan
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Turkestan Socialist Federative Republic | Turkestani |
+| Syndicalist | Union of Turkestani Communes | Turkestani |
+| Radical socialist | Socialist Federation of Turkestan | Turkestani |
+| Social democrat, Social liberal | Federal Republic of Turkestan | Turkestani |
+| Market liberal | Turkestan Confederation | Turkestani |
+| Social conservative | Union of Turkestan | Turkestani |
+| Authoritarian democrat | Turkestani State | Turkestani |
+| Paternal autocrat | Great Khanate of Turkestan | Turkestani |
+| National populist | Turanian State | Turanian |
+
+### Greater Mongolia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Greater Mongolian People's Republic | Mongolian |
+| Syndicalist | Federation of Mongolian Communes | Mongolian |
+| Radical socialist | Mongolian Socialist Federation | Mongolian |
+| Social democrat, Social liberal | Pan-Mongolian Federation | Mongolian |
+| Market liberal | Mongolian Federal Republic | Mongolian |
+| Social conservative | Greater Mongolian State | Mongolian |
+| Authoritarian democrat | Great Mongol State | Mongol |
+| Paternal autocrat | Bogd Khanate of Greater Mongolia | Mongolian |
+| National populist | Mongol Empire | Mongol |
+
+### West African Federation
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | West African People's Republic | West African |
+| Syndicalist | Union of West African Communes | West African |
+| Radical socialist | West African Socialist Union | West African |
+| Social democrat | West African Federation | West African |
+| Social liberal | Federal Republic of West Africa | West African |
+| Market liberal | Confederation of West Africa | West African |
+| Social conservative | West African Union | West African |
+| Authoritarian democrat | United States of West Africa | West African |
+| Paternal autocrat | Mali Empire | Malian |
+| National populist | West African National State | West African |
+
+### East African Federation
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | East African People's Republic | East African |
+| Syndicalist | Union of East African Communes | East African |
+| Radical socialist | East African Socialist Federation | East African |
+| Social democrat, Social liberal | East African Federation | East African |
+| Market liberal | East African Community | East African |
+| Social conservative | East African Union | East African |
+| Authoritarian democrat | United Republic of East Africa | East African |
+| Paternal autocrat | Sultanate of East Africa | East African |
+| National populist | Azanian State | Azanian |
+
+### Central African Federation
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Zambezian People's Republic | Zambezian |
+| Syndicalist | Union of Zambezian Communes | Zambezian |
+| Radical socialist | Socialist Republic of Zambezia | Zambezian |
+| Social democrat, Social liberal | Federation of Rhodesia and Nyasaland | Rhodesian |
+| Market liberal, Social conservative | Central African Federation | Central African |
+| Authoritarian democrat | Federal State of Zambezia | Zambezian |
+| Paternal autocrat | Mutapa Empire | Mutapa |
+| National populist | Zambezian National State | Zambezian |
+
+### Greater Ethiopia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | People's Democratic Republic of Ethiopia | Ethiopian |
+| Syndicalist | Union of Communes of the Horn | Ethiopian |
+| Radical socialist | Socialist Ethiopia | Ethiopian |
+| Social democrat | Federal Democratic Republic of Ethiopia | Ethiopian |
+| Social liberal | Federation of the Horn of Africa | Ethiopian |
+| Market liberal | Federal Republic of Ethiopia | Ethiopian |
+| Social conservative, Authoritarian democrat | Ethiopian Empire | Ethiopian |
+| Paternal autocrat | Greater Ethiopian Empire | Ethiopian |
+| National populist | Greater Ethiopian State | Ethiopian |
+
+### United Congo
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | People's Republic of the Congo | Congolese |
+| Syndicalist | Union of Congolese Communes | Congolese |
+| Radical socialist | Congolese Socialist Republic | Congolese |
+| Social democrat | Democratic Republic of the Congo | Congolese |
+| Social liberal | Republic of the Congo | Congolese |
+| Market liberal | Federal Republic of the Congo | Congolese |
+| Social conservative | Congolese Union | Congolese |
+| Authoritarian democrat | Congolese Federal State | Congolese |
+| Paternal autocrat | Kingdom of Kongo | Kongolese |
+| National populist | Republic of Zaire | Zairean |
+
+### United States of Africa
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Union of African Socialist Republics | African |
+| Syndicalist | Federation of African Communes | African |
+| Radical socialist | Union of African States | African |
+| Social democrat, Social liberal | United States of Africa | African |
+| Market liberal | African Union | African |
+| Social conservative | African Confederation | African |
+| Authoritarian democrat | Federal State of Africa | African |
+| Paternal autocrat | Empire of Africa | African |
+| National populist | African National State | African |
+
+### Maphilindo
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Nusantara People's Republic | Malay |
+| Syndicalist | Union of Nusantara Communes | Malay |
+| Radical socialist | Nusantara Socialist Federation | Malay |
+| Social democrat, Social liberal, Market liberal | Maphilindo | Malay |
+| Social conservative | Malay Federation | Malay |
+| Authoritarian democrat | United States of Nusantara | Malay |
+| Paternal autocrat | Majapahit Empire | Majapahit |
+| National populist | Greater Indonesia | Indonesian |
+
+### Gran Colombia
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Gran Colombian People's Republic | Gran Colombian |
+| Syndicalist | Federation of Gran Colombian Communes | Gran Colombian |
+| Radical socialist | Bolivarian Socialist Republic | Bolivarian |
+| Social democrat, Social liberal | Republic of Gran Colombia | Gran Colombian |
+| Market liberal | United States of Gran Colombia | Gran Colombian |
+| Social conservative | Gran Colombia | Gran Colombian |
+| Authoritarian democrat | Bolivarian Republic of Gran Colombia | Gran Colombian |
+| Paternal autocrat | Kingdom of Gran Colombia | Gran Colombian |
+| National populist | Gran Colombian National State | Gran Colombian |
+
+### Peru-Bolivian Confederation
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Peru-Bolivian People's Republic | Peru-Bolivian |
+| Syndicalist | Union of Andean Communes | Andean |
+| Radical socialist | Indoamerican Republic | Indoamerican |
+| Social democrat, Social liberal, Market liberal, Social conservative | Peru-Bolivian Confederation | Peru-Bolivian |
+| Authoritarian democrat | Confederated Andean State | Andean |
+| Paternal autocrat | Kingdom of Peru and Bolivia | Peru-Bolivian |
+| National populist | Andean National State | Andean |
+
+### Tawantinsuyu
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | People's Republic of Tawantinsuyu | Andean |
+| Syndicalist | Federation of Andean Ayllus | Andean |
+| Radical socialist | Socialist Republic of Tawantinsuyu | Andean |
+| Social democrat, Social liberal | Republic of Tawantinsuyu | Andean |
+| Market liberal | Federal Republic of the Andes | Andean |
+| Social conservative, Authoritarian democrat | Tawantinsuyu | Andean |
+| Paternal autocrat | Inca Empire | Inca |
+| National populist | Neo-Inca State | Inca |
+
+### United Provinces of the Río de la Plata
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Rioplatense People's Republic | Rioplatense |
+| Syndicalist | Federation of River Plate Communes | Rioplatense |
+| Radical socialist | Socialist Republic of the Río de la Plata | Rioplatense |
+| Social democrat, Social liberal, Social conservative | United Provinces of the Río de la Plata | Rioplatense |
+| Market liberal | Rioplatense Confederation | Rioplatense |
+| Authoritarian democrat | Confederation of the Río de la Plata | Rioplatense |
+| Paternal autocrat | Kingdom of the Río de la Plata | Rioplatense |
+| National populist | Greater Argentina | Argentine |
+
+### Union of South American Nations
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Union of South American Socialist Republics | South American |
+| Syndicalist | Federation of South American Communes | South American |
+| Radical socialist | Socialist Union of South America | South American |
+| Social democrat | Union of South American Nations | South American |
+| Social liberal | United States of South America | South American |
+| Market liberal | South American Confederation | South American |
+| Social conservative | South American Union | South American |
+| Authoritarian democrat | South American Federation | South American |
+| Paternal autocrat | Empire of South America | South American |
+| National populist | Patria Grande | South American |
+
+### North American Union
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Union of North American Socialist Republics | North American |
+| Syndicalist | Combined Syndicates of North America | North American |
+| Radical socialist | North American Socialist Commonwealth | North American |
+| Social democrat | North American Federation | North American |
+| Social liberal | North American Union | North American |
+| Market liberal | United States of North America | North American |
+| Social conservative | North American Confederation | North American |
+| Authoritarian democrat | North American Union State | North American |
+| Paternal autocrat | Empire of North America | North American |
+| National populist | North American National State | North American |
+
+### Pan-Slavic Union
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Union of Slavic Socialist Republics | Slavic |
+| Syndicalist | Federation of Slavic Communes | Slavic |
+| Radical socialist | Slavic Socialist Federation | Slavic |
+| Social democrat, Social liberal | Slavic Federation | Slavic |
+| Market liberal | Slavic Confederation | Slavic |
+| Social conservative | Slavic Union | Slavic |
+| Authoritarian democrat | Union of Slavic States | Slavic |
+| Paternal autocrat | All-Slavic Tsardom | Slavic |
+| National populist | Pan-Slavic State | Slavic |
+
+### European Federation
+
+| Ideology | Name | Adjective |
+|---|---|---|
+| Totalist | Union of European Socialist Republics | European |
+| Syndicalist | Federation of European Communes | European |
+| Radical socialist | Socialist United States of Europe | European |
+| Social democrat | United States of Europe | European |
+| Social liberal | European Federation | European |
+| Market liberal | European Union | European |
+| Social conservative | European Confederation | European |
+| Authoritarian democrat | Paneuropa | Pan-European |
+| Paternal autocrat | Empire of Europe | European |
+| National populist | European Imperium | European |

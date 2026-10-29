@@ -225,7 +225,7 @@ FNKX_eligible_BENELUX = {
 	}
 }
 
-############ DANUBE: Danubian Confederation
+############ DANUBE: Danubian Federation
 FNKX_region_DANUBE = {
 	OR = {
 		state = 4 # Lower Austria
@@ -439,7 +439,7 @@ FNKX_eligible_YUGOSLAVIA = {
 	}
 }
 
-############ BALKANS: Balkan Confederation
+############ BALKANS: Balkan Federation
 FNKX_region_BALKANS = {
 	OR = {
 		state = 44 # Tirana
@@ -551,7 +551,7 @@ FNKX_eligible_BALKANS = {
 	}
 }
 
-############ BALTIC: Baltic Union
+############ BALTIC: Baltic Federation
 FNKX_region_BALTIC = {
 	OR = {
 		state = 11 # Kaunas
@@ -1338,7 +1338,7 @@ FNKX_eligible_NILE = {
 	}
 }
 
-############ CAUCASUS: Caucasian Confederation
+############ CAUCASUS: Transcaucasian Federation
 FNKX_region_CAUCASUS = {
 	OR = {
 		state = 229 # Azerbaijan
@@ -1574,7 +1574,7 @@ FNKX_eligible_MONGOL = {
 	}
 }
 
-############ WESTAFRICA: United States of West Africa
+############ WESTAFRICA: West African Federation
 FNKX_region_WESTAFRICA = {
 	OR = {
 		state = 272 # Senegal
@@ -1650,7 +1650,7 @@ FNKX_eligible_WESTAFRICA = {
 	}
 }
 
-############ EASTAFRICA: East African Union
+############ EASTAFRICA: East African Federation
 FNKX_region_EASTAFRICA = {
 	OR = {
 		state = 546 # Dodoma
@@ -1824,7 +1824,7 @@ FNKX_eligible_CONGO = {
 	}
 }
 
-############ PANAFRICA: African Union
+############ PANAFRICA: United States of Africa
 FNKX_region_PANAFRICA = {
 	is_on_continent = africa
 }
@@ -2076,7 +2076,7 @@ FNKX_eligible_LAPLATA = {
 	}
 }
 
-############ SOUTHAMERICA: South American Union
+############ SOUTHAMERICA: Union of South American Nations
 FNKX_region_SOUTHAMERICA = {
 	is_on_continent = south_america
 }
@@ -2101,7 +2101,7 @@ FNKX_eligible_NORTHAMERICA = {
 	capital_scope = { FNKX_region_NORTHAMERICA = yes }
 }
 
-############ PANSLAVIC: Slavic Union
+############ PANSLAVIC: Pan-Slavic Union
 FNKX_region_PANSLAVIC = {
 	OR = {
 		state = 9 # Central Bohemia
@@ -2333,7 +2333,7 @@ FNKX_eligible_PANSLAVIC = {
 	}
 }
 
-############ EUROPE: European Confederation
+############ EUROPE: European Federation
 FNKX_region_EUROPE = {
 	is_on_continent = europe
 }
