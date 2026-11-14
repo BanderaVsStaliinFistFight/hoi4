@@ -33,6 +33,7 @@ AWXE's licence doesn't allow its files to be redistributed, so this repository d
 
 - **Merges** AWXE's cosmetic tag colours into Kaiserredux's `cosmetic.txt`.
 - **Carries AWXE's scripts and flags itself**, so it works whether AWXE is above or below Kaiserredux in the playset.
+- **Keeps AWXE's Unform button available.** After you proclaim a nation, an **Unform** decision appears at the top of the Formable Nations decisions. It restores your old name, flag and capital, costs 20% stability, and lets you proclaim a nation again. AWXE shows it only while a flag set at game start is present. The patch checks AWXE's *Allow Unforming* game rule directly (on by default), so the button is there whenever that rule isn't switched off.
 
 Everything else (decision icons, localisation, the main menu banner, the completion sound) still comes from AWXE's mod.
 
@@ -67,6 +68,7 @@ You need **Python 3** ([python.org](https://www.python.org/downloads/); on Windo
 - The world at the start differs, so some formables are easier or harder. In Kaiserredux, Bengal starts with all the land the *Bengal Empire* asks for and can proclaim it on day one. Hungary starts with all the land for the *Kingdom of Hungary* but, as Austria's subject, can only proclaim it once independent (or right away with AWXE's puppet game rule on).
 - Candidates that don't exist in Kaiserredux can't form anything, but every formable keeps at least one Kaiserredux candidate. Kerguelen isn't on Kaiserredux's map, so it is left out of the formables that include it.
 - Where Kaiserredux splits a vanilla state, you need the whole area, not just part of it.
+- Unforming returns your country to its plain Kaiserredux name. If it had a special Kaiserredux name before (one given by a focus or event), that name doesn't come back, because the game can't record which one it was.
 
 ## For maintainers
 

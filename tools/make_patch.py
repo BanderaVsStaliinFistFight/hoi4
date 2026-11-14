@@ -74,6 +74,15 @@ STATE_TRIGGERS = {'controls_state', 'owns_state', 'has_full_control_of_state'}
 STATE_EFFECTS = {'add_state_core', 'add_state_claim', 'remove_state_core', 'remove_state_claim', 'transfer_state'}
 PROVINCE_BLOCKS = {'set_victory_points': 'province', 'set_province_name': 'id'}
 LIST_PARENTS = {'OR', 'highlight_state_targets'}
+
+# AWXE copies some game rules into global flags at game start, and its Unform
+# decision is shown only while such a flag is set. Checking the rule itself keeps
+# the button there whenever the rule allows it, even in a game where the flag
+# never got set. Flag -> (rule, trigger used in its place).
+RULE_FLAGS = {
+    'unform_available': ('allow_multiple_formables',
+                         'NOT = { has_game_rule = { rule = allow_multiple_formables option = NO } }'),
+}
 NUM_RE = re.compile(r'\d+$')
 TAG_RE = re.compile(r'[A-Z][A-Z0-9]{2}$')
 
@@ -95,13 +104,14 @@ def indent_at(src, pos):
 class Rewriter:
     """Rewrites vanilla references in AWXE's scripts to Kaiserredux ones."""
 
-    def __init__(self, maps, krx):
+    def __init__(self, maps, krx, rule_flags):
         self.states = {int(k): v for k, v in maps['states']['states'].items()}
         self.unmapped = set(maps['states']['unmapped'])
         self.provinces = {int(k): v for k, v in maps['provinces'].items()}
         self.continents = maps['continents']
         self.tags = maps['tags']
         self.krx = krx
+        self.rule_flags = rule_flags
         self.stats = collections.Counter()
         self.notes = collections.defaultdict(set)
 
@@ -182,6 +192,9 @@ class Rewriter:
         value = n.value
         if key is None or n.op != '=':
             return None
+        if key == 'has_global_flag' and value in self.rule_flags and ctx != 'effect':
+            self.stats['game rule checks made direct'] += 1
+            return [self.rule_flags[value]]
         if key == self.krx['trigger_from']:
             self.stats['state-control checks renamed'] += 1
             return [f'{self.krx["trigger_to"]} = {value}']
@@ -434,7 +447,6 @@ def main():
 
     # AWXE's scripts, rewritten. All of them go into the patch, because the
     # folders they live in are ones Kaiserredux clears when it loads later.
-    rw = Rewriter(load_maps(), krx)
     scripts, report = {}, []
     for root, _, files in os.walk(os.path.join(args.awxe, 'common')):
         for f in sorted(files):
@@ -443,6 +455,11 @@ def main():
             path = os.path.join(root, f)
             rel = os.path.relpath(path, args.awxe).replace(os.sep, '/')
             scripts[rel] = hd.read_text(path)
+    rules = set()
+    for rel, text in scripts.items():
+        if rel.startswith('common/game_rules/'):
+            rules |= {n.key for n in px.parse(text) if n.key}
+    rw = Rewriter(load_maps(), krx, {flag: trigger for flag, (rule, trigger) in RULE_FLAGS.items() if rule in rules})
     for rel, text in sorted(scripts.items()):
         if rel == 'common/countries/cosmetic.txt':
             krx_cos = os.path.join(args.krx, 'common', 'countries', 'cosmetic.txt')
